@@ -127,11 +127,23 @@ function applyFilters() {
 
 function randomQuestion() {
   if (!filtered.length) return;
-  const idx = Math.floor(Math.random() * filtered.length);
-  const id = `q${idx}`;
-  const body = document.getElementById(`${id}-body`);
-  if (body && body.style.display === 'none') toggle(id);
-  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  const count = Math.min(
+    Math.max(1, parseInt(document.getElementById('random-count').value) || 1),
+    filtered.length
+  );
+  const indices = [];
+  const pool = [...Array(filtered.length).keys()];
+  for (let i = 0; i < count; i++) {
+    const pick = Math.floor(Math.random() * pool.length);
+    indices.push(pool.splice(pick, 1)[0]);
+  }
+  indices.sort((a, b) => a - b);
+  indices.forEach(idx => {
+    const id = `q${idx}`;
+    const body = document.getElementById(`${id}-body`);
+    if (body && body.style.display === 'none') toggle(id);
+  });
+  document.getElementById(`q${indices[0]}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function resetFilters() {

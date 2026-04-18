@@ -99,6 +99,26 @@ body {
   transition: background 0.15s;
 }
 .btn-random:hover { background: #1E40AF; }
+.random-row {
+  display: flex;
+  gap: 6px;
+  margin-top: 6px;
+}
+.random-row input {
+  width: 54px;
+  padding: 7px 8px;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  color: #1E293B;
+  background: #F8FAFC;
+  text-align: center;
+  outline: none;
+}
+.random-row input:focus { border-color: #3B82F6; background: white; }
+.random-row .btn-random { flex: 1; margin-top: 0; }
+body.dark .random-row input { background: #0F172A; border-color: #334155; color: #E2E8F0; }
+body.dark .random-row input:focus { background: #1E293B; }
 .btn-theme {
   background: none;
   border: none;
