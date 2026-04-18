@@ -99,6 +99,16 @@ body {
   transition: background 0.15s;
 }
 .btn-random:hover { background: #1E40AF; }
+.btn-theme {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 6px;
+  transition: background 0.15s;
+}
+.btn-theme:hover { background: rgba(255,255,255,0.15); }
 .filter-stats {
   margin-top: 14px;
   font-size: 0.82rem;
@@ -279,6 +289,51 @@ body {
   color: #94A3B8;
   font-size: 0.9rem;
 }
+
+/* ── Dark Mode ── */
+body.dark {
+  background: #0F172A;
+  color: #E2E8F0;
+}
+body.dark .sidebar {
+  background: #1E293B;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+body.dark .filter-group label { color: #94A3B8; }
+body.dark .filter-group select,
+body.dark .filter-group input {
+  background: #0F172A;
+  border-color: #334155;
+  color: #E2E8F0;
+}
+body.dark .filter-group select:focus,
+body.dark .filter-group input:focus { background: #1E293B; border-color: #3B82F6; }
+body.dark .btn-secondary { background: #1E293B; border-color: #334155; color: #94A3B8; }
+body.dark .btn-secondary:hover { background: #334155; }
+body.dark .filter-stats { color: #475569; border-color: #1E293B; }
+
+body.dark .question-card { background: #1E293B; border-color: #334155; }
+body.dark .question-card.expanded { border-color: #3B82F6; }
+body.dark .question-header { background: #1E293B; }
+body.dark .question-header:hover { background: #263348; }
+body.dark .question-meta { background: #334155; color: #94A3B8; }
+body.dark .question-num { color: #60A5FA; }
+body.dark .question-preview { background: #1E293B; color: #64748B; border-color: #334155; }
+body.dark .question-body { border-color: #334155; }
+body.dark .question-text { color: #CBD5E1; }
+
+body.dark .option { background: #0F172A; border-color: #334155; }
+body.dark .option:hover { background: #1E3A5F; border-color: #3B82F6; }
+body.dark .option.correct { background: #14532D; border-color: #16A34A; }
+body.dark .option.wrong { background: #450A0A; border-color: #DC2626; }
+body.dark .option-label { color: #60A5FA; }
+body.dark .option-text { color: #CBD5E1; }
+
+body.dark .answer-correct { background: #14532D; color: #4ADE80; }
+body.dark .answer-wrong { background: #450A0A; color: #F87171; }
+body.dark .question-img { border-color: #334155; }
+body.dark .loading, body.dark .empty { color: #475569; }
+body.dark .footer { color: #475569; }
 
 /* ── Footer ── */
 .footer {

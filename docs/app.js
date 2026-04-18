@@ -1,6 +1,18 @@
 let allQuestions = [];
 let filtered = [];
 
+// 深色模式
+if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark');
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('theme-btn').addEventListener('click', () => {
+    const dark = document.body.classList.toggle('dark');
+    localStorage.setItem('theme', dark ? 'dark' : 'light');
+    document.getElementById('theme-btn').textContent = dark ? '☀️' : '🌙';
+  });
+  if (localStorage.getItem('theme') === 'dark')
+    document.getElementById('theme-btn').textContent = '☀️';
+});
+
 async function init() {
   try {
     const res = await fetch('questions.json');
