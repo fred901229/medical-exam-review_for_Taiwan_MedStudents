@@ -201,3 +201,11 @@ function escAttr(s) {
 }
 
 init();
+
+fetch('https://api.counterapi.dev/v1/fred901229/medical-exam/up')
+  .then(r => r.json())
+  .then(data => {
+    const el = document.getElementById('visit-count');
+    if (el && data.count) el.textContent = data.count.toLocaleString();
+  })
+  .catch(() => {});
