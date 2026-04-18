@@ -28,6 +28,7 @@ function setupFilters() {
     document.getElementById(id).addEventListener('change', applyFilters));
   document.getElementById('search').addEventListener('input', applyFilters);
   document.getElementById('reset-btn').addEventListener('click', resetFilters);
+  document.getElementById('random-btn').addEventListener('click', randomQuestion);
 }
 
 function populate(id, options) {
@@ -62,6 +63,15 @@ function applyFilters() {
     `顯示 ${filtered.length} / ${allQuestions.length} 題`;
   document.getElementById('filter-stats').textContent =
     `共 ${filtered.length} 題`;
+}
+
+function randomQuestion() {
+  if (!filtered.length) return;
+  const idx = Math.floor(Math.random() * filtered.length);
+  const id = `q${idx}`;
+  const body = document.getElementById(`${id}-body`);
+  if (body && body.style.display === 'none') toggle(id);
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
 function resetFilters() {
