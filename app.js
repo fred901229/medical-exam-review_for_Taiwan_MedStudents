@@ -85,13 +85,13 @@ function render() {
 function cardHTML(q, i) {
   const id   = `q${i}`;
   const isMod = q['答案來源'] === '申覆後';
-  const preview = q['題目'].replace(/\s+/g, ' ').slice(0, 55);
+  const preview = stripHtml(q['題目']).replace(/\s+/g, ' ').slice(0, 55);
 
   const ans = escAttr(q['正確答案']);
   const opts = ['A', 'B', 'C', 'D'].map(l => `
     <div class="option" id="${id}-${l}" onclick="selectOption('${id}','${l}','${ans}')">
       <span class="option-label">${l}</span>
-      <span class="option-text">${escHtml(q['選項' + l])}</span>
+      <span class="option-text">${renderText(q['選項' + l])}</span>
     </div>`).join('');
 
   return `
@@ -102,9 +102,10 @@ function cardHTML(q, i) {
       ${isMod ? '<span class="badge-mod">申覆更正</span>' : ''}
       <span class="toggle-icon" id="${id}-icon">▼</span>
     </div>
-    <div class="question-preview">${escHtml(preview)}${q['題目'].length > 55 ? '…' : ''}</div>
+    <div class="question-preview">${escHtml(preview)}${stripHtml(q['題目']).length > 55 ? '…' : ''}</div>
     <div class="question-body" id="${id}-body" style="display:none">
-      <p class="question-text">${escHtml(q['題目'])}</p>
+      <p class="question-text">${renderText(q['題目'])}</p>
+      ${imgsHTML(q['圖片'])}
       <div class="options">${opts}</div>
       <div class="answer-reveal" id="${id}-ans" style="display:none"></div>
     </div>
@@ -158,6 +159,13 @@ function selectOption(id, chosen, answer) {
       (isMod ? ' <span class="badge-mod-small">申覆更正</span>' : '');
 }
 
+function imgsHTML(imgs) {
+  if (!imgs || !imgs.length) return '';
+  return '<div class="question-images">' +
+    imgs.map(src => `<img src="${escAttr(src)}" alt="題目圖片" class="question-img" onclick="this.classList.toggle('zoomed')">`).join('') +
+    '</div>';
+}
+
 /* ── Utilities ── */
 
 function escHtml(s) {
@@ -166,6 +174,16 @@ function escHtml(s) {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
+}
+
+function renderText(s) {
+  return String(s).split(/(<\/?(?:sup|sub)>)/).map(part =>
+    /^<\/?(?:sup|sub)>$/.test(part) ? part : escHtml(part)
+  ).join('');
+}
+
+function stripHtml(s) {
+  return String(s).replace(/<\/?(?:sup|sub)>/g, '');
 }
 
 function escAttr(s) {
