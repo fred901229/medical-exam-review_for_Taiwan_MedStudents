@@ -145,6 +145,21 @@ body.dark .random-row input:focus { background: #1E293B; }
 }
 .dot-correct { background: #22C55E; }
 .dot-wrong   { background: #EF4444; }
+.bm-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #CBD5E1;
+  padding: 0 2px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.bm-btn:hover { color: #F59E0B; }
+.bm-btn.bm-active { color: #F59E0B; }
+body.dark .bm-btn { color: #475569; }
+body.dark .bm-btn:hover { color: #F59E0B; }
+body.dark .bm-btn.bm-active { color: #F59E0B; }
 body.dark .progress-stats { color: #64748B; }
 .filter-stats {
   margin-top: 14px;

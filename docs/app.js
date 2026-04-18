@@ -38,8 +38,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /* ── Progress ── */
 
-const progress = JSON.parse(localStorage.getItem('progress') || '{}');
-const notes    = JSON.parse(localStorage.getItem('notes')    || '{}');
+const progress  = JSON.parse(localStorage.getItem('progress')  || '{}');
+const notes     = JSON.parse(localStorage.getItem('notes')     || '{}');
+const bookmarks = JSON.parse(localStorage.getItem('bookmarks') || '{}');
 
 let noteTimers = {};
 function saveNote(qidStr, text) {
@@ -66,6 +67,18 @@ function showNoteBox(id, qidStr) {
 
 function qid(q) {
   return `${q['年份']}_${q['考次']}_${q['考科']}_${q['題號']}`;
+}
+
+function toggleBookmark(event, id, qidStr) {
+  event.stopPropagation();
+  if (bookmarks[qidStr]) {
+    delete bookmarks[qidStr];
+  } else {
+    bookmarks[qidStr] = true;
+  }
+  localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
+  const btn = document.getElementById(`${id}-bm`);
+  if (btn) btn.textContent = bookmarks[qidStr] ? '★' : '☆';
 }
 
 function saveProgress(q, result) {
@@ -239,9 +252,10 @@ function applyFilters() {
     }
     if (status) {
       const p = progress[qid(q)];
-      if (status === 'unanswered' && p)              return false;
-      if (status === 'correct'    && p !== 'correct') return false;
-      if (status === 'wrong'      && p !== 'wrong')   return false;
+      if (status === 'unanswered' && p)                return false;
+      if (status === 'correct'    && p !== 'correct')  return false;
+      if (status === 'wrong'      && p !== 'wrong')    return false;
+      if (status === 'bookmarked' && !bookmarks[qid(q)]) return false;
     }
     return true;
   });
@@ -323,6 +337,9 @@ function cardHTML(q, i) {
       <span class="option-text">${renderText(q['選項' + l])}</span>
     </div>`).join('');
 
+  const qidStr = qid(q);
+  const bmStar = bookmarks[qidStr] ? '★' : '☆';
+
   return `
   <div class="question-card" id="${id}">
     <div class="question-header" onclick="toggle('${id}')">
@@ -330,6 +347,7 @@ function cardHTML(q, i) {
       <span class="question-meta">${q['年份']} ${q['考次']} ${q['考科']}</span>
       <span class="question-num">第 ${q['題號']} 題</span>
       ${isMod ? '<span class="badge-mod">申覆更正</span>' : ''}
+      <button id="${id}-bm" class="bm-btn${bookmarks[qidStr] ? ' bm-active' : ''}" onclick="toggleBookmark(event,'${id}','${escAttr(qidStr)}')" title="收藏">${bmStar}</button>
       <span class="toggle-icon" id="${id}-icon">▼</span>
     </div>
     <div class="question-preview">${escHtml(preview)}${stripHtml(q['題目']).length > 55 ? '…' : ''}</div>
