@@ -414,8 +414,8 @@ def main():
 
     all_rows = []
     fields = ['年份', '考次', '考科', '題號', '題目', '選項A', '選項B', '選項C', '選項D', '正確答案', '答案來源', '圖片']
-    website_dir = Path(folder) / 'website'
-    images_dir  = website_dir / 'images'
+    docs_dir = Path(folder) / 'docs'
+    images_dir  = docs_dir / 'images'
 
     for exam in exams:
         label = f"{exam['year']} {exam['session']} {exam['subject']}"
@@ -476,9 +476,9 @@ def main():
         w.writerows(all_rows)
 
     # 輸出 JSON（供網站使用）
-    website_dir = Path(folder) / 'website'
-    website_dir.mkdir(exist_ok=True)
-    json_output = website_dir / 'questions.json'
+    docs_dir = Path(folder) / 'docs'
+    docs_dir.mkdir(exist_ok=True)
+    json_output = docs_dir / 'questions.json'
     with open(json_output, 'w', encoding='utf-8') as f:
         json.dump(all_rows, f, ensure_ascii=False, indent=2)
 
