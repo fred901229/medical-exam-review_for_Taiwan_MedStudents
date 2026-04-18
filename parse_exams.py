@@ -255,8 +255,9 @@ def extract_images(pdf_path, questions, output_dir, prefix):
                     if right <= left or lower <= upper:
                         continue
 
-                    fname = f'{prefix}_q{target_q:03d}_i{img_idx}.png'
-                    pil_img.crop((left, upper, right, lower)).save(output_dir / fname)
+                    fname = f'{prefix}_q{target_q:03d}_i{img_idx}.jpg'
+                    cropped = pil_img.crop((left, upper, right, lower)).convert('RGB')
+                    cropped.save(output_dir / fname, 'JPEG', quality=75, optimize=True)
                     result.setdefault(target_q, []).append(f'images/{fname}')
                     print(f'    圖片: 第{target_q}題 → {fname}')
                 except Exception as e:

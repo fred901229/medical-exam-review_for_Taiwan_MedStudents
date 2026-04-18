@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>醫師二階國考複習平台</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <h1>醫師二階國考複習平台 <span style="font-size:0.65rem; font-weight:400; opacity:0.75">by Yu-Yuan Wu (KMU M109)</span></h1>
+      <span id="stats" class="stats"></span>
+    </div>
+  </header>
+
+  <div class="main-layout">
+    <aside class="sidebar">
+      <div class="filter-group">
+        <label>年份</label>
+        <select id="filter-year"><option value="">全部</option></select>
+      </div>
+      <div class="filter-group">
+        <label>考次</label>
+        <select id="filter-session"><option value="">全部</option></select>
+      </div>
+      <div class="filter-group">
+        <label>考科</label>
+        <select id="filter-subject"><option value="">全部</option></select>
+      </div>
+      <div class="filter-group">
+        <label>搜尋</label>
+        <input type="text" id="search" placeholder="輸入關鍵字...">
+      </div>
+      <button id="reset-btn" class="btn-secondary">重設篩選</button>
+      <button id="random-btn" class="btn-random">隨機出題</button>
+      <div id="filter-stats" class="filter-stats"></div>
+    </aside>
+
+    <main class="content">
+      <div id="question-list"></div>
+      <div id="loading" class="loading">載入題庫中...</div>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div>Created by Yu-Yuan Wu (KMU M109)</div>
+    <div style="margin-top:8px">
+      <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Ffred901229.github.io%2Fmedical-exam-review_for_Taiwan_MedStudents&count_bg=%231D4ED8&title_bg=%23475569&icon=&title=%E7%80%8F%E8%A6%BD%E6%AC%A1%E6%95%B8&edge_flat=false" alt="瀏覽次數">
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
