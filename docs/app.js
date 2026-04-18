@@ -13,6 +13,13 @@ function applyFont() {
 applyFont();
 
 document.addEventListener('DOMContentLoaded', () => {
+  // 返回頂部按鈕
+  const topBtn = document.getElementById('back-to-top');
+  window.addEventListener('scroll', () => {
+    topBtn.style.display = window.scrollY > 400 ? 'block' : 'none';
+  });
+  topBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
   document.getElementById('theme-btn').addEventListener('click', () => {
     const dark = document.body.classList.toggle('dark');
     localStorage.setItem('theme', dark ? 'dark' : 'light');
@@ -65,6 +72,19 @@ function saveProgress(q, result) {
   progress[qid(q)] = result;
   localStorage.setItem('progress', JSON.stringify(progress));
   updateProgressStats();
+}
+
+function renderQuizHistory() {
+  const el = document.getElementById('quiz-history');
+  if (!el) return;
+  const history = JSON.parse(localStorage.getItem('quizHistory') || '[]');
+  if (!history.length) { el.innerHTML = ''; return; }
+  el.innerHTML = '<div class="history-title">測驗紀錄</div>' +
+    history.map(h => `
+      <div class="history-row">
+        <span class="history-date">${h.date}</span>
+        <span class="history-info">${h.total} 題　<span style="color:${h.rate>=60?'#22C55E':'#EF4444'}">${h.rate}%</span></span>
+      </div>`).join('');
 }
 
 function updateProgressStats() {
@@ -127,6 +147,13 @@ function showQuizSummary() {
   const wrong   = total - correct;
   const rate    = Math.round(correct / total * 100);
 
+  // 儲存測驗紀錄
+  const history = JSON.parse(localStorage.getItem('quizHistory') || '[]');
+  history.unshift({ date: new Date().toLocaleDateString('zh-TW'), total, correct, rate });
+  if (history.length > 10) history.pop();
+  localStorage.setItem('quizHistory', JSON.stringify(history));
+  renderQuizHistory();
+
   const summary = document.getElementById('quiz-summary');
   summary.innerHTML = `
     <div class="summary-card">
@@ -159,6 +186,7 @@ async function init() {
     setupFilters();
     applyFilters();
     updateProgressStats();
+    renderQuizHistory();
     document.getElementById('loading').style.display = 'none';
   } catch {
     document.getElementById('loading').textContent =
