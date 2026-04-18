@@ -87,8 +87,9 @@ function cardHTML(q, i) {
   const isMod = q['答案來源'] === '申覆後';
   const preview = q['題目'].replace(/\s+/g, ' ').slice(0, 55);
 
+  const ans = escAttr(q['正確答案']);
   const opts = ['A', 'B', 'C', 'D'].map(l => `
-    <div class="option" id="${id}-${l}">
+    <div class="option" id="${id}-${l}" onclick="selectOption('${id}','${l}','${ans}')">
       <span class="option-label">${l}</span>
       <span class="option-text">${escHtml(q['選項' + l])}</span>
     </div>`).join('');
@@ -105,12 +106,7 @@ function cardHTML(q, i) {
     <div class="question-body" id="${id}-body" style="display:none">
       <p class="question-text">${escHtml(q['題目'])}</p>
       <div class="options">${opts}</div>
-      <div class="answer-section">
-        <button class="btn-answer" id="${id}-btn" onclick="reveal('${id}','${escAttr(q['正確答案'])}')">
-          顯示答案
-        </button>
-        <div class="answer-reveal" id="${id}-ans" style="display:none"></div>
-      </div>
+      <div class="answer-reveal" id="${id}-ans" style="display:none"></div>
     </div>
   </div>`;
 }
@@ -125,22 +121,41 @@ function toggle(id) {
   card.classList.toggle('expanded', !open);
 }
 
-function reveal(id, answer) {
-  const btn = document.getElementById(`${id}-btn`);
-  const div = document.getElementById(`${id}-ans`);
-  btn.style.display = 'none';
-  div.style.display = 'flex';
+function selectOption(id, chosen, answer) {
+  // 已作答則不重複處理
+  if (document.getElementById(`${id}-ans`).style.display !== 'none') return;
 
-  const letters = answer.split('');
-  letters.forEach(l => {
+  const correctLetters = answer.split('');
+  const isCorrect = correctLetters.includes(chosen);
+
+  // 標記選到的選項
+  const chosenEl = document.getElementById(`${id}-${chosen}`);
+  if (chosenEl) chosenEl.classList.add(isCorrect ? 'correct' : 'wrong');
+
+  // 若答錯，另外標出正確選項
+  if (!isCorrect) {
+    correctLetters.forEach(l => {
+      const el = document.getElementById(`${id}-${l}`);
+      if (el) el.classList.add('correct');
+    });
+  }
+
+  // 讓所有選項變成不可點擊
+  ['A','B','C','D'].forEach(l => {
     const el = document.getElementById(`${id}-${l}`);
-    if (el) el.classList.add('correct');
+    if (el) el.style.cursor = 'default';
   });
 
+  // 顯示結果
+  const div = document.getElementById(`${id}-ans`);
   const isMod = div.closest('.question-card').querySelector('.badge-mod');
-  div.innerHTML =
-    `正確答案：<strong>${escHtml(answer)}</strong>` +
-    (isMod ? ' <span class="badge-mod-small">申覆更正</span>' : '');
+  div.style.display = 'flex';
+  div.className = 'answer-reveal ' + (isCorrect ? 'answer-correct' : 'answer-wrong');
+  div.innerHTML = isCorrect
+    ? `✓ 答對了！正確答案：<strong>${escHtml(answer)}</strong>` +
+      (isMod ? ' <span class="badge-mod-small">申覆更正</span>' : '')
+    : `✗ 答錯了。正確答案：<strong>${escHtml(answer)}</strong>` +
+      (isMod ? ' <span class="badge-mod-small">申覆更正</span>' : '');
 }
 
 /* ── Utilities ── */

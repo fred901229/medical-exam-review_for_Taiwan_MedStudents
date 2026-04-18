@@ -185,10 +185,19 @@ body {
   background: #F8FAFC;
   border: 1px solid #E2E8F0;
   transition: background 0.15s, border-color 0.15s;
+  cursor: pointer;
+}
+.option:hover {
+  background: #EFF6FF;
+  border-color: #93C5FD;
 }
 .option.correct {
   background: #DCFCE7;
   border-color: #86EFAC;
+}
+.option.wrong {
+  background: #FEE2E2;
+  border-color: #FCA5A5;
 }
 .option-label {
   font-weight: 700;
@@ -200,26 +209,23 @@ body {
 .option-text { font-size: 0.88rem; color: #334155; line-height: 1.6; }
 
 /* ── Answer ── */
-.answer-section { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-.btn-answer {
-  padding: 8px 18px;
-  background: #1D4ED8;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 0.85rem;
-  cursor: pointer;
-  font-weight: 600;
-  transition: background 0.15s;
-}
-.btn-answer:hover { background: #1E40AF; }
 .answer-reveal {
-  font-size: 0.88rem;
-  color: #15803D;
+  font-size: 0.9rem;
   font-weight: 600;
   display: flex;
   align-items: center;
   gap: 6px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-top: 4px;
+}
+.answer-correct {
+  background: #DCFCE7;
+  color: #15803D;
+}
+.answer-wrong {
+  background: #FEE2E2;
+  color: #B91C1C;
 }
 .badge-mod-small {
   background: #FEF3C7;
