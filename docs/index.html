@@ -39,9 +39,20 @@
         <label>搜尋</label>
         <input type="text" id="search" placeholder="輸入關鍵字...">
       </div>
+      <div class="filter-group">
+        <label>作答狀態</label>
+        <select id="filter-status">
+          <option value="">全部</option>
+          <option value="unanswered">未作答</option>
+          <option value="correct">答對</option>
+          <option value="wrong">答錯（錯題本）</option>
+        </select>
+      </div>
       <button id="reset-btn" class="btn-secondary">重設篩選</button>
       <button id="random-btn" class="btn-random">隨機出題</button>
       <div id="filter-stats" class="filter-stats"></div>
+      <div id="progress-stats" class="progress-stats"></div>
+      <button id="clear-progress-btn" class="btn-secondary" style="margin-top:6px;font-size:0.78rem;color:#94A3B8">清除作答紀錄</button>
     </aside>
 
     <main class="content">
