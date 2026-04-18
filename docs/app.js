@@ -52,6 +52,81 @@ function updateProgressStats() {
   if (el) el.textContent = `已答 ${answered}／${total} 題　答對率 ${rate}%`;
 }
 
+/* ── Quiz Mode ── */
+
+let quizMode = false;
+let quizQuestions = [];
+let quizResults = {};
+
+function enterQuizMode(questions) {
+  quizMode = true;
+  quizQuestions = questions;
+  quizResults = {};
+  filtered = questions;
+  render();
+  updateQuizBar();
+  document.getElementById('quiz-bar').style.display = 'flex';
+  document.getElementById('quiz-summary').style.display = 'none';
+  document.getElementById('question-list').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function exitQuizMode() {
+  quizMode = false;
+  quizQuestions = [];
+  quizResults = {};
+  document.getElementById('quiz-bar').style.display = 'none';
+  document.getElementById('quiz-summary').style.display = 'none';
+  applyFilters();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function updateQuizBar() {
+  const answered = Object.keys(quizResults).length;
+  const total    = quizQuestions.length;
+  document.getElementById('quiz-progress-text').textContent =
+    `測驗模式　已答 ${answered} / ${total} 題`;
+  const pct = total ? (answered / total * 100) : 0;
+  document.getElementById('quiz-progress-bar').style.width = pct + '%';
+}
+
+function recordQuizResult(q, result) {
+  quizResults[qid(q)] = result;
+  updateQuizBar();
+  if (Object.keys(quizResults).length === quizQuestions.length) {
+    setTimeout(showQuizSummary, 600);
+  }
+}
+
+function showQuizSummary() {
+  const total   = quizQuestions.length;
+  const correct = Object.values(quizResults).filter(v => v === 'correct').length;
+  const wrong   = total - correct;
+  const rate    = Math.round(correct / total * 100);
+
+  const summary = document.getElementById('quiz-summary');
+  summary.innerHTML = `
+    <div class="summary-card">
+      <div class="summary-title">測驗結果</div>
+      <div class="summary-stats">
+        <div class="summary-stat summary-stat-correct">
+          <div class="summary-num">${correct}</div>
+          <div class="summary-label">答對</div>
+        </div>
+        <div class="summary-stat summary-stat-wrong">
+          <div class="summary-num">${wrong}</div>
+          <div class="summary-label">答錯</div>
+        </div>
+        <div class="summary-stat summary-stat-rate">
+          <div class="summary-num">${rate}%</div>
+          <div class="summary-label">答對率</div>
+        </div>
+      </div>
+      <button onclick="exitQuizMode()" class="btn-secondary" style="margin-top:16px;width:100%">結束測驗</button>
+    </div>`;
+  summary.style.display = 'block';
+  summary.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
 async function init() {
   try {
     const res = await fetch('questions.json');
@@ -94,6 +169,7 @@ function populate(id, options) {
 }
 
 function applyFilters() {
+  if (quizMode) return;
   const year    = document.getElementById('filter-year').value;
   const session = document.getElementById('filter-session').value;
   const subject = document.getElementById('filter-subject').value;
@@ -131,19 +207,13 @@ function randomQuestion() {
     Math.max(1, parseInt(document.getElementById('random-count').value) || 1),
     filtered.length
   );
-  const indices = [];
-  const pool = [...Array(filtered.length).keys()];
+  const pool = [...filtered];
+  const selected = [];
   for (let i = 0; i < count; i++) {
     const pick = Math.floor(Math.random() * pool.length);
-    indices.push(pool.splice(pick, 1)[0]);
+    selected.push(pool.splice(pick, 1)[0]);
   }
-  indices.sort((a, b) => a - b);
-  indices.forEach(idx => {
-    const id = `q${idx}`;
-    const body = document.getElementById(`${id}-body`);
-    if (body && body.style.display === 'none') toggle(id);
-  });
-  document.getElementById(`q${indices[0]}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  enterQuizMode(selected);
 }
 
 function resetFilters() {
@@ -170,13 +240,26 @@ function render() {
     return;
   }
   list.innerHTML = filtered.map((q, i) => cardHTML(q, i)).join('');
+  // 測驗模式：展開所有題目，隱藏預覽
+  if (quizMode) {
+    filtered.forEach((q, i) => {
+      const body = document.getElementById(`q${i}-body`);
+      const icon = document.getElementById(`q${i}-icon`);
+      const card = document.getElementById(`q${i}`);
+      if (body) body.style.display = 'block';
+      if (icon) icon.textContent = '▲';
+      if (card) card.classList.add('expanded');
+      const preview = card?.querySelector('.question-preview');
+      if (preview) preview.style.display = 'none';
+    });
+  }
 }
 
 function cardHTML(q, i) {
   const id    = `q${i}`;
   const isMod = q['答案來源'] === '申覆後';
   const preview = stripHtml(q['題目']).replace(/\s+/g, ' ').slice(0, 55);
-  const state = progress[qid(q)];
+  const state = quizMode ? null : progress[qid(q)];
   const statusDot = state === 'correct' ? '<span class="dot dot-correct"></span>'
                   : state === 'wrong'   ? '<span class="dot dot-wrong"></span>'
                   : '';
@@ -216,11 +299,10 @@ function toggle(id) {
   icon.textContent   = open ? '▼' : '▲';
   card.classList.toggle('expanded', !open);
 
-  // 展開時還原已作答狀態
   if (!open) {
     const idx = parseInt(id.replace('q', ''));
     const q   = filtered[idx];
-    if (q && progress[qid(q)]) restoreAnswer(id, q);
+    if (q && !quizMode && progress[qid(q)]) restoreAnswer(id, q);
   }
 }
 
@@ -280,21 +362,23 @@ function selectOption(id, chosen, answer) {
     : `✗ 答錯了。正確答案：<strong>${escHtml(answer)}</strong>` +
       (isMod ? ' <span class="badge-mod-small">申覆更正</span>' : '');
 
-  // 儲存進度
   const idx = parseInt(id.replace('q', ''));
   const q   = filtered[idx];
   if (q) {
     saveProgress(q, isCorrect ? 'correct' : 'wrong');
-    // 更新題目卡片上的狀態點
-    const card = document.getElementById(id);
-    const dot  = card.querySelector('.dot');
-    if (dot) {
-      dot.className = 'dot ' + (isCorrect ? 'dot-correct' : 'dot-wrong');
+    if (quizMode) {
+      recordQuizResult(q, isCorrect ? 'correct' : 'wrong');
     } else {
-      const header = card.querySelector('.question-header');
-      const newDot = document.createElement('span');
-      newDot.className = 'dot ' + (isCorrect ? 'dot-correct' : 'dot-wrong');
-      header.insertBefore(newDot, header.firstChild);
+      const card = document.getElementById(id);
+      const dot  = card.querySelector('.dot');
+      if (dot) {
+        dot.className = 'dot ' + (isCorrect ? 'dot-correct' : 'dot-wrong');
+      } else {
+        const header = card.querySelector('.question-header');
+        const newDot = document.createElement('span');
+        newDot.className = 'dot ' + (isCorrect ? 'dot-correct' : 'dot-wrong');
+        header.insertBefore(newDot, header.firstChild);
+      }
     }
   }
 }

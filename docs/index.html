@@ -59,6 +59,12 @@
     </aside>
 
     <main class="content">
+      <div id="quiz-bar" style="display:none">
+        <div id="quiz-progress-text" class="quiz-progress-text"></div>
+        <div class="quiz-progress-track"><div id="quiz-progress-bar" class="quiz-progress-fill"></div></div>
+        <button onclick="exitQuizMode()" class="quiz-exit-btn">結束測驗</button>
+      </div>
+      <div id="quiz-summary" style="display:none"></div>
       <div id="question-list"></div>
       <div id="loading" class="loading">載入題庫中...</div>
     </main>

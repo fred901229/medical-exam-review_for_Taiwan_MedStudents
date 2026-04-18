@@ -372,6 +372,73 @@ body.dark .question-img { border-color: #334155; }
 body.dark .loading, body.dark .empty { color: #475569; }
 body.dark .footer { color: #475569; }
 
+/* ── Quiz Bar ── */
+#quiz-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #1D4ED8;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+.quiz-progress-text { font-size: 0.88rem; font-weight: 600; white-space: nowrap; }
+.quiz-progress-track {
+  flex: 1;
+  height: 6px;
+  background: rgba(255,255,255,0.25);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.quiz-progress-fill {
+  height: 100%;
+  background: white;
+  border-radius: 3px;
+  width: 0%;
+  transition: width 0.4s;
+}
+.quiz-exit-btn {
+  background: rgba(255,255,255,0.2);
+  border: 1px solid rgba(255,255,255,0.4);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.quiz-exit-btn:hover { background: rgba(255,255,255,0.35); }
+
+/* ── Quiz Summary ── */
+.summary-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 16px;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  text-align: center;
+}
+.summary-title { font-size: 1.1rem; font-weight: 700; color: #1E293B; margin-bottom: 20px; }
+.summary-stats { display: flex; justify-content: center; gap: 16px; }
+.summary-stat {
+  flex: 1;
+  max-width: 110px;
+  padding: 16px 8px;
+  border-radius: 10px;
+}
+.summary-stat-correct { background: #DCFCE7; }
+.summary-stat-wrong   { background: #FEE2E2; }
+.summary-stat-rate    { background: #EFF6FF; }
+.summary-num { font-size: 1.6rem; font-weight: 700; }
+.summary-stat-correct .summary-num { color: #15803D; }
+.summary-stat-wrong   .summary-num { color: #B91C1C; }
+.summary-stat-rate    .summary-num { color: #1D4ED8; }
+.summary-label { font-size: 0.8rem; color: #64748B; margin-top: 4px; }
+body.dark .summary-card { background: #1E293B; border-color: #334155; }
+body.dark .summary-title { color: #E2E8F0; }
+
 /* ── Footer ── */
 .footer {
   text-align: center;
