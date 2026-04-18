@@ -372,6 +372,28 @@ body.dark .question-img { border-color: #334155; }
 body.dark .loading, body.dark .empty { color: #475569; }
 body.dark .footer { color: #475569; }
 
+/* ── Note Box ── */
+.note-box { margin-top: 10px; }
+.note-label { font-size: 0.78rem; font-weight: 600; color: #64748B; margin-bottom: 5px; }
+.note-textarea {
+  width: 100%;
+  min-height: 72px;
+  padding: 8px 12px;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #334155;
+  background: #F8FAFC;
+  resize: vertical;
+  outline: none;
+  font-family: inherit;
+  line-height: 1.6;
+}
+.note-textarea:focus { border-color: #3B82F6; background: white; }
+body.dark .note-label { color: #64748B; }
+body.dark .note-textarea { background: #0F172A; border-color: #334155; color: #CBD5E1; }
+body.dark .note-textarea:focus { background: #1E293B; }
+
 /* ── Quiz Bar ── */
 #quiz-bar {
   display: flex;

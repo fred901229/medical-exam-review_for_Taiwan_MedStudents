@@ -32,6 +32,30 @@ document.addEventListener('DOMContentLoaded', () => {
 /* ── Progress ── */
 
 const progress = JSON.parse(localStorage.getItem('progress') || '{}');
+const notes    = JSON.parse(localStorage.getItem('notes')    || '{}');
+
+let noteTimers = {};
+function saveNote(qidStr, text) {
+  clearTimeout(noteTimers[qidStr]);
+  noteTimers[qidStr] = setTimeout(() => {
+    if (text.trim()) notes[qidStr] = text;
+    else delete notes[qidStr];
+    localStorage.setItem('notes', JSON.stringify(notes));
+  }, 500);
+}
+
+function showNoteBox(id, qidStr) {
+  const existing = document.getElementById(`${id}-note`);
+  if (existing) return;
+  const div = document.getElementById(`${id}-ans`);
+  const box = document.createElement('div');
+  box.className = 'note-box';
+  box.innerHTML = `
+    <div class="note-label">📝 我的筆記</div>
+    <textarea id="${id}-note" class="note-textarea" placeholder="寫下解析或筆記...">${notes[qidStr] || ''}</textarea>`;
+  div.insertAdjacentElement('afterend', box);
+  document.getElementById(`${id}-note`).addEventListener('input', e => saveNote(qidStr, e.target.value));
+}
 
 function qid(q) {
   return `${q['年份']}_${q['考次']}_${q['考科']}_${q['題號']}`;
@@ -329,6 +353,7 @@ function restoreAnswer(id, q) {
       (isMod ? ' <span class="badge-mod-small">申覆更正</span>' : '')
     : `✗ 答錯了。正確答案：<strong>${escHtml(answer)}</strong>` +
       (isMod ? ' <span class="badge-mod-small">申覆更正</span>' : '');
+  showNoteBox(id, qid(q));
 }
 
 function selectOption(id, chosen, answer) {
@@ -366,6 +391,7 @@ function selectOption(id, chosen, answer) {
   const q   = filtered[idx];
   if (q) {
     saveProgress(q, isCorrect ? 'correct' : 'wrong');
+    showNoteBox(id, qid(q));
     if (quizMode) {
       recordQuizResult(q, isCorrect ? 'correct' : 'wrong');
     } else {
