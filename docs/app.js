@@ -3,6 +3,15 @@ let filtered = [];
 
 // 深色模式
 if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark');
+
+// 字體大小
+const FONT_SIZES = [13, 15, 16, 18, 20];
+let fontIdx = parseInt(localStorage.getItem('fontIdx') ?? '2');
+function applyFont() {
+  document.documentElement.style.fontSize = FONT_SIZES[fontIdx] + 'px';
+}
+applyFont();
+
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('theme-btn').addEventListener('click', () => {
     const dark = document.body.classList.toggle('dark');
@@ -11,6 +20,13 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   if (localStorage.getItem('theme') === 'dark')
     document.getElementById('theme-btn').textContent = '☀️';
+
+  document.getElementById('font-up').addEventListener('click', () => {
+    if (fontIdx < FONT_SIZES.length - 1) { fontIdx++; applyFont(); localStorage.setItem('fontIdx', fontIdx); }
+  });
+  document.getElementById('font-down').addEventListener('click', () => {
+    if (fontIdx > 0) { fontIdx--; applyFont(); localStorage.setItem('fontIdx', fontIdx); }
+  });
 });
 
 async function init() {
