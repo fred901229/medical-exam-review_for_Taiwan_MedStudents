@@ -106,9 +106,11 @@ function showNoteBox(id, qidStr) {
     const officialBox = document.createElement('div');
     officialBox.className = 'official-note-box';
     if (isAdmin) {
+      const officialTemplate = `【疾病簡介】\n\n\n【重點整理】\n\n\n【為何選此答案】\n\n\n【原文書依據】\n> 文句\n> — 書名，p.XX`;
+      const officialValue = officialContent || officialTemplate;
       officialBox.innerHTML = `
         <div class="official-note-label">📖 官方解析 <span class="admin-badge">編輯中</span></div>
-        <textarea id="${id}-official" class="official-note-textarea" placeholder="輸入這題的解析或重點...">${officialContent}</textarea>`;
+        <textarea id="${id}-official" class="official-note-textarea">${officialValue}</textarea>`;
       lastEl.insertAdjacentElement('afterend', officialBox);
       lastEl = officialBox;
       document.getElementById(`${id}-official`).addEventListener('input', e => saveOfficialNote(qidStr, e.target.value));
