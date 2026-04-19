@@ -174,8 +174,12 @@ def extract_images(pdf_path, questions, output_dir, prefix):
 
     # 建立 page → [question_nums] 的對應
     page_qs = {}
+    last_q_on_page = {}
     for q in questions:
-        page_qs.setdefault(q.get('page', 0), []).append(q['num'])
+        p = q.get('page', 0)
+        page_qs.setdefault(p, []).append(q['num'])
+        if p not in last_q_on_page or q['num'] > last_q_on_page[p]:
+            last_q_on_page[p] = q['num']
 
     result = {}
     scale = 150 / 72  # 150 DPI 渲染比例
@@ -191,15 +195,19 @@ def extract_images(pdf_path, questions, output_dir, prefix):
                 print(f'    無法渲染第{page_num+1}頁: {e}')
                 continue
 
-            # 找出此頁各題號的 y 座標（從頁面頂部往下）
+            # 找出此頁各題號的 y 座標與 x 座標（每題只取最頂部那次）
             qs_on_page = page_qs.get(page_num, [])
-            q_y = []  # [(question_num, y_top)]
+            q_y = []  # [(question_num, y_top, x_left)]
             try:
                 q_word_re = re.compile(r'^(\d{1,2})[.．)）]$')
-                for word in page.extract_words():
+                seen_nums = set()
+                for word in sorted(page.extract_words(), key=lambda w: w['top']):
                     m = q_word_re.match(to_halfwidth(word['text']))
-                    if m and int(m.group(1)) in qs_on_page:
-                        q_y.append((int(m.group(1)), word['top']))
+                    if m:
+                        num = int(m.group(1))
+                        if num in qs_on_page and num not in seen_nums:
+                            q_y.append((num, word['top'], word['x0']))
+                            seen_nums.add(num)
             except Exception:
                 pass
 
@@ -231,17 +239,30 @@ def extract_images(pdf_path, questions, output_dir, prefix):
             merged_imgs = merge_img_boxes(page.images)
 
             for img_idx, img in enumerate(merged_imgs):
-                # 決定此圖屬於哪一題（找位置最接近且在圖上方的題號）
+                # 決定此圖屬於哪一題（考慮同欄位的 x 座標，再依 y 座標往上找）
                 target_q = None
+                img_top = img.get('top', 0)
+                img_cx  = (img.get('x0', 0) + img.get('x1', page.width)) / 2
+                page_w  = page.width
+
                 if q_y:
-                    img_top = img.get('top', 0)
-                    for q_num, q_top in sorted(q_y, key=lambda x: x[1]):
+                    # 優先選同欄位的題目
+                    same_col = [(n, y) for n, y, x in q_y
+                                if (img_cx < page_w / 2) == (x < page_w / 2)]
+                    candidates = same_col if same_col else [(n, y) for n, y, _ in q_y]
+
+                    for q_num, q_top in sorted(candidates, key=lambda x: x[1]):
                         if q_top <= img_top:
                             target_q = q_num
+
+                    # 圖片在此頁所有題號之前：歸給上一頁最後一題
                     if target_q is None:
-                        target_q = min(q_y, key=lambda x: x[1])[0]
+                        prev_last = last_q_on_page.get(page_num - 1)
+                        target_q = prev_last if prev_last else sorted(candidates, key=lambda x: x[1])[0][0]
+
                 elif qs_on_page:
-                    target_q = min(qs_on_page)
+                    prev_last = last_q_on_page.get(page_num - 1)
+                    target_q = prev_last if (prev_last and img_top < 100) else min(qs_on_page)
 
                 if target_q is None:
                     continue
