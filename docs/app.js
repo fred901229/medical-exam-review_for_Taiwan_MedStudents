@@ -42,6 +42,47 @@ const progress  = JSON.parse(localStorage.getItem('progress')  || '{}');
 const notes     = JSON.parse(localStorage.getItem('notes')     || '{}');
 const bookmarks = JSON.parse(localStorage.getItem('bookmarks') || '{}');
 
+/* ── 官方解析 ── */
+
+const isAdmin = new URLSearchParams(window.location.search).has('admin');
+let officialNotes = {};
+let officialDraft = JSON.parse(localStorage.getItem('officialDraft') || '{}');
+
+fetch('official_notes.json')
+  .then(r => r.json())
+  .then(data => { officialNotes = { ...data, ...officialDraft }; })
+  .catch(() => { officialNotes = { ...officialDraft }; });
+
+if (isAdmin) {
+  document.addEventListener('DOMContentLoaded', () => {
+    const banner = document.createElement('div');
+    banner.className = 'admin-banner';
+    banner.textContent = '🔧 管理員編輯模式';
+    document.body.prepend(banner);
+
+    const exportBtn = document.createElement('button');
+    exportBtn.className = 'admin-export-btn';
+    exportBtn.textContent = '匯出解析 JSON';
+    exportBtn.addEventListener('click', exportOfficialNotes);
+    document.body.appendChild(exportBtn);
+  });
+}
+
+function saveOfficialNote(qidStr, text) {
+  if (text.trim()) { officialNotes[qidStr] = text; officialDraft[qidStr] = text; }
+  else { delete officialNotes[qidStr]; delete officialDraft[qidStr]; }
+  localStorage.setItem('officialDraft', JSON.stringify(officialDraft));
+}
+
+function exportOfficialNotes() {
+  const clean = Object.fromEntries(Object.entries(officialNotes).filter(([, v]) => v.trim()));
+  const blob = new Blob([JSON.stringify(clean, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'official_notes.json';
+  a.click();
+}
+
 let noteTimers = {};
 function saveNote(qidStr, text) {
   clearTimeout(noteTimers[qidStr]);
@@ -55,13 +96,38 @@ function saveNote(qidStr, text) {
 function showNoteBox(id, qidStr) {
   const existing = document.getElementById(`${id}-note`);
   if (existing) return;
-  const div = document.getElementById(`${id}-ans`);
+
+  const ansDiv = document.getElementById(`${id}-ans`);
+  const officialContent = officialNotes[qidStr] || '';
+  let lastEl = ansDiv;
+
+  // 官方解析（有內容或管理員模式才顯示）
+  if (officialContent || isAdmin) {
+    const officialBox = document.createElement('div');
+    officialBox.className = 'official-note-box';
+    if (isAdmin) {
+      officialBox.innerHTML = `
+        <div class="official-note-label">📖 官方解析 <span class="admin-badge">編輯中</span></div>
+        <textarea id="${id}-official" class="official-note-textarea" placeholder="輸入這題的解析或重點...">${officialContent}</textarea>`;
+      lastEl.insertAdjacentElement('afterend', officialBox);
+      lastEl = officialBox;
+      document.getElementById(`${id}-official`).addEventListener('input', e => saveOfficialNote(qidStr, e.target.value));
+    } else {
+      officialBox.innerHTML = `
+        <div class="official-note-label">📖 官方解析</div>
+        <div class="official-note-text">${officialContent.split('\n').map(l => escHtml(l)).join('<br>')}</div>`;
+      lastEl.insertAdjacentElement('afterend', officialBox);
+      lastEl = officialBox;
+    }
+  }
+
+  // 個人筆記
   const box = document.createElement('div');
   box.className = 'note-box';
   box.innerHTML = `
     <div class="note-label">📝 我的筆記</div>
     <textarea id="${id}-note" class="note-textarea" placeholder="寫下解析或筆記...">${notes[qidStr] || ''}</textarea>`;
-  div.insertAdjacentElement('afterend', box);
+  lastEl.insertAdjacentElement('afterend', box);
   document.getElementById(`${id}-note`).addEventListener('input', e => saveNote(qidStr, e.target.value));
 }
 

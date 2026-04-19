@@ -438,6 +438,84 @@ body.dark .note-label { color: #64748B; }
 body.dark .note-textarea { background: #0F172A; border-color: #334155; color: #CBD5E1; }
 body.dark .note-textarea:focus { background: #1E293B; }
 
+/* ── 官方解析 ── */
+.official-note-box {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: #F0FDF4;
+  border-left: 4px solid #22C55E;
+  border-radius: 0 8px 8px 0;
+}
+.official-note-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #15803D;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.official-note-text {
+  font-size: 0.88rem;
+  color: #1E293B;
+  line-height: 1.7;
+}
+.official-note-textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 8px 12px;
+  border: 1px solid #86EFAC;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #166534;
+  background: #DCFCE7;
+  resize: vertical;
+  outline: none;
+  font-family: inherit;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+.official-note-textarea:focus { border-color: #22C55E; background: white; }
+.admin-badge {
+  background: #F59E0B;
+  color: white;
+  font-size: 0.68rem;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.admin-banner {
+  background: #F59E0B;
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 1100;
+}
+.admin-export-btn {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background: #22C55E;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  z-index: 1000;
+}
+.admin-export-btn:hover { background: #16A34A; }
+body.dark .official-note-box { background: #052E16; border-color: #22C55E; }
+body.dark .official-note-label { color: #4ADE80; }
+body.dark .official-note-text { color: #D1FAE5; }
+body.dark .official-note-textarea { background: #052E16; border-color: #22C55E; color: #D1FAE5; }
+
 /* ── Quiz Bar ── */
 #quiz-bar {
   display: flex;
