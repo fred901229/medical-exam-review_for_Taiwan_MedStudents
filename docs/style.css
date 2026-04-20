@@ -99,6 +99,19 @@ body {
   transition: background 0.15s;
 }
 .btn-random:hover { background: #1E40AF; }
+.btn-exam {
+  width: 100%;
+  padding: 8px;
+  background: #7C3AED;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.84rem;
+  cursor: pointer;
+  color: white;
+  margin-top: 6px;
+  transition: background 0.15s;
+}
+.btn-exam:hover { background: #6D28D9; }
 .random-row {
   display: flex;
   gap: 6px;
@@ -274,6 +287,10 @@ body.dark .progress-stats { color: #64748B; }
   background: #FEE2E2;
   border-color: #FCA5A5;
 }
+.option.selected {
+  background: #EDE9FE;
+  border-color: #A78BFA;
+}
 .option-label {
   font-weight: 700;
   color: #1D4ED8;
@@ -378,6 +395,7 @@ body.dark .option { background: #0F172A; border-color: #334155; }
 body.dark .option:hover { background: #1E3A5F; border-color: #3B82F6; }
 body.dark .option.correct { background: #14532D; border-color: #16A34A; }
 body.dark .option.wrong { background: #450A0A; border-color: #DC2626; }
+body.dark .option.selected { background: #2E1065; border-color: #7C3AED; }
 body.dark .option-label { color: #60A5FA; }
 body.dark .option-text { color: #CBD5E1; }
 
@@ -553,6 +571,18 @@ body.dark .official-note-textarea { background: #052E16; border-color: #22C55E; 
   white-space: nowrap;
 }
 .quiz-exit-btn:hover { background: rgba(255,255,255,0.35); }
+.quiz-submit-btn {
+  background: #F59E0B;
+  border: none;
+  color: white;
+  padding: 5px 14px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.quiz-submit-btn:hover { background: #D97706; }
 
 /* ── Quiz Summary ── */
 .summary-card {

@@ -117,7 +117,7 @@ function showNoteBox(id, qidStr) {
     } else {
       officialBox.innerHTML = `
         <div class="official-note-label">📖 官方解析</div>
-        <div class="official-note-text">${officialContent.split('\n').map(l => escHtml(l)).join('<br>')}</div>`;
+        <div class="official-note-text">${renderMarkdown(officialContent)}</div>`;
       lastEl.insertAdjacentElement('afterend', officialBox);
       lastEl = officialBox;
     }
@@ -180,13 +180,17 @@ function updateProgressStats() {
 /* ── Quiz Mode ── */
 
 let quizMode = false;
+let quizExamMode = false;
 let quizQuestions = [];
 let quizResults = {};
+let quizSelections = {};
 
-function enterQuizMode(questions) {
+function enterQuizMode(questions, examMode = false) {
   quizMode = true;
+  quizExamMode = examMode;
   quizQuestions = questions;
   quizResults = {};
+  quizSelections = {};
   filtered = questions;
   render();
   updateQuizBar();
@@ -197,8 +201,10 @@ function enterQuizMode(questions) {
 
 function exitQuizMode() {
   quizMode = false;
+  quizExamMode = false;
   quizQuestions = [];
   quizResults = {};
+  quizSelections = {};
   document.getElementById('quiz-bar').style.display = 'none';
   document.getElementById('quiz-summary').style.display = 'none';
   applyFilters();
@@ -206,10 +212,22 @@ function exitQuizMode() {
 }
 
 function updateQuizBar() {
-  const answered = Object.keys(quizResults).length;
-  const total    = quizQuestions.length;
-  document.getElementById('quiz-progress-text').textContent =
-    `測驗模式　已答 ${answered} / ${total} 題`;
+  const answered = quizExamMode
+    ? Object.keys(quizSelections).length
+    : Object.keys(quizResults).length;
+  const total = quizQuestions.length;
+  const submitBtn = document.getElementById('quiz-submit-btn');
+
+  if (quizExamMode) {
+    document.getElementById('quiz-progress-text').textContent =
+      `考試模式　已作答 ${answered} / ${total} 題`;
+    if (submitBtn) submitBtn.style.display = 'inline-flex';
+  } else {
+    document.getElementById('quiz-progress-text').textContent =
+      `測驗模式　已答 ${answered} / ${total} 題`;
+    if (submitBtn) submitBtn.style.display = 'none';
+  }
+
   const pct = total ? (answered / total * 100) : 0;
   document.getElementById('quiz-progress-bar').style.width = pct + '%';
 }
@@ -220,6 +238,71 @@ function recordQuizResult(q, result) {
   if (Object.keys(quizResults).length === quizQuestions.length) {
     setTimeout(showQuizSummary, 600);
   }
+}
+
+function submitExam() {
+  const answered = Object.keys(quizSelections).length;
+  const total = quizQuestions.length;
+  if (!confirm(`確定交卷嗎？（已作答 ${answered} / ${total} 題，未作答題目將計為錯誤）`)) return;
+
+  quizQuestions.forEach((q, i) => {
+    const id = `q${i}`;
+    const qidStr = qid(q);
+    const chosen = quizSelections[qidStr];
+    const answer = q['正確答案'];
+    const correctLetters = answer.split('');
+
+    if (chosen) {
+      const isCorrect = correctLetters.includes(chosen);
+      const chosenEl = document.getElementById(`${id}-${chosen}`);
+      if (chosenEl) {
+        chosenEl.classList.remove('selected');
+        chosenEl.classList.add(isCorrect ? 'correct' : 'wrong');
+      }
+      if (!isCorrect) {
+        correctLetters.forEach(l => {
+          const el = document.getElementById(`${id}-${l}`);
+          if (el) el.classList.add('correct');
+        });
+      }
+      quizResults[qidStr] = isCorrect ? 'correct' : 'wrong';
+      saveProgress(q, isCorrect ? 'correct' : 'wrong');
+    } else {
+      correctLetters.forEach(l => {
+        const el = document.getElementById(`${id}-${l}`);
+        if (el) el.classList.add('correct');
+      });
+      quizResults[qidStr] = 'wrong';
+    }
+
+    ['A','B','C','D'].forEach(l => {
+      const el = document.getElementById(`${id}-${l}`);
+      if (el) el.style.cursor = 'default';
+    });
+
+    const div = document.getElementById(`${id}-ans`);
+    const isMod = div.closest('.question-card').querySelector('.badge-mod');
+    const result = quizResults[qidStr];
+    div.style.display = 'flex';
+    div.className = 'answer-reveal ' + (result === 'correct' ? 'answer-correct' : 'answer-wrong');
+
+    if (!chosen) {
+      div.innerHTML = `— 未作答。正確答案：<strong>${escHtml(answer)}</strong>` +
+        (isMod ? ' <span class="badge-mod-small">申覆更正</span>' : '');
+    } else {
+      div.innerHTML = (result === 'correct'
+        ? `✓ 答對了！正確答案：<strong>${escHtml(answer)}</strong>`
+        : `✗ 答錯了。正確答案：<strong>${escHtml(answer)}</strong>`) +
+        (isMod ? ' <span class="badge-mod-small">申覆更正</span>' : '');
+    }
+
+    showNoteBox(id, qidStr);
+  });
+
+  const submitBtn = document.getElementById('quiz-submit-btn');
+  if (submitBtn) submitBtn.style.display = 'none';
+
+  setTimeout(showQuizSummary, 400);
 }
 
 function showQuizSummary() {
@@ -289,6 +372,7 @@ function setupFilters() {
   document.getElementById('search').addEventListener('input', applyFilters);
   document.getElementById('reset-btn').addEventListener('click', resetFilters);
   document.getElementById('random-btn').addEventListener('click', randomQuestion);
+  document.getElementById('exam-btn').addEventListener('click', randomExamMode);
   document.getElementById('clear-progress-btn').addEventListener('click', clearProgress);
 }
 
@@ -347,7 +431,22 @@ function randomQuestion() {
     const pick = Math.floor(Math.random() * pool.length);
     selected.push(pool.splice(pick, 1)[0]);
   }
-  enterQuizMode(selected);
+  enterQuizMode(selected, false);
+}
+
+function randomExamMode() {
+  if (!filtered.length) return;
+  const count = Math.min(
+    Math.max(1, parseInt(document.getElementById('random-count').value) || 1),
+    filtered.length
+  );
+  const pool = [...filtered];
+  const selected = [];
+  for (let i = 0; i < count; i++) {
+    const pick = Math.floor(Math.random() * pool.length);
+    selected.push(pool.splice(pick, 1)[0]);
+  }
+  enterQuizMode(selected, true);
 }
 
 function resetFilters() {
@@ -473,6 +572,23 @@ function restoreAnswer(id, q) {
 function selectOption(id, chosen, answer) {
   if (document.getElementById(`${id}-ans`).style.display !== 'none') return;
 
+  if (quizExamMode) {
+    const idx = parseInt(id.replace('q', ''));
+    const q = filtered[idx];
+    if (!q) return;
+    const qidStr = qid(q);
+    const prev = quizSelections[qidStr];
+    if (prev) {
+      const prevEl = document.getElementById(`${id}-${prev}`);
+      if (prevEl) prevEl.classList.remove('selected');
+    }
+    quizSelections[qidStr] = chosen;
+    const chosenEl = document.getElementById(`${id}-${chosen}`);
+    if (chosenEl) chosenEl.classList.add('selected');
+    updateQuizBar();
+    return;
+  }
+
   const correctLetters = answer.split('');
   const isCorrect = correctLetters.includes(chosen);
 
@@ -528,6 +644,40 @@ function imgsHTML(imgs) {
   return '<div class="question-images">' +
     imgs.map(src => `<img src="${escAttr(src)}" alt="題目圖片" class="question-img" onclick="this.classList.toggle('zoomed')">`).join('') +
     '</div>';
+}
+
+/* ── Markdown Renderer ── */
+
+function renderMarkdown(s) {
+  const lines = String(s).split('\n');
+  let html = '';
+  let inBlockquote = false;
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+
+    if (line.startsWith('> ') || line === '>') {
+      if (!inBlockquote) { html += '<blockquote class="md-blockquote">'; inBlockquote = true; }
+      html += '<p>' + inlineMarkdown(line.replace(/^> ?/, '')) + '</p>';
+    } else {
+      if (inBlockquote) { html += '</blockquote>'; inBlockquote = false; }
+      if (line.trim() === '') {
+        html += '<div class="md-spacer"></div>';
+      } else if (/^【.+】/.test(line)) {
+        html += '<div class="md-section">' + escHtml(line) + '</div>';
+      } else {
+        html += '<p>' + inlineMarkdown(line) + '</p>';
+      }
+    }
+  }
+  if (inBlockquote) html += '</blockquote>';
+  return html;
+}
+
+function inlineMarkdown(s) {
+  return escHtml(s)
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>');
 }
 
 /* ── Utilities ── */
