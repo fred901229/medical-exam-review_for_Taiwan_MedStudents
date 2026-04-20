@@ -342,6 +342,44 @@ function showQuizSummary() {
   summary.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
+/* ── Changelog ── */
+
+function renderChangelog(entries) {
+  const panel = document.getElementById('changelog-panel');
+  if (!panel || !entries.length) return;
+
+  const latest = entries[0];
+  const rest   = entries.slice(1);
+  const expandId = 'changelog-expand';
+
+  panel.style.display = 'block';
+  panel.innerHTML = `
+    <div class="changelog-header">
+      <span class="changelog-badge">最新更新</span>
+      <span class="changelog-date">${latest.date}</span>
+      <strong class="changelog-title">${escHtml(latest.title)}</strong>
+      ${rest.length ? `<button class="changelog-toggle" onclick="
+        var el=document.getElementById('${expandId}');
+        var open=el.style.display!=='none';
+        el.style.display=open?'none':'block';
+        this.textContent=open?'查看更多 ▾':'收起 ▴';
+      ">查看更多 ▾</button>` : ''}
+    </div>
+    <ul class="changelog-items">
+      ${latest.items.map(t => `<li>${escHtml(t)}</li>`).join('')}
+    </ul>
+    ${rest.length ? `<div id="${expandId}" style="display:none">
+      ${rest.map(e => `
+        <div class="changelog-entry">
+          <div class="changelog-entry-head">
+            <span class="changelog-date">${e.date}</span>
+            <strong class="changelog-title">${escHtml(e.title)}</strong>
+          </div>
+          <ul class="changelog-items">${e.items.map(t => `<li>${escHtml(t)}</li>`).join('')}</ul>
+        </div>`).join('')}
+    </div>` : ''}`;
+}
+
 async function init() {
   try {
     const res = await fetch('questions.json');
@@ -352,6 +390,7 @@ async function init() {
     updateProgressStats();
     renderQuizHistory();
     document.getElementById('loading').style.display = 'none';
+    fetch('changelog.json').then(r => r.json()).then(renderChangelog).catch(() => {});
   } catch {
     document.getElementById('loading').textContent =
       '⚠ 載入失敗。請先執行 parse_exams.py 產生 questions.json，' +

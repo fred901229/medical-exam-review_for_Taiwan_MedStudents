@@ -534,6 +534,60 @@ body.dark .official-note-label { color: #4ADE80; }
 body.dark .official-note-text { color: #D1FAE5; }
 body.dark .official-note-textarea { background: #052E16; border-color: #22C55E; color: #D1FAE5; }
 
+/* ── Changelog ── */
+.changelog-panel {
+  background: white;
+  border: 1px solid #E2E8F0;
+  border-left: 4px solid #1D4ED8;
+  border-radius: 0 10px 10px 0;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  font-size: 0.85rem;
+}
+.changelog-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.changelog-badge {
+  background: #1D4ED8;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+.changelog-date {
+  font-size: 0.75rem;
+  color: #94A3B8;
+  white-space: nowrap;
+}
+.changelog-title { color: #1E293B; }
+.changelog-toggle {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: #3B82F6;
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 0;
+  white-space: nowrap;
+}
+.changelog-toggle:hover { text-decoration: underline; }
+.changelog-items {
+  margin: 6px 0 0 16px;
+  color: #475569;
+  line-height: 1.7;
+}
+.changelog-entry { margin-top: 12px; padding-top: 12px; border-top: 1px solid #F1F5F9; }
+.changelog-entry-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+body.dark .changelog-panel { background: #1E293B; border-color: #334155; border-left-color: #3B82F6; }
+body.dark .changelog-title { color: #E2E8F0; }
+body.dark .changelog-items { color: #94A3B8; }
+body.dark .changelog-entry { border-color: #334155; }
+
 /* ── Quiz Bar ── */
 #quiz-bar {
   display: flex;
