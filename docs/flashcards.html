@@ -327,31 +327,44 @@
     .back-section-header.keypoints { color: var(--warning); }
     .back-section-header.citation { color: var(--text3); }
 
-    .back-core {
-      font-size: 0.92rem;
-      color: var(--text);
-      line-height: 1.7;
-      white-space: pre-wrap;
+    /* Answer content rendering */
+    .ans-heading {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--warning);
+      margin: 12px 0 4px;
+      letter-spacing: .02em;
     }
-    .back-keypoints-list {
+    .ans-heading:first-child { margin-top: 0; }
+    .ans-bullet {
+      display: flex;
+      gap: 7px;
+      align-items: flex-start;
+      margin-bottom: 4px;
       font-size: 0.88rem;
       color: var(--text);
-      line-height: 1.75;
-      white-space: pre-wrap;
+      line-height: 1.65;
     }
-    .back-keypoints-list .kp-line {
-      display: flex;
-      gap: 6px;
-      margin-bottom: 4px;
-      align-items: flex-start;
-    }
-    .kp-bullet {
-      color: var(--warning);
+    .ans-bullet-dot {
+      color: var(--primary);
       flex-shrink: 0;
-      margin-top: 2px;
-      font-size: 0.8rem;
+      margin-top: 1px;
     }
-    .kp-text { flex: 1; }
+    .ans-num {
+      color: var(--primary);
+      flex-shrink: 0;
+      font-weight: 600;
+      min-width: 22px;
+      margin-top: 1px;
+      font-size: 0.82rem;
+    }
+    .ans-text {
+      font-size: 0.9rem;
+      color: var(--text);
+      line-height: 1.65;
+      margin-bottom: 4px;
+    }
+    .ans-gap { height: 6px; }
 
     /* Collapsible citation */
     .back-citation {
@@ -570,17 +583,12 @@
                 <div class="card-label card-label-back" style="margin:0">答案</div>
               </div>
               <div class="back-sections">
-                <!-- Section 1: 正確答案 -->
+                <!-- Section 1: 答案解析 -->
                 <div class="back-section" id="back-s1">
-                  <div class="back-section-header answer">✦ 正確答案</div>
-                  <div class="back-core" id="back-core-text"></div>
+                  <div class="back-section-header answer">✦ 答案解析</div>
+                  <div class="back-ans-content" id="back-ans-content"></div>
                 </div>
-                <!-- Section 2: 疾病重點整理 -->
-                <div class="back-section" id="back-s2">
-                  <div class="back-section-header keypoints">◈ 疾病重點整理</div>
-                  <div class="back-keypoints-list" id="back-kp-list"></div>
-                </div>
-                <!-- Section 3: 原文引用 (collapsible) -->
+                <!-- Section 2: 原文引用 (collapsible) -->
                 <details class="back-section back-citation" id="back-s3">
                   <summary>
                     <span class="citation-arrow">▶</span>
@@ -760,29 +768,39 @@ function buildChapterList() {
   });
 }
 
-// ── Card content parsing ─────────────────────────────────────────────────
-function parseBackContent(back) {
-  if (!back) return { core: '', keypoints: [] };
-  const lines = back.split('\n');
-  let firstBulletIdx = -1;
+// ── Card content rendering ───────────────────────────────────────────────
+function escHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
 
-  for (let i = 0; i < lines.length; i++) {
-    const t = lines[i].trim();
-    if (t.match(/^[•\-\*]/) || t.match(/^\d+[\.\)]/) || t.match(/^[A-Za-z]\./)) {
-      firstBulletIdx = i;
-      break;
+function renderBackContent(text, container) {
+  container.innerHTML = '';
+  if (!text) return;
+  let html = '';
+  for (const line of text.split('\n')) {
+    const t = line.trim();
+    if (!t) { html += '<div class="ans-gap"></div>'; continue; }
+    // Sub-heading: ends with ： or :
+    if (t.endsWith('：') || (t.endsWith(':') && t.length < 40)) {
+      html += `<div class="ans-heading">${escHtml(t)}</div>`;
+      continue;
     }
+    // Bullet
+    const bm = t.match(/^[•\-\*]\s*(.*)/);
+    if (bm) {
+      html += `<div class="ans-bullet"><span class="ans-bullet-dot">•</span><span>${escHtml(bm[1])}</span></div>`;
+      continue;
+    }
+    // Numbered item
+    const nm = t.match(/^(\d+[\.\)])\s*(.*)/);
+    if (nm) {
+      html += `<div class="ans-bullet"><span class="ans-num">${escHtml(nm[1])}</span><span>${escHtml(nm[2])}</span></div>`;
+      continue;
+    }
+    // Plain text
+    html += `<div class="ans-text">${escHtml(t)}</div>`;
   }
-
-  if (firstBulletIdx === -1) {
-    // No bullets
-    return { core: back.trim(), keypoints: [] };
-  }
-
-  const core      = lines.slice(0, firstBulletIdx).join('\n').trim();
-  const kpRaw     = lines.slice(firstBulletIdx).join('\n').trim();
-  const keypoints = kpRaw ? [kpRaw] : [];
-  return { core, keypoints };
+  container.innerHTML = html;
 }
 
 // ── Session ───────────────────────────────────────────────────────────────
@@ -855,32 +873,15 @@ function renderCard() {
   document.getElementById('card-front-text').textContent = card.front;
   document.getElementById('card-ch-tag').textContent = `Ch.${card.ch}`;
 
-  // Back — parse into sections
-  const { core, keypoints } = parseBackContent(card.back);
+  // Back — render full content
+  const s1 = document.getElementById('back-s1');
+  renderBackContent(card.back, document.getElementById('back-ans-content'));
+  s1.style.display = card.back ? '' : 'none';
 
-  // Section 1: core answer
-  const coreEl = document.getElementById('back-core-text');
-  const s1     = document.getElementById('back-s1');
-  if (core) {
-    coreEl.textContent = core;
-    s1.style.display = '';
-  } else {
-    s1.style.display = 'none';
-  }
-
-  // Section 2: key points
-  const kpEl = document.getElementById('back-kp-list');
-  const s2   = document.getElementById('back-s2');
-  if (keypoints.length > 0) {
-    kpEl.textContent = keypoints[0]; // pre-wrap handles formatting
-    s2.style.display = '';
-  } else {
-    s2.style.display = 'none';
-  }
-
-  // Section 3: citation
+  // Section 2: citation
   const citEl = document.getElementById('back-citation-text');
   const s3    = document.getElementById('back-s3');
+
   if (card.source) {
     citEl.textContent = card.source;
     s3.style.display = '';
