@@ -2,127 +2,181 @@
   "version": 1,
   "generated": "2026-05-02",
   "source": "Harrison's Principles of Internal Medicine, 22nd Edition",
-  "total": 80,
+  "total": 110,
   "cards": [
     {
-      "id": "h22_264_01",
-      "ch": 264,
-      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "心衰竭（HF）依射出分率如何分類？各自的 LVEF 切點為何？",
-      "back": "分三類：\n• HFrEF（射出分率降低）：LVEF ≤ 40%\n• HFmrEF（射出分率輕度降低）：LVEF 41–49%\n• HFpEF（射出分率保留）：LVEF ≥ 50%",
-      "source": "Harrison's 22nd, Ch.264–265, p.1975–1987",
-      "tags": ["heart_failure", "classification"]
+      "id": "h22_083_01",
+      "ch": 83,
+      "chapter": "Neoplasms of the Lung",
+      "part": "PART 4 Oncology and Hematology",
+      "front": "肺癌的四大組織學類型為何？哪兩型與吸菸關係最密切？",
+      "back": "四大類型（合計約90%肺癌）：\n1. 腺癌（Adenocarcinoma）— 最常見，有腺體分化或黏液產生\n2. 鱗狀細胞癌（Squamous cell carcinoma）— 起自支氣管上皮，可見角化\n3. 小細胞肺癌（SCLC）— 有神經內分泌標記（CD56、synaptophysin、chromogranin）\n4. 大細胞癌（Large-cell carcinoma）— <10%，缺乏分化特徵\n\n與吸菸最密切：鱗狀細胞癌和小細胞肺癌。腺癌則常見於非吸菸者。",
+      "source": "Harrison's 22nd, Ch.83, p.614",
+      "tags": [
+        "lung_cancer",
+        "histology"
+      ]
     },
     {
-      "id": "h22_264_02",
-      "ch": 264,
-      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "心衰竭的 ACC/AHA 分期（Stage A–D）分別代表什麼？",
-      "back": "• Stage A：有 HF 高危因子但無心臟結構異常或症狀\n• Stage B：有心臟結構異常但無 HF 症狀（無症狀 LV 功能不全）\n• Stage C：有心臟結構異常且有 HF 症狀（現在或曾有）\n• Stage D：難治性 HF，需要特殊介入（LVAD、心臟移植、安寧）",
-      "source": "Harrison's 22nd, Ch.265, p.1987",
-      "tags": ["heart_failure", "staging"]
+      "id": "h22_083_02",
+      "ch": 83,
+      "chapter": "Neoplasms of the Lung",
+      "part": "PART 4 Oncology and Hematology",
+      "front": "NSCLC 腺癌最重要的 driver mutations 有哪些？各占百分比大致為何？",
+      "back": "主要 driver mutations：\n• KRAS：最常見（約25%），G12C 突變可用 sotorasib\n• EGFR：約15%（亞洲人更高），exon 19 deletion 和 L858R 最常見→ osimertinib 三代TKI首選\n• ALK 重排：約3-7%→ alectinib/lorlatinib（優於 crizotinib）\n• ROS1 重排：約1-2%→ crizotinib/entrectinib\n• BRAF V600E：約2%→ dabrafenib + trametinib\n• MET exon 14 skipping、RET 重排、NTRK 融合等較少見\n\n臨床原則：有 driver mutation 者用 TKI，不先用化療或免疫療法。",
+      "source": "Harrison's 22nd, Ch.83, p.617",
+      "tags": [
+        "lung_cancer",
+        "targeted_therapy",
+        "NSCLC"
+      ]
     },
     {
-      "id": "h22_264_03",
-      "ch": 264,
-      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "心衰竭的常見誘發因子有哪些？（至少列出 6 項）",
-      "back": "病人相關：過度活動、過量鈉/液體攝入、不遵從用藥、過量飲酒\n醫師相關：使用 NSAIDs（鈉水滯留）、使用負性肌力藥（如某些 CCB）\nHF 相關：未控制高血壓、心肌缺血/梗塞、心律不整、肺栓塞\n其他疾病：全身感染、腎/肝衰竭、甲狀腺亢進、睡眠呼吸中止、貧血",
-      "source": "Harrison's 22nd, Ch.264, p.1983",
-      "tags": ["heart_failure", "triggers"]
+      "id": "h22_083_03",
+      "ch": 83,
+      "chapter": "Neoplasms of the Lung",
+      "part": "PART 4 Oncology and Hematology",
+      "front": "肺癌低劑量CT（LDCT）篩檢的適應症為何？NLST 試驗的主要發現？",
+      "back": "NLST 試驗篩檢條件：\n• 年齡 55-74 歲\n• 吸菸史 ≥30 包年\n• 前吸菸者：戒菸 ≤15 年\n• 排除：既往肺癌、咳血、15磅以上體重減輕、18個月內有胸部CT\n\nNLST 結果：每年LDCT篩檢3年，比胸部X光降低肺癌死亡率約20%。偽陽性率高達96.4%。\n\n目前 USPSTF 建議：50-80歲、≥20包年吸菸史、仍在吸菸或戒菸<15年者每年LDCT篩檢。",
+      "source": "Harrison's 22nd, Ch.83, p.618",
+      "tags": [
+        "lung_cancer",
+        "screening",
+        "LDCT"
+      ]
     },
     {
-      "id": "h22_264_04",
-      "ch": 264,
-      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "Pulsus alternans 在心衰竭中代表什麼，其機制為何？",
-      "back": "Pulsus alternans 是指強弱交替的脈搏，見於嚴重心衰竭。\n機制：左心室每隔一次心跳收縮力不足（回復不完全），導致每隔一次的 stroke volume 降低，形成強-弱-強-弱的交替脈。",
-      "source": "Harrison's 22nd, Ch.264, p.1983",
-      "tags": ["heart_failure", "physical_exam"]
+      "id": "h22_083_04",
+      "ch": 83,
+      "chapter": "Neoplasms of the Lung",
+      "part": "PART 4 Oncology and Hematology",
+      "front": "NSCLC 第8版 TNM 分期：T1-T4 如何定義？各期5年存活率大致為何？",
+      "back": "T 分類（第8版，2018年起）：\n• T1（≤3cm）：T1a ≤1cm；T1b 1-2cm；T1c 2-3cm\n• T2（>3-≤5cm）：侵犯臟層胸膜/主支氣管；T2a 3-4cm；T2b 4-5cm\n• T3（>5-≤7cm）：侵犯胸壁/心包/膈神經，或同葉衛星結節\n• T4（>7cm）：侵犯縱隔/心臟/大血管/氣管/食道/脊椎/隆突，或同側不同葉\n\n5年存活率：IA1 97%、IA2 94%、IA3 90%、IB 87%、IIA 79%、IIB 72%、IIIA 55%、IIIB 44%、IIIC 24%、IVA 23%、IVB 10%",
+      "source": "Harrison's 22nd, Ch.83, p.621",
+      "tags": [
+        "lung_cancer",
+        "staging",
+        "TNM"
+      ]
     },
     {
-      "id": "h22_264_05",
-      "ch": 264,
-      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "如何評估頸靜脈壓（JVP）？正常值為何？Kussmaul's sign 見於哪些疾病？",
-      "back": "評估：病人以 45° 角臥躺，測靜脈血柱高度高於胸骨角的公分數，再加 5cm（RA 位置）。\n正常 JVP ≤ 8 cmH₂O。\nKussmaul's sign（吸氣時 JVP 上升）見於：嚴重雙心室衰竭、縮窄性心包炎、限制性心肌病。",
-      "source": "Harrison's 22nd, Ch.264, p.1983–1984",
-      "tags": ["heart_failure", "physical_exam", "JVP"]
+      "id": "h22_083_05",
+      "ch": 83,
+      "chapter": "Neoplasms of the Lung",
+      "part": "PART 4 Oncology and Hematology",
+      "front": "轉移性 NSCLC（Stage IV）一線治療如何根據 PD-L1 表現和 driver mutation 決策？",
+      "back": "治療決策三大類：\n\n1. 有 driver mutation（EGFR/ALK/ROS1/BRAF等）：\n   → 優先用對應 TKI，不先用化療或免疫療法\n\n2. 無 driver mutation，PD-L1 TPS ≥50%：\n   → 首選單藥 pembrolizumab（KEYNOTE-024）\n\n3. 無 driver mutation，PD-L1 <50%：\n   → 化療 + 免疫療法（pembrolizumab/atezolizumab + 鉑類）\n   → 或 nivolumab + ipilimumab 雙免疫\n\n注意：PD-L1 <1% 不適合單藥免疫治療，需化療+免疫聯合。",
+      "source": "Harrison's 22nd, Ch.83, p.629",
+      "tags": [
+        "lung_cancer",
+        "immunotherapy",
+        "PD-L1"
+      ]
     },
     {
-      "id": "h22_264_06",
-      "ch": 264,
-      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "心衰竭時胸部聽診有哪些重要發現？為何慢性 HF 病人有時沒有肺部囉音？",
-      "back": "HF 聽診發現：\n• 肺基底部囉音（rales）—因肺泡液體滲出\n• 喘鳴（cardiac asthma）—支氣管黏膜充血\n• 胸腔積液—對側常在右側\n慢性 HF 無囉音原因：長期高 PCWP 使淋巴引流代償增加，阻止液體從間質進入肺泡。",
-      "source": "Harrison's 22nd, Ch.264, p.1983",
-      "tags": ["heart_failure", "physical_exam"]
+      "id": "h22_083_06",
+      "ch": 83,
+      "chapter": "Neoplasms of the Lung",
+      "part": "PART 4 Oncology and Hematology",
+      "front": "小細胞肺癌（SCLC）的分期和標準治療為何？預後如何？",
+      "back": "SCLC 分期（VA 系統）：\n• 局限期（LD）：侷限於一側胸腔，可納入一個放射野\n• 廣泛期（ED）：超出一側胸腔或遠處轉移\n\nLD-SCLC 治療：\n• 化療（etoposide + cisplatin/carboplatin）+ 同步胸部放療\n• 達完全緩解者：加做預防性全腦照射（PCI）\n\nED-SCLC 治療：\n• 化療 + atezolizumab（IMpower133試驗，延長OS）\n• 中位存活約10-12個月\n\n特性：對化療初期高度敏感，但幾乎全部復發，缺乏 driver mutation。",
+      "source": "Harrison's 22nd, Ch.83",
+      "tags": [
+        "lung_cancer",
+        "SCLC",
+        "treatment"
+      ]
     },
     {
-      "id": "h22_265_01",
-      "ch": 265,
-      "chapter": "Heart Failure: Management",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "HFrEF 的四大支柱藥物（GDMT）是什麼？每類各有哪些代表藥？",
-      "back": "四大支柱（Fantastic Four）：\n1. ACEi/ARB/ARNI（沙庫必曲/纈沙坦 = sacubitril/valsartan）\n2. β-blocker（僅 carvedilol、bisoprolol、metoprolol succinate 有存活效益）\n3. MRA（mineralocorticoid receptor antagonist）：spironolactone、eplerenone\n4. SGLT2i：empagliflozin、dapagliflozin",
-      "source": "Harrison's 22nd, Ch.265, p.1994–2001",
-      "tags": ["heart_failure", "treatment", "pharmacology"]
+      "id": "h22_083_07",
+      "ch": 83,
+      "chapter": "Neoplasms of the Lung",
+      "part": "PART 4 Oncology and Hematology",
+      "front": "肺癌的副腫瘤症候群：各型肺癌常見哪些？",
+      "back": "SCLC 最常見（神經內分泌特性）：\n• SIADH → 低鈉血症（最常見）\n• Lambert-Eaton 肌無力症（VGCC抗體）：下肢近端無力，肌腱反射減弱\n• 異位ACTH分泌 → 庫欣氏症（低鉀、高血糖）\n• 感覺神經病變、腦幹腦炎（anti-Hu）\n\n鱗狀細胞癌：\n• 高鈣血症（分泌PTHrP，骨骼外高鈣最常見原因）\n\n腺癌：\n• 肥厚性骨關節病（HOA）：杵狀指、骨膜反應\n• Trousseau syndrome（移行性血栓性靜脈炎）\n\n臨床意義：副腫瘤症候群可為腫瘤早期診斷線索。",
+      "source": "Harrison's 22nd, Ch.83",
+      "tags": [
+        "lung_cancer",
+        "paraneoplastic",
+        "SCLC",
+        "SIADH"
+      ]
     },
     {
-      "id": "h22_265_02",
-      "ch": 265,
-      "chapter": "Heart Failure: Management",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "HFrEF 中哪三種 beta-blocker 被 RCT 證實有存活效益？哪些 beta-blocker 無效？",
-      "back": "有效（proven survival benefit）：\n• Carvedilol（α₁+β blocker）\n• Bisoprolol（β₁ selective）\n• Metoprolol succinate（β₁ selective，長效）\n\n無效：具有內在交感活性（ISA）的 beta-blocker，如 xamoterol；bucindolol 也未顯示存活效益。",
-      "source": "Harrison's 22nd, Ch.265, p.1994",
-      "tags": ["heart_failure", "beta_blocker", "pharmacology"]
+      "id": "h22_131_01",
+      "ch": 131,
+      "chapter": "Pneumonia",
+      "part": "PART 5 Infectious Diseases",
+      "front": "CAP 嚴重度評估：嚴重型 CAP 的 Major 和 Minor 準則各為何？何時需入 ICU？",
+      "back": "嚴重型 CAP（需 ICU）判定：\n\n主要準則（Major criteria，符合1項即達到）：\n• 需侵入性機械通氣\n• 敗血性休克需升壓劑\n\n次要準則（Minor criteria，符合≥3項即達到）：\n• RR ≥30次/分\n• PaO2/FiO2 ≤250\n• 多葉浸潤\n• 意識混亂/定向障礙\n• BUN ≥20 mg/dL\n• WBC <4000/μL\n• 血小板 <100,000/μL\n• 體溫 <36°C\n• 需積極輸液的低血壓",
+      "source": "Harrison's 22nd, Ch.131, p.1026",
+      "tags": [
+        "pneumonia",
+        "CAP",
+        "severity",
+        "ICU"
+      ]
     },
     {
-      "id": "h22_265_03",
-      "ch": 265,
-      "chapter": "Heart Failure: Management",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "ACEi 在 HFrEF 中的效益數字為何？加上 beta-blocker 後額外多少效益？",
-      "back": "• ACEi 單獨：可降低死亡率約 23%，降低死亡+住院複合終點約 35%\n• 加上 beta-blocker：在 ACEi 基礎上再降低死亡率約 35%\n先用哪個不重要（CIBIS III 試驗），重要的是兩者都要達到目標劑量。",
-      "source": "Harrison's 22nd, Ch.265, p.1994",
-      "tags": ["heart_failure", "ACEi", "evidence"]
+      "id": "h22_131_02",
+      "ch": 131,
+      "chapter": "Pneumonia",
+      "part": "PART 5 Infectious Diseases",
+      "front": "CAP 依照護場所的常見致病菌有何差異？",
+      "back": "依場所（Table 131-1）：\n\n門診病患：\n• S. pneumoniae（最常見）、Mycoplasma pneumoniae、H. influenzae、Chlamydia pneumoniae、呼吸道病毒\n\n住院非ICU：\n• 同上 + Legionella spp.\n\n住院ICU（最嚴重）：\n• S. pneumoniae、S. aureus、Legionella spp.、G(-)桿菌、H. influenzae\n\n特殊情境致病菌：\n• 酗酒：Klebsiella、厭氧菌\n• COPD/吸菸：H. influenzae、Pseudomonas、Moraxella catarrhalis\n• 結構性肺病（支氣管擴張）：Pseudomonas\n• 吸入性：口腔厭氧菌",
+      "source": "Harrison's 22nd, Ch.131, p.1024",
+      "tags": [
+        "pneumonia",
+        "CAP",
+        "pathogens",
+        "microbiology"
+      ]
     },
     {
-      "id": "h22_265_04",
-      "ch": 265,
-      "chapter": "Heart Failure: Management",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "Spironolactone 與 eplerenone 用於 HFrEF 的主要區別是什麼？何時偏好使用 eplerenone？",
-      "back": "Spironolactone（RALES 試驗，NYHA III–IV）：有抗雄激素副作用→男性乳房發育、性功能障礙。\nEplerenone（EMPHASIS 試驗，NYHA II；EPHESUS 試驗，MI 後 LV 功能不全）：無抗雄激素作用。\n偏好 eplerenone：男性有 gynecomastia、陽萎、性慾降低等副作用時。",
-      "source": "Harrison's 22nd, Ch.265, p.1994",
-      "tags": ["heart_failure", "MRA", "pharmacology"]
+      "id": "h22_131_03",
+      "ch": 131,
+      "chapter": "Pneumonia",
+      "part": "PART 5 Infectious Diseases",
+      "front": "CAP 門診和住院（非嚴重型）的抗生素選擇方案為何？",
+      "back": "門診（無共病症、無抗藥性風險）：\n• amoxicillin 1g tid + macrolide 或 doxycycline 100mg bid\n• 單藥：doxycycline 或 macrolide（當地肺炎球菌抗藥性低時）\n\n門診（有共病症或抗藥性風險）：\n• amoxicillin/clavulanate 或 cephalosporin + macrolide 或 doxycycline\n• 單藥呼吸道 fluoroquinolone（levofloxacin 750mg/d 或 moxifloxacin 400mg/d）\n\n住院非嚴重型（無MRSA/Pseudomonas風險）：\n• beta-lactam（ceftriaxone/cefotaxime）+ macrolide\n• 或單藥呼吸道 fluoroquinolone\n\n住院嚴重型：\n• beta-lactam + macrolide 或 beta-lactam + 呼吸道 fluoroquinolone",
+      "source": "Harrison's 22nd, Ch.131, p.1027",
+      "tags": [
+        "pneumonia",
+        "CAP",
+        "antibiotics",
+        "treatment"
+      ]
     },
     {
-      "id": "h22_265_05",
-      "ch": 265,
-      "chapter": "Heart Failure: Management",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "HFpEF 目前有哪些被證實有效的藥物？HFpEF 傳統治療重點是什麼？",
-      "back": "傳統上 HFpEF 缺乏改善預後的藥物，近年新進展：\n• SGLT2i（empagliflozin/dapagliflozin）：可降低 HFmrEF/HFpEF 的心血管死亡和 HF 住院\n• Sacubitril/valsartan（PARAGON-HF）：可能對 LVEF <60% 者有益\n• GLP-1 agonist：肥胖型 HFpEF 患者可能有益\n傳統治療重點：控制症狀（利尿）、控制心律、控制血壓、治療共病（肥胖、DM、睡眠呼吸中止）",
-      "source": "Harrison's 22nd, Ch.265, p.1987–1988",
-      "tags": ["heart_failure", "HFpEF", "treatment"]
+      "id": "h22_131_04",
+      "ch": 131,
+      "chapter": "Pneumonia",
+      "part": "PART 5 Infectious Diseases",
+      "front": "VAP 和 HAP 的常見致病菌及治療原則為何？",
+      "back": "VAP 定義：機械通氣 ≥48小時後肺炎；HAP：住院 ≥48小時後肺炎\n\nCore pathogens（non-MDR）：S. pneumoniae、MSSA、H. influenzae、敏感腸道菌\n\nMDR pathogens：\n• Pseudomonas aeruginosa\n• MRSA\n• Acinetobacter spp.\n• 抗藥腸道菌（ESBL、碳青黴烯抗藥）\n\n治療選擇：\n• 無MDR風險：beta-lactam（piperacillin-tazobactam）\n• 有MDR風險：抗Pseudomonas beta-lactam（cefepime/meropenem）\n• 有MRSA風險：+ vancomycin 或 linezolid\n\n縮短療程（7-8天）可降低抗藥性。",
+      "source": "Harrison's 22nd, Ch.131, p.1029",
+      "tags": [
+        "pneumonia",
+        "VAP",
+        "HAP",
+        "MDR",
+        "antibiotics"
+      ]
     },
     {
-      "id": "h22_265_06",
-      "ch": 265,
-      "chapter": "Heart Failure: Management",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "Hydralazine + isosorbide dinitrate 用於 HFrEF 的適應症為何？在哪個族群特別有效？",
-      "back": "適應症：無法耐受 RAAS 阻斷劑（ACEi/ARB）的 HFrEF 患者（因腎功能不全或高血鉀）。\n特別有效：自我認定為非裔美國人的嚴重 HFrEF（A-HeFT 試驗），在 ACEi + beta-blocker 背景治療上加入可再降低死亡率和 HF 住院率。\n機制：hydralazine 降低周邊阻力，nitrates 透過 NO → cGMP 造成靜脈和動脈擴張。",
-      "source": "Harrison's 22nd, Ch.265, p.1994–1995",
-      "tags": ["heart_failure", "vasodilators", "treatment"]
+      "id": "h22_131_05",
+      "ch": 131,
+      "chapter": "Pneumonia",
+      "part": "PART 5 Infectious Diseases",
+      "front": "Legionella 肺炎的臨床特點、診斷和治療為何？",
+      "back": "臨床特點（Legionnaires disease）：\n• 嚴重肺炎 + 系統性症狀：高燒、頭痛、肌肉痠痛、腹瀉（GI症狀在非典型中最典型）\n• 低鈉血症（SIADH）、肝功能異常、血尿\n• 好發：老年男性、吸菸者、免疫抑制、冷卻水塔/熱水系統暴露\n\n診斷：\n• 尿液 Legionella 抗原（UAT）：快速、偵測血清型1（占80%）\n• 痰/BAL 培養：BCYE 培養基（gold standard，需3-5天）\n• PCR（最敏感）\n\n治療：\n• 呼吸道 fluoroquinolone（levofloxacin）首選\n• 或 azithromycin\n• beta-lactam 無效！（無效對細胞內菌）",
+      "source": "Harrison's 22nd, Ch.131",
+      "tags": [
+        "pneumonia",
+        "Legionella",
+        "atypical",
+        "diagnosis"
+      ]
     },
     {
       "id": "h22_258_01",
@@ -132,7 +186,10 @@
       "front": "心房顫動（AF）的臨床分類：paroxysmal、persistent、long-standing persistent 各如何定義？",
       "back": "• Paroxysmal AF：自然終止或介入治療後終止，持續 ≤ 7 天\n• Persistent AF：持續 > 7 天但 < 1 年\n• Long-standing persistent AF：持續 > 1 年\n• Permanent AF：醫師和病人決定不再嘗試恢復竇律",
       "source": "Harrison's 22nd, Ch.258, p.1947",
-      "tags": ["atrial_fibrillation", "classification"]
+      "tags": [
+        "atrial_fibrillation",
+        "classification"
+      ]
     },
     {
       "id": "h22_258_02",
@@ -142,7 +199,10 @@
       "front": "AF 的流行病學重點：盛行率、中風風險、年齡分布？",
       "back": "• 最常見的持續性心律不整\n• >95% 的 AF 患者年齡 >60 歲；80 歲以上盛行率約 20%\n• 40 歲男性終生罹患 AF 風險約 25%\n• 未治療 AF 死亡率增加 1.5–1.9 倍\n• 造成約 25% 的所有中風；約 8.9% 隱源性中風患者後來被診斷 AF",
       "source": "Harrison's 22nd, Ch.258, p.1947",
-      "tags": ["atrial_fibrillation", "epidemiology"]
+      "tags": [
+        "atrial_fibrillation",
+        "epidemiology"
+      ]
     },
     {
       "id": "h22_258_03",
@@ -152,7 +212,11 @@
       "front": "AF 的 CHA₂DS₂-VASc 分數如何計算？何時需要抗凝血治療？",
       "back": "CHA₂DS₂-VASc 各 1 分（A₂ 和 S₂ 各 2 分）：\n• C：Congestive HF\n• H：Hypertension\n• A₂：Age ≥ 75（2分）\n• D：Diabetes mellitus\n• S₂：Prior Stroke/TIA/embolism（2分）\n• V：Vascular disease（MI、PAD）\n• A：Age 65–74\n• Sc：Sex category（female）\n男性 ≥ 2 分、女性 ≥ 3 分：建議口服抗凝血藥；男性 1 分考慮給予",
       "source": "Harrison's 22nd, Ch.258, p.1950–1951",
-      "tags": ["atrial_fibrillation", "stroke_risk", "anticoagulation"]
+      "tags": [
+        "atrial_fibrillation",
+        "stroke_risk",
+        "anticoagulation"
+      ]
     },
     {
       "id": "h22_258_04",
@@ -162,7 +226,12 @@
       "front": "AF 抗凝血藥物：NOACs 與 warfarin 比較，哪些情況仍須用 warfarin？",
       "back": "NOACs（dabigatran、rivaroxaban、apixaban、edoxaban）相較 warfarin：\n優點：使用方便、顱內出血較少、不需 INR 監測\n缺點：需腎功能調整；某些情況下 warfarin 較佳\n\n仍須 warfarin 的情況：\n• 人工機械心瓣膜（NOACs 禁忌！）\n• 風濕性二尖瓣狹窄（NOACs 未被證實非劣於 warfarin）\nWarfarin 目標 INR：2–3",
       "source": "Harrison's 22nd, Ch.258, p.1950–1951",
-      "tags": ["atrial_fibrillation", "anticoagulation", "warfarin", "NOAC"]
+      "tags": [
+        "atrial_fibrillation",
+        "anticoagulation",
+        "warfarin",
+        "NOAC"
+      ]
     },
     {
       "id": "h22_258_05",
@@ -172,7 +241,11 @@
       "front": "NOACs 的解毒劑（reversal agents）為何？各自對應哪種藥物？",
       "back": "• Idarucizumab（Praxbind）→ Dabigatran 的特異性解毒劑（靜脈注射）\n• Andexanet alfa（Andexxa）→ Factor Xa 抑制劑（rivaroxaban、apixaban、edoxaban）的解毒劑\nWarfarin 過量：Fresh frozen plasma（FFP）、Prothrombin complex concentrate（PCC）、Vitamin K",
       "source": "Harrison's 22nd, Ch.258, p.1951",
-      "tags": ["atrial_fibrillation", "NOAC", "reversal"]
+      "tags": [
+        "atrial_fibrillation",
+        "NOAC",
+        "reversal"
+      ]
     },
     {
       "id": "h22_258_06",
@@ -182,7 +255,11 @@
       "front": "心房顫動的 Left atrial appendage closure（LAA closure，如 Watchman 裝置）適應症為何？",
       "back": "適應症：AF 有高血栓栓塞風險（高 CHA₂DS₂-VASc），但同時有嚴重出血風險而無法長期口服抗凝血藥的患者。\nWatchman 裝置效果：\n• 預防中風效果不劣於 warfarin\n• 降低主要出血、尤其是出血性中風\n• 降低全因死亡率\n• 不劣於 NOAC（在預防主要 AF 相關心血管、神經及出血事件方面）",
       "source": "Harrison's 22nd, Ch.258, p.1951",
-      "tags": ["atrial_fibrillation", "LAA_closure", "device"]
+      "tags": [
+        "atrial_fibrillation",
+        "LAA_closure",
+        "device"
+      ]
     },
     {
       "id": "h22_258_07",
@@ -192,267 +269,11 @@
       "front": "AF 的節律控制（rhythm control）vs 速率控制（rate control）策略：各在什麼情況下偏好？",
       "back": "節律控制偏好情況：\n• 有症狀的 paroxysmal AF\n• 反覆症狀性 persistent AF\n• 速率難以控制者\n• AF 導致心室功能下降或加重心衰竭\n• 年輕患者\n近期早期節律控制研究（EAST-AFNET 4）顯示：1年內積極節律控制可降低心血管死亡+中風複合終點。\n\n重要：即使維持竇律，仍需依 CHA₂DS₂-VASc 繼續抗凝血（因常有無症狀 AF 發作）",
       "source": "Harrison's 22nd, Ch.258, p.1952",
-      "tags": ["atrial_fibrillation", "rate_control", "rhythm_control"]
-    },
-    {
-      "id": "h22_272_01",
-      "ch": 272,
-      "chapter": "Aortic Stenosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "主動脈瓣狹窄（AS）的嚴重度分級標準為何？（valve area 和 mean gradient）",
-      "back": "嚴重 AS 的血動力學標準（同時需評估）：\n• 主動脈瓣面積（AVA）< 1.0 cm²（或 < 0.6 cm²/m² BSA）\n• 平均壓差（mean gradient）> 40 mmHg（正常 CO 下）\n• 峰值速度（peak velocity）> 4 m/s\n• Low-flow/low-gradient AS（SVi <35 mL/m² 且 mean gradient <40 mmHg）：需特別診斷挑戰",
-      "source": "Harrison's 22nd, Ch.272, p.2037",
-      "tags": ["aortic_stenosis", "severity", "valvular_heart_disease"]
-    },
-    {
-      "id": "h22_272_02",
-      "ch": 272,
-      "chapter": "Aortic Stenosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "二葉式主動脈瓣（Bicuspid aortic valve, BAV）的流行病學和遺傳學重點為何？",
-      "back": "• 最常見的先天性心臟瓣膜缺陷，佔人口 0.5–1.4%\n• 男：女 = 2–4：1\n• 遺傳：體染色體顯性、不完全外顯率；一等親盛行率約 10%\n• 相關基因突變：NOTCH1、GATA4、GATA5\n• 常合併主動脈擴張/夾層（aortopathy，與瓣膜血動力學嚴重度無關）\n• 可合併 Turner syndrome",
-      "source": "Harrison's 22nd, Ch.272, p.2036",
-      "tags": ["aortic_stenosis", "bicuspid_valve", "congenital"]
-    },
-    {
-      "id": "h22_272_03",
-      "ch": 272,
-      "chapter": "Aortic Stenosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "主動脈瓣狹窄的三大典型症狀為何？出現症狀後平均存活期各為多久？",
-      "back": "三大典型症狀（按出現順序）：\n1. Angina（心絞痛）→ 平均存活約 5 年\n2. Syncope（昏厥）→ 平均存活約 3 年\n3. Heart failure（心衰竭、dyspnea）→ 平均存活約 2 年\n\n記憶口訣：AS → SAD（Syncope、Angina、Dyspnea）\n一旦出現症狀即為 AVR 的適應症（symptom = operate）",
-      "source": "Harrison's 22nd, Ch.272, p.2037–2038",
-      "tags": ["aortic_stenosis", "symptoms", "prognosis"]
-    },
-    {
-      "id": "h22_272_04",
-      "ch": 272,
-      "chapter": "Aortic Stenosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "主動脈瓣狹窄的病理生理學：LV 如何代償持續性後負荷增加？最終如何失代償？",
-      "back": "初期代償：LV 向心性肥厚（concentric hypertrophy）→ 依 Laplace 定律（S=Pr/h）降低壁應力 → 維持心輸出量\n長期後果（失代償）：\n• 心肌纖維化\n• 舒張功能障礙（elevated LVEDP）\n• 收縮功能下降（afterload mismatch）\n• 心肌缺血（即使無 CAD）：肥厚的 LV 增加 O₂需求；冠狀動脈灌流壓降低（高 LVEDP）；capillary density 相對不足",
-      "source": "Harrison's 22nd, Ch.272, p.2037",
-      "tags": ["aortic_stenosis", "pathophysiology"]
-    },
-    {
-      "id": "h22_274_01",
-      "ch": 274,
-      "chapter": "Mitral Stenosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "二尖瓣狹窄（MS）的最常見病因為何？病理上有何特徵性外觀？",
-      "back": "最常見病因：風濕性心臟病（rheumatic fever）\n約 40% 風濕性心臟病患者有純 MS 或以 MS 為主。\n病理特徵：\n• 瓣葉瀰漫增厚、纖維化、鈣化\n• 交合部融合（commissural fusion）\n• 腱索融合縮短\n• 形成「魚口」（fish-mouth）外觀的漏斗狀瓣口\nSLE、RA、心房黏液瘤、感染性心內膜炎也可引起 MS。",
-      "source": "Harrison's 22nd, Ch.274, p.2048",
-      "tags": ["mitral_stenosis", "etiology", "pathology"]
-    },
-    {
-      "id": "h22_274_02",
-      "ch": 274,
-      "chapter": "Mitral Stenosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "二尖瓣狹窄的嚴重度分類：正常瓣口面積為何？何時定義為重度 MS？",
-      "back": "• 正常 MVA：4–6 cm²\n• 輕度 MS：MVA > 1.5 cm²（有症狀的臨界值約 2 cm²）\n• 重度 MS（severe）：MVA < 1.5 cm²（需要 LA 壓力約 25 mmHg 才能維持正常 CO）\n• 極重度 MS：MVA < 1.0 cm²\n血動力學標準：存在 LA–LV 壓差（transvalvular pressure gradient）= MS 的血動力學標記",
-      "source": "Harrison's 22nd, Ch.274, p.2048",
-      "tags": ["mitral_stenosis", "severity"]
-    },
-    {
-      "id": "h22_274_03",
-      "ch": 274,
-      "chapter": "Mitral Stenosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "為何 MS 患者在心跳加速（如 AF 快速心室率）時症狀會急遽惡化？",
-      "back": "心跳加速時舒張期縮短（比收縮期縮短更多）→ 通過二尖瓣的時間縮短 → 相同 CO 下 transvalvular pressure gradient 急升 → LA 壓力驟升 → 肺靜脈高壓 → 呼吸困難惡化。\n因此 MS 患者：積極控制心室率（AF）是核心治療之一；任何造成心跳加速的因素（發燒、貧血、甲亢、運動、懷孕）都是誘發因子。",
-      "source": "Harrison's 22nd, Ch.274, p.2048",
-      "tags": ["mitral_stenosis", "pathophysiology", "AF"]
-    },
-    {
-      "id": "h22_274_04",
-      "ch": 274,
-      "chapter": "Mitral Stenosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "MS 引起的肺高壓有哪四個機制？嚴重肺高壓的後果是什麼？",
-      "back": "肺高壓四機制：\n1. LA 壓力被動後向傳導（passive back-transmission）\n2. 肺小動脈收縮（second stenosis）—反應性肺高壓\n3. 小肺血管壁間質水腫\n4. 晚期肺血管床器質性閉塞性改變\n嚴重肺高壓後果：RV 擴大、繼發性 tricuspid regurgitation（TR）和 pulmonic regurgitation（PR）、右心衰竭",
-      "source": "Harrison's 22nd, Ch.274, p.2048–2049",
-      "tags": ["mitral_stenosis", "pulmonary_hypertension"]
-    },
-    {
-      "id": "h22_274_05",
-      "ch": 274,
-      "chapter": "Mitral Stenosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "Ortner's syndrome（cardiovocal syndrome）是什麼？見於何種心臟疾病？",
-      "back": "Ortner's syndrome：左喉返神經（left recurrent laryngeal nerve）受到擴大的左心房壓迫，導致聲音嘶啞（hoarseness）。\n\n見於：顯著左心房擴大，最典型是嚴重二尖瓣狹窄（MS）。\n也可見於：二尖瓣逆流（MR）、肺動脈高壓、主動脈瘤。",
-      "source": "Harrison's 22nd, Ch.274, p.2049",
-      "tags": ["mitral_stenosis", "complications", "Ortner"]
-    },
-    {
-      "id": "h22_281_01",
-      "ch": 281,
-      "chapter": "Pericardial Disease",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "急性心包炎的四大診斷特徵是什麼？（診斷需符合幾項？）",
-      "back": "急性心包炎診斷需符合以下 ≥ 2 項（其中胸痛為必要條件）：\n1. 胸痛：尖銳、胸膜炎性質，坐前傾減輕，仰臥加重\n2. 心包摩擦音（pericardial friction rub）\n3. ECG 改變：廣泛性 ST 上升（呈 saddle-shaped）、PR 壓低\n4. 新發或加重的心包積液（超音波確認）",
-      "source": "Harrison's 22nd, Ch.281, p.2079",
-      "tags": ["pericarditis", "diagnosis"]
-    },
-    {
-      "id": "h22_281_02",
-      "ch": 281,
-      "chapter": "Pericardial Disease",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "正常心包腔內含多少液體？心包填塞（cardiac tamponade）的 Beck's triad 是什麼？",
-      "back": "正常心包液：15–50 mL（血漿超濾液）\n\nBeck's triad（心包填塞的臨床三聯症）：\n1. 低血壓（hypotension）\n2. 頸靜脈怒張（elevated JVP / JVD）\n3. 心音減弱（muffled heart sounds）\n\n其他重要表現：Pulsus paradoxus（吸氣時收縮壓下降 >10 mmHg）",
-      "source": "Harrison's 22nd, Ch.281, p.2078–2080",
-      "tags": ["pericarditis", "tamponade", "Beck_triad"]
-    },
-    {
-      "id": "h22_281_03",
-      "ch": 281,
-      "chapter": "Pericardial Disease",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "縮窄性心包炎（constrictive pericarditis）與限制性心肌病（restrictive cardiomyopathy）的鑑別診斷重點？",
-      "back": "縮窄性心包炎特徵：\n• Kussmaul's sign（吸氣時 JVP 上升）陽性\n• 心臟鈣化（X-ray、CT）\n• Pericardial knock（心音）\n• Respirophasic variation in echocardiography\n• CT/MRI：心包增厚 >3 mm\n\n限制性心肌病特徵：\n• 無心包鈣化\n• 組織多普勒（TDI）：e' 速度降低（心肌異常）\n• 心肌切片：澱粉樣變性、纖維化等\n\n兩者共同點：雙心室舒張期充填壓升高、心室容積正常、收縮功能正常",
-      "source": "Harrison's 22nd, Ch.281",
-      "tags": ["pericarditis", "constrictive", "restrictive_cardiomyopathy"]
-    },
-    {
-      "id": "h22_284_01",
-      "ch": 284,
-      "chapter": "Ischemic Heart Disease",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "心肌耗氧量（MVO₂）的主要決定因素有哪些？冠狀動脈阻力由哪三組血管決定？",
-      "back": "心肌耗氧量（MVO₂）主要決定因素：\n1. 心率（heart rate）\n2. 心肌收縮力（contractility）\n3. 心室壁張力（wall tension / stress）\n\n冠狀動脈阻力三組（約 75% 總阻力）：\n• R1：大冠狀動脈（epicardial arteries，正常幾乎無阻力）\n• R2：前小動脈（prearteriolar vessels）\n• R3：小動脈及心肌內毛細血管（arteriolar/intramyocardial capillary）\n正常：R1 幾乎無阻力；R2+R3 為主要調節部位",
-      "source": "Harrison's 22nd, Ch.284, p.2090–2091",
-      "tags": ["ischemic_heart_disease", "pathophysiology"]
-    },
-    {
-      "id": "h22_284_02",
-      "ch": 284,
-      "chapter": "Ischemic Heart Disease",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "穩定型冠狀動脈疾病（chronic coronary syndrome）的主要危險因子有哪些？",
-      "back": "主要危險因子（Framingham 等研究確立）：\n1. 高 LDL-C（最重要的可改變危險因子）\n2. 吸菸\n3. 高血壓\n4. 糖尿病\n5. 肥胖/代謝症候群\n6. 身體活動不足\n7. 家族史（一等親男性 <55 歲、女性 <65 歲）\n新興危險因子：Lp(a)（脂蛋白(a)）升高、CRP 升高、睡眠呼吸中止",
-      "source": "Harrison's 22nd, Ch.284, p.2091",
-      "tags": ["ischemic_heart_disease", "risk_factors"]
-    },
-    {
-      "id": "h22_284_03",
-      "ch": 284,
-      "chapter": "Ischemic Heart Disease",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "微血管性心絞痛（microvascular angina）的概念是什麼？與一般 obstructive CAD 有何不同？",
-      "back": "微血管性心絞痛（cardiac syndrome X）：\n• 有典型心絞痛症狀 + 運動誘發 ST 壓低\n• 但冠狀動脈造影顯示無明顯阻塞性 CAD（狹窄 <50%）\n• 機制：冠狀動脈微循環（R2/R3）功能異常，無法適當擴張\n• 較常見於女性\n與 obstructive CAD 不同：主要是微循環異常，非 epicardial plaque；長期預後相對較好，但症狀負擔高",
-      "source": "Harrison's 22nd, Ch.284, p.2091",
-      "tags": ["ischemic_heart_disease", "microvascular_angina"]
-    },
-    {
-      "id": "h22_286_01",
-      "ch": 286,
-      "chapter": "ST-Segment Elevation Myocardial Infarction",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "STEMI 的病理生理：斑塊破裂後如何形成冠狀動脈完全閉塞？",
-      "back": "過程：\n1. 易碎斑塊（thin fibrous cap + large lipid core）破裂或侵蝕（erosion）\n2. 暴露膠原蛋白 → 血小板活化（thromboxane A₂、ADP、serotonin 釋放）\n3. GP IIb/IIIa 受體構象改變 → 與 fibrinogen 高親和力結合 → 血小板聚集\n4. 組織因子（tissue factor）暴露 → 凝血瀑布活化 → thrombin → fibrin\n5. 血小板聚集 + fibrin 股 = 閉塞性血栓 → STEMI",
-      "source": "Harrison's 22nd, Ch.286, p.2113",
-      "tags": ["STEMI", "pathophysiology", "plaque_rupture"]
-    },
-    {
-      "id": "h22_286_02",
-      "ch": 286,
-      "chapter": "ST-Segment Elevation Myocardial Infarction",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "TIMI flow grade 0–3 各代表什麼？reperfusion 的目標是哪個等級？",
-      "back": "TIMI（Thrombolysis In Myocardial Infarction）血流分級：\n• Grade 0：完全閉塞，無血流通過\n• Grade 1：少量顯影劑通過阻塞點，但遠端未灌流\n• Grade 2：整條血管可見顯影，但血流延遲（比正常慢）\n• Grade 3：完全灌流，血流正常（=目標！）\n\nTIMI 3 才能最大化限制梗塞面積、保留 LV 功能、降低死亡率",
-      "source": "Harrison's 22nd, Ch.286, p.2120",
-      "tags": ["STEMI", "TIMI", "reperfusion"]
-    },
-    {
-      "id": "h22_286_03",
-      "ch": 286,
-      "chapter": "ST-Segment Elevation Myocardial Infarction",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "STEMI 的血栓溶解治療：tPA 的給藥方案為何？Door-to-needle 目標時間？",
-      "back": "tPA 給藥方案：\n• 15 mg IV bolus\n• 接著 50 mg 靜脈輸注（前 30 分鐘）\n• 再接著 35 mg 輸注（後 60 分鐘）\n（總量：根據體重調整，最高 100 mg）\n\nDoor-to-needle 目標：≤ 30 分鐘（從到院到開始溶栓）\nDoor-to-balloon（primary PCI）目標：≤ 90 分鐘",
-      "source": "Harrison's 22nd, Ch.286, p.2120",
-      "tags": ["STEMI", "thrombolysis", "tPA", "door_to_needle"]
-    },
-    {
-      "id": "h22_286_04",
-      "ch": 286,
-      "chapter": "ST-Segment Elevation Myocardial Infarction",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "溶栓治療的絕對禁忌症有哪些？（至少列出 5 項）",
-      "back": "絕對禁忌症：\n1. 任何時間的顱內出血病史\n2. 過去 1 年內非出血性腦中風或其他腦血管事件\n3. 嚴重高血壓（SBP >180 mmHg 或 DBP >110 mmHg，無法控制）\n4. 疑似主動脈剝離（aortic dissection）\n5. 活動性內出血（除月經外）\n相對禁忌症（需評估風險效益比）：目前使用抗凝血藥（INR >2）、近 2 週手術或侵入性操作、懷孕、出血性視網膜病變",
-      "source": "Harrison's 22nd, Ch.286, p.2120",
-      "tags": ["STEMI", "thrombolysis", "contraindications"]
-    },
-    {
-      "id": "h22_286_05",
-      "ch": 286,
-      "chapter": "ST-Segment Elevation Myocardial Infarction",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "Streptokinase 的給藥方式及使用限制為何？與 tPA 在溶栓效果上有何差異？",
-      "back": "Streptokinase 給藥：1.5 MU IV over 1 小時\n使用限制：\n• 曾在 5 天–2 年內使用過 streptokinase 者禁止再用（抗體）\n• 過敏反應約 2%；低血壓（輕度）4–10%\n\n與 tPA 比較：tPA（纖維蛋白特異性）比 streptokinase（非特異性）更能恢復 TIMI 3 血流，存活率稍高。\n顱內出血：tPA/rPA 略高於 streptokinase",
-      "source": "Harrison's 22nd, Ch.286, p.2120",
-      "tags": ["STEMI", "streptokinase", "thrombolysis"]
-    },
-    {
-      "id": "h22_286_06",
-      "ch": 286,
-      "chapter": "ST-Segment Elevation Myocardial Infarction",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "STEMI 的梗塞後心臟功能損害程度受哪些因素影響？（至少 5 項）",
-      "back": "梗塞大小的決定因素：\n1. 受影響冠狀動脈供應的心肌範圍\n2. 血管是否完全閉塞\n3. 冠狀動脈閉塞的持續時間\n4. 側支循環（collateral circulation）的血流量\n5. 閉塞當時心肌的氧氣需求量\n6. 內源性血栓溶解機制\n7. 血流恢復後梗塞區的灌流充足性",
-      "source": "Harrison's 22nd, Ch.286, p.2113–2114",
-      "tags": ["STEMI", "infarct_size", "pathophysiology"]
-    },
-    {
-      "id": "h22_288_01",
-      "ch": 288,
-      "chapter": "Hypertension",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "高血壓的發病機制：Guyton 模型的核心概念是什麼？Pressure-natriuresis 現象？",
-      "back": "Guyton 模型（1960s）：腎臟排泄鈉的能力最終決定長期血壓水平。\n過程：鈉攝入↑ → 血漿量↑ → 心輸出量↑ → BP↑ → 腎臟尿鈉排泄↑（pressure-natriuresis）→ 回到鈉平衡（但代價是 BP 長期升高）。\n\n初期：CO ↑；長期：外周阻力↑、CO 回正常。\n排鈉能力受損者（如某些高血壓患者）需更高 BP 才能達到鈉平衡。",
-      "source": "Harrison's 22nd, Ch.288, p.2133–2134",
-      "tags": ["hypertension", "pathophysiology", "Guyton"]
-    },
-    {
-      "id": "h22_288_02",
-      "ch": 288,
-      "chapter": "Hypertension",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "各類降壓藥的作用機制概覽：ACEi、ARB、CCB、thiazide、loop diuretic、MRA、beta-blocker 各自如何降壓？",
-      "back": "• ACEi：抑制 ACE → 減少 Ang II 生成 + 抑制 bradykinin 降解（bradykinin→咳嗽/血管水腫）\n• ARB：阻斷 AT1 受體 → Ang II 效果↓（無 bradykinin 問題）\n• CCB：血管平滑肌擴張（阻斷 Ca²⁺ 內流）\n• Thiazide：抑制遠曲小管 Na-Cl cotransporter → 減少鈉水滯留（長期效果：降低外周阻力）\n• Loop diuretic：抑制 Henle's loop Na-K-2Cl → 強效排鈉（適合水腫，不適合長期降壓）\n• MRA（spironolactone）：拮抗 aldosterone → 保鉀排鈉\n• Beta-blocker：降低心率和 CO；減少腎素分泌",
-      "source": "Harrison's 22nd, Ch.288, p.2133–2134",
-      "tags": ["hypertension", "pharmacology", "antihypertensives"]
-    },
-    {
-      "id": "h22_288_03",
-      "ch": 288,
-      "chapter": "Hypertension",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "高血壓的目標器官損害包括哪些系統？高血壓急症（hypertensive emergency）的定義與治療原則？",
-      "back": "目標器官損害：\n• 心臟：LVH、心衰竭、CAD\n• 腦：中風（缺血性/出血性）、高血壓腦病\n• 腎臟：CKD、ESKD\n• 眼：高血壓視網膜病變\n• 血管：主動脈夾層、PAD\n\n高血壓急症定義：SBP >180/DBP >120 mmHg 合併急性器官損害（不是單靠 BP 數值）\n治療：靜脈給藥，第 1 小時不超過降低 25%，避免過快降壓（腦/冠狀動脈自動調節受損）",
-      "source": "Harrison's 22nd, Ch.288",
-      "tags": ["hypertension", "target_organ_damage", "emergency"]
-    },
-    {
-      "id": "h22_275_01",
-      "ch": 275,
-      "chapter": "Mitral Regurgitation",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "二尖瓣逆流（MR）最常見的病因有哪些？依解剖機制如何分類（Carpentier）？",
-      "back": "常見病因：\n• 最常見（已開發國家）：二尖瓣脫垂（MVP）\n• 風濕性心臟病\n• 感染性心內膜炎\n• 缺血性 MR（乳突肌功能失調）\n• 擴張性心肌病（環形擴大）\n• 退化性（calcification）\n\nCarpentier 功能分類：\n• Type I：正常瓣葉運動（環形擴大）\n• Type II：過度運動（脫垂）\n• Type III：運動受限（風濕性增厚、乳突肌纖維化）",
-      "source": "Harrison's 22nd, Ch.275",
-      "tags": ["mitral_regurgitation", "etiology", "classification"]
-    },
-    {
-      "id": "h22_276_01",
-      "ch": 276,
-      "chapter": "Mitral Valve Prolapse",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "二尖瓣脫垂（MVP）的定義、盛行率、最常見的聽診發現為何？",
-      "back": "定義：超音波上二尖瓣瓣葉在收縮期向 LA 方向脫垂 ≥ 2 mm（超過二尖瓣環平面）。\n盛行率：約 2–3%（最常見的先天性瓣膜異常）。\n聽診：\n• Mid-systolic click（典型）± late systolic murmur\n• Click 於站立或 Valsalva 時提早（瓣葉更多脫垂）；蹲下時延遲（LV 容積增加）\n多數無症狀；少數可有心悸、不典型胸痛；罕見嚴重 MR 或猝死風險。",
-      "source": "Harrison's 22nd, Ch.276",
-      "tags": ["mitral_valve_prolapse", "MVP"]
+      "tags": [
+        "atrial_fibrillation",
+        "rate_control",
+        "rhythm_control"
+      ]
     },
     {
       "id": "h22_258_08",
@@ -462,87 +283,11 @@
       "front": "AF 的肺靜脈（pulmonary vein）在發病機制中扮演什麼角色？",
       "back": "肺靜脈（PV）是 AF 最重要的觸發來源：\n• PV 肌袖（musculature sleeves）具有增強的自動性（automaticity）\n• PV 異位早搏（PAC）觸發 AF\n• PV 肌袖縮短了心房不反應期（refractory period），促進折返\n導管消融（catheter ablation）的核心：肺靜脈電隔離（PVI），在 PV 開口處形成電阻斷\n其他觸發區域：左房後壁、上腔靜脈、冠狀竇、Marshall 靜脈",
       "source": "Harrison's 22nd, Ch.258, p.1948",
-      "tags": ["atrial_fibrillation", "pathophysiology", "pulmonary_vein"]
-    },
-    {
-      "id": "h22_288_04",
-      "ch": 288,
-      "chapter": "Hypertension",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "ACEi 引起的咳嗽和血管水腫的機制為何？何種情況下須換用 ARB？",
-      "back": "機制：ACEi 抑制 ACE（kininase II）→ bradykinin 和 substance P 在肺部累積 → 咳嗽（乾咳）。\nAngioedema 機制類似（bradykinin 在局部累積），好發於嘴唇、舌、喉，可危及生命。\n\n處置：ACEi 引起的咳嗽或血管水腫 → 換 ARB（ARB 不影響 bradykinin 代謝，咳嗽發生率低，但罕見也可有 angioedema）。\n注意：ARB 同樣禁用於孕婦（同 ACEi）。",
-      "source": "Harrison's 22nd, Ch.288, p.2133",
-      "tags": ["hypertension", "ACEi", "side_effects", "bradykinin"]
-    },
-    {
-      "id": "h22_265_07",
-      "ch": 265,
-      "chapter": "Heart Failure: Management",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "ARNI（angiotensin receptor-neprilysin inhibitor，如 sacubitril/valsartan）的作用機制與在 HFrEF 中的效益？",
-      "back": "作用機制：\n• Sacubitril：neprilysin 抑制劑 → natriuretic peptides（BNP、ANP）降解減少 → 利尿/血管舒張/心肌保護\n• Valsartan：ARB → 阻斷 Ang II\n兩者合用可雙重擴張血管+保護心肌。\n\n效益（PARADIGM-HF 試驗）：ARNI vs enalapril → 降低心血管死亡+HF 住院複合終點約 20%，全因死亡率↓，且不劣於 ACEi。\n現在 ARNI 已取代 ACEi/ARB 成為 HFrEF 的首選 RAAS 阻斷劑。",
-      "source": "Harrison's 22nd, Ch.265",
-      "tags": ["heart_failure", "ARNI", "sacubitril_valsartan"]
-    },
-    {
-      "id": "h22_265_08",
-      "ch": 265,
-      "chapter": "Heart Failure: Management",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "心臟再同步化治療（CRT）和植入式心律去顫器（ICD）的適應症是什麼？",
-      "back": "ICD 適應症（HFrEF）：\n• LVEF ≤ 35%（在最佳藥物治療 ≥ 3 個月後）且 NYHA II–III、預期壽命 >1 年\n• 心因性猝死的第二級預防（VT/VF 存活者）\n\nCRT（cardiac resynchronization therapy）適應症：\n• LVEF ≤ 35% + LBBB（left bundle branch block）+ QRS ≥ 150 ms + NYHA II–IV（sinus rhythm）\n• 目的：糾正心室不同步、改善 CO、逆向重塑\nCRT-D（CRT + ICD）：同時符合兩者適應症",
-      "source": "Harrison's 22nd, Ch.265",
-      "tags": ["heart_failure", "CRT", "ICD", "device"]
-    },
-    {
-      "id": "h22_284_04",
-      "ch": 284,
-      "chapter": "Ischemic Heart Disease",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "急性冠心症（ACS）的分類：如何區分 UA、NSTEMI 和 STEMI？",
-      "back": "三者的關鍵鑑別：\n• STEMI：ECG 有 ST 上升（≥1mm in ≥2 contiguous leads；LBBB new onset） + 心肌酶（troponin）上升\n• NSTEMI：ECG 無 ST 上升（但可有 ST 壓低、T 波倒置或正常） + troponin 上升\n• UA（Unstable angina）：ECG 無 ST 上升 + troponin 未上升（缺血症狀但無壞死標記）\n\nSTEMI → 立即再灌注治療（primary PCI 優先）\nNSTEMI/UA → 早期風險評估（TIMI/GRACE score），早期侵入策略",
-      "source": "Harrison's 22nd, Ch.284–286",
-      "tags": ["ACS", "STEMI", "NSTEMI", "classification"]
-    },
-    {
-      "id": "h22_286_07",
-      "ch": 286,
-      "chapter": "ST-Segment Elevation Myocardial Infarction",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "STEMI 後心肌梗塞的急性機械併發症有哪些？（至少 4 項）",
-      "back": "STEMI 急性機械併發症：\n1. 乳突肌斷裂（papillary muscle rupture）→ 急性嚴重 MR，肺水腫\n2. 室間隔穿孔（VSD）→ 左到右分流，急性右心衰竭\n3. 左心室游離壁破裂（free wall rupture）→ 心包填塞，通常猝死\n4. 心室動脈瘤（LV aneurysm）→ 慢性，可有持續性 ST 上升\n5. Dressler syndrome（梗塞後心包炎，數週後）\n6. 急性乳突肌功能失調→ 急性 MR（不完全破裂）",
-      "source": "Harrison's 22nd, Ch.286",
-      "tags": ["STEMI", "complications", "mechanical"]
-    },
-    {
-      "id": "h22_294_01",
-      "ch": 294,
-      "chapter": "Pulmonary Hypertension",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "肺動脈高壓（PAH）的診斷定義為何？WHO 功能分類有哪幾級？",
-      "back": "血動力學診斷：右心導管（gold standard）\n• 靜息時平均肺動脈壓（mPAP）> 20 mmHg（2022 更新定義，原為 >25）\n• 肺毛細血管楔壓（PCWP）≤ 15 mmHg（排除左心疾病引起的 PH）\n• PVR ≥ 3 Wood units（毛細血管前型）\n\nWHO 功能分類（同 NYHA）：\n• I 級：無症狀\n• II 級：輕度活動受限\n• III 級：明顯活動受限，靜息無症狀\n• IV 級：靜息有症狀，無法任何活動",
-      "source": "Harrison's 22nd, Ch.294",
-      "tags": ["pulmonary_hypertension", "diagnosis", "WHO_classification"]
-    },
-    {
-      "id": "h22_294_02",
-      "ch": 294,
-      "chapter": "Pulmonary Hypertension",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "肺動脈高壓的 WHO Group 分類（Group 1–5）各代表什麼類型？",
-      "back": "WHO 肺高壓分類：\n• Group 1：肺動脈高壓（PAH）—特發性、遺傳性、藥物誘發、結締組織病相關\n• Group 2：左心疾病引起（最常見！）—HFpEF、HFrEF、瓣膜病\n• Group 3：肺部疾病/低氧引起—COPD、ILD、睡眠呼吸中止\n• Group 4：慢性血栓栓塞性肺高壓（CTEPH）—可手術！\n• Group 5：多因性/不明原因—血液疾病、系統性疾病",
-      "source": "Harrison's 22nd, Ch.294",
-      "tags": ["pulmonary_hypertension", "classification", "WHO_groups"]
-    },
-    {
-      "id": "h22_294_03",
-      "ch": 294,
-      "chapter": "Pulmonary Hypertension",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "Eisenmenger syndrome 的定義、機制及臨床管理重點為何？",
-      "back": "定義：先天性心臟病（左到右分流）長期使肺血管阻力升高，最終分流逆轉（右到左），導致發紺（cyanosis）。\n\n機制：高流量/高壓 → 肺血管重塑 → PVR 升高超過 SVR → 分流逆轉\n\n管理重點：\n• 避免脫水（維持充足 preload）\n• 避免全身血壓驟降（加重右到左分流）\n• 適當補鐵（缺鐵 = 功能降低）\n• 禁止懷孕（母親死亡率極高）\n• Bosentan（ERA）或 sildenafil（PDE5i）改善肺血管阻力",
-      "source": "Harrison's 22nd, Ch.280 + 294",
-      "tags": ["Eisenmenger", "congenital_heart_disease", "pulmonary_hypertension"]
+      "tags": [
+        "atrial_fibrillation",
+        "pathophysiology",
+        "pulmonary_vein"
+      ]
     },
     {
       "id": "h22_258_09",
@@ -552,87 +297,11 @@
       "front": "NOAC 的劑量調整時機（以 apixaban 為例）是什麼？哪些患者需要考慮降劑量？",
       "back": "Apixaban 標準劑量：5 mg bid\n降劑量至 2.5 mg bid（需符合以下 3 項中至少 2 項）：\n• 年齡 ≥ 80 歲\n• 體重 ≤ 60 kg\n• 血清肌酐 ≥ 1.5 mg/dL\n\nDabigatran 劑量降低（110 mg bid）：年齡 ≥ 80 歲、合用 verapamil、或出血風險高\nRivaroxaban 劑量降低（15 mg qd）：CrCl 15–49 mL/min\n腎衰竭末期：apixaban 和 rivaroxaban 有在血液透析患者使用的安全性資料",
       "source": "Harrison's 22nd, Ch.258, Table 258-2",
-      "tags": ["atrial_fibrillation", "NOAC", "dosing"]
-    },
-    {
-      "id": "h22_281_04",
-      "ch": 281,
-      "chapter": "Pericardial Disease",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "Dressler syndrome 的臨床特徵、時機與治療為何？與急性心包炎如何區別？",
-      "back": "Dressler syndrome（梗塞後心包炎）：\n• 發生時機：AMI 後數週至數月（通常 2–10 週）\n• 機制：自體免疫反應（抗心肌抗體）\n• 症狀：發燒、胸膜炎性胸痛、心包積液\n• 治療：NSAIDs（aspirin 最常用）、colchicine；類固醇保留難治性病例\n\n與急性心包炎區別：主要是時機（AMI 後延遲出現）；直接心包炎（epistenocardiac pericarditis）在 AMI 後 1–3 天出現，無免疫機制。",
-      "source": "Harrison's 22nd, Ch.281 + Ch.286",
-      "tags": ["pericarditis", "Dressler", "post_MI"]
-    },
-    {
-      "id": "h22_272_05",
-      "ch": 272,
-      "chapter": "Aortic Stenosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "鈣化性主動脈瓣狹窄（calcific AS）的發病機制為何？與動脈粥樣硬化有哪些共同機制？",
-      "back": "鈣化性 AS 是一個主動的纖維鈣化過程，非單純「磨損」：\n1. 內皮損傷 → 脂質（LDL、Lp(a)）和發炎細胞浸潤\n2. 炎症反應（巨噬細胞、T 細胞）→ 細胞因子釋放（TNF、IL-1β、TGF-β）\n3. Valvular interstitial cells（VIC）骨質化轉型（osteogenic transition）\n4. 鈣羥磷灰石（calcium hydroxyapatite）沉積\n共同機制：脂質浸潤、發炎、鈣化—類似動脈粥樣硬化。\n但他汀類藥物對 AS 進展無效（與動脈硬化不同）。",
-      "source": "Harrison's 22nd, Ch.272, p.2036",
-      "tags": ["aortic_stenosis", "pathogenesis", "calcific"]
-    },
-    {
-      "id": "h22_265_09",
-      "ch": 265,
-      "chapter": "Heart Failure: Management",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "Digoxin 在現代 HFrEF 治療中的角色為何？主要適應症與毒性表現？",
-      "back": "現代角色：已非 HFrEF 一線治療，但對特定患者仍有角色：\n• 有症狀的 HFrEF（NYHA III–IV）合用於 GDMT 基礎上，可降低 HF 住院（DIG 試驗）但無死亡率效益\n• 合併 AF 者：控制心室率\n\nDigoxin 毒性（治療窗窄）：\n• 心律不整（最危險）：心室早搏、AV block、VT/VF\n• GI：噁心、嘔吐、腹痛\n• 神經：視覺改變（黃綠視症 xanthopsia）、混亂\n• 誘因：低鉀血症（最重要！鉀低 → Dig 毒性↑）",
-      "source": "Harrison's 22nd, Ch.265",
-      "tags": ["heart_failure", "digoxin", "toxicity"]
-    },
-    {
-      "id": "h22_264_07",
-      "ch": 264,
-      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "心臟惡質病（cardiac cachexia）的診斷標準是什麼？其發生機制為何？",
-      "back": "診斷標準（需同時符合）：\n• 有基礎疾病且在 ≤ 12 個月內無水腫的體重下降 ≥ 5%（或 BMI <20）\n• 加上以下 5 項中至少 3 項：\n  1. 肌肉力量降低\n  2. 疲勞\n  3. 厭食\n  4. 低去脂肪量指數（low FFM index）\n  5. 異常生化：發炎、貧血、低白蛋白\n\n機制：食慾不振、腸壁水腫（脂肪吸收不良）、發炎細胞因子啟動（catabolic state）、GH-IGF-1 調節異常",
-      "source": "Harrison's 22nd, Ch.264, p.1983",
-      "tags": ["heart_failure", "cachexia", "complications"]
-    },
-    {
-      "id": "h22_284_05",
-      "ch": 284,
-      "chapter": "Ischemic Heart Disease",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "冠狀動脈痙攣性心絞痛（vasospastic angina / Prinzmetal's angina）的臨床特徵與治療為何？",
-      "back": "臨床特徵：\n• 靜息時心絞痛，無明顯誘因（常在凌晨）\n• ECG：短暫 ST 上升（不像穩定型的 ST 下降）\n• 可見正常或輕度 CAD\n• 可誘發嚴重心律不整（VT/VF）\n\n治療：\n• 一線：Calcium channel blockers（CCB）—長效 dihydropyridine CCB\n• Nitrates（長效）：輔助\n• 避免：beta-blocker（可加重痙攣）、吸菸（危險因子）",
-      "source": "Harrison's 22nd, Ch.284–285",
-      "tags": ["vasospastic_angina", "Prinzmetal", "treatment"]
-    },
-    {
-      "id": "h22_286_08",
-      "ch": 286,
-      "chapter": "ST-Segment Elevation Myocardial Infarction",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "Primary PCI 與 fibrinolysis 在 STEMI 治療中的選擇標準是什麼？",
-      "back": "優先選擇 Primary PCI 情況：\n• PCI 可在到達院後 90 分鐘內完成（door-to-balloon ≤90 min）\n• 有纖溶絕對禁忌症\n• 心原性休克或嚴重心衰竭\n• 症狀發作已 >2–3 小時（血栓較難溶解）\n\n考慮 fibrinolysis 情況：\n• 無法及時（>90–120 min）取得 primary PCI\n• 無禁忌症、症狀 <12 小時（越早越好）\n• Door-to-needle 目標：≤ 30 分鐘",
-      "source": "Harrison's 22nd, Ch.286, p.2120",
-      "tags": ["STEMI", "reperfusion", "PCI_vs_fibrinolysis"]
-    },
-    {
-      "id": "h22_288_05",
-      "ch": 288,
-      "chapter": "Hypertension",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "高血壓的二級病因（secondary hypertension）有哪些常見類型？各有什麼線索？",
-      "back": "常見二級病因及線索：\n• 腎動脈狹窄（RAS）：年輕女性（fibromuscular dysplasia）或老年動脈硬化；腹部血管雜音；ACEi/ARB 後 Cr 急升\n• 原發性醛固酮增多症（Conn's）：低血鉀高血壓；醛固酮/腎素比值升高（>30）；腎上腺瘤\n• 嗜鉻細胞瘤：陣發性頭痛、心悸、流汗三聯症；高血壓+心跳快\n• Cushing syndrome：向心性肥胖、月亮臉、紫色萎縮紋\n• 甲狀腺疾病（甲亢→收縮期高BP；甲低→舒張期高BP）\n• 睡眠呼吸中止（OSA）：晨間頭痛、打鼾、難治性高BP",
-      "source": "Harrison's 22nd, Ch.288",
-      "tags": ["hypertension", "secondary_hypertension"]
-    },
-    {
-      "id": "h22_264_08",
-      "ch": 264,
-      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "Natriuretic peptides（BNP、NT-proBNP）在心衰竭診斷中的角色為何？各自的正常值與解讀原則？",
-      "back": "BNP 和 NT-proBNP 是 HF 的重要生物標記：\n• 由 LV/RV 壓力增加或容量過負荷時心肌細胞分泌\n\nBNP：\n• <100 pg/mL：幾乎可排除 HF（高陰性預測值）\n• >400 pg/mL：HF 可能性高\n• 100–400 pg/mL：灰色地帶（需綜合判斷）\n\nNT-proBNP（半衰期較長）：\n• <300 pg/mL：排除急性 HF\n• 根據年齡設定切點（<50歲：>450；50–75歲：>900；>75歲：>1800 pg/mL）\n• 肥胖：BNP 和 NT-proBNP 偏低（假陰性）\n• 腎功能不全：NT-proBNP 偏高（累積）",
-      "source": "Harrison's 22nd, Ch.264",
-      "tags": ["heart_failure", "BNP", "biomarkers"]
+      "tags": [
+        "atrial_fibrillation",
+        "NOAC",
+        "dosing"
+      ]
     },
     {
       "id": "h22_258_10",
@@ -642,117 +311,11 @@
       "front": "AF 的心室速率控制目標為何？常用藥物有哪些？哪些情況需謹慎使用？",
       "back": "速率控制目標：靜息心率 <110 bpm（寬鬆目標）或 <80 bpm（嚴格目標，視症狀）\n\n常用藥物：\n• Beta-blocker（atenolol、metoprolol）：最常用，尤其合併高血壓、IHD\n• CCB（diltiazem、verapamil）：非 dihydropyridine\n• Digoxin：靜息時有效，運動時效果差；可合用\n\n注意事項：\n• WPW（預激症候群）合併 AF：禁用 AV 阻斷藥（beta-blocker、CCB、digoxin、adenosine）→ 避免加速旁道傳導 → VF！應用 procainamide 或直流電擊",
       "source": "Harrison's 22nd, Ch.258",
-      "tags": ["atrial_fibrillation", "rate_control", "pharmacology"]
-    },
-    {
-      "id": "h22_284_06",
-      "ch": 284,
-      "chapter": "Ischemic Heart Disease",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "穩定型心絞痛（stable angina）的藥物治療：抗心絞痛藥物的選擇原則？",
-      "back": "抗心絞痛藥物（依機制）：\n1. Beta-blocker（一線）：降低心率+收縮力 → 減少 MVO₂；尤其適合合併 HF/高BP/心肌梗塞後\n2. Nitrates（長效）：擴張靜脈（降低 preload）+擴張動脈（降低 afterload）；注意耐藥性（每天留 8–10hr nitrate-free interval）\n3. CCB（dihydropyridine：amlodipine 擴張冠狀動脈；non-DHP：diltiazem/verapamil 降低心率）\n\n降低心肌梗塞/死亡率：Aspirin + statin（必備）+ beta-blocker（MI 後）",
-      "source": "Harrison's 22nd, Ch.284",
-      "tags": ["stable_angina", "treatment", "antianginal"]
-    },
-    {
-      "id": "h22_288_06",
-      "ch": 288,
-      "chapter": "Hypertension",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "高血壓的非藥物（生活方式）介入有哪些？各自預計降壓幅度？",
-      "back": "生活方式介入（降收縮壓幅度）：\n• 限鈉（<2.4 g/day）：降 SBP 2–8 mmHg\n• DASH 飲食：降 SBP 8–14 mmHg\n• 減重（每減 10 kg）：降 SBP 5–20 mmHg\n• 規律有氧運動（30 min/day，每週多數天）：降 SBP 4–9 mmHg\n• 限酒（男 ≤ 2 drink/day；女 ≤ 1）：降 SBP 2–4 mmHg\n• 戒菸（降低心血管事件風險，對 BP 本身效果有限）",
-      "source": "Harrison's 22nd, Ch.288",
-      "tags": ["hypertension", "lifestyle", "non_pharmacological"]
-    },
-    {
-      "id": "h22_286_09",
-      "ch": 286,
-      "chapter": "ST-Segment Elevation Myocardial Infarction",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "STEMI 後的二級預防藥物有哪些？（標準處方清單）",
-      "back": "STEMI 後二級預防（標準「ABCDE」原則）：\n• Antiplatelet：Aspirin（終身）+ P2Y12 inhibitor（clopidogrel/ticagrelor/prasugrel）→ DAPT 至少 12 個月\n• Beta-blocker：降低心室重塑、心律不整和死亡率；從低劑量開始，目標心率 <70 bpm\n• ACEi/ARB（或 ARNI）：尤其 LVEF ≤ 40%、高血壓或糖尿病\n• Statin（高強度）：Atorvastatin 40–80 mg 或 rosuvastatin 20–40 mg；LDL-C 目標 <55 mg/dL\n• 生活方式：戒菸、飲食、運動心臟復健",
-      "source": "Harrison's 22nd, Ch.286",
-      "tags": ["STEMI", "secondary_prevention", "post_MI"]
-    },
-    {
-      "id": "h22_272_06",
-      "ch": 272,
-      "chapter": "Aortic Stenosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "TAVR（經導管主動脈瓣置換）vs SAVR（外科手術）的選擇原則為何？",
-      "back": "選擇依據：多學科心臟瓣膜團隊（heart team）評估，考量：\n• 手術風險（STS score）\n• 解剖適合性（valve/annulus morphology、blood vessel access）\n• 病人年齡和預期壽命\n\n一般指引：\n• 高手術風險（STS >8%）或解剖不適 SAVR → TAVR\n• 中等風險（STS 4–8%）→ TAVR 不劣於 SAVR（RCT 已證實）\n• 低風險（<75 歲，STS <4%）→ SAVR 傳統首選；TAVR 在低風險也顯示相當效果（PARTNER 3, Evolut Low Risk 試驗）",
-      "source": "Harrison's 22nd, Ch.272",
-      "tags": ["aortic_stenosis", "TAVR", "SAVR", "treatment"]
-    },
-    {
-      "id": "h22_264_09",
-      "ch": 264,
-      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "心衰竭的 NYHA 功能分類（Class I–IV）如何定義？",
-      "back": "NYHA 功能分類：\n• Class I：有心臟病但無症狀，一般活動不受限\n• Class II：輕度活動受限；一般活動（如爬樓梯）引起呼吸困難或疲勞\n• Class III：明顯活動受限；輕微活動（如平路行走）引起症狀；靜息時無症狀\n• Class IV：靜息時也有症狀；任何活動都加重症狀\n（與 ACC/AHA stage 不同：NYHA 反映功能狀態，隨治療可改善；ACC/AHA stage 為進行性）",
-      "source": "Harrison's 22nd, Ch.264",
-      "tags": ["heart_failure", "NYHA", "classification"]
-    },
-    {
-      "id": "h22_265_10",
-      "ch": 265,
-      "chapter": "Heart Failure: Management",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "急性失代償性心衰竭（ADHF）的初始血動力學評估：「warm/cold」和「wet/dry」如何幫助分類？",
-      "back": "血動力學分類（Forrester 分類）：\n根據灌流（perfusion）和充盈壓（congestion）：\n• Warm & Wet（最常見）：充血但灌流足夠 → 積極利尿脫水\n• Cold & Wet：充血且灌流不足（低心輸出）→ 利尿 + 增加心輸出（正性肌力藥或血管舒張劑）\n• Cold & Dry（心原性休克）：無充血但灌流不足 → 謹慎補液 + 正性肌力藥\n• Warm & Dry：無充血且灌流足夠 → 維持/優化 GDMT",
-      "source": "Harrison's 22nd, Ch.265",
-      "tags": ["heart_failure", "ADHF", "hemodynamics"]
-    },
-    {
-      "id": "h22_273_01",
-      "ch": 273,
-      "chapter": "Aortic Regurgitation",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "主動脈瓣逆流（AR）的慢性代償機制與急性 AR 的差異？急性 AR 為何是緊急情況？",
-      "back": "慢性 AR 代償機制：\n• LV 離心性肥厚（eccentric hypertrophy）：心室擴大以容納更多容量 → CO 維持\n• 心室順應性增加（降低 LVEDP）\n• 結果：長期無症狀，但心肌逐漸纖維化\n\n急性 AR（如感染性心內膜炎、主動脈剝離）：\n• LV 無法代償突然的大量逆流\n• LVEDP 急升 → 肺水腫 → 休克\n• 即使無症狀的慢性 AR，急性 AR 的徵兆（急速惡化）= 緊急手術",
-      "source": "Harrison's 22nd, Ch.273",
-      "tags": ["aortic_regurgitation", "pathophysiology", "acute_AR"]
-    },
-    {
-      "id": "h22_281_05",
-      "ch": 281,
-      "chapter": "Pericardial Disease",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "心包填塞（cardiac tamponade）的 pulsus paradoxus 是什麼？其機制為何？",
-      "back": "定義：吸氣時收縮血壓下降 >10 mmHg（正常吸氣時 SBP 稍降 <10 mmHg）。\n\n機制：\n1. 吸氣時胸腔負壓 → 右心靜脈回流增加、RV 擴大\n2. 心包填塞時心包腔內壓增加（積液壓迫）→ 室間隔左偏（interdependence）\n3. RV 擴大+室間隔左偏 → LV 容積縮小 → LV stroke volume ↓ → SBP 下降\n\n注意：Pulsus paradoxus 也見於嚴重哮喘和 COPD（機轉類似），但不見於縮窄性心包炎。",
-      "source": "Harrison's 22nd, Ch.281",
-      "tags": ["pericarditis", "tamponade", "pulsus_paradoxus"]
-    },
-    {
-      "id": "h22_284_07",
-      "ch": 284,
-      "chapter": "Ischemic Heart Disease",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "IVUS（血管內超音波）和 FFR（血流分數儲備）在冠狀動脈疾病評估中的角色？",
-      "back": "IVUS（Intravascular ultrasound）：\n• 評估斑塊負荷、血管壁特性（鈣化、軟斑、混合斑）\n• 指引支架置放（最佳尺寸、貼壁程度）\n• 評估 stent underexpansion（原因造成支架內再狹窄）\n\nFFR（Fractional Flow Reserve）：\n• 以壓力導絲測量狹窄遠端/近端壓力比（正常=1；≤0.75–0.80 代表血流意義性狹窄）\n• 指引 PCI 決策：FFR >0.80 → 可延遲血運重建（DEFER、FAME 試驗）\n• 解決「中間病變」（50–70% 狹窄）是否需要介入的爭議",
-      "source": "Harrison's 22nd, Ch.284",
-      "tags": ["IHD", "IVUS", "FFR", "PCI"]
-    },
-    {
-      "id": "h22_286_10",
-      "ch": 286,
-      "chapter": "ST-Segment Elevation Myocardial Infarction",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "STEMI 合併心原性休克（cardiogenic shock）時，PCI 策略有何特殊考量？",
-      "back": "心原性休克定義：SBP <90 mmHg 或需升壓藥維持，伴有低灌流表現（冷腳、少尿、意識改變）\n\nPCI 策略：\n• 立即對 culprit artery 行 PCI（Culprit-only PCI）\n• 注意：心原性休克合併 STEMI，禁止在同次手術對非罪犯血管行 PCI！（CULPRIT-SHOCK 試驗顯示完整血運重建增加死亡率/腎衰竭）\n• 可考慮 IABP（主動脈內球囊幫浦）或其他機械循環輔助\n• 如果多條血管嚴重病變，非罪犯血管的 PCI 應延後到血動力學穩定後",
-      "source": "Harrison's 22nd, Ch.286",
-      "tags": ["STEMI", "cardiogenic_shock", "PCI"]
-    },
-    {
-      "id": "h22_288_07",
-      "ch": 288,
-      "chapter": "Hypertension",
-      "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "根據 2017 ACC/AHA 指引，高血壓如何定義與分類？（各血壓範圍）",
-      "back": "2017 ACC/AHA 分類（SBP/DBP mmHg）：\n• Normal：<120 / <80\n• Elevated：120–129 / <80\n• Stage 1 HTN：130–139 / 80–89\n• Stage 2 HTN：≥ 140 / ≥ 90\n• Hypertensive crisis（急症/緊急症）：>180 / >120\n\n（台灣高血壓學會等國際指引仍多使用 ≥ 140/90 mmHg 為高血壓定義，但美國 AHA 已降至 130/80）",
-      "source": "Harrison's 22nd, Ch.288",
-      "tags": ["hypertension", "definition", "classification", "guidelines"]
+      "tags": [
+        "atrial_fibrillation",
+        "rate_control",
+        "pharmacology"
+      ]
     },
     {
       "id": "h22_258_11",
@@ -762,27 +325,273 @@
       "front": "心房顫動合併心衰竭（AF + HF）時，導管消融（catheter ablation）有何特別的效益證據？",
       "back": "AF + HF（尤其 HFrEF）進行導管消融（PVI）的效益：\n• CASTLE-AF 試驗：AF 合併 HFrEF 患者，ablation vs 藥物治療 → 降低全因死亡率（HR ~0.53）和心衰竭住院\n• 機制：維持竇律 → 消除 tachycardia-induced cardiomyopathy、改善 LV 同步性\n• 與 AFFIRM 等舊試驗不同，新試驗使用 ablation 策略並嚴格維持抗凝血治療\n\n亦有研究：AF 合併末期 HF 接受 ablation + GDMT → 降低複合終點（死亡、LVAD、緊急移植）",
       "source": "Harrison's 22nd, Ch.258, p.1952",
-      "tags": ["atrial_fibrillation", "catheter_ablation", "heart_failure"]
+      "tags": [
+        "atrial_fibrillation",
+        "catheter_ablation",
+        "heart_failure"
+      ]
     },
     {
-      "id": "h22_274_06",
-      "ch": 274,
-      "chapter": "Mitral Stenosis",
+      "id": "h22_264_01",
+      "ch": 264,
+      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
       "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "二尖瓣狹窄（MS）手術適應症：何時考慮 PMBV（經皮球囊二尖瓣切開術）vs 外科手術？",
-      "back": "PMBV（Percutaneous mitral balloon valvotomy）適應症：\n• 有症狀的重度 MS（MVA <1.5 cm²）\n• 瓣膜解剖適合：瓣葉彈性好、無嚴重鈣化、輕度 MR（Wilkins score ≤ 8 通常最佳）\n• 無左心耳血栓\n\n外科手術（mitral commissurotomy 或 MVR）適應症：\n• PMBV 解剖不適合（重度鈣化、嚴重 MR、瓣葉 subvalvular involvement 嚴重）\n• PMBV 失敗或再狹窄\n• 需要同時處理其他瓣膜病變",
-      "source": "Harrison's 22nd, Ch.274",
-      "tags": ["mitral_stenosis", "PMBV", "treatment", "surgery"]
+      "front": "心衰竭（HF）依射出分率如何分類？各自的 LVEF 切點為何？",
+      "back": "分三類：\n• HFrEF（射出分率降低）：LVEF ≤ 40%\n• HFmrEF（射出分率輕度降低）：LVEF 41–49%\n• HFpEF（射出分率保留）：LVEF ≥ 50%",
+      "source": "Harrison's 22nd, Ch.264–265, p.1975–1987",
+      "tags": [
+        "heart_failure",
+        "classification"
+      ]
     },
     {
-      "id": "h22_286_11",
-      "ch": 286,
-      "chapter": "ST-Segment Elevation Myocardial Infarction",
+      "id": "h22_264_02",
+      "ch": 264,
+      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
       "part": "PART 6 Disorders of the Cardiovascular System",
-      "front": "STEMI 後的右心室梗塞（right ventricular MI）有哪些特徵？治療原則與一般 LV 梗塞有何不同？",
-      "back": "右心室梗塞特徵：\n• 多見於下壁 MI（RCA 近端阻塞）\n• 典型三聯症：低血壓 + 頸靜脈怒張 + 肺部清晰（無肺水腫）\n• V4R lead 的 ST 上升（診斷敏感性高）\n\n治療原則（與一般 STEMI 不同）：\n• 積極補液（右心需要 preload！）\n• 禁用或謹慎使用硝酸鹽（降低 preload → 加重低血壓）\n• 禁用利尿劑（進一步降低 preload）\n• 儘快再灌流（primary PCI）\n• 若合併 AVB → 可考慮起搏",
-      "source": "Harrison's 22nd, Ch.286",
-      "tags": ["STEMI", "right_ventricular_MI", "treatment"]
+      "front": "心衰竭的 ACC/AHA 分期（Stage A–D）分別代表什麼？",
+      "back": "• Stage A：有 HF 高危因子但無心臟結構異常或症狀\n• Stage B：有心臟結構異常但無 HF 症狀（無症狀 LV 功能不全）\n• Stage C：有心臟結構異常且有 HF 症狀（現在或曾有）\n• Stage D：難治性 HF，需要特殊介入（LVAD、心臟移植、安寧）",
+      "source": "Harrison's 22nd, Ch.265, p.1987",
+      "tags": [
+        "heart_failure",
+        "staging"
+      ]
+    },
+    {
+      "id": "h22_264_03",
+      "ch": 264,
+      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "心衰竭的常見誘發因子有哪些？（至少列出 6 項）",
+      "back": "病人相關：過度活動、過量鈉/液體攝入、不遵從用藥、過量飲酒\n醫師相關：使用 NSAIDs（鈉水滯留）、使用負性肌力藥（如某些 CCB）\nHF 相關：未控制高血壓、心肌缺血/梗塞、心律不整、肺栓塞\n其他疾病：全身感染、腎/肝衰竭、甲狀腺亢進、睡眠呼吸中止、貧血",
+      "source": "Harrison's 22nd, Ch.264, p.1983",
+      "tags": [
+        "heart_failure",
+        "triggers"
+      ]
+    },
+    {
+      "id": "h22_264_04",
+      "ch": 264,
+      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "Pulsus alternans 在心衰竭中代表什麼，其機制為何？",
+      "back": "Pulsus alternans 是指強弱交替的脈搏，見於嚴重心衰竭。\n機制：左心室每隔一次心跳收縮力不足（回復不完全），導致每隔一次的 stroke volume 降低，形成強-弱-強-弱的交替脈。",
+      "source": "Harrison's 22nd, Ch.264, p.1983",
+      "tags": [
+        "heart_failure",
+        "physical_exam"
+      ]
+    },
+    {
+      "id": "h22_264_05",
+      "ch": 264,
+      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "如何評估頸靜脈壓（JVP）？正常值為何？Kussmaul's sign 見於哪些疾病？",
+      "back": "評估：病人以 45° 角臥躺，測靜脈血柱高度高於胸骨角的公分數，再加 5cm（RA 位置）。\n正常 JVP ≤ 8 cmH₂O。\nKussmaul's sign（吸氣時 JVP 上升）見於：嚴重雙心室衰竭、縮窄性心包炎、限制性心肌病。",
+      "source": "Harrison's 22nd, Ch.264, p.1983–1984",
+      "tags": [
+        "heart_failure",
+        "physical_exam",
+        "JVP"
+      ]
+    },
+    {
+      "id": "h22_264_06",
+      "ch": 264,
+      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "心衰竭時胸部聽診有哪些重要發現？為何慢性 HF 病人有時沒有肺部囉音？",
+      "back": "HF 聽診發現：\n• 肺基底部囉音（rales）—因肺泡液體滲出\n• 喘鳴（cardiac asthma）—支氣管黏膜充血\n• 胸腔積液—對側常在右側\n慢性 HF 無囉音原因：長期高 PCWP 使淋巴引流代償增加，阻止液體從間質進入肺泡。",
+      "source": "Harrison's 22nd, Ch.264, p.1983",
+      "tags": [
+        "heart_failure",
+        "physical_exam"
+      ]
+    },
+    {
+      "id": "h22_264_07",
+      "ch": 264,
+      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "心臟惡質病（cardiac cachexia）的診斷標準是什麼？其發生機制為何？",
+      "back": "診斷標準（需同時符合）：\n• 有基礎疾病且在 ≤ 12 個月內無水腫的體重下降 ≥ 5%（或 BMI <20）\n• 加上以下 5 項中至少 3 項：\n  1. 肌肉力量降低\n  2. 疲勞\n  3. 厭食\n  4. 低去脂肪量指數（low FFM index）\n  5. 異常生化：發炎、貧血、低白蛋白\n\n機制：食慾不振、腸壁水腫（脂肪吸收不良）、發炎細胞因子啟動（catabolic state）、GH-IGF-1 調節異常",
+      "source": "Harrison's 22nd, Ch.264, p.1983",
+      "tags": [
+        "heart_failure",
+        "cachexia",
+        "complications"
+      ]
+    },
+    {
+      "id": "h22_264_08",
+      "ch": 264,
+      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "Natriuretic peptides（BNP、NT-proBNP）在心衰竭診斷中的角色為何？各自的正常值與解讀原則？",
+      "back": "BNP 和 NT-proBNP 是 HF 的重要生物標記：\n• 由 LV/RV 壓力增加或容量過負荷時心肌細胞分泌\n\nBNP：\n• <100 pg/mL：幾乎可排除 HF（高陰性預測值）\n• >400 pg/mL：HF 可能性高\n• 100–400 pg/mL：灰色地帶（需綜合判斷）\n\nNT-proBNP（半衰期較長）：\n• <300 pg/mL：排除急性 HF\n• 根據年齡設定切點（<50歲：>450；50–75歲：>900；>75歲：>1800 pg/mL）\n• 肥胖：BNP 和 NT-proBNP 偏低（假陰性）\n• 腎功能不全：NT-proBNP 偏高（累積）",
+      "source": "Harrison's 22nd, Ch.264",
+      "tags": [
+        "heart_failure",
+        "BNP",
+        "biomarkers"
+      ]
+    },
+    {
+      "id": "h22_264_09",
+      "ch": 264,
+      "chapter": "Heart Failure: Pathophysiology and Diagnosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "心衰竭的 NYHA 功能分類（Class I–IV）如何定義？",
+      "back": "NYHA 功能分類：\n• Class I：有心臟病但無症狀，一般活動不受限\n• Class II：輕度活動受限；一般活動（如爬樓梯）引起呼吸困難或疲勞\n• Class III：明顯活動受限；輕微活動（如平路行走）引起症狀；靜息時無症狀\n• Class IV：靜息時也有症狀；任何活動都加重症狀\n（與 ACC/AHA stage 不同：NYHA 反映功能狀態，隨治療可改善；ACC/AHA stage 為進行性）",
+      "source": "Harrison's 22nd, Ch.264",
+      "tags": [
+        "heart_failure",
+        "NYHA",
+        "classification"
+      ]
+    },
+    {
+      "id": "h22_265_01",
+      "ch": 265,
+      "chapter": "Heart Failure: Management",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "HFrEF 的四大支柱藥物（GDMT）是什麼？每類各有哪些代表藥？",
+      "back": "四大支柱（Fantastic Four）：\n1. ACEi/ARB/ARNI（沙庫必曲/纈沙坦 = sacubitril/valsartan）\n2. β-blocker（僅 carvedilol、bisoprolol、metoprolol succinate 有存活效益）\n3. MRA（mineralocorticoid receptor antagonist）：spironolactone、eplerenone\n4. SGLT2i：empagliflozin、dapagliflozin",
+      "source": "Harrison's 22nd, Ch.265, p.1994–2001",
+      "tags": [
+        "heart_failure",
+        "treatment",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "h22_265_02",
+      "ch": 265,
+      "chapter": "Heart Failure: Management",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "HFrEF 中哪三種 beta-blocker 被 RCT 證實有存活效益？哪些 beta-blocker 無效？",
+      "back": "有效（proven survival benefit）：\n• Carvedilol（α₁+β blocker）\n• Bisoprolol（β₁ selective）\n• Metoprolol succinate（β₁ selective，長效）\n\n無效：具有內在交感活性（ISA）的 beta-blocker，如 xamoterol；bucindolol 也未顯示存活效益。",
+      "source": "Harrison's 22nd, Ch.265, p.1994",
+      "tags": [
+        "heart_failure",
+        "beta_blocker",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "h22_265_03",
+      "ch": 265,
+      "chapter": "Heart Failure: Management",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "ACEi 在 HFrEF 中的效益數字為何？加上 beta-blocker 後額外多少效益？",
+      "back": "• ACEi 單獨：可降低死亡率約 23%，降低死亡+住院複合終點約 35%\n• 加上 beta-blocker：在 ACEi 基礎上再降低死亡率約 35%\n先用哪個不重要（CIBIS III 試驗），重要的是兩者都要達到目標劑量。",
+      "source": "Harrison's 22nd, Ch.265, p.1994",
+      "tags": [
+        "heart_failure",
+        "ACEi",
+        "evidence"
+      ]
+    },
+    {
+      "id": "h22_265_04",
+      "ch": 265,
+      "chapter": "Heart Failure: Management",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "Spironolactone 與 eplerenone 用於 HFrEF 的主要區別是什麼？何時偏好使用 eplerenone？",
+      "back": "Spironolactone（RALES 試驗，NYHA III–IV）：有抗雄激素副作用→男性乳房發育、性功能障礙。\nEplerenone（EMPHASIS 試驗，NYHA II；EPHESUS 試驗，MI 後 LV 功能不全）：無抗雄激素作用。\n偏好 eplerenone：男性有 gynecomastia、陽萎、性慾降低等副作用時。",
+      "source": "Harrison's 22nd, Ch.265, p.1994",
+      "tags": [
+        "heart_failure",
+        "MRA",
+        "pharmacology"
+      ]
+    },
+    {
+      "id": "h22_265_05",
+      "ch": 265,
+      "chapter": "Heart Failure: Management",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "HFpEF 目前有哪些被證實有效的藥物？HFpEF 傳統治療重點是什麼？",
+      "back": "傳統上 HFpEF 缺乏改善預後的藥物，近年新進展：\n• SGLT2i（empagliflozin/dapagliflozin）：可降低 HFmrEF/HFpEF 的心血管死亡和 HF 住院\n• Sacubitril/valsartan（PARAGON-HF）：可能對 LVEF <60% 者有益\n• GLP-1 agonist：肥胖型 HFpEF 患者可能有益\n傳統治療重點：控制症狀（利尿）、控制心律、控制血壓、治療共病（肥胖、DM、睡眠呼吸中止）",
+      "source": "Harrison's 22nd, Ch.265, p.1987–1988",
+      "tags": [
+        "heart_failure",
+        "HFpEF",
+        "treatment"
+      ]
+    },
+    {
+      "id": "h22_265_06",
+      "ch": 265,
+      "chapter": "Heart Failure: Management",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "Hydralazine + isosorbide dinitrate 用於 HFrEF 的適應症為何？在哪個族群特別有效？",
+      "back": "適應症：無法耐受 RAAS 阻斷劑（ACEi/ARB）的 HFrEF 患者（因腎功能不全或高血鉀）。\n特別有效：自我認定為非裔美國人的嚴重 HFrEF（A-HeFT 試驗），在 ACEi + beta-blocker 背景治療上加入可再降低死亡率和 HF 住院率。\n機制：hydralazine 降低周邊阻力，nitrates 透過 NO → cGMP 造成靜脈和動脈擴張。",
+      "source": "Harrison's 22nd, Ch.265, p.1994–1995",
+      "tags": [
+        "heart_failure",
+        "vasodilators",
+        "treatment"
+      ]
+    },
+    {
+      "id": "h22_265_07",
+      "ch": 265,
+      "chapter": "Heart Failure: Management",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "ARNI（angiotensin receptor-neprilysin inhibitor，如 sacubitril/valsartan）的作用機制與在 HFrEF 中的效益？",
+      "back": "作用機制：\n• Sacubitril：neprilysin 抑制劑 → natriuretic peptides（BNP、ANP）降解減少 → 利尿/血管舒張/心肌保護\n• Valsartan：ARB → 阻斷 Ang II\n兩者合用可雙重擴張血管+保護心肌。\n\n效益（PARADIGM-HF 試驗）：ARNI vs enalapril → 降低心血管死亡+HF 住院複合終點約 20%，全因死亡率↓，且不劣於 ACEi。\n現在 ARNI 已取代 ACEi/ARB 成為 HFrEF 的首選 RAAS 阻斷劑。",
+      "source": "Harrison's 22nd, Ch.265",
+      "tags": [
+        "heart_failure",
+        "ARNI",
+        "sacubitril_valsartan"
+      ]
+    },
+    {
+      "id": "h22_265_08",
+      "ch": 265,
+      "chapter": "Heart Failure: Management",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "心臟再同步化治療（CRT）和植入式心律去顫器（ICD）的適應症是什麼？",
+      "back": "ICD 適應症（HFrEF）：\n• LVEF ≤ 35%（在最佳藥物治療 ≥ 3 個月後）且 NYHA II–III、預期壽命 >1 年\n• 心因性猝死的第二級預防（VT/VF 存活者）\n\nCRT（cardiac resynchronization therapy）適應症：\n• LVEF ≤ 35% + LBBB（left bundle branch block）+ QRS ≥ 150 ms + NYHA II–IV（sinus rhythm）\n• 目的：糾正心室不同步、改善 CO、逆向重塑\nCRT-D（CRT + ICD）：同時符合兩者適應症",
+      "source": "Harrison's 22nd, Ch.265",
+      "tags": [
+        "heart_failure",
+        "CRT",
+        "ICD",
+        "device"
+      ]
+    },
+    {
+      "id": "h22_265_09",
+      "ch": 265,
+      "chapter": "Heart Failure: Management",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "Digoxin 在現代 HFrEF 治療中的角色為何？主要適應症與毒性表現？",
+      "back": "現代角色：已非 HFrEF 一線治療，但對特定患者仍有角色：\n• 有症狀的 HFrEF（NYHA III–IV）合用於 GDMT 基礎上，可降低 HF 住院（DIG 試驗）但無死亡率效益\n• 合併 AF 者：控制心室率\n\nDigoxin 毒性（治療窗窄）：\n• 心律不整（最危險）：心室早搏、AV block、VT/VF\n• GI：噁心、嘔吐、腹痛\n• 神經：視覺改變（黃綠視症 xanthopsia）、混亂\n• 誘因：低鉀血症（最重要！鉀低 → Dig 毒性↑）",
+      "source": "Harrison's 22nd, Ch.265",
+      "tags": [
+        "heart_failure",
+        "digoxin",
+        "toxicity"
+      ]
+    },
+    {
+      "id": "h22_265_10",
+      "ch": 265,
+      "chapter": "Heart Failure: Management",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "急性失代償性心衰竭（ADHF）的初始血動力學評估：「warm/cold」和「wet/dry」如何幫助分類？",
+      "back": "血動力學分類（Forrester 分類）：\n根據灌流（perfusion）和充盈壓（congestion）：\n• Warm & Wet（最常見）：充血但灌流足夠 → 積極利尿脫水\n• Cold & Wet：充血且灌流不足（低心輸出）→ 利尿 + 增加心輸出（正性肌力藥或血管舒張劑）\n• Cold & Dry（心原性休克）：無充血但灌流不足 → 謹慎補液 + 正性肌力藥\n• Warm & Dry：無充血且灌流足夠 → 維持/優化 GDMT",
+      "source": "Harrison's 22nd, Ch.265",
+      "tags": [
+        "heart_failure",
+        "ADHF",
+        "hemodynamics"
+      ]
     },
     {
       "id": "h22_265_11",
@@ -792,7 +601,109 @@
       "front": "SGLT2 抑制劑（如 empagliflozin）在心衰竭中的多重保護機制為何？",
       "back": "SGLT2i 在 HF 中的保護機制（多面向）：\n1. 滲透性利尿（glucosuria + natriuresis）→ 減少心臟前負荷\n2. 抑制 Na-H exchanger in heart → 降低細胞內 Na+/Ca²+ overload\n3. 改善心肌能量代謝（促進酮體利用，「super fuel」）\n4. 減少心肌纖維化\n5. 抑制 NHE1 → 減少心室重塑\n\n臨床效益：\n• HFrEF（DAPA-HF, EMPEROR-Reduced）：降低心血管死亡+HF 住院\n• HFpEF/HFmrEF（EMPEROR-Preserved, DELIVER）：同樣顯著效益",
       "source": "Harrison's 22nd, Ch.265",
-      "tags": ["heart_failure", "SGLT2i", "mechanism"]
+      "tags": [
+        "heart_failure",
+        "SGLT2i",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "h22_272_01",
+      "ch": 272,
+      "chapter": "Aortic Stenosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "主動脈瓣狹窄（AS）的嚴重度分級標準為何？（valve area 和 mean gradient）",
+      "back": "嚴重 AS 的血動力學標準（同時需評估）：\n• 主動脈瓣面積（AVA）< 1.0 cm²（或 < 0.6 cm²/m² BSA）\n• 平均壓差（mean gradient）> 40 mmHg（正常 CO 下）\n• 峰值速度（peak velocity）> 4 m/s\n• Low-flow/low-gradient AS（SVi <35 mL/m² 且 mean gradient <40 mmHg）：需特別診斷挑戰",
+      "source": "Harrison's 22nd, Ch.272, p.2037",
+      "tags": [
+        "aortic_stenosis",
+        "severity",
+        "valvular_heart_disease"
+      ]
+    },
+    {
+      "id": "h22_272_02",
+      "ch": 272,
+      "chapter": "Aortic Stenosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "二葉式主動脈瓣（Bicuspid aortic valve, BAV）的流行病學和遺傳學重點為何？",
+      "back": "• 最常見的先天性心臟瓣膜缺陷，佔人口 0.5–1.4%\n• 男：女 = 2–4：1\n• 遺傳：體染色體顯性、不完全外顯率；一等親盛行率約 10%\n• 相關基因突變：NOTCH1、GATA4、GATA5\n• 常合併主動脈擴張/夾層（aortopathy，與瓣膜血動力學嚴重度無關）\n• 可合併 Turner syndrome",
+      "source": "Harrison's 22nd, Ch.272, p.2036",
+      "tags": [
+        "aortic_stenosis",
+        "bicuspid_valve",
+        "congenital"
+      ]
+    },
+    {
+      "id": "h22_272_03",
+      "ch": 272,
+      "chapter": "Aortic Stenosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "主動脈瓣狹窄的三大典型症狀為何？出現症狀後平均存活期各為多久？",
+      "back": "三大典型症狀（按出現順序）：\n1. Angina（心絞痛）→ 平均存活約 5 年\n2. Syncope（昏厥）→ 平均存活約 3 年\n3. Heart failure（心衰竭、dyspnea）→ 平均存活約 2 年\n\n記憶口訣：AS → SAD（Syncope、Angina、Dyspnea）\n一旦出現症狀即為 AVR 的適應症（symptom = operate）",
+      "source": "Harrison's 22nd, Ch.272, p.2037–2038",
+      "tags": [
+        "aortic_stenosis",
+        "symptoms",
+        "prognosis"
+      ]
+    },
+    {
+      "id": "h22_272_04",
+      "ch": 272,
+      "chapter": "Aortic Stenosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "主動脈瓣狹窄的病理生理學：LV 如何代償持續性後負荷增加？最終如何失代償？",
+      "back": "初期代償：LV 向心性肥厚（concentric hypertrophy）→ 依 Laplace 定律（S=Pr/h）降低壁應力 → 維持心輸出量\n長期後果（失代償）：\n• 心肌纖維化\n• 舒張功能障礙（elevated LVEDP）\n• 收縮功能下降（afterload mismatch）\n• 心肌缺血（即使無 CAD）：肥厚的 LV 增加 O₂需求；冠狀動脈灌流壓降低（高 LVEDP）；capillary density 相對不足",
+      "source": "Harrison's 22nd, Ch.272, p.2037",
+      "tags": [
+        "aortic_stenosis",
+        "pathophysiology"
+      ]
+    },
+    {
+      "id": "h22_272_05",
+      "ch": 272,
+      "chapter": "Aortic Stenosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "鈣化性主動脈瓣狹窄（calcific AS）的發病機制為何？與動脈粥樣硬化有哪些共同機制？",
+      "back": "鈣化性 AS 是一個主動的纖維鈣化過程，非單純「磨損」：\n1. 內皮損傷 → 脂質（LDL、Lp(a)）和發炎細胞浸潤\n2. 炎症反應（巨噬細胞、T 細胞）→ 細胞因子釋放（TNF、IL-1β、TGF-β）\n3. Valvular interstitial cells（VIC）骨質化轉型（osteogenic transition）\n4. 鈣羥磷灰石（calcium hydroxyapatite）沉積\n共同機制：脂質浸潤、發炎、鈣化—類似動脈粥樣硬化。\n但他汀類藥物對 AS 進展無效（與動脈硬化不同）。",
+      "source": "Harrison's 22nd, Ch.272, p.2036",
+      "tags": [
+        "aortic_stenosis",
+        "pathogenesis",
+        "calcific"
+      ]
+    },
+    {
+      "id": "h22_272_06",
+      "ch": 272,
+      "chapter": "Aortic Stenosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "TAVR（經導管主動脈瓣置換）vs SAVR（外科手術）的選擇原則為何？",
+      "back": "選擇依據：多學科心臟瓣膜團隊（heart team）評估，考量：\n• 手術風險（STS score）\n• 解剖適合性（valve/annulus morphology、blood vessel access）\n• 病人年齡和預期壽命\n\n一般指引：\n• 高手術風險（STS >8%）或解剖不適 SAVR → TAVR\n• 中等風險（STS 4–8%）→ TAVR 不劣於 SAVR（RCT 已證實）\n• 低風險（<75 歲，STS <4%）→ SAVR 傳統首選；TAVR 在低風險也顯示相當效果（PARTNER 3, Evolut Low Risk 試驗）",
+      "source": "Harrison's 22nd, Ch.272",
+      "tags": [
+        "aortic_stenosis",
+        "TAVR",
+        "SAVR",
+        "treatment"
+      ]
+    },
+    {
+      "id": "h22_273_01",
+      "ch": 273,
+      "chapter": "Aortic Regurgitation",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "主動脈瓣逆流（AR）的慢性代償機制與急性 AR 的差異？急性 AR 為何是緊急情況？",
+      "back": "慢性 AR 代償機制：\n• LV 離心性肥厚（eccentric hypertrophy）：心室擴大以容納更多容量 → CO 維持\n• 心室順應性增加（降低 LVEDP）\n• 結果：長期無症狀，但心肌逐漸纖維化\n\n急性 AR（如感染性心內膜炎、主動脈剝離）：\n• LV 無法代償突然的大量逆流\n• LVEDP 急升 → 肺水腫 → 休克\n• 即使無症狀的慢性 AR，急性 AR 的徵兆（急速惡化）= 緊急手術",
+      "source": "Harrison's 22nd, Ch.273",
+      "tags": [
+        "aortic_regurgitation",
+        "pathophysiology",
+        "acute_AR"
+      ]
     },
     {
       "id": "h22_273_02",
@@ -802,7 +713,862 @@
       "front": "慢性主動脈瓣逆流（chronic AR）的典型心臟聽診發現和脈搏異常有哪些？",
       "back": "聽診：\n• Early diastolic murmur（主要）：在 LLSB（left lower sternal border）或主動脈區，高調、吹風樣，向左側臥 + 身體前傾時加強\n• Austin Flint murmur：中舒張期低頻隆隆聲（逆流的血流衝擊二尖瓣前葉 → 功能性 MS）\n\n脈搏/血壓異常（wide pulse pressure + high stroke volume）：\n• Corrigan's pulse（water-hammer pulse）：脈搏快速上升後急降\n• Quincke's sign：指甲床微血管搏動\n• de Musset's sign：頭部隨心跳搖動\n• Duroziez's sign：股動脈聽診出現來回雜音",
       "source": "Harrison's 22nd, Ch.273",
-      "tags": ["aortic_regurgitation", "physical_exam", "murmur"]
+      "tags": [
+        "aortic_regurgitation",
+        "physical_exam",
+        "murmur"
+      ]
+    },
+    {
+      "id": "h22_274_01",
+      "ch": 274,
+      "chapter": "Mitral Stenosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "二尖瓣狹窄（MS）的最常見病因為何？病理上有何特徵性外觀？",
+      "back": "最常見病因：風濕性心臟病（rheumatic fever）\n約 40% 風濕性心臟病患者有純 MS 或以 MS 為主。\n病理特徵：\n• 瓣葉瀰漫增厚、纖維化、鈣化\n• 交合部融合（commissural fusion）\n• 腱索融合縮短\n• 形成「魚口」（fish-mouth）外觀的漏斗狀瓣口\nSLE、RA、心房黏液瘤、感染性心內膜炎也可引起 MS。",
+      "source": "Harrison's 22nd, Ch.274, p.2048",
+      "tags": [
+        "mitral_stenosis",
+        "etiology",
+        "pathology"
+      ]
+    },
+    {
+      "id": "h22_274_02",
+      "ch": 274,
+      "chapter": "Mitral Stenosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "二尖瓣狹窄的嚴重度分類：正常瓣口面積為何？何時定義為重度 MS？",
+      "back": "• 正常 MVA：4–6 cm²\n• 輕度 MS：MVA > 1.5 cm²（有症狀的臨界值約 2 cm²）\n• 重度 MS（severe）：MVA < 1.5 cm²（需要 LA 壓力約 25 mmHg 才能維持正常 CO）\n• 極重度 MS：MVA < 1.0 cm²\n血動力學標準：存在 LA–LV 壓差（transvalvular pressure gradient）= MS 的血動力學標記",
+      "source": "Harrison's 22nd, Ch.274, p.2048",
+      "tags": [
+        "mitral_stenosis",
+        "severity"
+      ]
+    },
+    {
+      "id": "h22_274_03",
+      "ch": 274,
+      "chapter": "Mitral Stenosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "為何 MS 患者在心跳加速（如 AF 快速心室率）時症狀會急遽惡化？",
+      "back": "心跳加速時舒張期縮短（比收縮期縮短更多）→ 通過二尖瓣的時間縮短 → 相同 CO 下 transvalvular pressure gradient 急升 → LA 壓力驟升 → 肺靜脈高壓 → 呼吸困難惡化。\n因此 MS 患者：積極控制心室率（AF）是核心治療之一；任何造成心跳加速的因素（發燒、貧血、甲亢、運動、懷孕）都是誘發因子。",
+      "source": "Harrison's 22nd, Ch.274, p.2048",
+      "tags": [
+        "mitral_stenosis",
+        "pathophysiology",
+        "AF"
+      ]
+    },
+    {
+      "id": "h22_274_04",
+      "ch": 274,
+      "chapter": "Mitral Stenosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "MS 引起的肺高壓有哪四個機制？嚴重肺高壓的後果是什麼？",
+      "back": "肺高壓四機制：\n1. LA 壓力被動後向傳導（passive back-transmission）\n2. 肺小動脈收縮（second stenosis）—反應性肺高壓\n3. 小肺血管壁間質水腫\n4. 晚期肺血管床器質性閉塞性改變\n嚴重肺高壓後果：RV 擴大、繼發性 tricuspid regurgitation（TR）和 pulmonic regurgitation（PR）、右心衰竭",
+      "source": "Harrison's 22nd, Ch.274, p.2048–2049",
+      "tags": [
+        "mitral_stenosis",
+        "pulmonary_hypertension"
+      ]
+    },
+    {
+      "id": "h22_274_05",
+      "ch": 274,
+      "chapter": "Mitral Stenosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "Ortner's syndrome（cardiovocal syndrome）是什麼？見於何種心臟疾病？",
+      "back": "Ortner's syndrome：左喉返神經（left recurrent laryngeal nerve）受到擴大的左心房壓迫，導致聲音嘶啞（hoarseness）。\n\n見於：顯著左心房擴大，最典型是嚴重二尖瓣狹窄（MS）。\n也可見於：二尖瓣逆流（MR）、肺動脈高壓、主動脈瘤。",
+      "source": "Harrison's 22nd, Ch.274, p.2049",
+      "tags": [
+        "mitral_stenosis",
+        "complications",
+        "Ortner"
+      ]
+    },
+    {
+      "id": "h22_274_06",
+      "ch": 274,
+      "chapter": "Mitral Stenosis",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "二尖瓣狹窄（MS）手術適應症：何時考慮 PMBV（經皮球囊二尖瓣切開術）vs 外科手術？",
+      "back": "PMBV（Percutaneous mitral balloon valvotomy）適應症：\n• 有症狀的重度 MS（MVA <1.5 cm²）\n• 瓣膜解剖適合：瓣葉彈性好、無嚴重鈣化、輕度 MR（Wilkins score ≤ 8 通常最佳）\n• 無左心耳血栓\n\n外科手術（mitral commissurotomy 或 MVR）適應症：\n• PMBV 解剖不適合（重度鈣化、嚴重 MR、瓣葉 subvalvular involvement 嚴重）\n• PMBV 失敗或再狹窄\n• 需要同時處理其他瓣膜病變",
+      "source": "Harrison's 22nd, Ch.274",
+      "tags": [
+        "mitral_stenosis",
+        "PMBV",
+        "treatment",
+        "surgery"
+      ]
+    },
+    {
+      "id": "h22_275_01",
+      "ch": 275,
+      "chapter": "Mitral Regurgitation",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "二尖瓣逆流（MR）最常見的病因有哪些？依解剖機制如何分類（Carpentier）？",
+      "back": "常見病因：\n• 最常見（已開發國家）：二尖瓣脫垂（MVP）\n• 風濕性心臟病\n• 感染性心內膜炎\n• 缺血性 MR（乳突肌功能失調）\n• 擴張性心肌病（環形擴大）\n• 退化性（calcification）\n\nCarpentier 功能分類：\n• Type I：正常瓣葉運動（環形擴大）\n• Type II：過度運動（脫垂）\n• Type III：運動受限（風濕性增厚、乳突肌纖維化）",
+      "source": "Harrison's 22nd, Ch.275",
+      "tags": [
+        "mitral_regurgitation",
+        "etiology",
+        "classification"
+      ]
+    },
+    {
+      "id": "h22_276_01",
+      "ch": 276,
+      "chapter": "Mitral Valve Prolapse",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "二尖瓣脫垂（MVP）的定義、盛行率、最常見的聽診發現為何？",
+      "back": "定義：超音波上二尖瓣瓣葉在收縮期向 LA 方向脫垂 ≥ 2 mm（超過二尖瓣環平面）。\n盛行率：約 2–3%（最常見的先天性瓣膜異常）。\n聽診：\n• Mid-systolic click（典型）± late systolic murmur\n• Click 於站立或 Valsalva 時提早（瓣葉更多脫垂）；蹲下時延遲（LV 容積增加）\n多數無症狀；少數可有心悸、不典型胸痛；罕見嚴重 MR 或猝死風險。",
+      "source": "Harrison's 22nd, Ch.276",
+      "tags": [
+        "mitral_valve_prolapse",
+        "MVP"
+      ]
+    },
+    {
+      "id": "h22_281_01",
+      "ch": 281,
+      "chapter": "Pericardial Disease",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "急性心包炎的四大診斷特徵是什麼？（診斷需符合幾項？）",
+      "back": "急性心包炎診斷需符合以下 ≥ 2 項（其中胸痛為必要條件）：\n1. 胸痛：尖銳、胸膜炎性質，坐前傾減輕，仰臥加重\n2. 心包摩擦音（pericardial friction rub）\n3. ECG 改變：廣泛性 ST 上升（呈 saddle-shaped）、PR 壓低\n4. 新發或加重的心包積液（超音波確認）",
+      "source": "Harrison's 22nd, Ch.281, p.2079",
+      "tags": [
+        "pericarditis",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "h22_281_02",
+      "ch": 281,
+      "chapter": "Pericardial Disease",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "正常心包腔內含多少液體？心包填塞（cardiac tamponade）的 Beck's triad 是什麼？",
+      "back": "正常心包液：15–50 mL（血漿超濾液）\n\nBeck's triad（心包填塞的臨床三聯症）：\n1. 低血壓（hypotension）\n2. 頸靜脈怒張（elevated JVP / JVD）\n3. 心音減弱（muffled heart sounds）\n\n其他重要表現：Pulsus paradoxus（吸氣時收縮壓下降 >10 mmHg）",
+      "source": "Harrison's 22nd, Ch.281, p.2078–2080",
+      "tags": [
+        "pericarditis",
+        "tamponade",
+        "Beck_triad"
+      ]
+    },
+    {
+      "id": "h22_281_03",
+      "ch": 281,
+      "chapter": "Pericardial Disease",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "縮窄性心包炎（constrictive pericarditis）與限制性心肌病（restrictive cardiomyopathy）的鑑別診斷重點？",
+      "back": "縮窄性心包炎特徵：\n• Kussmaul's sign（吸氣時 JVP 上升）陽性\n• 心臟鈣化（X-ray、CT）\n• Pericardial knock（心音）\n• Respirophasic variation in echocardiography\n• CT/MRI：心包增厚 >3 mm\n\n限制性心肌病特徵：\n• 無心包鈣化\n• 組織多普勒（TDI）：e' 速度降低（心肌異常）\n• 心肌切片：澱粉樣變性、纖維化等\n\n兩者共同點：雙心室舒張期充填壓升高、心室容積正常、收縮功能正常",
+      "source": "Harrison's 22nd, Ch.281",
+      "tags": [
+        "pericarditis",
+        "constrictive",
+        "restrictive_cardiomyopathy"
+      ]
+    },
+    {
+      "id": "h22_281_04",
+      "ch": 281,
+      "chapter": "Pericardial Disease",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "Dressler syndrome 的臨床特徵、時機與治療為何？與急性心包炎如何區別？",
+      "back": "Dressler syndrome（梗塞後心包炎）：\n• 發生時機：AMI 後數週至數月（通常 2–10 週）\n• 機制：自體免疫反應（抗心肌抗體）\n• 症狀：發燒、胸膜炎性胸痛、心包積液\n• 治療：NSAIDs（aspirin 最常用）、colchicine；類固醇保留難治性病例\n\n與急性心包炎區別：主要是時機（AMI 後延遲出現）；直接心包炎（epistenocardiac pericarditis）在 AMI 後 1–3 天出現，無免疫機制。",
+      "source": "Harrison's 22nd, Ch.281 + Ch.286",
+      "tags": [
+        "pericarditis",
+        "Dressler",
+        "post_MI"
+      ]
+    },
+    {
+      "id": "h22_281_05",
+      "ch": 281,
+      "chapter": "Pericardial Disease",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "心包填塞（cardiac tamponade）的 pulsus paradoxus 是什麼？其機制為何？",
+      "back": "定義：吸氣時收縮血壓下降 >10 mmHg（正常吸氣時 SBP 稍降 <10 mmHg）。\n\n機制：\n1. 吸氣時胸腔負壓 → 右心靜脈回流增加、RV 擴大\n2. 心包填塞時心包腔內壓增加（積液壓迫）→ 室間隔左偏（interdependence）\n3. RV 擴大+室間隔左偏 → LV 容積縮小 → LV stroke volume ↓ → SBP 下降\n\n注意：Pulsus paradoxus 也見於嚴重哮喘和 COPD（機轉類似），但不見於縮窄性心包炎。",
+      "source": "Harrison's 22nd, Ch.281",
+      "tags": [
+        "pericarditis",
+        "tamponade",
+        "pulsus_paradoxus"
+      ]
+    },
+    {
+      "id": "h22_284_01",
+      "ch": 284,
+      "chapter": "Ischemic Heart Disease",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "心肌耗氧量（MVO₂）的主要決定因素有哪些？冠狀動脈阻力由哪三組血管決定？",
+      "back": "心肌耗氧量（MVO₂）主要決定因素：\n1. 心率（heart rate）\n2. 心肌收縮力（contractility）\n3. 心室壁張力（wall tension / stress）\n\n冠狀動脈阻力三組（約 75% 總阻力）：\n• R1：大冠狀動脈（epicardial arteries，正常幾乎無阻力）\n• R2：前小動脈（prearteriolar vessels）\n• R3：小動脈及心肌內毛細血管（arteriolar/intramyocardial capillary）\n正常：R1 幾乎無阻力；R2+R3 為主要調節部位",
+      "source": "Harrison's 22nd, Ch.284, p.2090–2091",
+      "tags": [
+        "ischemic_heart_disease",
+        "pathophysiology"
+      ]
+    },
+    {
+      "id": "h22_284_02",
+      "ch": 284,
+      "chapter": "Ischemic Heart Disease",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "穩定型冠狀動脈疾病（chronic coronary syndrome）的主要危險因子有哪些？",
+      "back": "主要危險因子（Framingham 等研究確立）：\n1. 高 LDL-C（最重要的可改變危險因子）\n2. 吸菸\n3. 高血壓\n4. 糖尿病\n5. 肥胖/代謝症候群\n6. 身體活動不足\n7. 家族史（一等親男性 <55 歲、女性 <65 歲）\n新興危險因子：Lp(a)（脂蛋白(a)）升高、CRP 升高、睡眠呼吸中止",
+      "source": "Harrison's 22nd, Ch.284, p.2091",
+      "tags": [
+        "ischemic_heart_disease",
+        "risk_factors"
+      ]
+    },
+    {
+      "id": "h22_284_03",
+      "ch": 284,
+      "chapter": "Ischemic Heart Disease",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "微血管性心絞痛（microvascular angina）的概念是什麼？與一般 obstructive CAD 有何不同？",
+      "back": "微血管性心絞痛（cardiac syndrome X）：\n• 有典型心絞痛症狀 + 運動誘發 ST 壓低\n• 但冠狀動脈造影顯示無明顯阻塞性 CAD（狹窄 <50%）\n• 機制：冠狀動脈微循環（R2/R3）功能異常，無法適當擴張\n• 較常見於女性\n與 obstructive CAD 不同：主要是微循環異常，非 epicardial plaque；長期預後相對較好，但症狀負擔高",
+      "source": "Harrison's 22nd, Ch.284, p.2091",
+      "tags": [
+        "ischemic_heart_disease",
+        "microvascular_angina"
+      ]
+    },
+    {
+      "id": "h22_284_04",
+      "ch": 284,
+      "chapter": "Ischemic Heart Disease",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "急性冠心症（ACS）的分類：如何區分 UA、NSTEMI 和 STEMI？",
+      "back": "三者的關鍵鑑別：\n• STEMI：ECG 有 ST 上升（≥1mm in ≥2 contiguous leads；LBBB new onset） + 心肌酶（troponin）上升\n• NSTEMI：ECG 無 ST 上升（但可有 ST 壓低、T 波倒置或正常） + troponin 上升\n• UA（Unstable angina）：ECG 無 ST 上升 + troponin 未上升（缺血症狀但無壞死標記）\n\nSTEMI → 立即再灌注治療（primary PCI 優先）\nNSTEMI/UA → 早期風險評估（TIMI/GRACE score），早期侵入策略",
+      "source": "Harrison's 22nd, Ch.284–286",
+      "tags": [
+        "ACS",
+        "STEMI",
+        "NSTEMI",
+        "classification"
+      ]
+    },
+    {
+      "id": "h22_284_05",
+      "ch": 284,
+      "chapter": "Ischemic Heart Disease",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "冠狀動脈痙攣性心絞痛（vasospastic angina / Prinzmetal's angina）的臨床特徵與治療為何？",
+      "back": "臨床特徵：\n• 靜息時心絞痛，無明顯誘因（常在凌晨）\n• ECG：短暫 ST 上升（不像穩定型的 ST 下降）\n• 可見正常或輕度 CAD\n• 可誘發嚴重心律不整（VT/VF）\n\n治療：\n• 一線：Calcium channel blockers（CCB）—長效 dihydropyridine CCB\n• Nitrates（長效）：輔助\n• 避免：beta-blocker（可加重痙攣）、吸菸（危險因子）",
+      "source": "Harrison's 22nd, Ch.284–285",
+      "tags": [
+        "vasospastic_angina",
+        "Prinzmetal",
+        "treatment"
+      ]
+    },
+    {
+      "id": "h22_284_06",
+      "ch": 284,
+      "chapter": "Ischemic Heart Disease",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "穩定型心絞痛（stable angina）的藥物治療：抗心絞痛藥物的選擇原則？",
+      "back": "抗心絞痛藥物（依機制）：\n1. Beta-blocker（一線）：降低心率+收縮力 → 減少 MVO₂；尤其適合合併 HF/高BP/心肌梗塞後\n2. Nitrates（長效）：擴張靜脈（降低 preload）+擴張動脈（降低 afterload）；注意耐藥性（每天留 8–10hr nitrate-free interval）\n3. CCB（dihydropyridine：amlodipine 擴張冠狀動脈；non-DHP：diltiazem/verapamil 降低心率）\n\n降低心肌梗塞/死亡率：Aspirin + statin（必備）+ beta-blocker（MI 後）",
+      "source": "Harrison's 22nd, Ch.284",
+      "tags": [
+        "stable_angina",
+        "treatment",
+        "antianginal"
+      ]
+    },
+    {
+      "id": "h22_284_07",
+      "ch": 284,
+      "chapter": "Ischemic Heart Disease",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "IVUS（血管內超音波）和 FFR（血流分數儲備）在冠狀動脈疾病評估中的角色？",
+      "back": "IVUS（Intravascular ultrasound）：\n• 評估斑塊負荷、血管壁特性（鈣化、軟斑、混合斑）\n• 指引支架置放（最佳尺寸、貼壁程度）\n• 評估 stent underexpansion（原因造成支架內再狹窄）\n\nFFR（Fractional Flow Reserve）：\n• 以壓力導絲測量狹窄遠端/近端壓力比（正常=1；≤0.75–0.80 代表血流意義性狹窄）\n• 指引 PCI 決策：FFR >0.80 → 可延遲血運重建（DEFER、FAME 試驗）\n• 解決「中間病變」（50–70% 狹窄）是否需要介入的爭議",
+      "source": "Harrison's 22nd, Ch.284",
+      "tags": [
+        "IHD",
+        "IVUS",
+        "FFR",
+        "PCI"
+      ]
+    },
+    {
+      "id": "h22_286_01",
+      "ch": 286,
+      "chapter": "ST-Segment Elevation Myocardial Infarction",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "STEMI 的病理生理：斑塊破裂後如何形成冠狀動脈完全閉塞？",
+      "back": "過程：\n1. 易碎斑塊（thin fibrous cap + large lipid core）破裂或侵蝕（erosion）\n2. 暴露膠原蛋白 → 血小板活化（thromboxane A₂、ADP、serotonin 釋放）\n3. GP IIb/IIIa 受體構象改變 → 與 fibrinogen 高親和力結合 → 血小板聚集\n4. 組織因子（tissue factor）暴露 → 凝血瀑布活化 → thrombin → fibrin\n5. 血小板聚集 + fibrin 股 = 閉塞性血栓 → STEMI",
+      "source": "Harrison's 22nd, Ch.286, p.2113",
+      "tags": [
+        "STEMI",
+        "pathophysiology",
+        "plaque_rupture"
+      ]
+    },
+    {
+      "id": "h22_286_02",
+      "ch": 286,
+      "chapter": "ST-Segment Elevation Myocardial Infarction",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "TIMI flow grade 0–3 各代表什麼？reperfusion 的目標是哪個等級？",
+      "back": "TIMI（Thrombolysis In Myocardial Infarction）血流分級：\n• Grade 0：完全閉塞，無血流通過\n• Grade 1：少量顯影劑通過阻塞點，但遠端未灌流\n• Grade 2：整條血管可見顯影，但血流延遲（比正常慢）\n• Grade 3：完全灌流，血流正常（=目標！）\n\nTIMI 3 才能最大化限制梗塞面積、保留 LV 功能、降低死亡率",
+      "source": "Harrison's 22nd, Ch.286, p.2120",
+      "tags": [
+        "STEMI",
+        "TIMI",
+        "reperfusion"
+      ]
+    },
+    {
+      "id": "h22_286_03",
+      "ch": 286,
+      "chapter": "ST-Segment Elevation Myocardial Infarction",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "STEMI 的血栓溶解治療：tPA 的給藥方案為何？Door-to-needle 目標時間？",
+      "back": "tPA 給藥方案：\n• 15 mg IV bolus\n• 接著 50 mg 靜脈輸注（前 30 分鐘）\n• 再接著 35 mg 輸注（後 60 分鐘）\n（總量：根據體重調整，最高 100 mg）\n\nDoor-to-needle 目標：≤ 30 分鐘（從到院到開始溶栓）\nDoor-to-balloon（primary PCI）目標：≤ 90 分鐘",
+      "source": "Harrison's 22nd, Ch.286, p.2120",
+      "tags": [
+        "STEMI",
+        "thrombolysis",
+        "tPA",
+        "door_to_needle"
+      ]
+    },
+    {
+      "id": "h22_286_04",
+      "ch": 286,
+      "chapter": "ST-Segment Elevation Myocardial Infarction",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "溶栓治療的絕對禁忌症有哪些？（至少列出 5 項）",
+      "back": "絕對禁忌症：\n1. 任何時間的顱內出血病史\n2. 過去 1 年內非出血性腦中風或其他腦血管事件\n3. 嚴重高血壓（SBP >180 mmHg 或 DBP >110 mmHg，無法控制）\n4. 疑似主動脈剝離（aortic dissection）\n5. 活動性內出血（除月經外）\n相對禁忌症（需評估風險效益比）：目前使用抗凝血藥（INR >2）、近 2 週手術或侵入性操作、懷孕、出血性視網膜病變",
+      "source": "Harrison's 22nd, Ch.286, p.2120",
+      "tags": [
+        "STEMI",
+        "thrombolysis",
+        "contraindications"
+      ]
+    },
+    {
+      "id": "h22_286_05",
+      "ch": 286,
+      "chapter": "ST-Segment Elevation Myocardial Infarction",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "Streptokinase 的給藥方式及使用限制為何？與 tPA 在溶栓效果上有何差異？",
+      "back": "Streptokinase 給藥：1.5 MU IV over 1 小時\n使用限制：\n• 曾在 5 天–2 年內使用過 streptokinase 者禁止再用（抗體）\n• 過敏反應約 2%；低血壓（輕度）4–10%\n\n與 tPA 比較：tPA（纖維蛋白特異性）比 streptokinase（非特異性）更能恢復 TIMI 3 血流，存活率稍高。\n顱內出血：tPA/rPA 略高於 streptokinase",
+      "source": "Harrison's 22nd, Ch.286, p.2120",
+      "tags": [
+        "STEMI",
+        "streptokinase",
+        "thrombolysis"
+      ]
+    },
+    {
+      "id": "h22_286_06",
+      "ch": 286,
+      "chapter": "ST-Segment Elevation Myocardial Infarction",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "STEMI 的梗塞後心臟功能損害程度受哪些因素影響？（至少 5 項）",
+      "back": "梗塞大小的決定因素：\n1. 受影響冠狀動脈供應的心肌範圍\n2. 血管是否完全閉塞\n3. 冠狀動脈閉塞的持續時間\n4. 側支循環（collateral circulation）的血流量\n5. 閉塞當時心肌的氧氣需求量\n6. 內源性血栓溶解機制\n7. 血流恢復後梗塞區的灌流充足性",
+      "source": "Harrison's 22nd, Ch.286, p.2113–2114",
+      "tags": [
+        "STEMI",
+        "infarct_size",
+        "pathophysiology"
+      ]
+    },
+    {
+      "id": "h22_286_07",
+      "ch": 286,
+      "chapter": "ST-Segment Elevation Myocardial Infarction",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "STEMI 後心肌梗塞的急性機械併發症有哪些？（至少 4 項）",
+      "back": "STEMI 急性機械併發症：\n1. 乳突肌斷裂（papillary muscle rupture）→ 急性嚴重 MR，肺水腫\n2. 室間隔穿孔（VSD）→ 左到右分流，急性右心衰竭\n3. 左心室游離壁破裂（free wall rupture）→ 心包填塞，通常猝死\n4. 心室動脈瘤（LV aneurysm）→ 慢性，可有持續性 ST 上升\n5. Dressler syndrome（梗塞後心包炎，數週後）\n6. 急性乳突肌功能失調→ 急性 MR（不完全破裂）",
+      "source": "Harrison's 22nd, Ch.286",
+      "tags": [
+        "STEMI",
+        "complications",
+        "mechanical"
+      ]
+    },
+    {
+      "id": "h22_286_08",
+      "ch": 286,
+      "chapter": "ST-Segment Elevation Myocardial Infarction",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "Primary PCI 與 fibrinolysis 在 STEMI 治療中的選擇標準是什麼？",
+      "back": "優先選擇 Primary PCI 情況：\n• PCI 可在到達院後 90 分鐘內完成（door-to-balloon ≤90 min）\n• 有纖溶絕對禁忌症\n• 心原性休克或嚴重心衰竭\n• 症狀發作已 >2–3 小時（血栓較難溶解）\n\n考慮 fibrinolysis 情況：\n• 無法及時（>90–120 min）取得 primary PCI\n• 無禁忌症、症狀 <12 小時（越早越好）\n• Door-to-needle 目標：≤ 30 分鐘",
+      "source": "Harrison's 22nd, Ch.286, p.2120",
+      "tags": [
+        "STEMI",
+        "reperfusion",
+        "PCI_vs_fibrinolysis"
+      ]
+    },
+    {
+      "id": "h22_286_09",
+      "ch": 286,
+      "chapter": "ST-Segment Elevation Myocardial Infarction",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "STEMI 後的二級預防藥物有哪些？（標準處方清單）",
+      "back": "STEMI 後二級預防（標準「ABCDE」原則）：\n• Antiplatelet：Aspirin（終身）+ P2Y12 inhibitor（clopidogrel/ticagrelor/prasugrel）→ DAPT 至少 12 個月\n• Beta-blocker：降低心室重塑、心律不整和死亡率；從低劑量開始，目標心率 <70 bpm\n• ACEi/ARB（或 ARNI）：尤其 LVEF ≤ 40%、高血壓或糖尿病\n• Statin（高強度）：Atorvastatin 40–80 mg 或 rosuvastatin 20–40 mg；LDL-C 目標 <55 mg/dL\n• 生活方式：戒菸、飲食、運動心臟復健",
+      "source": "Harrison's 22nd, Ch.286",
+      "tags": [
+        "STEMI",
+        "secondary_prevention",
+        "post_MI"
+      ]
+    },
+    {
+      "id": "h22_286_10",
+      "ch": 286,
+      "chapter": "ST-Segment Elevation Myocardial Infarction",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "STEMI 合併心原性休克（cardiogenic shock）時，PCI 策略有何特殊考量？",
+      "back": "心原性休克定義：SBP <90 mmHg 或需升壓藥維持，伴有低灌流表現（冷腳、少尿、意識改變）\n\nPCI 策略：\n• 立即對 culprit artery 行 PCI（Culprit-only PCI）\n• 注意：心原性休克合併 STEMI，禁止在同次手術對非罪犯血管行 PCI！（CULPRIT-SHOCK 試驗顯示完整血運重建增加死亡率/腎衰竭）\n• 可考慮 IABP（主動脈內球囊幫浦）或其他機械循環輔助\n• 如果多條血管嚴重病變，非罪犯血管的 PCI 應延後到血動力學穩定後",
+      "source": "Harrison's 22nd, Ch.286",
+      "tags": [
+        "STEMI",
+        "cardiogenic_shock",
+        "PCI"
+      ]
+    },
+    {
+      "id": "h22_286_11",
+      "ch": 286,
+      "chapter": "ST-Segment Elevation Myocardial Infarction",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "STEMI 後的右心室梗塞（right ventricular MI）有哪些特徵？治療原則與一般 LV 梗塞有何不同？",
+      "back": "右心室梗塞特徵：\n• 多見於下壁 MI（RCA 近端阻塞）\n• 典型三聯症：低血壓 + 頸靜脈怒張 + 肺部清晰（無肺水腫）\n• V4R lead 的 ST 上升（診斷敏感性高）\n\n治療原則（與一般 STEMI 不同）：\n• 積極補液（右心需要 preload！）\n• 禁用或謹慎使用硝酸鹽（降低 preload → 加重低血壓）\n• 禁用利尿劑（進一步降低 preload）\n• 儘快再灌流（primary PCI）\n• 若合併 AVB → 可考慮起搏",
+      "source": "Harrison's 22nd, Ch.286",
+      "tags": [
+        "STEMI",
+        "right_ventricular_MI",
+        "treatment"
+      ]
+    },
+    {
+      "id": "h22_288_01",
+      "ch": 288,
+      "chapter": "Hypertension",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "高血壓的發病機制：Guyton 模型的核心概念是什麼？Pressure-natriuresis 現象？",
+      "back": "Guyton 模型（1960s）：腎臟排泄鈉的能力最終決定長期血壓水平。\n過程：鈉攝入↑ → 血漿量↑ → 心輸出量↑ → BP↑ → 腎臟尿鈉排泄↑（pressure-natriuresis）→ 回到鈉平衡（但代價是 BP 長期升高）。\n\n初期：CO ↑；長期：外周阻力↑、CO 回正常。\n排鈉能力受損者（如某些高血壓患者）需更高 BP 才能達到鈉平衡。",
+      "source": "Harrison's 22nd, Ch.288, p.2133–2134",
+      "tags": [
+        "hypertension",
+        "pathophysiology",
+        "Guyton"
+      ]
+    },
+    {
+      "id": "h22_288_02",
+      "ch": 288,
+      "chapter": "Hypertension",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "各類降壓藥的作用機制概覽：ACEi、ARB、CCB、thiazide、loop diuretic、MRA、beta-blocker 各自如何降壓？",
+      "back": "• ACEi：抑制 ACE → 減少 Ang II 生成 + 抑制 bradykinin 降解（bradykinin→咳嗽/血管水腫）\n• ARB：阻斷 AT1 受體 → Ang II 效果↓（無 bradykinin 問題）\n• CCB：血管平滑肌擴張（阻斷 Ca²⁺ 內流）\n• Thiazide：抑制遠曲小管 Na-Cl cotransporter → 減少鈉水滯留（長期效果：降低外周阻力）\n• Loop diuretic：抑制 Henle's loop Na-K-2Cl → 強效排鈉（適合水腫，不適合長期降壓）\n• MRA（spironolactone）：拮抗 aldosterone → 保鉀排鈉\n• Beta-blocker：降低心率和 CO；減少腎素分泌",
+      "source": "Harrison's 22nd, Ch.288, p.2133–2134",
+      "tags": [
+        "hypertension",
+        "pharmacology",
+        "antihypertensives"
+      ]
+    },
+    {
+      "id": "h22_288_03",
+      "ch": 288,
+      "chapter": "Hypertension",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "高血壓的目標器官損害包括哪些系統？高血壓急症（hypertensive emergency）的定義與治療原則？",
+      "back": "目標器官損害：\n• 心臟：LVH、心衰竭、CAD\n• 腦：中風（缺血性/出血性）、高血壓腦病\n• 腎臟：CKD、ESKD\n• 眼：高血壓視網膜病變\n• 血管：主動脈夾層、PAD\n\n高血壓急症定義：SBP >180/DBP >120 mmHg 合併急性器官損害（不是單靠 BP 數值）\n治療：靜脈給藥，第 1 小時不超過降低 25%，避免過快降壓（腦/冠狀動脈自動調節受損）",
+      "source": "Harrison's 22nd, Ch.288",
+      "tags": [
+        "hypertension",
+        "target_organ_damage",
+        "emergency"
+      ]
+    },
+    {
+      "id": "h22_288_04",
+      "ch": 288,
+      "chapter": "Hypertension",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "ACEi 引起的咳嗽和血管水腫的機制為何？何種情況下須換用 ARB？",
+      "back": "機制：ACEi 抑制 ACE（kininase II）→ bradykinin 和 substance P 在肺部累積 → 咳嗽（乾咳）。\nAngioedema 機制類似（bradykinin 在局部累積），好發於嘴唇、舌、喉，可危及生命。\n\n處置：ACEi 引起的咳嗽或血管水腫 → 換 ARB（ARB 不影響 bradykinin 代謝，咳嗽發生率低，但罕見也可有 angioedema）。\n注意：ARB 同樣禁用於孕婦（同 ACEi）。",
+      "source": "Harrison's 22nd, Ch.288, p.2133",
+      "tags": [
+        "hypertension",
+        "ACEi",
+        "side_effects",
+        "bradykinin"
+      ]
+    },
+    {
+      "id": "h22_288_05",
+      "ch": 288,
+      "chapter": "Hypertension",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "高血壓的二級病因（secondary hypertension）有哪些常見類型？各有什麼線索？",
+      "back": "常見二級病因及線索：\n• 腎動脈狹窄（RAS）：年輕女性（fibromuscular dysplasia）或老年動脈硬化；腹部血管雜音；ACEi/ARB 後 Cr 急升\n• 原發性醛固酮增多症（Conn's）：低血鉀高血壓；醛固酮/腎素比值升高（>30）；腎上腺瘤\n• 嗜鉻細胞瘤：陣發性頭痛、心悸、流汗三聯症；高血壓+心跳快\n• Cushing syndrome：向心性肥胖、月亮臉、紫色萎縮紋\n• 甲狀腺疾病（甲亢→收縮期高BP；甲低→舒張期高BP）\n• 睡眠呼吸中止（OSA）：晨間頭痛、打鼾、難治性高BP",
+      "source": "Harrison's 22nd, Ch.288",
+      "tags": [
+        "hypertension",
+        "secondary_hypertension"
+      ]
+    },
+    {
+      "id": "h22_288_06",
+      "ch": 288,
+      "chapter": "Hypertension",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "高血壓的非藥物（生活方式）介入有哪些？各自預計降壓幅度？",
+      "back": "生活方式介入（降收縮壓幅度）：\n• 限鈉（<2.4 g/day）：降 SBP 2–8 mmHg\n• DASH 飲食：降 SBP 8–14 mmHg\n• 減重（每減 10 kg）：降 SBP 5–20 mmHg\n• 規律有氧運動（30 min/day，每週多數天）：降 SBP 4–9 mmHg\n• 限酒（男 ≤ 2 drink/day；女 ≤ 1）：降 SBP 2–4 mmHg\n• 戒菸（降低心血管事件風險，對 BP 本身效果有限）",
+      "source": "Harrison's 22nd, Ch.288",
+      "tags": [
+        "hypertension",
+        "lifestyle",
+        "non_pharmacological"
+      ]
+    },
+    {
+      "id": "h22_288_07",
+      "ch": 288,
+      "chapter": "Hypertension",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "根據 2017 ACC/AHA 指引，高血壓如何定義與分類？（各血壓範圍）",
+      "back": "2017 ACC/AHA 分類（SBP/DBP mmHg）：\n• Normal：<120 / <80\n• Elevated：120–129 / <80\n• Stage 1 HTN：130–139 / 80–89\n• Stage 2 HTN：≥ 140 / ≥ 90\n• Hypertensive crisis（急症/緊急症）：>180 / >120\n\n（台灣高血壓學會等國際指引仍多使用 ≥ 140/90 mmHg 為高血壓定義，但美國 AHA 已降至 130/80）",
+      "source": "Harrison's 22nd, Ch.288",
+      "tags": [
+        "hypertension",
+        "definition",
+        "classification",
+        "guidelines"
+      ]
+    },
+    {
+      "id": "h22_294_01",
+      "ch": 294,
+      "chapter": "Pulmonary Hypertension",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "肺動脈高壓（PAH）的診斷定義為何？WHO 功能分類有哪幾級？",
+      "back": "血動力學診斷：右心導管（gold standard）\n• 靜息時平均肺動脈壓（mPAP）> 20 mmHg（2022 更新定義，原為 >25）\n• 肺毛細血管楔壓（PCWP）≤ 15 mmHg（排除左心疾病引起的 PH）\n• PVR ≥ 3 Wood units（毛細血管前型）\n\nWHO 功能分類（同 NYHA）：\n• I 級：無症狀\n• II 級：輕度活動受限\n• III 級：明顯活動受限，靜息無症狀\n• IV 級：靜息有症狀，無法任何活動",
+      "source": "Harrison's 22nd, Ch.294",
+      "tags": [
+        "pulmonary_hypertension",
+        "diagnosis",
+        "WHO_classification"
+      ]
+    },
+    {
+      "id": "h22_294_02",
+      "ch": 294,
+      "chapter": "Pulmonary Hypertension",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "肺動脈高壓的 WHO Group 分類（Group 1–5）各代表什麼類型？",
+      "back": "WHO 肺高壓分類：\n• Group 1：肺動脈高壓（PAH）—特發性、遺傳性、藥物誘發、結締組織病相關\n• Group 2：左心疾病引起（最常見！）—HFpEF、HFrEF、瓣膜病\n• Group 3：肺部疾病/低氧引起—COPD、ILD、睡眠呼吸中止\n• Group 4：慢性血栓栓塞性肺高壓（CTEPH）—可手術！\n• Group 5：多因性/不明原因—血液疾病、系統性疾病",
+      "source": "Harrison's 22nd, Ch.294",
+      "tags": [
+        "pulmonary_hypertension",
+        "classification",
+        "WHO_groups"
+      ]
+    },
+    {
+      "id": "h22_294_03",
+      "ch": 294,
+      "chapter": "Pulmonary Hypertension",
+      "part": "PART 6 Disorders of the Cardiovascular System",
+      "front": "Eisenmenger syndrome 的定義、機制及臨床管理重點為何？",
+      "back": "定義：先天性心臟病（左到右分流）長期使肺血管阻力升高，最終分流逆轉（右到左），導致發紺（cyanosis）。\n\n機制：高流量/高壓 → 肺血管重塑 → PVR 升高超過 SVR → 分流逆轉\n\n管理重點：\n• 避免脫水（維持充足 preload）\n• 避免全身血壓驟降（加重右到左分流）\n• 適當補鐵（缺鐵 = 功能降低）\n• 禁止懷孕（母親死亡率極高）\n• Bosentan（ERA）或 sildenafil（PDE5i）改善肺血管阻力",
+      "source": "Harrison's 22nd, Ch.280 + 294",
+      "tags": [
+        "Eisenmenger",
+        "congenital_heart_disease",
+        "pulmonary_hypertension"
+      ]
+    },
+    {
+      "id": "h22_298_01",
+      "ch": 298,
+      "chapter": "Asthma",
+      "part": "PART 7 Disorders of the Respiratory System",
+      "front": "氣喘的病生理核心機轉為何？診斷標準（肺功能）如何確立？",
+      "back": "核心機轉：\n1. 氣道高反應性（AHR）：對刺激過度支氣管收縮\n2. 嗜酸性球性發炎（Th2, IL-4/5/13）\n3. 可逆性氣流阻塞\n4. 氣道重塑（慢性發炎→纖維化+平滑肌肥厚）\n\n診斷肺功能標準（可逆性氣流阻塞）：\n• 支氣管擴張劑後 FEV1 提升 ≥12% 且 ≥200 mL（陽性反應）\n• 或 PEF 日內變異率 >10%（晨低/夜高）\n• 支氣管激發試驗（methacholine）PC20 <8 mg/mL 支持診斷\n\n流行病學：全球2.62億人，美國成人7.9%。",
+      "source": "Harrison's 22nd, Ch.298, p.2215",
+      "tags": [
+        "asthma",
+        "pathophysiology",
+        "diagnosis",
+        "spirometry"
+      ]
+    },
+    {
+      "id": "h22_298_02",
+      "ch": 298,
+      "chapter": "Asthma",
+      "part": "PART 7 Disorders of the Respiratory System",
+      "front": "GINA 氣喘階梯治療（Steps 1-5）的核心內容為何？AIR 策略是什麼？",
+      "back": "GINA 階梯治療（2023）：\n• Step 1-2（輕度）：低劑量 ICS/formoterol 按需使用（AIR策略）\n  或低劑量 ICS 每日 + SABA 急救\n• Step 3（中度）：低劑量 ICS/LABA 每日\n• Step 4（中重度）：中至高劑量 ICS/LABA\n• Step 5（嚴重型）：中高劑量 ICS/LABA + 生物製劑\n\nAIR 策略（Anti-Inflammatory Reliever）：\n• 低劑量 budesonide/formoterol 同時作為急救藥和維持藥\n• 降低嚴重急性發作風險（比單用SABA更有效）\n• GINA已不建議單獨SABA（增加重症/死亡風險）",
+      "source": "Harrison's 22nd, Ch.298",
+      "tags": [
+        "asthma",
+        "GINA",
+        "treatment",
+        "stepwise",
+        "AIR"
+      ]
+    },
+    {
+      "id": "h22_298_03",
+      "ch": 298,
+      "chapter": "Asthma",
+      "part": "PART 7 Disorders of the Respiratory System",
+      "front": "嚴重氣喘的生物製劑：各藥物作用機轉和適應標記為何？",
+      "back": "Step 5 生物製劑（需中高劑量ICS/LABA控制不足）：\n\n1. Omalizumab（抗IgE）：血清 IgE 30-1500 IU/mL + 過敏性氣喘\n2. Mepolizumab（抗IL-5）：血中嗜酸性球 ≥300/μL\n3. Benralizumab（抗IL-5Ra）：嗜酸性球 ≥300/μL，更快清除嗜酸性球\n4. Dupilumab（抗IL-4Ra，阻斷IL-4/IL-13雙信號）：\n   FeNO ≥25 ppb 或嗜酸性球 ≥150/μL\n   同時可治療異位性皮膚炎、慢性鼻竇炎鼻息肉\n5. Tezepelumab（抗TSLP）：最廣適應，不限嗜酸性球數，\n   適用所有嚴重型氣喘（包括非2型發炎）",
+      "source": "Harrison's 22nd, Ch.298",
+      "tags": [
+        "asthma",
+        "biologics",
+        "severe_asthma",
+        "anti-IL5",
+        "dupilumab"
+      ]
+    },
+    {
+      "id": "h22_298_04",
+      "ch": 298,
+      "chapter": "Asthma",
+      "part": "PART 7 Disorders of the Respiratory System",
+      "front": "急性嚴重氣喘（Status Asthmaticus）的危險徵兆和緊急處理為何？",
+      "back": "危險徵兆：\n• 靜默胸（Silent chest）= 嚴重阻塞\n• 說話困難（說單字）\n• PaCO2 正常或升高（代表疲憊，即將呼吸衰竭）\n• PEFR 或 FEV1 <25% 預測值\n• 奇脈 >25 mmHg\n\n急性處理：\n1. 高濃度O2（SpO2 ≥94%）\n2. 速效β2激動劑（salbutamol 5mg）霧化 × 每20分鐘一次 × 3次\n3. 合用抗膽鹼藥（ipratropium）\n4. 全身類固醇：prednisolone 40-60mg PO 或 methylprednisolone IV\n5. MgSO4 2g IV（嚴重型/β2激動劑反應差）\n6. 氣管插管機械通氣（最後手段，允許高CO2策略）",
+      "source": "Harrison's 22nd, Ch.298",
+      "tags": [
+        "asthma",
+        "status_asthmaticus",
+        "acute_severe",
+        "emergency"
+      ]
+    },
+    {
+      "id": "h22_303_01",
+      "ch": 303,
+      "chapter": "Chronic Obstructive Pulmonary Disease",
+      "part": "PART 7 Disorders of the Respiratory System",
+      "front": "COPD 的 GOLD 功能分級（Grade 1-4）依據 FEV1 如何區分？GOLD 分組（A/B/E）如何決定？",
+      "back": "GOLD 氣流阻塞分級（使用支氣管擴張劑後 FEV1/FVC <0.70 為前提）：\n• GOLD 1（輕度）：FEV1 ≥80%\n• GOLD 2（中度）：FEV1 50-79%\n• GOLD 3（重度）：FEV1 30-49%\n• GOLD 4（極重度）：FEV1 <30%\n\nGOLD 分組（症狀+急性發作史）：\n• Group A：症狀輕（mMRC 0-1，CAT <10）且≤1次中度發作/年\n• Group B：症狀重（mMRC ≥2，CAT ≥10）且≤1次中度發作/年\n• Group E（高風險）：≥2次中度發作 或 ≥1次住院發作/年（不論症狀）\n\n治療由分組決定：A→SABA/SAMA、B→LAMA或LABA、E→LAMA+LABA（雙效）。",
+      "source": "Harrison's 22nd, Ch.303, p.2249",
+      "tags": [
+        "COPD",
+        "GOLD",
+        "classification",
+        "spirometry"
+      ]
+    },
+    {
+      "id": "h22_303_02",
+      "ch": 303,
+      "chapter": "Chronic Obstructive Pulmonary Disease",
+      "part": "PART 7 Disorders of the Respiratory System",
+      "front": "COPD 哪三種介入已被證實可改善存活率？ICS 何時加入治療？",
+      "back": "三種改善存活率的介入：\n1. 戒菸（最重要，任何期別均可減緩肺功能惡化）\n2. 長期氧療（LTOT）：靜息 PaO2 ≤55 mmHg 或 SpO2 ≤88%，每日≥15小時\n3. 肺容量縮減手術（LVRS）：上葉主導型肺氣腫 + 運動耐受性差者\n\nICS 加入時機（GOLD Group E）：\n• 嗜酸性球 ≥300/μL → 三合一（ICS + LAMA + LABA）效益最大\n• 嗜酸性球 100-300/μL + 頻繁發作 → 考慮加ICS\n• 嗜酸性球 <100/μL → ICS 較無益，增加肺炎風險\n\n其他：肺復健（運動耐受性、生活品質）、roflumilast（嚴重型慢性支氣管炎+頻繁發作）。",
+      "source": "Harrison's 22nd, Ch.303",
+      "tags": [
+        "COPD",
+        "treatment",
+        "oxygen_therapy",
+        "LVRS",
+        "ICS"
+      ]
+    },
+    {
+      "id": "h22_303_03",
+      "ch": 303,
+      "chapter": "Chronic Obstructive Pulmonary Disease",
+      "part": "PART 7 Disorders of the Respiratory System",
+      "front": "COPD 急性惡化（AECOPD）的住院治療要點為何？何時用 NIPPV？",
+      "back": "AECOPD 住院治療：\n1. 支氣管擴張劑：beta2激動劑 + ipratropium 霧化吸入（增加頻率）\n2. 全身類固醇：prednisone 40mg × 5天（減少住院時間、降低復發）\n3. 抗生素（中重度、有痰液變化）：5-7天（azithromycin/doxycycline/amoxicillin-clavulanate）\n4. 氧療：目標 SpO2 88-92%（避免過度氧療→高碳酸血症惡化）\n\nNIPPV（NIV）指徵：\n• pH ≤7.35 且 PaCO2 >45 mmHg（II型呼吸衰竭）\n• 可降低插管率和死亡率\n• 禁忌：意識不清、無法配合、顏面創傷\n\n若 NIV 失敗或禁忌→ 氣管插管機械通氣。",
+      "source": "Harrison's 22nd, Ch.303",
+      "tags": [
+        "COPD",
+        "AECOPD",
+        "NIPPV",
+        "treatment"
+      ]
+    },
+    {
+      "id": "h22_304_01",
+      "ch": 304,
+      "chapter": "Interstitial Lung Diseases",
+      "part": "PART 7 Disorders of the Respiratory System",
+      "front": "特發性肺纖維化（IPF）的診斷標準和典型 HRCT 表現（UIP型）為何？",
+      "back": "IPF：原因不明的慢性進行性纖維化ILD（>60歲、男性、有吸菸史為高危族群）\n\n確診 UIP 型 HRCT（可直接診斷，無需肺活檢）：\n• 雙側、基底部、肋膜下為主\n• 蜂窩狀改變（Honeycombing）± 牽引性支氣管擴張\n• 無大量磨玻璃影、無上葉分布、無支氣管血管周圍分布\n\n診斷需排除：結締組織病、過敏性肺炎、職業性/藥物性ILD\n\n組織病理：UIP（Usual Interstitial Pneumonia）— 時間異質性纖維化、成纖維母細胞病灶、蜂窩狀。\n\n若HRCT為「可能UIP」：需SLB（外科肺活檢）或多學科討論（MDD）。",
+      "source": "Harrison's 22nd, Ch.304, p.2259",
+      "tags": [
+        "ILD",
+        "IPF",
+        "UIP",
+        "HRCT",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "h22_304_02",
+      "ch": 304,
+      "chapter": "Interstitial Lung Diseases",
+      "part": "PART 7 Disorders of the Respiratory System",
+      "front": "IPF 的治療和預後為何？哪些藥物不建議使用？",
+      "back": "抗纖維化治療（減緩FVC年下降約50%，延緩疾病進展）：\n• Nintedanib（三激酶抑制劑：PDGFR/VEGFR/FGFR抑制）\n• Pirfenidone（TGF-beta及促纖維化細胞因子抑制）\n\n不建議：\n• N-acetylcysteine 單藥\n• Prednisolone + Azathioprine + NAC（PANTHER試驗：增加死亡率/住院率）\n\n非藥物：\n• 肺臟移植（確診後盡早評估，FVC <70%或6個月下降>10%即轉介）\n• 肺復健、氧療、姑息照護\n\n預後：\n• 中位存活2-5年（診斷後）\n• 急性惡化（AE-IPF）：突然惡化，死亡率>50%\n• 預後差指標：FVC <80%、DLco <40%、6分鐘步行去飽和",
+      "source": "Harrison's 22nd, Ch.304",
+      "tags": [
+        "ILD",
+        "IPF",
+        "nintedanib",
+        "pirfenidone",
+        "treatment"
+      ]
+    },
+    {
+      "id": "h22_304_03",
+      "ch": 304,
+      "chapter": "Interstitial Lung Diseases",
+      "part": "PART 7 Disorders of the Respiratory System",
+      "front": "肺部類肉瘤病（Pulmonary Sarcoidosis）的分期（Scadding stages）和治療為何？",
+      "back": "Scadding 影像分期：\n• Stage I：雙側肺門淋巴腺腫大（BHL）無肺浸潤\n• Stage II：BHL + 肺浸潤\n• Stage III：肺浸潤（無BHL）\n• Stage IV：肺纖維化\n\n特徵：非乾酪性肉芽腫、ACE升高（敏感性低）、血鈣升高（活化維生素D）、sIL-2R升高\n\n自然緩解率：Stage I >80%；Stage II ~50%；Stage III ~30%\n\n治療（有症狀或器官受損）：\n• 一線：prednisolone 20-40mg/d，6-12個月\n• 二線：methotrexate、azathioprine\n• 三線：infliximab（難治性）\n\n不需治療：無症狀Stage I/II、單純BHL、偶然發現者（觀察等待）",
+      "source": "Harrison's 22nd, Ch.304",
+      "tags": [
+        "ILD",
+        "sarcoidosis",
+        "staging",
+        "treatment"
+      ]
+    },
+    {
+      "id": "h22_305_01",
+      "ch": 305,
+      "chapter": "Disorders of the Pleura",
+      "part": "PART 7 Disorders of the Respiratory System",
+      "front": "Light 氏準則（Light's Criteria）如何區分滲出液和漏出液？各標準為何？",
+      "back": "Light 氏準則（任一滿足即判為滲出液；靈敏度98%、特異度87%）：\n\n1. PF蛋白 / 血清蛋白 > 0.5\n2. PF LDH / 血清 LDH > 0.6\n3. PF LDH > 血清 LDH 正常上限的 2/3\n\n漏出液常見原因：\n• CHF（最常見）、肝硬化、腎病症候群、低白蛋白血症\n\n滲出液常見原因：\n• 惡性腫瘤、細菌性肺炎（傍肺炎性積液）、TB、肺栓塞（PE）、RA\n\n注意：利尿劑治療的CHF積液可能因蛋白濃縮誤判為滲出液\n→ 計算血清-PF白蛋白梯度（>1.2 g/dL 提示漏出液）",
+      "source": "Harrison's 22nd, Ch.305, p.2269",
+      "tags": [
+        "pleural_disease",
+        "Light_criteria",
+        "exudate",
+        "transudate"
+      ]
+    },
+    {
+      "id": "h22_305_02",
+      "ch": 305,
+      "chapter": "Disorders of the Pleura",
+      "part": "PART 7 Disorders of the Respiratory System",
+      "front": "傍肺炎性積液（Parapneumonic Effusion）到膿胸的分期和各期處理為何？",
+      "back": "Light 分期（決定是否需引流）：\n\n1. 簡單型（Uncomplicated）：\n   pH >7.2、葡萄糖 >60mg/dL、LDH <1000 IU/L、無病菌\n   → 抗生素即可\n\n2. 複雜型（Complicated）：\n   pH <7.2 或葡萄糖 <60mg/dL 或 LDH >1000 IU/L 或培養陽性\n   → 置放胸腔引流管（IPC）\n\n3. 膿胸（Empyema）：\n   積膿或培養陽性\n   → 引流管 + VATS 胸腔鏡手術或 TPA（10mg）+ DNase（5mg）胸腔灌注\n\n4. 纖維化/包裹期：\n   → 外科去皮術（Decortication）\n\nPF LDH >900 IU/L 或 pH <7.0 支持需積極引流。",
+      "source": "Harrison's 22nd, Ch.305",
+      "tags": [
+        "pleural_disease",
+        "parapneumonic",
+        "empyema",
+        "drainage"
+      ]
+    },
+    {
+      "id": "h22_305_03",
+      "ch": 305,
+      "chapter": "Disorders of the Pleura",
+      "part": "PART 7 Disorders of the Respiratory System",
+      "front": "自發性氣胸的分型和處理原則為何？何時是張力性氣胸緊急處置？",
+      "back": "分類：\n• 原發性（PSP）：健康高瘦年輕男性，胸膜下肺大泡破裂\n• 繼發性（SSP）：基礎肺病（COPD、CF、IPF、TB）\n• 醫源性：中央靜脈置入術、機械通氣\n\n張力性氣胸（Tension）→ 立即處置：\n• 症狀：呼吸困難+低血壓+頸靜脈怒張+氣管偏移（對側）\n• 立即：鎖骨中線第2肋間粗針刺減壓，再置引流管\n\n大小判斷：\n• 小型（<2cm）且穩定 → 觀察 + 高流量O2（加速吸收4倍）\n• 大型（≥2cm）或有症狀 → 穿刺抽吸或引流管\n\n預防復發（≥2次或SSP）：胸膜固定術（化學性滑石粉 或 VATS）",
+      "source": "Harrison's 22nd, Ch.305",
+      "tags": [
+        "pleural_disease",
+        "pneumothorax",
+        "tension",
+        "management"
+      ]
+    },
+    {
+      "id": "h22_308_01",
+      "ch": 308,
+      "chapter": "Sleep Apnea",
+      "part": "PART 7 Disorders of the Respiratory System",
+      "front": "OSA 的嚴重度 AHI 分級為何？診斷標準為何？",
+      "back": "AHI（Apnea-Hypopnea Index）= 每小時呼吸暫停+低通氣次數\n\n嚴重度分級（Table 308-2）：\n• 輕度 OSA：AHI 5-14 events/h\n• 中度 OSA：AHI 15-29 events/h\n• 重度 OSA：AHI ≥30 events/h\n\nRDI = AHI + RERAs（呼吸努力相關覺醒）\n\n診斷標準（符合以下其一）：\n① AHI ≥15（即使無症狀）\n② AHI ≥5 + 以下任一症狀/共病：日間嗜睡、打鼾/喘氣、失眠、高血壓、CHD、AF、HF、腦中風、DM\n\n診斷工具：多項睡眠圖（PSG，gold standard）或 居家睡眠呼吸檢測（HSAT）。",
+      "source": "Harrison's 22nd, Ch.308, p.2280",
+      "tags": [
+        "sleep_apnea",
+        "OSA",
+        "AHI",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "h22_308_02",
+      "ch": 308,
+      "chapter": "Sleep Apnea",
+      "part": "PART 7 Disorders of the Respiratory System",
+      "front": "OSA 的治療層級和 CPAP 適應症為何？舌下神經刺激器的使用條件是什麼？",
+      "back": "治療層級：\n\n1. 行為治療（所有病患）：體重減輕、避免仰臥、戒酒、戒鎮靜藥\n\n2. CPAP（持續正壓呼吸）— 金標準：\n   • 適應症：AHI ≥15，或 AHI 5-14 + 症狀/共病\n   • 消除呼吸暫停、改善日間嗜睡\n   • 大型RCT未證實降低心血管事件\n\n3. 口腔矯正器（MAD）：輕中度OSA、拒絕CPAP的替代\n\n4. 舌下神經刺激器（Hypoglossal nerve stimulator）：\n   → CPAP無法耐受/失敗者\n   → 條件：AHI 15-65、BMI <35 kg/m2、無完全腭咽塌陷\n   → 亦適用 Down syndrome（AHI 10-50）\n\n5. 兒童腺樣體+扁桃腺切除術（兒童OSA首選）",
+      "source": "Harrison's 22nd, Ch.308, p.2282",
+      "tags": [
+        "sleep_apnea",
+        "OSA",
+        "CPAP",
+        "treatment",
+        "hypoglossal_stimulation"
+      ]
+    },
+    {
+      "id": "h22_312_01",
+      "ch": 312,
+      "chapter": "Acute Respiratory Distress Syndrome",
+      "part": "PART 8 Critical Care Medicine",
+      "front": "ARDS 的 2012 Berlin 定義和嚴重度分類為何？",
+      "back": "Berlin 定義（2012，Table 312-2）診斷需同時符合：\n\n1. 急性起病：1週內出現或原有呼吸症狀急性加重\n2. 胸部X光：雙側浸潤（非完全由積液/肺葉塌陷/結節解釋）\n3. 排除靜水壓性肺水腫：無左心衰竭為主因\n4. 低氧血症（PEEP ≥5 cmH2O時量測）：\n\n嚴重度分類：\n• 輕度（Mild）：PaO2/FiO2 201-300 mmHg\n• 中度（Moderate）：PaO2/FiO2 101-200 mmHg\n• 重度（Severe）：PaO2/FiO2 ≤100 mmHg\n\n（原 ALI 概念已整合入「輕度ARDS」）",
+      "source": "Harrison's 22nd, Ch.312, p.2300",
+      "tags": [
+        "ARDS",
+        "Berlin_definition",
+        "diagnosis",
+        "severity",
+        "PF_ratio"
+      ]
+    },
+    {
+      "id": "h22_312_02",
+      "ch": 312,
+      "chapter": "Acute Respiratory Distress Syndrome",
+      "part": "PART 8 Critical Care Medicine",
+      "front": "ARDS 保護性通氣策略（Lung-Protective Ventilation）的核心內容和臨床證據為何？",
+      "back": "ARDSNet 低潮氣量策略（ARMA試驗）：\n\n1. 低潮氣量（Low Vt）：6 mL/kg（理想體重IBW）\n   → 平台壓目標 ≤30 cmH2O\n   → 降低死亡率（40%→31%，vs 12 mL/kg）\n\n2. 適當 PEEP：\n   → 中重度 ARDS 建議 PEEP ≥13 cmH2O\n\n3. 俯臥位（Prone positioning）≥16小時/天：\n   → 適用：PaO2/FiO2 ≤150 mmHg（重度ARDS）\n   → PROSEVA試驗：28天死亡率 16% vs 32.8%（絕對降低17%）\n\n4. 液體管理：保守策略（最小左房充填壓）\n\n5. 早期神經肌肉阻斷（NMBA）：不建議常規使用（ROSE試驗2019，無效）\n\n6. ECMO：極重度難治性低氧的最後手段",
+      "source": "Harrison's 22nd, Ch.312, p.2302",
+      "tags": [
+        "ARDS",
+        "mechanical_ventilation",
+        "prone",
+        "lung_protective",
+        "ARDSNet"
+      ]
+    },
+    {
+      "id": "h22_312_03",
+      "ch": 312,
+      "chapter": "Acute Respiratory Distress Syndrome",
+      "part": "PART 8 Critical Care Medicine",
+      "front": "ARDS 的三個病理分期（時間進展）各有何特徵？",
+      "back": "ARDS 三期（Fig. 312-1）：\n\n1. 滲出期（Exudative phase，Day 0-7）：\n   • 彌漫性肺泡損傷（DAD）\n   • 肺泡水腫 + 嗜中性球浸潤 + 透明膜形成\n   • 胸部X光：雙側白肺\n\n2. 增生期（Proliferative phase，Day 7-14）：\n   • ATII型肺泡上皮增生（修復嘗試）\n   • 間質發炎、早期纖維化\n   • 多數病患在此期恢復\n\n3. 纖維化期（Fibrotic phase，Day >21）：\n   • 嚴重肺纖維化、囊性空腔（bullae）\n   • 持續低氧、肺順應性差\n   • 死亡率高、預後差\n\n肺活檢見纖維化 = 預後不良指標",
+      "source": "Harrison's 22nd, Ch.312, p.2300",
+      "tags": [
+        "ARDS",
+        "phases",
+        "pathology",
+        "exudative",
+        "fibrotic"
+      ]
     }
   ]
 }
