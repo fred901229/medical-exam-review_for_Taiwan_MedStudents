@@ -209,9 +209,11 @@
     .card-area { width: 100%; max-width: 700px; perspective: 1400px; }
     .card-wrapper { position: relative; }
     .card {
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 100%;
       min-height: 340px;
-      position: relative;
       transform-style: preserve-3d;
       transition: transform .6s cubic-bezier(.4, 0, .2, 1);
       cursor: pointer;
