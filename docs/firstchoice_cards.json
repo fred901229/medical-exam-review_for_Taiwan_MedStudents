@@ -1071,6 +1071,62 @@
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 38"
     },
     {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "術後常見的高體溫原因有哪些?發生的時間在術後甚麼時候?",
+        "answer":  "2天內：肺塌陷。3天內：肺炎、泌尿道感染。5天內：傷口感染、anatomic leakage、腹內膿瘍。7天內：DVT。其他：藥物",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 46"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "腹腔內腔室症候群的定義為?",
+        "answer":  "腹內壓力\u003e25 cmH2O，影響腹內器官血管灌流",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 47"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "腹腔內腔室症候群的處理方式為?",
+        "answer":  "Surgical Decompression或是傷口不做primary closure",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 47, 54"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "肌肉腔室症候群的定義為?",
+        "answer":  "肌肉室間壓力\u003e30 cmH2O，使得組織灌流不足，導致肌肉與神經受損。",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 47"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "肌肉腔室症候群最常發生在身體哪個部位?",
+        "answer":  "小腿 (和骨折關聯性最高)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 47"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "肌肉腔室症候群的症狀有哪些?",
+        "answer":  "6P: Pain (最早出現、最不專一), Pressure, Paresthesia, Paralysis, Pale, Pulseless",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 47"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "肌肉腔室症候群的處理方式為?",
+        "answer":  "fasciotomy",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 47"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "DVT (Deep Vein Thrombosis)和PE (Pulmonary Embolism)的危險因子有哪些?",
+        "answer":  "Virchow\u0027s Triad (Stasis, Hypercoagulable state, Endothelium Injury)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 48"
+    },
+    {
         "type":  "Symptoms \u0026 Signs",
         "subject":  "Symptoms \u0026 Signs",
         "question":  "Thumb sign",
@@ -1146,5 +1202,12 @@
         "question":  "Trousseau sign",
         "answer":  "Hypocalcemia",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 19"
+    },
+    {
+        "type":  "Symptoms \u0026 Signs",
+        "subject":  "Symptoms \u0026 Signs",
+        "question":  "Virchow\u0027s triad",
+        "answer":  "PE (Pulmonary Embolism), DVT (Deep Vein Thrombosis)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 48"
     }
 ]
