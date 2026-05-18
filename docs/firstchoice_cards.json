@@ -1,0 +1,870 @@
+﻿[
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "第幾對腮裂異常最常見?",
+        "answer":  "第二對腮裂異常",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 309"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "Stensen\u0027s duct阻塞會導致?",
+        "answer":  "腮腺結石",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 311"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "Wharton\u0027s duct阻塞會導致?",
+        "answer":  "頷下腺結石",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 311"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "唾液腺結石最常發生在哪一個唾液腺?",
+        "answer":  "頷下腺",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 311"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "唾液腺腫瘤最常發生在哪一個唾液腺?",
+        "answer":  "腮腺",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 313"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "最常見的唾液腺腫瘤是哪一種?",
+        "answer":  "多形性腺瘤 (Pleomorphic adenoma; benign mixed tumor)",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 315"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "最常見的唾液腺惡性腫瘤是哪一種?",
+        "answer":  "黏液類上皮癌 (Mucoepidermoid carcinoma)",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 315"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "第二常見的唾液腺惡性腫瘤是哪一種?",
+        "answer":  "腮樣囊狀癌 (Adenoid cystic carcinoma)",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 316"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "急性細菌性唾液腺炎最常見的細菌感染?",
+        "answer":  "金黃色葡萄球菌 (S. aureus)",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 320"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "最常見的甲狀腺癌為哪一種?",
+        "answer":  "乳突癌 (PTC, papillary thyroid cancer)",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 372"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "最常見的甲狀腺淋巴癌為哪一種?",
+        "answer":  "non-Hodgkin lymphoma",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 373"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "最常見的甲狀腺轉移癌為哪一種?",
+        "answer":  "肺癌轉移",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 373"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "最常見的喉癌是哪一種?",
+        "answer":  "聲門癌 (Glottis cancer)",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 363"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "哪一種喉癌最容易淋巴轉移?",
+        "answer":  "聲門上癌 (Supraglottic cancer)",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 363"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "喉癌最常見的症狀為?",
+        "answer":  "聲音沙啞",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 371"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "Cetuximab是針對什麼標靶的單株抗體?",
+        "answer":  "EGFR",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 361"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "預後最差的鼻咽癌是哪一種?",
+        "answer":  "角化鱗狀細胞癌 (Keratinizing SqCC, WHO type I)",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 339"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "預後最好的鼻咽癌是哪一種?",
+        "answer":  "未分化癌 (Non-keratinizing undifferentiated carcinoma, WHO type III)",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 339"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "鼻咽癌腫瘤好發的部位以何者最常見?",
+        "answer":  "側壁 (Rosenmuller fossa)",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 340"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "Cetuximab最常見的副作用?",
+        "answer":  "痤瘡型紅疹",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 343"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "鼻咽癌最常見的症狀為?",
+        "answer":  "頸部腫塊",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 344"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "鼻咽癌最常見的類型是哪一種?",
+        "answer":  "未分化癌 (Non-keratinizing undifferentiated carcinoma, WHO type III)",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 347"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "較常表現耳部轉移性疼痛的是哪一種頭頸癌?",
+        "answer":  "口咽癌",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 356"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "老年型聽力退化(Presbycusis)，聽力圖呈現什麼型?",
+        "answer":  "高音漸傾型 (Down-sloping)",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 179"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "噪音型聽力喪失(NIHL)，聽力圖呈現什麼型?",
+        "answer":  "4k Hz呈現notch",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 179"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "SSNHL (Sudden Sensorineural Hearing Loss)的Triad?",
+        "answer":  "3天之內，在3個連續頻率，大於30dB的感音性聽力障礙",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 190"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "急性中耳炎(AOM, acute otitis media)最常見的致病菌?",
+        "answer":  "S, pneumoniae",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 199"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "積液性中耳炎(OME, otitis media with effusion)最常見的致病菌?",
+        "answer":  "Haemophilus influenza",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 201"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "梅尼爾氏症(Meniere\u0027s disease)的Triad?",
+        "answer":  "陣發性的聽力喪失(低頻)、耳鳴或耳悶、反覆性的暈眩",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 218"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "過敏性黴菌性鼻竇炎最常見的致病菌?",
+        "answer":  "Aspergillus",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 253"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "急性會厭炎(Acute Epiglottitis)最常見的致病菌?",
+        "answer":  "Haemophilus influenza type B",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 277"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "睡眠呼吸中止的定義?",
+        "answer":  "睡眠時超過10秒的氣流停止現象",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 281"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "耳鼻喉科",
+        "question":  "最常見的睡眠呼吸中止的類型為何?",
+        "answer":  "阻塞性睡眠呼吸中止(Obstructive sleep apnea)",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 281"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "麻醉前困難插管評估中，3-3-2 rules是指?",
+        "answer":  "1. 張口有3指幅 2. 下巴前緣到舌骨有3指幅 3. 舌骨到甲狀軟骨有2指幅",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 6"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Mallampati score當中，困難插管的分類是那些?",
+        "answer":  "Class III (Base of soft palate and uvula), IV (Hard palate)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 7, 9"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "術中血糖建議控制在多少以下即可，以免發生低血糖?",
+        "answer":  "180 mg/dL",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 10"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "BURP (Backward-Upward-Right Pressure) Maneuver是壓迫何構造，使vocal cord更易看見?",
+        "answer":  "甲狀軟骨 (Thyroid cartilage)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 14-15"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Sellick maneuver是壓迫何構造，防止胃食道逆流而發生吸入性肺炎?",
+        "answer":  "環狀軟骨 (Cricoid cartilage)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 16"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "遇到困難插管+困難通氣的病人，要選擇的插管方式為?",
+        "answer":  "Flexible fiberoptic intubation (Awake intubation)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 18-19"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "困難插管，同時又無法以非侵入性方式進行通氣，又稱為?",
+        "answer":  "CICO (Cannot Intubate, Cannot Oxygenate)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 19, 22"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "緊急狀況(e.g. CICO)時，會選擇氣管切開術(Tracheotomy)還是環甲膜切開術(Cricothyroidotomy)?",
+        "answer":  "環甲膜切開術",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 19"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "氣管內管的cuff pressure，一般建議保持在多少之間，避免過高/過低產生組織缺血/吸入性肺炎?",
+        "answer":  "20 cmH2O ~ 30 cmH20",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 24-25"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "RSI (Rapid Sequence Intubation)步驟中的7P，哪一個步驟最重要、最優先?",
+        "answer":  "Preoxygenation",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 15, 25"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "術中監測體溫的目的為何?",
+        "answer":  "1. 及早發現惡性高熱 2. 防止低體溫",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 30"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "低體溫的定義為何?",
+        "answer":  "中心體溫低於36℃",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 31"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "造成假性high SpO2的因子有哪些?",
+        "answer":  "CO中毒、methemoglobinemia",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 32"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "造成假性low SpO2的因子有哪些?",
+        "answer":  "低血壓、貧血、深色指甲油、抖動",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 32"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "請問capnography的分期分別代表?",
+        "answer":  "I: dead space, II: mixed, III: alveolar gas, 0: inspiration",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 34"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "放置A-line最常使用的血管為何?",
+        "answer":  "橈動脈 (Radial artery)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 35"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "肺動脈導管(Swan-Ganz catheter)放置的過程會經過哪些構造?",
+        "answer":  "IJV --\u003e RA --\u003e RV --\u003e PA --\u003e pulmonary capillary vessel",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 37"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Cardiac Index (CI)是指?",
+        "answer":  "CO(Cardiac Output)/BSA (Body Surface Area)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 40"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "進行全身麻醉(GA)時，BIS的目標數值會在多少之間?",
+        "answer":  "40-60分",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 44"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "睫毛反射消失，代表病人的麻醉深度進入哪一期?",
+        "answer":  "Stage II: 興奮期 (Excitement/Delirium)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 64"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "唯一帶有止痛效果的induction藥物是哪一種藥物?",
+        "answer":  "Ketamine",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 70"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "MAC (Minimum alveolar concentration)的定義是?",
+        "answer":  "一大氣壓下，50%的病人在接受刺激後，不會有動作反應的劑量",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 80"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "吸入性麻醉劑中，誰的MAC最小?",
+        "answer":  "Halothane",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 80"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "吸入性麻醉劑中，誰的MAC最大?",
+        "answer":  "N2O",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 80"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "吸入性麻醉劑中，誰對呼吸道的刺激最大，易導致氣管痙攣?",
+        "answer":  "Desflurane",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 84, 89"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "遇到CO2吸附劑，會產生CO的是哪一種吸入性麻醉劑?",
+        "answer":  "Desflurane",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 84"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "遇到CO2吸附劑，會產生Compound A的是哪一種吸入性麻醉劑?",
+        "answer":  "Sevoflurane",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 84"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "非去極化肌肉鬆弛劑，依照結構分為哪兩大類?",
+        "answer":  "Steroidal (-ronium), Benzylisoquinolinium (-curium)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 94"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Hofmann elimination是指?",
+        "answer":  "不須經由肝臟或腎臟，藥物直接在體內自然降解的一種代謝方式",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 95"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "肌肉鬆弛劑中，不經肝腎代謝，經由Hofmann elimination的是哪一種藥物?",
+        "answer":  "Atracurium, Cisatracurium",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 95"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "最常用於監測肌肉鬆弛劑作用的肌肉和其支配的神經是?",
+        "answer":  "內收姆肌(adductor pollicis brevis)、尺神經 (Ulnar n.)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 96"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "TOF (Train-of-Four)監測的原理是?",
+        "answer":  "利用一組有4個0.5秒(2Hz)的supramaximal stimuli電刺激，間隔10秒重複進行神經刺激，監測神經肌肉阻斷程度",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 96"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "在TOF中，會出現fade現象的是哪一種肌肉鬆弛劑?",
+        "answer":  "Non-depolarizing NMBDs",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 96"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "ASA guideline建議，TOF ratio要大於多少，才能拔管?",
+        "answer":  "TOF ratio \u003e= 0.9",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 97"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "用於Tensilon test，檢測重症肌無力的藥物是?",
+        "answer":  "Edrophonium",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 98"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "用於治療重症肌無力的藥物是?",
+        "answer":  "Pyridostigmine",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 98"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "ASA guideline建議，TOF count等於多且TOF ratio要大於多少，才能給予肌肉鬆弛劑解藥?",
+        "answer":  "TOF count = 4, TOF ratio \u003e= 0.4",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 98"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Anticholinergic drugs中，唯一為四級胺，且不會過BBB的是哪一個藥物?",
+        "answer":  "Glycopyrrolate",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 99"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Sugammadex(Bridion)是針對哪一種肌肉鬆弛劑的逆轉劑?",
+        "answer":  "Steroidal (Vecuronium, Rocuronium)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 100"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Sugammadex是經由何種路徑排出人體?",
+        "answer":  "腎臟",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 100"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Amide類局部麻醉劑的特色?",
+        "answer":  "肝臟代謝、過敏機率較低、(藥名有兩個i)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 106"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Ester類局部麻醉劑的特色?",
+        "answer":  "由Plasma Cholinesterase水解代謝、代謝產物PABA的過敏機率較高、(藥名只有一個i)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 106"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "局部麻醉劑使何種離子通道不活化，藉此提高動作電位的閾值?",
+        "answer":  "鈉離子通道",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 106"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "在differential blockade中，以神經的粗細程度來說，何種神經較易被阻斷?",
+        "answer":  "較細的神經 (C fiber --\u003e B fiber --\u003e A fiber)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 107"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "在differential blockade中，以神經髓鞘的有無來說，何種神經較易被阻斷?",
+        "answer":  "有髓鞘的神經 (A fiber, B fiber)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 107"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "在differential blockade中，神經的阻斷順序為何?",
+        "answer":  "Type B (交感) --\u003e Type C  (感覺) --\u003e Type A (運動)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 107"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "在施打局部麻醉劑時，同時給予epinephrine的作用為何?",
+        "answer":  "讓血管收縮，使局部麻醉劑的作用延長、減少全身性吸收、降低系統性的副作用",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 107"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "大量局部麻醉劑吸收或不小心將其打入血管中，稱為?",
+        "answer":  "LAST (Local Anesthetic Systemic Toxicity)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 108"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "2% lidocaine最大劑量是多少? 加上epinephrine後，最大劑量是多少?",
+        "answer":  "4.5 mg/kg, 7 mg/kg",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 109"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "LAST (Local Anesthetic Systemic Toxicity)的唯一解藥為何?",
+        "answer":  "20% lipid emulsion",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 109"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "PDPH (Postdural puncture headache)的治療方式是?",
+        "answer":  "硬腦膜外字體血液凝塊 (Epidural Blood Patch)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 111"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Epidural anesthesia中，loss of resistance是指針尖通過何種解剖構造，進入epidural space?",
+        "answer":  "黃韌帶 Ligmentum flavum",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 112"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Alllodynia是指?",
+        "answer":  "異感痛，non-noxious的刺激導致痛覺",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 122"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Analgesia是指?",
+        "answer":  "無痛感，會造成痛覺的刺激，卻無法造成疼痛",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 122"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Dysesthesia是指?",
+        "answer":  "非疼痛但令人不愉快的異常感",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 122"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Hyperesthesia是指?",
+        "answer":  "感覺過度，對刺激的敏感度增加",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 122"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Hyperalgesia是指?",
+        "answer":  "痛覺過度，對輕微的痛刺激，感受到強烈的痛覺",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 122"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Paresthesia是指?",
+        "answer":  "所有感覺異常的總稱",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 122"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "鴉片類藥物所導致的副作用，大多是哪一種受器所產生?",
+        "answer":  "mu-receptor",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 123"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "何種病人使用Meperidine(Demerol)會因為代謝產物Normeperidine累積，而導致癲癇?",
+        "answer":  "慢性腎衰竭",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 124"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Remifentanil的特色為何?",
+        "answer":  "極短效、被esterase水解、幾乎不累積於體內、適合pump連續輸注",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 126"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Opioid類止痛藥的解毒劑為何種藥物?",
+        "answer":  "Naloxone (呼吸抑制、皮膚搔癢)、Methylnaltrexone (便秘)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 126"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "慢性疼痛(Chronic Pain)的定義是?",
+        "answer":  "持續性大於三個月的疼痛",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 126"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "帶狀皰疹後疼痛(PHN, Postherpetic Neuralgia)的定義是?",
+        "answer":  "Herpes Zoster感染，傷口癒合後，疼痛仍持續超過三個月",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 127"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "最常使用的神經痛藥物是哪一種藥物?",
+        "answer":  "Gabapentin, Pregabalin",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 127"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Gabapentin, Pregabalin藉由抑制何種離子通道，來治療神經痛?",
+        "answer":  "鈣離子通道",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 127"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "癌症疼痛(Cancer Pain)治療的3B原則為何?",
+        "answer":  "By the mouth、By the clock、By the ladder",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 131"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "治療三叉神經痛(Trigeminal Neuralgia)的首選藥物為何?",
+        "answer":  "Carbamazepine",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 133"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "惡性高熱(Malignant Hyperthermia)的定義為何?",
+        "answer":  "因為接觸誘發藥物，而導致骨骼肌異常高度代謝",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 142"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "惡性高熱(Malignant Hyperthermia)的機轉為何?",
+        "answer":  "RYR1基因突變，導致去極化後鈣離子通道無法關閉，鈣離子累積在細胞內，肌肉持續收縮，Ca++ATPase持續主動運輸回收鈣離子，有氧/無氧代謝增加",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 142"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "惡性高熱的早期症狀包含?",
+        "answer":  "end tidal CO2上升、心跳變快",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 143"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "惡性高熱(Malignant Hyperthermia)的治療藥物為何?",
+        "answer":  "Dentrolene，抑制Ryanodine receptor所調控的蓋離子通道，減少細胞內鈣離子累積。",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 144"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "惡性高熱所導致的高血壓，不可用何種血壓藥治療?",
+        "answer":  "CCB",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 144"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "術後恢復是最常見的麻醉併發症為?",
+        "answer":  "術後噁心嘔吐 (PONV, Post-operative Nausea and Vomiting)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 146"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "Apfel\u0027s Score中，預測PONV的因子包含哪些?",
+        "answer":  "女性、不抽菸、動暈症、PONV病史、術後使用opioid止痛",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 146"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "急性呼吸窘迫症候群(ARDS, Acute Respiratory Distress Syndrome)的定義為何?",
+        "answer":  "急性7天內新發生或惡化的呼吸症狀，影像學上有雙側肺浸潤，且無法以其他疾病來解釋。",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 146-147"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "ARDS的嚴重分級，依照P/F ratio (PaO2/FiO2)可以分為?",
+        "answer":  "1. mild (200-300 mmHg) 2. moderate (100-200 mmHg) 3. severe (\u003c 100mmHg)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 147"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "ARDS的治療有哪些?",
+        "answer":  "Low tidal volume (6mL/kg)、Plateau pressure (\u003c= 30 cmH2O)、PEEP (\u003e= 5 cmH2O)、pH (7.3-7.45)、SpO2 (88-95%)、Prone Position、VV-ECMO",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 147"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "SOFA score評估哪些項目?",
+        "answer":  "腦 (GCS)、心 (BP)、肝 (Bilirubin)、肺 (PaO2/FiO2)、腎 (Creatinine)、血 (Platelets)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 148"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "qSOFA score評估哪些項目?",
+        "answer":  "Respiratory Rate (\u003e= 22/min)、Altered Mentation、systolic BP (\u003c= 100mmHg)",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 148"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "根據Surviving Sepsis Campaign Guidelines，治療sepsis/septic shock的建議有哪些?",
+        "answer":  "1. 診斷後，3小時內給予至少30 mL/kg的balanced crystalloid (LR) 2. 使用Dynamic Parameters來指引輸液治療 3. MAP \u003e 65 mmHg 4. 第一線升壓劑為norepinephrine 5. Low-tidal volume in ARDS 6. 目標血糖值為144-180 mg/dL",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 149-150"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "麻醉科",
+        "question":  "ERAS (Enhanced Recovery After Surgery)中，術前、術中、術後的項目有?",
+        "answer":  "術前：會診、討論、NPO時間不要過長。術中：保暖、維持體溫、正常輸液、使用短效麻醉藥物、胸腹手術使用thoracic epidural analgesia、給予預防止吐藥。 術後：多模式止痛",
+        "reference":  "First Choice 2025 醫學六 麻醉科 p. 151"
+    },
+    {
+        "type":  "Symptoms \u0026 Signs",
+        "subject":  "Symptoms \u0026 Signs",
+        "question":  "Thumb sign",
+        "answer":  "Acute Epiglottitis",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 278"
+    },
+    {
+        "type":  "Symptoms \u0026 Signs",
+        "subject":  "Symptoms \u0026 Signs",
+        "question":  "Fiery cherry-red epiglottis",
+        "answer":  "Acute Epiglottitis",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 278"
+    },
+    {
+        "type":  "Symptoms \u0026 Signs",
+        "subject":  "Symptoms \u0026 Signs",
+        "question":  "Steeple sign",
+        "answer":  "Croup",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 295"
+    },
+    {
+        "type":  "Symptoms \u0026 Signs",
+        "subject":  "Symptoms \u0026 Signs",
+        "question":  "Double tongue sign",
+        "answer":  "Ludwig\u0027s angina",
+        "reference":  "N Engl J Med. 2019 Jul 11;381(2):163. "
+    },
+    {
+        "type":  "Symptoms \u0026 Signs",
+        "subject":  "Symptoms \u0026 Signs",
+        "question":  "Allergic shiner",
+        "answer":  "Allergic rhinitis",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 258"
+    },
+    {
+        "type":  "Symptoms \u0026 Signs",
+        "subject":  "Symptoms \u0026 Signs",
+        "question":  "Dennie-Morgan line",
+        "answer":  "Allergic rhinitis",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 258"
+    },
+    {
+        "type":  "Symptoms \u0026 Signs",
+        "subject":  "Symptoms \u0026 Signs",
+        "question":  "Allergic crease",
+        "answer":  "Allergic rhinitis",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 258"
+    },
+    {
+        "type":  "Symptoms \u0026 Signs",
+        "subject":  "Symptoms \u0026 Signs",
+        "question":  "Allergic salute",
+        "answer":  "Allergic rhinitis",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 258"
+    },
+    {
+        "type":  "Symptoms \u0026 Signs",
+        "subject":  "Symptoms \u0026 Signs",
+        "question":  "Salt and pepper sign",
+        "answer":  "Paraganglioma",
+        "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 261"
+    }
+]

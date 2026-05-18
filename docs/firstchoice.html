@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Choice 閃卡 — 醫師二階國考複習</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+  <style>
+    :root {
+      --bg:           #0d1117;
+      --surface:      #161b22;
+      --surface2:     #1c2333;
+      --surface3:     #21262d;
+      --border:       #30363d;
+      --text:         #e6edf3;
+      --text2:        #8b949e;
+      --text3:        #484f58;
+      --primary:      #f97316;
+      --primary-dim:  #3c1c06;
+      --success:      #3fb950;
+      --success-dim:  #0d2c18;
+      --warning:      #d29922;
+      --warning-dim:  #2e1e00;
+      --front-bg:     #161b22;
+      --front-border: #3c2206;
+      --back-bg:      #161b22;
+      --back-border:  #1a3524;
+      --shadow:       0 8px 32px rgba(0,0,0,.5);
+      --radius:       16px;
+    }
+    body.light {
+      --bg:           #f4f6f9;
+      --surface:      #ffffff;
+      --surface2:     #f8fafc;
+      --surface3:     #f1f5f9;
+      --border:       #e2e8f0;
+      --text:         #0f172a;
+      --text2:        #64748b;
+      --text3:        #94a3b8;
+      --primary:      #ea580c;
+      --primary-dim:  #fff7ed;
+      --success:      #16a34a;
+      --success-dim:  #dcfce7;
+      --warning:      #d97706;
+      --warning-dim:  #fef3c7;
+      --front-bg:     #fff7ed;
+      --front-border: #fed7aa;
+      --back-bg:      #f0fdf4;
+      --back-border:  #bbf7d0;
+      --shadow:       0 4px 20px rgba(0,0,0,.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      gap: 8px;
+    }
+    .header-left { display: flex; align-items: center; gap: 10px; min-width: 0; }
+    .header h1 { font-size: 0.95rem; font-weight: 700; white-space: nowrap; }
+    .header-sub { font-size: 0.72rem; color: var(--text2); }
+    .header-actions { display: flex; gap: 6px; align-items: center; flex-shrink: 0; }
+    .btn-icon {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 5px 9px;
+      cursor: pointer;
+      font-size: 0.78rem;
+      color: var(--text2);
+      transition: all .15s;
+      white-space: nowrap;
+    }
+    .btn-icon:hover { background: var(--border); color: var(--text); }
+    .btn-icon.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .back-link { font-size: 0.78rem; color: var(--primary); text-decoration: none; flex-shrink: 0; }
+    .back-link:hover { text-decoration: underline; }
+
+    /* ── Layout ── */
+    .layout { display: flex; height: calc(100vh - 49px); }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      width: 220px;
+      min-width: 180px;
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      overflow-y: auto;
+      padding: 10px 0 16px;
+      flex-shrink: 0;
+    }
+    .sidebar::-webkit-scrollbar { width: 4px; }
+    .sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+    .sidebar-section { padding: 0 10px 6px; }
+    .sidebar-label {
+      font-size: 0.67rem;
+      color: var(--text3);
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      padding: 10px 2px 4px;
+    }
+    .subj-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 6px 10px;
+      cursor: pointer;
+      font-size: 0.82rem;
+      color: var(--text2);
+      border-radius: 8px;
+      margin: 1px 4px;
+      transition: background .1s, color .1s;
+      border-left: 3px solid transparent;
+    }
+    .subj-item:hover { background: var(--surface2); color: var(--text); }
+    .subj-item.active {
+      background: var(--primary-dim);
+      color: var(--primary);
+      border-left-color: var(--primary);
+      font-weight: 600;
+    }
+    .subj-count {
+      margin-left: auto;
+      font-size: 0.68rem;
+      color: var(--text3);
+      background: var(--surface3);
+      border-radius: 99px;
+      padding: 1px 6px;
+    }
+    .filter-input {
+      width: 100%;
+      padding: 6px 10px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface2);
+      color: var(--text);
+      font-size: 0.8rem;
+      margin-bottom: 4px;
+    }
+    .filter-input:focus { outline: none; border-color: var(--primary); }
+    .filter-input::placeholder { color: var(--text3); }
+
+    /* ── Main ── */
+    .main {
+      flex: 1;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 16px 40px;
+      gap: 14px;
+    }
+    .main::-webkit-scrollbar { width: 5px; }
+    .main::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+    /* ── Stats bar ── */
+    .stats-bar { width: 100%; max-width: 700px; display: flex; gap: 8px; flex-wrap: wrap; }
+    .stat-pill {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 99px;
+      padding: 3px 12px;
+      font-size: 0.75rem;
+      color: var(--text2);
+    }
+    .stat-pill b { color: var(--text); }
+
+    /* ── Progress bar ── */
+    .progress-wrap { width: 100%; max-width: 700px; }
+    .progress-bar { height: 5px; background: var(--surface3); border-radius: 99px; overflow: hidden; }
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--primary), #7c3aed);
+      border-radius: 99px;
+      transition: width .4s cubic-bezier(.4,0,.2,1);
+    }
+
+    /* ── 3D Card ── */
+    .card-area { width: 100%; max-width: 700px; perspective: 1400px; }
+    .card-wrapper { position: relative; }
+    .card {
+      width: 100%;
+      min-height: 340px;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform .6s cubic-bezier(.4, 0, .2, 1);
+      cursor: pointer;
+    }
+    .card.flipped { transform: rotateY(180deg); }
+    .card-face {
+      position: absolute;
+      width: 100%;
+      min-height: 340px;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .card-front {
+      background: var(--front-bg);
+      border: 1.5px solid var(--front-border);
+    }
+    .card-back {
+      background: var(--back-bg);
+      border: 1.5px solid var(--back-border);
+      transform: rotateY(180deg);
+    }
+    .card-front-inner {
+      padding: 28px 30px 24px;
+      display: flex;
+      flex-direction: column;
+      min-height: 340px;
+    }
+    .card-label {
+      font-size: 0.66rem;
+      font-weight: 800;
+      letter-spacing: .10em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card-label-front { color: var(--primary); }
+    .card-label-back  { color: var(--success); }
+    .card-tag {
+      font-size: 0.68rem;
+      background: var(--primary-dim);
+      color: var(--primary);
+      border-radius: 6px;
+      padding: 2px 8px;
+      font-weight: 500;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+    .card-question {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.65;
+      flex: 1;
+    }
+    .flip-cue {
+      text-align: center;
+      font-size: 0.72rem;
+      color: var(--text3);
+      margin-top: 20px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+    }
+    .card-back-inner {
+      display: flex;
+      flex-direction: column;
+      min-height: 340px;
+    }
+    .back-header {
+      padding: 16px 24px 12px;
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .back-answer {
+      padding: 20px 24px;
+      flex: 1;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--success);
+      line-height: 1.7;
+    }
+    .back-ref {
+      padding: 12px 24px 18px;
+      font-size: 0.75rem;
+      color: var(--text3);
+      border-top: 1px solid var(--border);
+      font-style: italic;
+    }
+
+    /* ── Controls ── */
+    .controls {
+      width: 100%;
+      max-width: 700px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .btn {
+      padding: 9px 20px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      font-size: 0.86rem;
+      font-weight: 600;
+      transition: all .15s;
+    }
+    .btn-nav {
+      background: var(--surface);
+      color: var(--text2);
+      border: 1px solid var(--border);
+    }
+    .btn-nav:hover:not(:disabled) { background: var(--surface2); color: var(--text); }
+    .btn-nav:disabled { opacity: .3; cursor: not-allowed; }
+    .btn-know {
+      background: var(--success-dim);
+      color: var(--success);
+      border: 1px solid var(--success);
+    }
+    .btn-know:hover { filter: brightness(1.15); }
+    .btn-review {
+      background: var(--warning-dim);
+      color: var(--warning);
+      border: 1px solid var(--warning);
+    }
+    .btn-review:hover { filter: brightness(1.15); }
+    .counter {
+      font-size: 0.82rem;
+      color: var(--text2);
+      padding: 7px 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 99px;
+      min-width: 80px;
+      text-align: center;
+    }
+    .kbd-hints {
+      width: 100%; max-width: 700px;
+      display: flex; gap: 14px; flex-wrap: wrap; justify-content: center;
+    }
+    .kbd-hint { font-size: 0.7rem; color: var(--text3); display: flex; align-items: center; gap: 4px; }
+    .kbd {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 5px; padding: 1px 6px; font-size: 0.68rem; font-family: monospace;
+    }
+    .completion {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 36px 32px;
+      text-align: center; max-width: 500px; width: 100%;
+      box-shadow: var(--shadow);
+    }
+    .completion h2 { font-size: 1.4rem; margin-bottom: 10px; }
+    .completion .score { font-size: 3.5rem; font-weight: 800; color: var(--primary); margin: 16px 0; }
+    .completion p { color: var(--text2); font-size: 0.9rem; }
+    .btn-group { display: flex; gap: 10px; justify-content: center; margin-top: 20px; flex-wrap: wrap; }
+    .btn-primary { background: var(--primary); color: #fff; border: none; }
+    .btn-primary:hover { opacity: .9; }
+    .btn-secondary { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
+    .btn-secondary:hover { background: var(--surface3); }
+    .card-spacer { width: 100%; min-height: 340px; visibility: hidden; pointer-events: none; }
+    .empty { text-align: center; padding: 60px 20px; color: var(--text2); }
+    .empty div { font-size: 3rem; margin-bottom: 12px; }
+    .empty h2 { font-size: 1.2rem; color: var(--text); margin-bottom: 8px; }
+
+    @media (max-width: 680px) {
+      .sidebar { display: none; }
+      .layout { height: calc(100svh - 49px); }
+      .header h1 { font-size: 0.88rem; }
+      .header-sub { display: none; }
+      .card-front-inner { padding: 20px 18px 18px; }
+      .back-header { padding: 12px 16px; }
+      .back-answer { padding: 14px 16px; font-size: 0.94rem; }
+      .back-ref { padding: 10px 16px 14px; }
+      .card-question { font-size: 0.96rem; }
+    }
+    .card { touch-action: manipulation; }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-left">
+    <a href="index.html" class="back-link">← 題庫</a>
+    <div>
+      <h1>First Choice 閃卡</h1>
+      <div class="header-sub" id="header-sub">First Choice 2025 ｜ 讀書重點整理</div>
+    </div>
+  </div>
+  <div class="header-actions">
+    <button class="btn-icon" id="shuffle-btn" title="隨機排序">🔀</button>
+    <button class="btn-icon" id="review-only-btn" title="只看需複習的卡片">📌 複習卡</button>
+    <button class="btn-icon" id="reset-btn" title="重設本科進度">↺ 重設</button>
+    <button class="btn-icon" id="theme-btn" title="切換模式">☀️</button>
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-section">
+      <input type="text" class="filter-input" id="subj-filter" placeholder="搜尋科別...">
+      <div class="sidebar-label">科別</div>
+      <div id="subject-list"></div>
+    </div>
+  </nav>
+
+  <main class="main" id="main">
+    <div class="stats-bar" id="stats-bar"></div>
+    <div class="progress-wrap">
+      <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+    </div>
+
+    <div class="card-area" id="card-area" style="display:none">
+      <div class="card-wrapper">
+        <div class="card-spacer" id="card-spacer"></div>
+        <div class="card" id="card" onclick="flipCard()">
+          <div class="card-face card-front">
+            <div class="card-front-inner">
+              <div class="card-label card-label-front">
+                <span>問題</span>
+                <span class="card-tag" id="card-subj-tag"></span>
+              </div>
+              <div class="card-question" id="card-front-text"></div>
+              <div class="flip-cue">點擊卡片或按 <kbd class="kbd">Space</kbd> 查看答案</div>
+            </div>
+          </div>
+          <div class="card-face card-back">
+            <div class="card-back-inner">
+              <div class="back-header">
+                <div class="card-label card-label-back" style="margin:0">✦ 答案</div>
+              </div>
+              <div class="back-answer" id="back-answer-text"></div>
+              <div class="back-ref" id="back-ref-text"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls" id="controls" style="display:none">
+      <button class="btn btn-nav" id="prev-btn" onclick="prevCard()">← 上一張</button>
+      <span class="counter" id="counter">1 / 1</span>
+      <button class="btn btn-nav" id="next-btn" onclick="nextCard()">下一張 →</button>
+    </div>
+    <div class="controls" id="rating-controls" style="display:none">
+      <button class="btn btn-review" onclick="markCard('review')">📌 需複習</button>
+      <button class="btn btn-know"   onclick="markCard('know')">✓ 已熟悉</button>
+    </div>
+    <div class="kbd-hints" id="kbd-hints" style="display:none">
+      <span class="kbd-hint"><kbd class="kbd">Space</kbd> 翻面</span>
+      <span class="kbd-hint"><kbd class="kbd">←</kbd><kbd class="kbd">→</kbd> 切換</span>
+      <span class="kbd-hint"><kbd class="kbd">1</kbd> 已熟</span>
+      <span class="kbd-hint"><kbd class="kbd">2</kbd> 需複習</span>
+    </div>
+
+    <div class="completion" id="completion" style="display:none">
+      <div style="font-size:3rem">🎉</div>
+      <h2>本科完成！</h2>
+      <div class="score" id="completion-score">--</div>
+      <p id="completion-text"></p>
+      <div class="btn-group">
+        <button class="btn btn-secondary" onclick="restartSubject()">重新開始</button>
+        <button class="btn btn-primary" onclick="selectSubject('all')">回全部</button>
+      </div>
+    </div>
+
+    <div class="empty" id="empty-state" style="display:none">
+      <div>📭</div>
+      <h2>沒有符合的閃卡</h2>
+      <p>請選擇其他科別或取消篩選</p>
+    </div>
+  </main>
+</div>
+
+<script>
+const LS_KNOWN   = 'fc2_known';
+const LS_REVIEW  = 'fc2_review';
+const LS_THEME   = 'fc2_theme';
+const LS_SUBJ    = 'fc2_subj';
+
+let allCards      = [];
+let subjects      = [];
+let currentSubj   = 'all';
+let sessionCards  = [];
+let currentIndex  = 0;
+let isFlipped     = false;
+let reviewOnly    = false;
+let isShuffled    = false;
+
+let knownSet  = new Set(JSON.parse(localStorage.getItem(LS_KNOWN)  || '[]'));
+let reviewSet = new Set(JSON.parse(localStorage.getItem(LS_REVIEW) || '[]'));
+
+async function init() {
+  if (localStorage.getItem(LS_THEME) === 'light') {
+    document.body.classList.add('light');
+    document.getElementById('theme-btn').textContent = '🌙';
+  } else {
+    document.getElementById('theme-btn').textContent = '☀️';
+  }
+
+  try {
+    const res = await fetch('firstchoice_cards.json?v=' + Date.now());
+    const data = await res.json();
+    allCards = data.map((c, i) => ({
+      id:        `fc2_${i}`,
+      subject:   c.subject,
+      type:      c.type,
+      front:     c.question,
+      back:      c.answer,
+      reference: c.reference,
+    }));
+    document.getElementById('header-sub').textContent =
+      `First Choice 2025 ｜ 共 ${allCards.length} 張閃卡`;
+  } catch(e) {
+    document.getElementById('main').innerHTML =
+      `<div class="empty"><div>⚠️</div><h2>載入失敗</h2><p>請確認 firstchoice_cards.json 存在</p></div>`;
+    return;
+  }
+
+  buildSubjectList();
+  const saved = localStorage.getItem(LS_SUBJ) || 'all';
+  selectSubject(saved, false);
+}
+
+function buildSubjectList() {
+  const map = {};
+  allCards.forEach(c => {
+    if (!map[c.subject]) map[c.subject] = 0;
+    map[c.subject]++;
+  });
+  subjects = Object.keys(map).sort();
+
+  const list = document.getElementById('subject-list');
+  list.innerHTML = '';
+
+  const allEl = makeSubjItem('all', `全部科別`, allCards.length);
+  list.appendChild(allEl);
+
+  subjects.forEach(subj => {
+    list.appendChild(makeSubjItem(subj, subj, map[subj]));
+  });
+
+  document.getElementById('subj-filter').addEventListener('input', e => {
+    const q = e.target.value.toLowerCase();
+    list.querySelectorAll('.subj-item').forEach(el => {
+      el.style.display = el.textContent.toLowerCase().includes(q) ? '' : 'none';
+    });
+  });
+}
+
+function makeSubjItem(key, label, count) {
+  const el = document.createElement('div');
+  el.className = 'subj-item' + (currentSubj === key ? ' active' : '');
+  el.setAttribute('data-subj', key);
+  el.innerHTML = `<span style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escHtml(label)}</span><span class="subj-count">${count}</span>`;
+  el.onclick = () => selectSubject(key);
+  return el;
+}
+
+function selectSubject(subj, scroll = true) {
+  currentSubj = subj;
+  reviewOnly = false;
+  document.getElementById('review-only-btn').classList.remove('active');
+  localStorage.setItem(LS_SUBJ, subj);
+  buildSubjectList();
+  loadSession();
+  if (scroll) document.getElementById('main').scrollTo(0, 0);
+}
+
+function getCardsForSubj(subj) {
+  return subj === 'all' ? [...allCards] : allCards.filter(c => c.subject === subj);
+}
+
+function loadSession() {
+  let cards = getCardsForSubj(currentSubj);
+  if (reviewOnly) cards = cards.filter(c => reviewSet.has(c.id));
+  if (isShuffled)  cards = shuffle([...cards]);
+  sessionCards  = cards;
+  currentIndex  = 0;
+  isFlipped     = false;
+  renderCard();
+  renderStats();
+}
+
+function renderCard() {
+  const area       = document.getElementById('card-area');
+  const controls   = document.getElementById('controls');
+  const ratingCtls = document.getElementById('rating-controls');
+  const kbdHints   = document.getElementById('kbd-hints');
+  const completion = document.getElementById('completion');
+  const empty      = document.getElementById('empty-state');
+
+  if (sessionCards.length === 0) {
+    area.style.display = controls.style.display = ratingCtls.style.display = kbdHints.style.display = completion.style.display = 'none';
+    empty.style.display = 'block';
+    return;
+  }
+  empty.style.display = 'none';
+
+  if (currentIndex >= sessionCards.length) {
+    area.style.display = controls.style.display = ratingCtls.style.display = kbdHints.style.display = 'none';
+    completion.style.display = 'block';
+    const known = sessionCards.filter(c => knownSet.has(c.id)).length;
+    document.getElementById('completion-score').textContent = `${known}/${sessionCards.length}`;
+    document.getElementById('completion-text').textContent  = `已熟悉 ${Math.round(known/sessionCards.length*100)}%`;
+    return;
+  }
+
+  area.style.display = controls.style.display = ratingCtls.style.display = kbdHints.style.display = 'flex';
+  area.style.display  = 'block';
+  completion.style.display = 'none';
+
+  const c = sessionCards[currentIndex];
+  document.getElementById('card-front-text').textContent  = c.front;
+  document.getElementById('card-subj-tag').textContent    = c.subject;
+  document.getElementById('back-answer-text').textContent = c.back;
+  document.getElementById('back-ref-text').textContent    = c.reference || '';
+
+  const cardEl = document.getElementById('card');
+  cardEl.classList.remove('flipped');
+  isFlipped = false;
+
+  document.getElementById('counter').textContent     = `${currentIndex + 1} / ${sessionCards.length}`;
+  document.getElementById('prev-btn').disabled       = currentIndex === 0;
+  document.getElementById('next-btn').disabled       = currentIndex >= sessionCards.length - 1;
+  document.getElementById('progress-fill').style.width = ((currentIndex + 1) / sessionCards.length * 100) + '%';
+
+  requestAnimationFrame(syncCardHeight);
+}
+
+function syncCardHeight() {
+  const front  = document.querySelector('.card-front');
+  const back   = document.querySelector('.card-back');
+  const spacer = document.getElementById('card-spacer');
+  const cardEl = document.getElementById('card');
+  if (!front || !back || !spacer) return;
+  const h = Math.max(front.scrollHeight, back.scrollHeight, 340);
+  spacer.style.minHeight = front.style.minHeight = back.style.minHeight = cardEl.style.minHeight = h + 'px';
+}
+
+function renderStats() {
+  const cards  = getCardsForSubj(currentSubj);
+  const known  = cards.filter(c => knownSet.has(c.id)).length;
+  const review = cards.filter(c => reviewSet.has(c.id)).length;
+  document.getElementById('stats-bar').innerHTML = `
+    <span class="stat-pill">共 <b>${cards.length}</b> 張</span>
+    <span class="stat-pill">✓ 已熟悉 <b>${known}</b></span>
+    <span class="stat-pill">📌 需複習 <b>${review}</b></span>
+    <span class="stat-pill">未回答 <b>${cards.length - known - review}</b></span>`;
+}
+
+function flipCard() {
+  isFlipped = !isFlipped;
+  document.getElementById('card').classList.toggle('flipped', isFlipped);
+}
+
+function nextCard() { if (currentIndex <= sessionCards.length - 1) { currentIndex++; renderCard(); } }
+function prevCard() { if (currentIndex > 0) { currentIndex--; renderCard(); } }
+
+function markCard(type) {
+  if (currentIndex >= sessionCards.length) return;
+  const c = sessionCards[currentIndex];
+  if (type === 'know') { knownSet.add(c.id); reviewSet.delete(c.id); }
+  else                  { reviewSet.add(c.id); knownSet.delete(c.id); }
+  localStorage.setItem(LS_KNOWN,  JSON.stringify([...knownSet]));
+  localStorage.setItem(LS_REVIEW, JSON.stringify([...reviewSet]));
+  renderStats();
+  buildSubjectList();
+  nextCard();
+}
+
+function restartSubject() { currentIndex = 0; isFlipped = false; loadSession(); }
+
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+document.getElementById('shuffle-btn').addEventListener('click', () => {
+  isShuffled = !isShuffled;
+  document.getElementById('shuffle-btn').classList.toggle('active', isShuffled);
+  loadSession();
+});
+document.getElementById('review-only-btn').addEventListener('click', () => {
+  reviewOnly = !reviewOnly;
+  document.getElementById('review-only-btn').classList.toggle('active', reviewOnly);
+  loadSession();
+});
+document.getElementById('reset-btn').addEventListener('click', () => {
+  if (!confirm('確定要重設本科進度嗎？')) return;
+  getCardsForSubj(currentSubj).forEach(c => { knownSet.delete(c.id); reviewSet.delete(c.id); });
+  localStorage.setItem(LS_KNOWN,  JSON.stringify([...knownSet]));
+  localStorage.setItem(LS_REVIEW, JSON.stringify([...reviewSet]));
+  renderStats(); buildSubjectList(); restartSubject();
+});
+document.getElementById('theme-btn').addEventListener('click', () => {
+  const isLight = document.body.classList.toggle('light');
+  document.getElementById('theme-btn').textContent = isLight ? '🌙' : '☀️';
+  localStorage.setItem(LS_THEME, isLight ? 'light' : 'dark');
+});
+
+document.addEventListener('keydown', e => {
+  if (e.target.tagName === 'INPUT') return;
+  if (e.code === 'Space')           { e.preventDefault(); flipCard(); }
+  else if (e.code === 'ArrowRight') nextCard();
+  else if (e.code === 'ArrowLeft')  prevCard();
+  else if (e.key === '1')  markCard('know');
+  else if (e.key === '2')  markCard('review');
+});
+
+let touchStartX = 0;
+document.getElementById('card').addEventListener('touchstart', e => {
+  touchStartX = e.touches[0].clientX;
+}, { passive: true });
+document.getElementById('card').addEventListener('touchend', e => {
+  const dx = e.changedTouches[0].clientX - touchStartX;
+  if (Math.abs(dx) > 60) { if (dx < 0) nextCard(); else prevCard(); }
+  else flipCard();
+}, { passive: true });
+
+init();
+</script>
+</body>
+</html>
