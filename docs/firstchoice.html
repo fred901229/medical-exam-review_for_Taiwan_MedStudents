@@ -69,6 +69,21 @@
       top: 0;
       z-index: 100;
       gap: 8px;
+      flex-wrap: wrap;
+    }
+    .header-progress {
+      width: 100%;
+      height: 3px;
+      background: var(--border);
+      border-radius: 0;
+      overflow: hidden;
+      margin-top: 4px;
+    }
+    .header-progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--primary), #7c3aed);
+      transition: width .4s cubic-bezier(.4,0,.2,1);
+      width: 0%;
     }
     .header-left { display: flex; align-items: center; gap: 10px; min-width: 0; }
     .header h1 { font-size: 0.95rem; font-weight: 700; white-space: nowrap; }
@@ -162,7 +177,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 8px 16px 40px;
+      padding: 0 16px 40px;
       gap: 10px;
     }
     .main::-webkit-scrollbar { width: 5px; }
@@ -398,6 +413,9 @@
     <button class="btn-icon" id="reset-btn" title="重設本科進度">↺ 重設</button>
     <button class="btn-icon" id="theme-btn" title="切換模式">☀️</button>
   </div>
+  <div class="header-progress" style="flex-basis:100%">
+    <div class="header-progress-fill" id="progress-fill"></div>
+  </div>
 </header>
 
 <div class="layout">
@@ -410,10 +428,6 @@
   </nav>
 
   <main class="main" id="main">
-    <div class="progress-wrap">
-      <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
-    </div>
-
     <div class="card-area" id="card-area" style="display:none">
       <div class="card-wrapper">
         <div class="card-spacer" id="card-spacer"></div>
