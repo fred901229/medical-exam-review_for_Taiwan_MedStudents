@@ -584,7 +584,7 @@
         "type":  "國考QA",
         "subject":  "麻醉科",
         "question":  "PDPH (Postdural puncture headache)的治療方式是?",
-        "answer":  "硬腦膜外字體血液凝塊 (Epidural Blood Patch)",
+        "answer":  "硬腦膜外自體血液凝塊 (Epidural Blood Patch)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 111"
     },
     {
@@ -805,6 +805,272 @@
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 151"
     },
     {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "可以抽血檢驗病人的何種指標，來評估病人的營養狀況?",
+        "answer":  "Albumin、Pre-albumin、Transferrin",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 6"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "估算外科病人的基礎能量消耗(BEE, Basal Energy Expenditure)，分別為一天給予多少熱量?",
+        "answer":  "輕中度外傷：25-35 Kcal/kg，重度外傷：40-45 Kcal/kg，肝衰竭：25-30 Kcal/kg",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 11"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "腸胃道營養的好處包含哪些?",
+        "answer":  "維持腸胃道黏膜完整性、降低細菌translocation、提高免疫功能、便宜、少併發症",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 8"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "腸胃道營養最常見的併發症為何?",
+        "answer":  "腹瀉",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 8"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "TPN (Total Parenteral Nutritrion)適合用於哪種病人?",
+        "answer":  "腸道失去功能、預期需禁食超過7-14天。e.g. 胃腸皮膚瘻管、short bowel syndrome、腸阻塞、急性胰臟炎、急性嚴重燒傷",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 9"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "TPN (Total Parenteral Nutritrion)不適合用於哪種病人?",
+        "answer":  "短期無生存可能、生命徵象不穩定、短期禁食、有造口、心臟功能不佳、嚴重代謝障礙",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 9"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "給予TPN容易缺乏那些微量元素?",
+        "answer":  "Zn, Cu, Se, Cr, Mn",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 9"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "TPN要如何給予?原因是?",
+        "answer":  "中央靜脈導管，因為中央靜脈才可以承受較高的滲透壓",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 9"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "高血糖高滲透壓非酮酸性昏迷(HHNK, Hyperglycemic Hyperosmolar Non-ketotic coma)是指?",
+        "answer":  "因為輸注過快、年長、胰臟功能不好等等，導致高滲透性利尿脫水，使得病人意識狀態改變、昏迷。",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 10"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "再餵食症候群 (Refeeding Syndrome)會導致何種電解質異常?",
+        "answer":  "三低一高 (低血鉀、低血磷、低血鎂、高血糖)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 11"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "正常血鈉濃度為多少?",
+        "answer":  "135-145 mEq/L",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 18"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "Hypervolemic Hyponatremia的治療方式?",
+        "answer":  "給予利尿劑脫水，讓過多體液可以排出體外",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 18"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "Euvolemic Hyponatremia的治療方式?",
+        "answer":  "限水、高張氯化鈉(3% N/S) (矯正速度不能超過10-12 mEq/L/day)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 18"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "Euvolemic Hyponatremia矯正太快會導致?",
+        "answer":  "Central Pontine Demyelination",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 18"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "TURP syndrome是指?",
+        "answer":  "BPH病人在TURP手術中由於使用大量沖洗液，導致體液增加，因而造成低血鈉",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 18"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "神經外科病人，若發生低血鈉，常見原因為何?",
+        "answer":  "SIADH",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 18"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "正常血鉀濃度為多少?",
+        "answer":  "3.5-5.0 mEq/L",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 18"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "高血鉀的治療方式有哪些?",
+        "answer":  "FAT DICKS (Furosemide, Albuterol, Turbutaline, Dialysis, Insulin/glucose, Calcium gluconate, Kayexalate/Kalimate/Lokelma, Sodium bicarbonate)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 19"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "正常血鈣濃度為多少?",
+        "answer":  "8-10 mEq/L",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 19"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "低血鈣(Hypocalcemia)會出現甚麼sign?",
+        "answer":  "Chvostek sign, Trousseau sign",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 19"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "高血鈣常見原因有哪些?",
+        "answer":  "惡性腫瘤(最常見)骨轉移或分泌PTHrP、副甲狀腺功能亢進、肉芽腫性疾病(TB, sarcoidosis)、利尿劑(Thiazide)、Vitamin D過多",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 20"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "High Anion Gap的代謝性酸中毒，常見原因包含?",
+        "answer":  "MUDPILERS (Methanol, Uremia, Diabetic ketoacidosis, Propylene glycol, Isoniazid, Lactic acidosis, Ethylene glycol, Rhabdomyolisis, Salicylates)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 20-21"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "最容易導致腸阻塞的電解質不平衡是?",
+        "answer":  "低血鉀 (Hypokalemia)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 21"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "一天所需給予的水分，該如何以體重來估算?",
+        "answer":  "100-50-20 rule (前10kg*100 + 第二個10kg*50 + 剩下體重*20)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 26"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "CVP會上升的休克類型有哪些?",
+        "answer":  "心因性、阻塞性",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 27"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "Heart Rate會下降的休克類型是哪一種?",
+        "answer":  "神經性",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 27"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "第二級低血容性休克的評估內容有哪些?數值落在多少?預估失血量為多少?",
+        "answer":  "BP: normal, HR \u003e 100/min, RR: 20-30/min, U/O: 20-30 c.c./hr。失血量：750-1500 mL (15-30%)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 27"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "第三級低血容性休克的評估內容有哪些?數值落在多少?預估失血量為多少?",
+        "answer":  "BP: decreased, HR \u003e 120/min, RR: 30-40/min, U/O: 5-15 c.c./hr。失血量：1500-2000 mL (30-40%)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 27"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "成人、小孩、新生兒的正常排尿量分別是多少?",
+        "answer":  "成人: \u003e 0.5 c.c./kg/hr, 小孩: \u003e 1mL/kg/hr, 新生兒: \u003e 2mL/kg/hr",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 27"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "SIRS (Systemic Inflammatory Response Syndrome)的診斷需符合那些標準至少2個以上?",
+        "answer":  "1. BT \u003e 38度或 \u003c36度，2. HR \u003e 90/min，3. RR\u003e 20/min或PaCO2 \u003c 32mmHg，4. WBC\u003e 12000或 \u003c 4000",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 28"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "EGDT (Early Goal-Directed Therapy)是指在6小時內需達成哪些目標?",
+        "answer":  "1. CVP維持在8-12 mmHg，2. MAP \u003e 65 mmHg，3. ScvO2 \u003e 70%",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 28-29"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "第一、二、三線升壓劑分別為何?",
+        "answer":  "Norepinephrine, Vasopression, Epinephrine",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 29"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "晶體溶液(Crystalloid solution)包含哪些溶液?",
+        "answer":  "N/S (Normal Saline), L/R (Latacted Ringer)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 30"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "大量輸血的定義是?",
+        "answer":  "一次輸超過2500mL，或24小時內輸超過5000mL",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 30"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "大量輸血會引發的併發症有哪些?",
+        "answer":  "低體溫、凝血功能異常(Dilution Thrombocytopenia)、急性溶血反應、電解質異常(高血鉀、低血鉀、低血鈣、代謝鹼中毒、酸中毒)、TRALI",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 30-31"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "pRBC: FFP : Platelet以多少比例輸注，可以預防凝血功能異常?",
+        "answer":  "1:1:1",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 30"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "Lactated Ringer\u0027s solution的組成成分為?",
+        "answer":  "鈉離子：130 mEq/L，鉀離子：4 mEq/L，氯離子：109 mEq/L，鈣離子：3 mEq/L，乳酸：28/mEq/L",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 36"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "小兒外傷的輸液處理原則?",
+        "answer":  "先給予20mL/kg的含鈉crystalloid solution (N/S)，重複給予後無改善，再給予10 mL/kg的pRBC",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 38"
+    },
+    {
         "type":  "Symptoms \u0026 Signs",
         "subject":  "Symptoms \u0026 Signs",
         "question":  "Thumb sign",
@@ -866,5 +1132,19 @@
         "question":  "Salt and pepper sign",
         "answer":  "Paraganglioma",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 261"
+    },
+    {
+        "type":  "Symptoms \u0026 Signs",
+        "subject":  "Symptoms \u0026 Signs",
+        "question":  "Chvostek sign",
+        "answer":  "Hypocalcemia",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 19"
+    },
+    {
+        "type":  "Symptoms \u0026 Signs",
+        "subject":  "Symptoms \u0026 Signs",
+        "question":  "Trousseau sign",
+        "answer":  "Hypocalcemia",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 19"
     }
 ]
