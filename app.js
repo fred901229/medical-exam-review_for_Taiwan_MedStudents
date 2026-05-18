@@ -201,3 +201,140 @@ function escAttr(s) {
 }
 
 init();
+
+/* ══════════════════════════════════════════
+   Mode Switching
+   ══════════════════════════════════════════ */
+
+let currentMode = 'exam';
+
+function switchMode(mode) {
+  currentMode = mode;
+  const examSection  = document.getElementById('exam-section');
+  const fcSection    = document.getElementById('fc-section');
+  const examSidebar  = document.getElementById('exam-sidebar');
+  const fcSidebar    = document.getElementById('fc-sidebar');
+  const tabExam      = document.getElementById('tab-exam');
+  const tabFc        = document.getElementById('tab-fc');
+  const statsEl      = document.getElementById('stats');
+
+  if (mode === 'exam') {
+    examSection.style.display  = '';
+    fcSection.style.display    = 'none';
+    examSidebar.style.display  = '';
+    fcSidebar.style.display    = 'none';
+    tabExam.classList.add('active');
+    tabFc.classList.remove('active');
+    statsEl.textContent = `顯示 ${filtered.length} / ${allQuestions.length} 題`;
+  } else {
+    examSection.style.display  = 'none';
+    fcSection.style.display    = '';
+    examSidebar.style.display  = 'none';
+    fcSidebar.style.display    = '';
+    tabExam.classList.remove('active');
+    tabFc.classList.add('active');
+    statsEl.textContent = '';
+    if (!allFlashcards.length) initFlashcards();
+  }
+}
+
+/* ══════════════════════════════════════════
+   Flashcard Mode
+   ══════════════════════════════════════════ */
+
+let allFlashcards      = [];
+let filteredFlashcards = [];
+
+async function initFlashcards() {
+  const loadingEl = document.getElementById('fc-loading');
+  loadingEl.style.display = 'block';
+  try {
+    const res = await fetch('flashcards.json');
+    if (!res.ok) throw new Error('無法載入');
+    allFlashcards = await res.json();
+    setupFlashcardFilters();
+    applyFlashcardFilters();
+  } catch {
+    loadingEl.textContent = '⚠ 閃卡載入失敗，請確認 flashcards.json 存在。';
+    return;
+  }
+  loadingEl.style.display = 'none';
+}
+
+function setupFlashcardFilters() {
+  const subjects = [...new Set(allFlashcards.map(c => c.subject))].sort();
+  populate('fc-filter-subject', subjects);
+  document.getElementById('fc-filter-subject').addEventListener('change', applyFlashcardFilters);
+  document.getElementById('fc-search').addEventListener('input', applyFlashcardFilters);
+  document.getElementById('fc-reset-btn').addEventListener('click', resetFlashcardFilters);
+  document.getElementById('fc-random-btn').addEventListener('click', randomFlashcard);
+}
+
+function applyFlashcardFilters() {
+  const subject = document.getElementById('fc-filter-subject').value;
+  const kw      = document.getElementById('fc-search').value.trim().toLowerCase();
+
+  filteredFlashcards = allFlashcards.filter(c => {
+    if (subject && c.subject !== subject) return false;
+    if (kw) {
+      const haystack = [c.question, c.answer].join(' ').toLowerCase();
+      if (!haystack.includes(kw)) return false;
+    }
+    return true;
+  });
+
+  renderFlashcards();
+  document.getElementById('fc-filter-stats').textContent =
+    `共 ${filteredFlashcards.length} / ${allFlashcards.length} 張`;
+}
+
+function resetFlashcardFilters() {
+  document.getElementById('fc-filter-subject').value = '';
+  document.getElementById('fc-search').value = '';
+  applyFlashcardFilters();
+}
+
+function randomFlashcard() {
+  if (!filteredFlashcards.length) return;
+  const idx = Math.floor(Math.random() * filteredFlashcards.length);
+  document.getElementById(`fc${idx}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function renderFlashcards() {
+  const list = document.getElementById('fc-list');
+  if (!filteredFlashcards.length) {
+    list.innerHTML = '<div class="empty">沒有符合條件的閃卡</div>';
+    return;
+  }
+  list.innerHTML = filteredFlashcards.map((c, i) => flashcardHTML(c, i)).join('');
+}
+
+function flashcardHTML(c, i) {
+  const id = `fc${i}`;
+  return `
+  <div class="fc-card" id="${id}" onclick="revealFlashcard('${id}')">
+    <div class="fc-header">
+      <span class="fc-badge">${escHtml(c.subject)}</span>
+      ${c.type === 'Symptoms & Signs' ? '<span class="fc-badge fc-badge-sign">Symptoms & Signs</span>' : ''}
+    </div>
+    <div class="fc-question">${escHtml(c.question)}</div>
+    <div class="fc-hint" id="${id}-hint">點擊顯示答案</div>
+    <div class="fc-answer" id="${id}-ans">
+      <div class="fc-answer-text">${escHtml(c.answer)}</div>
+      <div class="fc-reference">${escHtml(c.reference)}</div>
+    </div>
+  </div>`;
+}
+
+function revealFlashcard(id) {
+  const card  = document.getElementById(id);
+  const hint  = document.getElementById(`${id}-hint`);
+  const isRevealed = card.classList.contains('revealed');
+  if (isRevealed) {
+    card.classList.remove('revealed');
+    hint.textContent = '點擊顯示答案';
+  } else {
+    card.classList.add('revealed');
+    hint.textContent = '點擊收起答案';
+  }
+}

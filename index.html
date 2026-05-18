@@ -10,12 +10,17 @@
   <header class="header">
     <div class="header-inner">
       <h1>醫師二階國考複習平台 <span style="font-size:0.65rem; font-weight:400; opacity:0.75">by Yu-Yuan Wu (KMU M109)</span></h1>
+      <div class="mode-tabs">
+        <button id="tab-exam" class="mode-tab active" onclick="switchMode('exam')">歷屆考題</button>
+        <button id="tab-fc" class="mode-tab" onclick="switchMode('flashcard')">First Choice 閃卡</button>
+      </div>
       <span id="stats" class="stats"></span>
     </div>
   </header>
 
   <div class="main-layout">
-    <aside class="sidebar">
+    <!-- 歷屆考題 Sidebar -->
+    <aside class="sidebar" id="exam-sidebar">
       <div class="filter-group">
         <label>年份</label>
         <select id="filter-year"><option value="">全部</option></select>
@@ -37,9 +42,33 @@
       <div id="filter-stats" class="filter-stats"></div>
     </aside>
 
+    <!-- First Choice 閃卡 Sidebar -->
+    <aside class="sidebar" id="fc-sidebar" style="display:none">
+      <div class="filter-group">
+        <label>科別</label>
+        <select id="fc-filter-subject"><option value="">全部</option></select>
+      </div>
+      <div class="filter-group">
+        <label>搜尋</label>
+        <input type="text" id="fc-search" placeholder="輸入關鍵字...">
+      </div>
+      <button id="fc-reset-btn" class="btn-secondary">重設篩選</button>
+      <button id="fc-random-btn" class="btn-random">隨機閃卡</button>
+      <div id="fc-filter-stats" class="filter-stats"></div>
+    </aside>
+
     <main class="content">
-      <div id="question-list"></div>
-      <div id="loading" class="loading">載入題庫中...</div>
+      <!-- 歷屆考題 Section -->
+      <div id="exam-section">
+        <div id="question-list"></div>
+        <div id="loading" class="loading">載入題庫中...</div>
+      </div>
+
+      <!-- 閃卡 Section -->
+      <div id="fc-section" style="display:none">
+        <div id="fc-list"></div>
+        <div id="fc-loading" class="loading" style="display:none">載入閃卡中...</div>
+      </div>
     </main>
   </div>
 
