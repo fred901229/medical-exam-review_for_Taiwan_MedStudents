@@ -162,8 +162,8 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 20px 16px 40px;
-      gap: 14px;
+      padding: 8px 16px 40px;
+      gap: 10px;
     }
     .main::-webkit-scrollbar { width: 5px; }
     .main::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
@@ -410,7 +410,6 @@
   </nav>
 
   <main class="main" id="main">
-    <div class="stats-bar" id="stats-bar"></div>
     <div class="progress-wrap">
       <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
     </div>
@@ -457,6 +456,7 @@
       <span class="kbd-hint"><kbd class="kbd">1</kbd> 已熟</span>
       <span class="kbd-hint"><kbd class="kbd">2</kbd> 需複習</span>
     </div>
+    <div class="stats-bar" id="stats-bar"></div>
 
     <div class="completion" id="completion" style="display:none">
       <div style="font-size:3rem">🎉</div>
