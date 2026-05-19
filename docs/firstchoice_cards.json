@@ -1127,6 +1127,440 @@
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 48"
     },
     {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "外科傷口感染的定義為?",
+        "answer":  "手術後一個月內手術部位有化膿、膿腫、蜂窩性組織炎。",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "第二常見的院內感染是?",
+        "answer":  "外科傷口感染",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "乾淨(Clean)外科傷口的定義為?",
+        "answer":  "傷口無發炎，且沒有切開經過呼吸道、消化道、泌尿道或生殖道的手術",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "乾淨(Clean)外科傷口使用抗生素的原則?",
+        "answer":  "不使用預防性抗生素，若時間較長、有植入物，可使用第一代Cepha",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "乾淨但易受汙染(Clean-contaminated)外科傷口的定義為?",
+        "answer":  "傷口有控制的情況下，有切開經過呼吸道、消化道、泌尿道或生殖道的手術",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "乾淨但易受汙染(Clean-contaminated)外科傷口使用抗生素的原則?",
+        "answer":  "使用第一代Cepha(Grams+)、Aminoglycoside(Grams-)、Unasyn, Augmentin, Cefmetazole(厭氧菌)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "汙染(Contaminated)外科傷口的定義為?",
+        "answer":  "6-8小時內新產生的開放性傷口，沒有清腸準備的腸胃道手術",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "汙染(Contaminated)外科傷口使用抗生素的原則?",
+        "answer":  "治療性抗生素，第二代Cepha+Aminoglycoside",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "骯髒(Dirty)外科傷口的定義為?",
+        "answer":  "舊有傷口出現壞死組織、新傷口感染、手術處有感染",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "骯髒(Dirty)外科傷口使用抗生素的原則?",
+        "answer":  "治療性抗生素，第二代Cepha+Aminoglycoside",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 57"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "最常見的手術部位感染(SSI, Surgical Site Infection)是哪一種?",
+        "answer":  "淺層切口手術部位感染",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 57"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "手術部位感染是指發生於術後多久內的感染?",
+        "answer":  "30天內，植入物為1年內",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 57"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "偽膜性腸炎(Pseudomembranous Colitits)的治療方式為何?",
+        "answer":  "口服Vancomycin或Metronidazole",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 59"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "最常見的院內感染是?",
+        "answer":  "泌尿道感染 (UTI, Urinary Tract Infection)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 59"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "UTI常見的致病菌有哪些?",
+        "answer":  "E.coli, Pseudomonas aeruginosa",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 59"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "第三常見的院內感染是?",
+        "answer":  "肺炎",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 59"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "院內感染最常見的死因是?",
+        "answer":  "肺炎",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 59"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "貓咬傷和哪種致病菌感染最有關?",
+        "answer":  "Pasteurella multocida",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 61"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "猴子咬傷和哪種致病菌感染最有關?",
+        "answer":  "B virus",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 61"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "海水魚咬傷與哪種致病菌感染最有關?",
+        "answer":  "Vibrio spp.",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 61"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "狗咬傷和哪種致病菌感染最有關?",
+        "answer":  "Pasteurella spp.",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 61"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "MHC基因位於哪裡?",
+        "answer":  "第6對染色體短臂",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 69"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "Class I MHC (Major Histocompatibility Complex)包含哪些?",
+        "answer":  "HLA-A, B, C",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 69"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "Class II MHC (Major Histocompatibility Complex)包含哪些?",
+        "answer":  "HLA-DP, DQ, DR",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 69"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "Class I MHC (Major Histocompatibility Complex)存在於哪些細胞?",
+        "answer":  "有核細胞、血小板",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 69"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "Class II MHC (Major Histocompatibility Complex)存在於哪些細胞?",
+        "answer":  "抗原呈現細胞(APC, Antigen Presenting Cells)：B cell, Macrophage, Dendritic cell",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 69"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "超急性(Hyperacute)移植排斥反應是指發生於移植後多久?",
+        "answer":  "數分鐘至數天內",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 70"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "超急性(Hyperacute)移植排斥反應的常見原因?",
+        "answer":  "受贈者血液中存在針對捐贈者HLA抗原之抗體、ABO血型不符合",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 70"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "急性(Acute)移植排斥反應是指發生於移植後多久?",
+        "answer":  "數天至數個月之內 (1週至6個月)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 70"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "慢性(Chronic)移植排斥反應是指發生於移植後多久?",
+        "answer":  "數月至數年",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 70"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "移植後一個月內的感染以何種致病菌較常見?",
+        "answer":  "細菌、Candida、病毒(HSV, HIV, HBV, HCV)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 71-72"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "移植後第二個月到第六個月的感染以何種致病菌較常見?",
+        "answer":  "病毒(CMV, EBV, VZV)、伺機性感染(Nocardia, Listeria, Tuberculosis, Aspergillus, Crypotcoccus, Toxoplasma)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 71-72"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "移植後六個月後的感染以何種致病菌較常見?",
+        "answer":  "伺機性病毒感染(Herpes Zoster)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 71-72"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "PTLD (Post-tranplant lymphoproliferative Disorders)與何種致病菌有關?",
+        "answer":  "EBV",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 72"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "穿刺傷包含哪兩種類型?",
+        "answer":  "高速傷：槍彈傷；低速傷：刀傷",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 84"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "刀傷最常傷害到哪一個器官?",
+        "answer":  "肝臟",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 84"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "槍傷最常傷害到哪一個器官?",
+        "answer":  "小腸",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 84"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "腹部鈍傷最常傷害到哪一個器官?",
+        "answer":  "脾臟(最常見)、肝臟(第二常見)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 84"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "需要剖腹探查的情況包含哪些?",
+        "answer":  "血型動力學不穩定、peritonneal sign、槍傷",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 84"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "FAST是檢查哪些部位，觀察是否有出血?",
+        "answer":  "Pericardium, Morison\u0027s pouch, perisplenic space, rectovesicular space",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 86"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "致命三角(Lethal Triad)包含哪三項?",
+        "answer":  "Hypothermia, Coagulopathy, Metabolic Acidosis",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 86"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "診斷吸入性灼傷，應該執行哪一種檢查?",
+        "answer":  "支氣管鏡",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 87"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "DNR的適用範圍包含?",
+        "answer":  "適用於心跳或呼吸停止時不進行心肺復甦術，不限制其他治療手段",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 99"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "末期病人無簽署意願書，且意識昏迷或無法清楚表達意願，其親屬應按照何順序，出具同意書替代之?",
+        "answer":  "一、配偶。二、成年子女、孫子女。三、父母。四、兄弟姐妹。五、祖父母。六、曾祖父母、曾孫子女或三親等旁系血親。七、一親等直系姻親。",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 107"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "MELD score主要評估哪些項目?",
+        "answer":  "Total Bilirubin, Creatinine, INR, Na+, Albumin, Age",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 111"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "65歲以上老年人最常見的外傷原因為何?",
+        "answer":  "跌倒",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 113"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "燒燙傷治療中，靜脈輸液的給予可以用何公式計算?",
+        "answer":  "Parkland formula = 4mL/kg per %TBSA burn (前8小時給總量的一半，後16小時給剩下的一半)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 114"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "尿液的Bence Jones Protein是何種癌症的tumor biomarker?",
+        "answer":  "Multiple Myeloma (Plasma cells)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 114"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "使用warfarin者，在術前需要停用幾天?並將INR控制在多少以內?",
+        "answer":  "5天、低於1.5",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 115"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "燒燙傷治療中，營養的估計可以用何公式計算?",
+        "answer":  "Curreri Formula = 25 Kcal x 燒燙傷前體重(kg) + 40 Kcal x 燒燙傷面積百分比 (如果大於50%以50%計算)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 117"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "人體各器官與組織中，電阻最低的是哪些?",
+        "answer":  "神經、血管、肌肉",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 117"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "人體各器官與組織中，電阻最高的是哪些?",
+        "answer":  "皮膚",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 117"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "胸管放置的位置大約在哪裡?",
+        "answer":  "腋中線或腋前線的第四或第五肋間",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 119"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "CA199是何種癌症的tumor biomarker?",
+        "answer":  "胰臟癌",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 120"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "AFP是何種癌症的tumor biomarker?",
+        "answer":  "肝癌",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 120"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "CEA是何種癌症的tumor biomarker?",
+        "answer":  "大腸癌",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 120"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "HCG是何種癌症的tumor biomarker?",
+        "answer":  "choriocarcinoma",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 120"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "外科",
+        "question":  "Calot\u0027s triangle的邊界有哪些?",
+        "answer":  "Common hepatic duct, cystic duct, liver edge (現代定義，過去是cystic a.)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 130"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "",
+        "question":  "GCS (Glasgow Coma Score)當中，E (Best Eye Opening)的評估分數分別為?",
+        "answer":  "4: 自動睜眼；3: 聲音刺激；2: 疼痛刺激；1: 無反應",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 138"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "",
+        "question":  "GCS (Glasgow Coma Score)當中，V (Best Verbal Response)的評估分數分別為?",
+        "answer":  "5: 正常人；4: 答非所問；3: 單字；2: 聲音、呻吟；1: 無反應",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 138"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "",
+        "question":  "GCS (Glasgow Coma Score)當中，M (Best Motor Response)的評估分數分別為?",
+        "answer":  "6: obey；5: localize；4: withdraw；3: upper limb flexion；2: upper limb extension；1: no response",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 138"
+    },
+    {
+        "type":  "國考QA",
+        "subject":  "",
+        "question":  "頭部外傷的嚴重程度，以GCS來分級，分別為?",
+        "answer":  "輕度：13-15；中度：9-12；重度：3-8",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 138"
+    },
+    {
         "type":  "Symptoms \u0026 Signs",
         "subject":  "Symptoms \u0026 Signs",
         "question":  "Thumb sign",
@@ -1209,5 +1643,12 @@
         "question":  "Virchow\u0027s triad",
         "answer":  "PE (Pulmonary Embolism), DVT (Deep Vein Thrombosis)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 48"
+    },
+    {
+        "type":  "Symptoms \u0026 Signs",
+        "subject":  "Symptoms \u0026 Signs",
+        "question":  "Lethal triad",
+        "answer":  "Severe Trauma",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 86"
     }
 ]
