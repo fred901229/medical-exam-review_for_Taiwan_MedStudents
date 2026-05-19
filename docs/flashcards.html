@@ -509,9 +509,45 @@
     /* ── Mobile bottom bar ── */
     .mobile-bar { display: none; }
 
+    /* ── Sidebar drawer (mobile) ── */
+    .menu-btn { display: none; }
+    .sidebar-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 150;
+    }
+    body.sidebar-open .sidebar-backdrop { display: block; }
+    body.sidebar-open .sidebar {
+      display: block !important;
+      position: fixed;
+      top: 0; left: 0;
+      width: 80vw;
+      max-width: 280px;
+      height: 100%;
+      z-index: 160;
+      box-shadow: 4px 0 20px rgba(0,0,0,.4);
+    }
+
     /* ── Mobile ── */
     @media (max-width: 680px) {
       .sidebar { display: none; }
+      .menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--surface2);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        color: var(--text2);
+        font-size: 1.1rem;
+        width: 34px;
+        height: 34px;
+        cursor: pointer;
+        flex-shrink: 0;
+        -webkit-tap-highlight-color: transparent;
+      }
       .layout { height: calc(100svh - 49px); }
       .header h1 { font-size: 0.88rem; }
       .header-sub { display: none; }
@@ -573,6 +609,7 @@
 <header class="header">
   <div class="header-left">
     <a href="index.html" class="back-link">← 題庫</a>
+    <button class="menu-btn" onclick="openSidebar()">☰</button>
     <div>
       <h1>Harrison's 閃卡</h1>
       <div class="header-sub" id="header-sub">Harrison's Principles of Internal Medicine, 22nd Ed.</div>
@@ -689,6 +726,8 @@
     </div>
   </main>
 </div>
+
+<div class="sidebar-backdrop" id="sidebar-backdrop" onclick="closeSidebar()"></div>
 
 <!-- Mobile bottom bar -->
 <div class="mobile-bar" id="mobile-bar">
@@ -873,7 +912,11 @@ function renderBackContent(text, container) {
 }
 
 // ── Session ───────────────────────────────────────────────────────────────
+function openSidebar()  { document.body.classList.add('sidebar-open'); }
+function closeSidebar() { document.body.classList.remove('sidebar-open'); }
+
 function selectChapter(ch, scroll = true) {
+  closeSidebar();
   currentChapter = ch;
   reviewOnly = false;
   document.getElementById('review-only-btn').classList.remove('active');
