@@ -216,6 +216,7 @@
       min-height: 340px;
       transform-style: preserve-3d;
       transition: transform .6s cubic-bezier(.4, 0, .2, 1);
+      will-change: transform;
       cursor: pointer;
     }
     .card.flipped { transform: rotateY(180deg); }
@@ -737,14 +738,19 @@ document.addEventListener('keydown', e => {
 });
 
 let touchStartX = 0;
+let touchStartY = 0;
 document.getElementById('card').addEventListener('touchstart', e => {
   touchStartX = e.touches[0].clientX;
+  touchStartY = e.touches[0].clientY;
 }, { passive: true });
 document.getElementById('card').addEventListener('touchend', e => {
   const dx = e.changedTouches[0].clientX - touchStartX;
+  const dy = e.changedTouches[0].clientY - touchStartY;
+  if (Math.abs(dy) > Math.abs(dx) && Math.abs(dy) > 10) return;
+  e.preventDefault();
   if (Math.abs(dx) > 60) { if (dx < 0) nextCard(); else prevCard(); }
   else flipCard();
-}, { passive: true });
+}, { passive: false });
 
 init();
 </script>
