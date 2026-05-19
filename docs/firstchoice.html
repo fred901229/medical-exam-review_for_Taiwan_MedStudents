@@ -639,7 +639,10 @@ function renderCard() {
   document.getElementById('back-ref-text').textContent    = c.reference || '';
 
   const cardEl = document.getElementById('card');
+  cardEl.style.transition = 'none';
   cardEl.classList.remove('flipped');
+  cardEl.offsetHeight; // force reflow
+  cardEl.style.transition = '';
   isFlipped = false;
 
   document.getElementById('counter').textContent     = `${currentIndex + 1} / ${sessionCards.length}`;
