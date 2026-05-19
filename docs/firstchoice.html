@@ -419,12 +419,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: rgba(255,255,255,0.15);
+        gap: 4px;
+        background: var(--primary);
         border: none;
         border-radius: 8px;
         color: white;
-        font-size: 1.1rem;
-        width: 34px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding: 0 10px;
         height: 34px;
         cursor: pointer;
         flex-shrink: 0;
@@ -486,7 +488,7 @@
 <header class="header">
   <div class="header-left">
     <a href="index.html" class="back-link">← 題庫</a>
-    <button class="menu-btn" onclick="openSidebar()">☰</button>
+    <button class="menu-btn" onclick="openSidebar()">☰ 科別</button>
     <div>
       <h1>First Choice 閃卡</h1>
       <div class="header-sub" id="header-sub">First Choice 2025 ｜ 讀書重點整理</div>
@@ -494,6 +496,7 @@
   </div>
   <div class="header-actions">
     <button class="btn-icon" id="shuffle-btn" title="隨機排序">🔀</button>
+    <button class="btn-icon" id="unanswered-btn" title="只看未作答的卡片">◯ 未作答</button>
     <button class="btn-icon" id="review-only-btn" title="只看需複習的卡片">📌 複習卡</button>
     <button class="btn-icon" id="reset-btn" title="重設本科進度">↺ 重設</button>
     <button class="btn-icon" id="theme-btn" title="切換模式">☀️</button>
@@ -615,6 +618,7 @@ let sessionCards  = [];
 let currentIndex  = 0;
 let isFlipped     = false;
 let reviewOnly    = false;
+let unansweredOnly = false;
 let isShuffled    = false;
 
 let knownSet  = new Set(JSON.parse(localStorage.getItem(LS_KNOWN)  || '[]'));
@@ -694,7 +698,9 @@ function selectSubject(subj, scroll = true) {
   closeSidebar();
   currentSubj = subj;
   reviewOnly = false;
+  unansweredOnly = false;
   document.getElementById('review-only-btn').classList.remove('active');
+  document.getElementById('unanswered-btn').classList.remove('active');
   localStorage.setItem(LS_SUBJ, subj);
   buildSubjectList();
   loadSession();
@@ -707,8 +713,9 @@ function getCardsForSubj(subj) {
 
 function loadSession() {
   let cards = getCardsForSubj(currentSubj);
-  if (reviewOnly) cards = cards.filter(c => reviewSet.has(c.id));
-  if (isShuffled)  cards = shuffle([...cards]);
+  if (reviewOnly)     cards = cards.filter(c => reviewSet.has(c.id));
+  if (unansweredOnly) cards = cards.filter(c => !knownSet.has(c.id) && !reviewSet.has(c.id));
+  if (isShuffled)     cards = shuffle([...cards]);
   sessionCards  = cards;
   currentIndex  = 0;
   isFlipped     = false;
@@ -829,8 +836,15 @@ document.getElementById('shuffle-btn').addEventListener('click', () => {
   document.getElementById('shuffle-btn').classList.toggle('active', isShuffled);
   loadSession();
 });
+document.getElementById('unanswered-btn').addEventListener('click', () => {
+  unansweredOnly = !unansweredOnly;
+  if (unansweredOnly) { reviewOnly = false; document.getElementById('review-only-btn').classList.remove('active'); }
+  document.getElementById('unanswered-btn').classList.toggle('active', unansweredOnly);
+  loadSession();
+});
 document.getElementById('review-only-btn').addEventListener('click', () => {
   reviewOnly = !reviewOnly;
+  if (reviewOnly) { unansweredOnly = false; document.getElementById('unanswered-btn').classList.remove('active'); }
   document.getElementById('review-only-btn').classList.toggle('active', reviewOnly);
   loadSession();
 });

@@ -542,12 +542,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: var(--surface2);
-        border: 1px solid var(--border);
+        gap: 4px;
+        background: var(--primary);
+        border: 1px solid var(--primary);
         border-radius: 8px;
-        color: var(--text2);
-        font-size: 1.1rem;
-        width: 34px;
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding: 0 10px;
         height: 34px;
         cursor: pointer;
         flex-shrink: 0;
@@ -614,7 +616,7 @@
 <header class="header">
   <div class="header-left">
     <a href="index.html" class="back-link">← 題庫</a>
-    <button class="menu-btn" onclick="openSidebar()">☰</button>
+    <button class="menu-btn" onclick="openSidebar()">☰ 章節</button>
     <div>
       <h1>Harrison's 閃卡</h1>
       <div class="header-sub" id="header-sub">Harrison's Principles of Internal Medicine, 22nd Ed.</div>
@@ -622,6 +624,7 @@
   </div>
   <div class="header-actions">
     <button class="btn-icon" id="shuffle-btn" title="隨機排序">🔀</button>
+    <button class="btn-icon" id="unanswered-btn" title="只看未作答的卡片">◯ 未作答</button>
     <button class="btn-icon" id="review-only-btn" title="只看需複習的卡片">📌 複習卡</button>
     <button class="btn-icon" id="reset-ch-btn" title="重設本章進度">↺ 重設</button>
     <button class="btn-icon" id="export-btn" title="匯出 Anki CSV">⬇ Anki</button>
@@ -766,6 +769,7 @@ let sessionCards   = [];
 let currentIndex   = 0;
 let isFlipped  = false;
 let reviewOnly = false;
+let unansweredOnly = false;
 let isShuffled = false;
 
 const LS_KNOWN  = 'fc_known';
@@ -923,7 +927,9 @@ function selectChapter(ch, scroll = true) {
   closeSidebar();
   currentChapter = ch;
   reviewOnly = false;
+  unansweredOnly = false;
   document.getElementById('review-only-btn').classList.remove('active');
+  document.getElementById('unanswered-btn').classList.remove('active');
   localStorage.setItem(LS_CH, ch);
   buildChapterList();
   loadSession();
@@ -936,8 +942,9 @@ function getCardsForChapter(ch) {
 
 function loadSession() {
   let cards = getCardsForChapter(currentChapter);
-  if (reviewOnly) cards = cards.filter(c => reviewSet.has(c.id));
-  if (isShuffled) cards = shuffle([...cards]);
+  if (reviewOnly)     cards = cards.filter(c => reviewSet.has(c.id));
+  if (unansweredOnly) cards = cards.filter(c => !knownSet.has(c.id) && !reviewSet.has(c.id));
+  if (isShuffled)     cards = shuffle([...cards]);
   sessionCards = cards;
   currentIndex = 0;
   isFlipped = false;
@@ -1102,8 +1109,16 @@ document.getElementById('shuffle-btn').addEventListener('click', () => {
   loadSession();
 });
 
+document.getElementById('unanswered-btn').addEventListener('click', () => {
+  unansweredOnly = !unansweredOnly;
+  if (unansweredOnly) { reviewOnly = false; document.getElementById('review-only-btn').classList.remove('active'); }
+  document.getElementById('unanswered-btn').classList.toggle('active', unansweredOnly);
+  loadSession();
+});
+
 document.getElementById('review-only-btn').addEventListener('click', () => {
   reviewOnly = !reviewOnly;
+  if (reviewOnly) { unansweredOnly = false; document.getElementById('unanswered-btn').classList.remove('active'); }
   document.getElementById('review-only-btn').classList.toggle('active', reviewOnly);
   loadSession();
 });
