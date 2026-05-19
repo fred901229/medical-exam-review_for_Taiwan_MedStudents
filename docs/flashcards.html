@@ -205,11 +205,14 @@
     .card-area { width: 100%; max-width: 700px; perspective: 1400px; }
     .card-wrapper { position: relative; }
     .card {
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 100%;
       min-height: 420px;
-      position: relative;
       transform-style: preserve-3d;
       transition: transform .6s cubic-bezier(.4, 0, .2, 1);
+      will-change: transform;
       cursor: pointer;
     }
     .card.flipped { transform: rotateY(180deg); }
@@ -503,6 +506,9 @@
     /* ── Card height spacer (keeps layout stable during 3D flip) ── */
     .card-spacer { width: 100%; min-height: 420px; visibility: hidden; pointer-events: none; }
 
+    /* ── Mobile bottom bar ── */
+    .mobile-bar { display: none; }
+
     /* ── Mobile ── */
     @media (max-width: 680px) {
       .sidebar { display: none; }
@@ -517,6 +523,45 @@
       .citation-content { margin: 0 6px 8px; }
       .card-question { font-size: 0.96rem; }
       .card.flipped .card-face { min-height: unset; }
+
+      .controls { display: none !important; }
+      .rating-controls { display: none !important; }
+      .kbd-hints { display: none !important; }
+      .main { padding-bottom: 80px; }
+
+      .mobile-bar {
+        display: flex;
+        position: fixed;
+        bottom: 0; left: 0; right: 0;
+        height: 64px;
+        background: var(--surface);
+        border-top: 1px solid var(--border);
+        z-index: 200;
+        padding: 0 6px env(safe-area-inset-bottom, 0);
+      }
+      .mbar-btn {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+        border: none;
+        background: transparent;
+        color: var(--text2);
+        cursor: pointer;
+        font-size: 0.65rem;
+        font-weight: 600;
+        border-radius: 10px;
+        transition: background .12s, color .12s;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .mbar-btn:active { background: var(--surface2); }
+      .mbar-btn:disabled { opacity: .3; pointer-events: none; }
+      .mbar-icon { font-size: 1.3rem; line-height: 1; }
+      .mbar-btn.flip  { color: var(--primary); }
+      .mbar-btn.know  { color: var(--success); }
+      .mbar-btn.rev   { color: var(--warning); }
     }
 
     /* ── Swipe feedback (touch) ── */
@@ -643,6 +688,30 @@
       <p>請選擇其他章節或取消篩選條件</p>
     </div>
   </main>
+</div>
+
+<!-- Mobile bottom bar -->
+<div class="mobile-bar" id="mobile-bar">
+  <button class="mbar-btn" id="mbar-prev" onclick="prevCard()">
+    <span class="mbar-icon">←</span>
+    <span>上一張</span>
+  </button>
+  <button class="mbar-btn rev" onclick="markCard('review')">
+    <span class="mbar-icon">📌</span>
+    <span>複習</span>
+  </button>
+  <button class="mbar-btn flip" onclick="flipCard()">
+    <span class="mbar-icon">🔄</span>
+    <span>翻面</span>
+  </button>
+  <button class="mbar-btn know" onclick="markCard('know')">
+    <span class="mbar-icon">✓</span>
+    <span>熟悉</span>
+  </button>
+  <button class="mbar-btn" id="mbar-next" onclick="nextCard()">
+    <span class="mbar-icon">→</span>
+    <span>下一張</span>
+  </button>
 </div>
 
 <script>
@@ -890,15 +959,22 @@ function renderCard() {
     s3.style.display = 'none';
   }
 
-  // Reset flip state
+  // Reset flip state (disable transition to prevent flash of back face)
   const cardEl = document.getElementById('card');
+  cardEl.style.transition = 'none';
   cardEl.classList.remove('flipped');
+  cardEl.offsetHeight;
+  cardEl.style.transition = '';
   isFlipped = false;
 
   // Update counter & nav
   document.getElementById('counter').textContent = `${currentIndex + 1} / ${sessionCards.length}`;
   document.getElementById('prev-btn').disabled = currentIndex === 0;
   document.getElementById('next-btn').disabled = currentIndex >= sessionCards.length - 1;
+  const mbarPrev = document.getElementById('mbar-prev');
+  const mbarNext = document.getElementById('mbar-next');
+  if (mbarPrev) mbarPrev.disabled = currentIndex === 0;
+  if (mbarNext) mbarNext.disabled = currentIndex >= sessionCards.length - 1;
 
   // Progress fill
   const pct = (currentIndex + 1) / sessionCards.length * 100;
@@ -1036,17 +1112,22 @@ document.addEventListener('keydown', e => {
 
 // ── Touch swipe ───────────────────────────────────────────────────────────
 let touchStartX = 0;
+let touchStartY = 0;
 document.getElementById('card').addEventListener('touchstart', e => {
   touchStartX = e.touches[0].clientX;
+  touchStartY = e.touches[0].clientY;
 }, { passive: true });
 document.getElementById('card').addEventListener('touchend', e => {
   const dx = e.changedTouches[0].clientX - touchStartX;
+  const dy = e.changedTouches[0].clientY - touchStartY;
+  if (Math.abs(dy) > Math.abs(dx) && Math.abs(dy) > 10) return;
+  e.preventDefault();
   if (Math.abs(dx) > 60) {
     if (dx < 0) nextCard(); else prevCard();
   } else {
     flipCard();
   }
-}, { passive: true });
+}, { passive: false });
 
 init();
 </script>
