@@ -76,6 +76,21 @@
       top: 0;
       z-index: 100;
       gap: 8px;
+      flex-wrap: wrap;
+    }
+    .header-progress {
+      width: 100%;
+      height: 3px;
+      background: var(--border);
+      border-radius: 0;
+      overflow: hidden;
+      margin-top: 4px;
+    }
+    .header-progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--primary), #7c3aed);
+      transition: width .4s cubic-bezier(.4,0,.2,1);
+      width: 0%;
     }
     .header-left { display: flex; align-items: center; gap: 10px; min-width: 0; }
     .header h1 { font-size: 0.95rem; font-weight: 700; white-space: nowrap; }
@@ -190,16 +205,6 @@
       color: var(--text2);
     }
     .stat-pill b { color: var(--text); }
-
-    /* ── Progress bar ── */
-    .progress-wrap { width: 100%; max-width: 700px; }
-    .progress-bar { height: 5px; background: var(--surface3); border-radius: 99px; overflow: hidden; }
-    .progress-fill {
-      height: 100%;
-      background: linear-gradient(90deg, var(--primary), #7c3aed);
-      border-radius: 99px;
-      transition: width .4s cubic-bezier(.4,0,.2,1);
-    }
 
     /* ── 3D Card ── */
     .card-area { width: 100%; max-width: 700px; perspective: 1400px; }
@@ -622,6 +627,9 @@
     <button class="btn-icon" id="export-btn" title="匯出 Anki CSV">⬇ Anki</button>
     <button class="btn-icon" id="theme-btn" title="切換模式">☀️</button>
   </div>
+  <div class="header-progress" style="flex-basis:100%">
+    <div class="header-progress-fill" id="progress-fill"></div>
+  </div>
 </header>
 
 <div class="layout">
@@ -634,11 +642,6 @@
   </nav>
 
   <main class="main" id="main">
-    <div class="stats-bar" id="stats-bar"></div>
-    <div class="progress-wrap">
-      <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
-    </div>
-
     <!-- Card -->
     <div class="card-area" id="card-area" style="display:none">
       <div class="card-wrapper">
@@ -705,6 +708,7 @@
       <span class="kbd-hint"><kbd class="kbd">1</kbd> 已熟</span>
       <span class="kbd-hint"><kbd class="kbd">2</kbd> 需複習</span>
     </div>
+    <div class="stats-bar" id="stats-bar"></div>
 
     <!-- Completion -->
     <div class="completion" id="completion" style="display:none">
