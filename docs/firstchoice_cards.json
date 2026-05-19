@@ -1527,35 +1527,35 @@
     },
     {
         "type":  "國考QA",
-        "subject":  "外科",
+        "subject":  "腦神經外科",
         "question":  "Calot\u0027s triangle的邊界有哪些?",
         "answer":  "Common hepatic duct, cystic duct, liver edge (現代定義，過去是cystic a.)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 130"
     },
     {
         "type":  "國考QA",
-        "subject":  "",
+        "subject":  "腦神經外科",
         "question":  "GCS (Glasgow Coma Score)當中，E (Best Eye Opening)的評估分數分別為?",
         "answer":  "4: 自動睜眼；3: 聲音刺激；2: 疼痛刺激；1: 無反應",
         "reference":  "First Choice 2025 醫學五 腦神經外科 p. 138"
     },
     {
         "type":  "國考QA",
-        "subject":  "",
+        "subject":  "腦神經外科",
         "question":  "GCS (Glasgow Coma Score)當中，V (Best Verbal Response)的評估分數分別為?",
         "answer":  "5: 正常人；4: 答非所問；3: 單字；2: 聲音、呻吟；1: 無反應",
         "reference":  "First Choice 2025 醫學五 腦神經外科 p. 138"
     },
     {
         "type":  "國考QA",
-        "subject":  "",
+        "subject":  "腦神經外科",
         "question":  "GCS (Glasgow Coma Score)當中，M (Best Motor Response)的評估分數分別為?",
         "answer":  "6: obey；5: localize；4: withdraw；3: upper limb flexion；2: upper limb extension；1: no response",
         "reference":  "First Choice 2025 醫學五 腦神經外科 p. 138"
     },
     {
         "type":  "國考QA",
-        "subject":  "",
+        "subject":  "腦神經外科",
         "question":  "頭部外傷的嚴重程度，以GCS來分級，分別為?",
         "answer":  "輕度：13-15；中度：9-12；重度：3-8",
         "reference":  "First Choice 2025 醫學五 腦神經外科 p. 138"
