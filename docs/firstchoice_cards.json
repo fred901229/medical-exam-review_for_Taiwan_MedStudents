@@ -1,1654 +1,2081 @@
 ﻿[
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "第幾對腮裂異常最常見?",
         "answer":  "第二對腮裂異常",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 309"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "Stensen\u0027s duct阻塞會導致?",
         "answer":  "腮腺結石",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 311"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "Wharton\u0027s duct阻塞會導致?",
         "answer":  "頷下腺結石",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 311"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "唾液腺結石最常發生在哪一個唾液腺?",
         "answer":  "頷下腺",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 311"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "唾液腺腫瘤最常發生在哪一個唾液腺?",
         "answer":  "腮腺",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 313"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "最常見的唾液腺腫瘤是哪一種?",
         "answer":  "多形性腺瘤 (Pleomorphic adenoma; benign mixed tumor)",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 315"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "最常見的唾液腺惡性腫瘤是哪一種?",
         "answer":  "黏液類上皮癌 (Mucoepidermoid carcinoma)",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 315"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "第二常見的唾液腺惡性腫瘤是哪一種?",
         "answer":  "腮樣囊狀癌 (Adenoid cystic carcinoma)",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 316"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "急性細菌性唾液腺炎最常見的細菌感染?",
         "answer":  "金黃色葡萄球菌 (S. aureus)",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 320"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "最常見的甲狀腺癌為哪一種?",
         "answer":  "乳突癌 (PTC, papillary thyroid cancer)",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 372"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "最常見的甲狀腺淋巴癌為哪一種?",
         "answer":  "non-Hodgkin lymphoma",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 373"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "最常見的甲狀腺轉移癌為哪一種?",
         "answer":  "肺癌轉移",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 373"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "最常見的喉癌是哪一種?",
         "answer":  "聲門癌 (Glottis cancer)",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 363"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "哪一種喉癌最容易淋巴轉移?",
         "answer":  "聲門上癌 (Supraglottic cancer)",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 363"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "喉癌最常見的症狀為?",
         "answer":  "聲音沙啞",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 371"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "Cetuximab是針對什麼標靶的單株抗體?",
         "answer":  "EGFR",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 361"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "預後最差的鼻咽癌是哪一種?",
         "answer":  "角化鱗狀細胞癌 (Keratinizing SqCC, WHO type I)",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 339"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "預後最好的鼻咽癌是哪一種?",
         "answer":  "未分化癌 (Non-keratinizing undifferentiated carcinoma, WHO type III)",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 339"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "鼻咽癌腫瘤好發的部位以何者最常見?",
         "answer":  "側壁 (Rosenmuller fossa)",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 340"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "Cetuximab最常見的副作用?",
         "answer":  "痤瘡型紅疹",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 343"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "鼻咽癌最常見的症狀為?",
         "answer":  "頸部腫塊",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 344"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "鼻咽癌最常見的類型是哪一種?",
         "answer":  "未分化癌 (Non-keratinizing undifferentiated carcinoma, WHO type III)",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 347"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "較常表現耳部轉移性疼痛的是哪一種頭頸癌?",
         "answer":  "口咽癌",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 356"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "老年型聽力退化(Presbycusis)，聽力圖呈現什麼型?",
         "answer":  "高音漸傾型 (Down-sloping)",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 179"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "噪音型聽力喪失(NIHL)，聽力圖呈現什麼型?",
         "answer":  "4k Hz呈現notch",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 179"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "SSNHL (Sudden Sensorineural Hearing Loss)的Triad?",
         "answer":  "3天之內，在3個連續頻率，大於30dB的感音性聽力障礙",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 190"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "急性中耳炎(AOM, acute otitis media)最常見的致病菌?",
         "answer":  "S, pneumoniae",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 199"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "積液性中耳炎(OME, otitis media with effusion)最常見的致病菌?",
         "answer":  "Haemophilus influenza",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 201"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "梅尼爾氏症(Meniere\u0027s disease)的Triad?",
         "answer":  "陣發性的聽力喪失(低頻)、耳鳴或耳悶、反覆性的暈眩",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 218"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "過敏性黴菌性鼻竇炎最常見的致病菌?",
         "answer":  "Aspergillus",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 253"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "急性會厭炎(Acute Epiglottitis)最常見的致病菌?",
         "answer":  "Haemophilus influenza type B",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 277"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "睡眠呼吸中止的定義?",
         "answer":  "睡眠時超過10秒的氣流停止現象",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 281"
     },
     {
-        "type":  "國考QA",
         "subject":  "耳鼻喉科",
+        "type":  "國考",
         "question":  "最常見的睡眠呼吸中止的類型為何?",
         "answer":  "阻塞性睡眠呼吸中止(Obstructive sleep apnea)",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 281"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "麻醉前困難插管評估中，3-3-2 rules是指?",
         "answer":  "1. 張口有3指幅 2. 下巴前緣到舌骨有3指幅 3. 舌骨到甲狀軟骨有2指幅",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 6"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Mallampati score當中，困難插管的分類是那些?",
         "answer":  "Class III (Base of soft palate and uvula), IV (Hard palate)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 7, 9"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "術中血糖建議控制在多少以下即可，以免發生低血糖?",
         "answer":  "180 mg/dL",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 10"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "BURP (Backward-Upward-Right Pressure) Maneuver是壓迫何構造，使vocal cord更易看見?",
         "answer":  "甲狀軟骨 (Thyroid cartilage)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 14-15"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Sellick maneuver是壓迫何構造，防止胃食道逆流而發生吸入性肺炎?",
         "answer":  "環狀軟骨 (Cricoid cartilage)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 16"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "遇到困難插管+困難通氣的病人，要選擇的插管方式為?",
         "answer":  "Flexible fiberoptic intubation (Awake intubation)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 18-19"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "困難插管，同時又無法以非侵入性方式進行通氣，又稱為?",
         "answer":  "CICO (Cannot Intubate, Cannot Oxygenate)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 19, 22"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "緊急狀況(e.g. CICO)時，會選擇氣管切開術(Tracheotomy)還是環甲膜切開術(Cricothyroidotomy)?",
         "answer":  "環甲膜切開術",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 19"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "氣管內管的cuff pressure，一般建議保持在多少之間，避免過高/過低產生組織缺血/吸入性肺炎?",
         "answer":  "20 cmH2O ~ 30 cmH20",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 24-25"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "RSI (Rapid Sequence Intubation)步驟中的7P，哪一個步驟最重要、最優先?",
         "answer":  "Preoxygenation",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 15, 25"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "術中監測體溫的目的為何?",
         "answer":  "1. 及早發現惡性高熱 2. 防止低體溫",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 30"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "低體溫的定義為何?",
         "answer":  "中心體溫低於36℃",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 31"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "造成假性high SpO2的因子有哪些?",
         "answer":  "CO中毒、methemoglobinemia",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 32"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "造成假性low SpO2的因子有哪些?",
         "answer":  "低血壓、貧血、深色指甲油、抖動",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 32"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "請問capnography的分期分別代表?",
         "answer":  "I: dead space, II: mixed, III: alveolar gas, 0: inspiration",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 34"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "放置A-line最常使用的血管為何?",
         "answer":  "橈動脈 (Radial artery)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 35"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "肺動脈導管(Swan-Ganz catheter)放置的過程會經過哪些構造?",
         "answer":  "IJV --\u003e RA --\u003e RV --\u003e PA --\u003e pulmonary capillary vessel",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 37"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Cardiac Index (CI)是指?",
         "answer":  "CO(Cardiac Output)/BSA (Body Surface Area)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 40"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "進行全身麻醉(GA)時，BIS的目標數值會在多少之間?",
         "answer":  "40-60分",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 44"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "睫毛反射消失，代表病人的麻醉深度進入哪一期?",
         "answer":  "Stage II: 興奮期 (Excitement/Delirium)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 64"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "唯一帶有止痛效果的induction藥物是哪一種藥物?",
         "answer":  "Ketamine",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 70"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "MAC (Minimum alveolar concentration)的定義是?",
         "answer":  "一大氣壓下，50%的病人在接受刺激後，不會有動作反應的劑量",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 80"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "吸入性麻醉劑中，誰的MAC最小?",
         "answer":  "Halothane",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 80"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "吸入性麻醉劑中，誰的MAC最大?",
         "answer":  "N2O",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 80"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "吸入性麻醉劑中，誰對呼吸道的刺激最大，易導致氣管痙攣?",
         "answer":  "Desflurane",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 84, 89"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "遇到CO2吸附劑，會產生CO的是哪一種吸入性麻醉劑?",
         "answer":  "Desflurane",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 84"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "遇到CO2吸附劑，會產生Compound A的是哪一種吸入性麻醉劑?",
         "answer":  "Sevoflurane",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 84"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "非去極化肌肉鬆弛劑，依照結構分為哪兩大類?",
         "answer":  "Steroidal (-ronium), Benzylisoquinolinium (-curium)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 94"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Hofmann elimination是指?",
         "answer":  "不須經由肝臟或腎臟，藥物直接在體內自然降解的一種代謝方式",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 95"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "肌肉鬆弛劑中，不經肝腎代謝，經由Hofmann elimination的是哪一種藥物?",
         "answer":  "Atracurium, Cisatracurium",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 95"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "最常用於監測肌肉鬆弛劑作用的肌肉和其支配的神經是?",
         "answer":  "內收姆肌(adductor pollicis brevis)、尺神經 (Ulnar n.)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 96"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "TOF (Train-of-Four)監測的原理是?",
         "answer":  "利用一組有4個0.5秒(2Hz)的supramaximal stimuli電刺激，間隔10秒重複進行神經刺激，監測神經肌肉阻斷程度",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 96"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "在TOF中，會出現fade現象的是哪一種肌肉鬆弛劑?",
         "answer":  "Non-depolarizing NMBDs",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 96"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "ASA guideline建議，TOF ratio要大於多少，才能拔管?",
         "answer":  "TOF ratio \u003e= 0.9",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 97"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "用於Tensilon test，檢測重症肌無力的藥物是?",
         "answer":  "Edrophonium",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 98"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "用於治療重症肌無力的藥物是?",
         "answer":  "Pyridostigmine",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 98"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "ASA guideline建議，TOF count等於多且TOF ratio要大於多少，才能給予肌肉鬆弛劑解藥?",
         "answer":  "TOF count = 4, TOF ratio \u003e= 0.4",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 98"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Anticholinergic drugs中，唯一為四級胺，且不會過BBB的是哪一個藥物?",
         "answer":  "Glycopyrrolate",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 99"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Sugammadex(Bridion)是針對哪一種肌肉鬆弛劑的逆轉劑?",
         "answer":  "Steroidal (Vecuronium, Rocuronium)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 100"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Sugammadex是經由何種路徑排出人體?",
         "answer":  "腎臟",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 100"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Amide類局部麻醉劑的特色?",
         "answer":  "肝臟代謝、過敏機率較低、(藥名有兩個i)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 106"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Ester類局部麻醉劑的特色?",
         "answer":  "由Plasma Cholinesterase水解代謝、代謝產物PABA的過敏機率較高、(藥名只有一個i)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 106"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "局部麻醉劑使何種離子通道不活化，藉此提高動作電位的閾值?",
         "answer":  "鈉離子通道",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 106"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "在differential blockade中，以神經的粗細程度來說，何種神經較易被阻斷?",
         "answer":  "較細的神經 (C fiber --\u003e B fiber --\u003e A fiber)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 107"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "在differential blockade中，以神經髓鞘的有無來說，何種神經較易被阻斷?",
         "answer":  "有髓鞘的神經 (A fiber, B fiber)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 107"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "在differential blockade中，神經的阻斷順序為何?",
         "answer":  "Type B (交感) --\u003e Type C  (感覺) --\u003e Type A (運動)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 107"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "在施打局部麻醉劑時，同時給予epinephrine的作用為何?",
         "answer":  "讓血管收縮，使局部麻醉劑的作用延長、減少全身性吸收、降低系統性的副作用",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 107"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "大量局部麻醉劑吸收或不小心將其打入血管中，稱為?",
         "answer":  "LAST (Local Anesthetic Systemic Toxicity)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 108"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "2% lidocaine最大劑量是多少? 加上epinephrine後，最大劑量是多少?",
         "answer":  "4.5 mg/kg, 7 mg/kg",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 109"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "LAST (Local Anesthetic Systemic Toxicity)的唯一解藥為何?",
         "answer":  "20% lipid emulsion",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 109"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "PDPH (Postdural puncture headache)的治療方式是?",
         "answer":  "硬腦膜外自體血液凝塊 (Epidural Blood Patch)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 111"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Epidural anesthesia中，loss of resistance是指針尖通過何種解剖構造，進入epidural space?",
         "answer":  "黃韌帶 Ligmentum flavum",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 112"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Alllodynia是指?",
         "answer":  "異感痛，non-noxious的刺激導致痛覺",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 122"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Analgesia是指?",
         "answer":  "無痛感，會造成痛覺的刺激，卻無法造成疼痛",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 122"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Dysesthesia是指?",
         "answer":  "非疼痛但令人不愉快的異常感",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 122"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Hyperesthesia是指?",
         "answer":  "感覺過度，對刺激的敏感度增加",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 122"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Hyperalgesia是指?",
         "answer":  "痛覺過度，對輕微的痛刺激，感受到強烈的痛覺",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 122"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Paresthesia是指?",
         "answer":  "所有感覺異常的總稱",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 122"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "鴉片類藥物所導致的副作用，大多是哪一種受器所產生?",
         "answer":  "mu-receptor",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 123"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "何種病人使用Meperidine(Demerol)會因為代謝產物Normeperidine累積，而導致癲癇?",
         "answer":  "慢性腎衰竭",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 124"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Remifentanil的特色為何?",
         "answer":  "極短效、被esterase水解、幾乎不累積於體內、適合pump連續輸注",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 126"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Opioid類止痛藥的解毒劑為何種藥物?",
         "answer":  "Naloxone (呼吸抑制、皮膚搔癢)、Methylnaltrexone (便秘)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 126"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "慢性疼痛(Chronic Pain)的定義是?",
         "answer":  "持續性大於三個月的疼痛",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 126"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "帶狀皰疹後疼痛(PHN, Postherpetic Neuralgia)的定義是?",
         "answer":  "Herpes Zoster感染，傷口癒合後，疼痛仍持續超過三個月",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 127"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "最常使用的神經痛藥物是哪一種藥物?",
         "answer":  "Gabapentin, Pregabalin",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 127"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Gabapentin, Pregabalin藉由抑制何種離子通道，來治療神經痛?",
         "answer":  "鈣離子通道",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 127"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "癌症疼痛(Cancer Pain)治療的3B原則為何?",
         "answer":  "By the mouth、By the clock、By the ladder",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 131"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "治療三叉神經痛(Trigeminal Neuralgia)的首選藥物為何?",
         "answer":  "Carbamazepine",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 133"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "惡性高熱(Malignant Hyperthermia)的定義為何?",
         "answer":  "因為接觸誘發藥物，而導致骨骼肌異常高度代謝",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 142"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "惡性高熱(Malignant Hyperthermia)的機轉為何?",
         "answer":  "RYR1基因突變，導致去極化後鈣離子通道無法關閉，鈣離子累積在細胞內，肌肉持續收縮，Ca++ATPase持續主動運輸回收鈣離子，有氧/無氧代謝增加",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 142"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "惡性高熱的早期症狀包含?",
         "answer":  "end tidal CO2上升、心跳變快",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 143"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "惡性高熱(Malignant Hyperthermia)的治療藥物為何?",
         "answer":  "Dentrolene，抑制Ryanodine receptor所調控的蓋離子通道，減少細胞內鈣離子累積。",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 144"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "惡性高熱所導致的高血壓，不可用何種血壓藥治療?",
         "answer":  "CCB",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 144"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "術後恢復是最常見的麻醉併發症為?",
         "answer":  "術後噁心嘔吐 (PONV, Post-operative Nausea and Vomiting)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 146"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "Apfel\u0027s Score中，預測PONV的因子包含哪些?",
         "answer":  "女性、不抽菸、動暈症、PONV病史、術後使用opioid止痛",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 146"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "急性呼吸窘迫症候群(ARDS, Acute Respiratory Distress Syndrome)的定義為何?",
         "answer":  "急性7天內新發生或惡化的呼吸症狀，影像學上有雙側肺浸潤，且無法以其他疾病來解釋。",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 146-147"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "ARDS的嚴重分級，依照P/F ratio (PaO2/FiO2)可以分為?",
         "answer":  "1. mild (200-300 mmHg) 2. moderate (100-200 mmHg) 3. severe (\u003c 100mmHg)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 147"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "ARDS的治療有哪些?",
         "answer":  "Low tidal volume (6mL/kg)、Plateau pressure (\u003c= 30 cmH2O)、PEEP (\u003e= 5 cmH2O)、pH (7.3-7.45)、SpO2 (88-95%)、Prone Position、VV-ECMO",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 147"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "SOFA score評估哪些項目?",
         "answer":  "腦 (GCS)、心 (BP)、肝 (Bilirubin)、肺 (PaO2/FiO2)、腎 (Creatinine)、血 (Platelets)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 148"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "qSOFA score評估哪些項目?",
         "answer":  "Respiratory Rate (\u003e= 22/min)、Altered Mentation、systolic BP (\u003c= 100mmHg)",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 148"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "根據Surviving Sepsis Campaign Guidelines，治療sepsis/septic shock的建議有哪些?",
         "answer":  "1. 診斷後，3小時內給予至少30 mL/kg的balanced crystalloid (LR) 2. 使用Dynamic Parameters來指引輸液治療 3. MAP \u003e 65 mmHg 4. 第一線升壓劑為norepinephrine 5. Low-tidal volume in ARDS 6. 目標血糖值為144-180 mg/dL",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 149-150"
     },
     {
-        "type":  "國考QA",
         "subject":  "麻醉科",
+        "type":  "國考",
         "question":  "ERAS (Enhanced Recovery After Surgery)中，術前、術中、術後的項目有?",
         "answer":  "術前：會診、討論、NPO時間不要過長。術中：保暖、維持體溫、正常輸液、使用短效麻醉藥物、胸腹手術使用thoracic epidural analgesia、給予預防止吐藥。 術後：多模式止痛",
         "reference":  "First Choice 2025 醫學六 麻醉科 p. 151"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "可以抽血檢驗病人的何種指標，來評估病人的營養狀況?",
         "answer":  "Albumin、Pre-albumin、Transferrin",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 6"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "估算外科病人的基礎能量消耗(BEE, Basal Energy Expenditure)，分別為一天給予多少熱量?",
         "answer":  "輕中度外傷：25-35 Kcal/kg，重度外傷：40-45 Kcal/kg，肝衰竭：25-30 Kcal/kg",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 11"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "腸胃道營養的好處包含哪些?",
         "answer":  "維持腸胃道黏膜完整性、降低細菌translocation、提高免疫功能、便宜、少併發症",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 8"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "腸胃道營養最常見的併發症為何?",
         "answer":  "腹瀉",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 8"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "TPN (Total Parenteral Nutritrion)適合用於哪種病人?",
         "answer":  "腸道失去功能、預期需禁食超過7-14天。e.g. 胃腸皮膚瘻管、short bowel syndrome、腸阻塞、急性胰臟炎、急性嚴重燒傷",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 9"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "TPN (Total Parenteral Nutritrion)不適合用於哪種病人?",
         "answer":  "短期無生存可能、生命徵象不穩定、短期禁食、有造口、心臟功能不佳、嚴重代謝障礙",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 9"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "給予TPN容易缺乏那些微量元素?",
         "answer":  "Zn, Cu, Se, Cr, Mn",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 9"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "TPN要如何給予?原因是?",
         "answer":  "中央靜脈導管，因為中央靜脈才可以承受較高的滲透壓",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 9"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "高血糖高滲透壓非酮酸性昏迷(HHNK, Hyperglycemic Hyperosmolar Non-ketotic coma)是指?",
         "answer":  "因為輸注過快、年長、胰臟功能不好等等，導致高滲透性利尿脫水，使得病人意識狀態改變、昏迷。",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 10"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "再餵食症候群 (Refeeding Syndrome)會導致何種電解質異常?",
         "answer":  "三低一高 (低血鉀、低血磷、低血鎂、高血糖)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 11"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "正常血鈉濃度為多少?",
         "answer":  "135-145 mEq/L",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 18"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "Hypervolemic Hyponatremia的治療方式?",
         "answer":  "給予利尿劑脫水，讓過多體液可以排出體外",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 18"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "Euvolemic Hyponatremia的治療方式?",
         "answer":  "限水、高張氯化鈉(3% N/S) (矯正速度不能超過10-12 mEq/L/day)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 18"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "Euvolemic Hyponatremia矯正太快會導致?",
         "answer":  "Central Pontine Demyelination",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 18"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "TURP syndrome是指?",
         "answer":  "BPH病人在TURP手術中由於使用大量沖洗液，導致體液增加，因而造成低血鈉",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 18"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "神經外科病人，若發生低血鈉，常見原因為何?",
         "answer":  "SIADH",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 18"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "正常血鉀濃度為多少?",
         "answer":  "3.5-5.0 mEq/L",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 18"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "高血鉀的治療方式有哪些?",
         "answer":  "FAT DICKS (Furosemide, Albuterol, Turbutaline, Dialysis, Insulin/glucose, Calcium gluconate, Kayexalate/Kalimate/Lokelma, Sodium bicarbonate)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 19"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "正常血鈣濃度為多少?",
         "answer":  "8-10 mEq/L",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 19"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "低血鈣(Hypocalcemia)會出現甚麼sign?",
         "answer":  "Chvostek sign, Trousseau sign",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 19"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "高血鈣常見原因有哪些?",
         "answer":  "惡性腫瘤(最常見)骨轉移或分泌PTHrP、副甲狀腺功能亢進、肉芽腫性疾病(TB, sarcoidosis)、利尿劑(Thiazide)、Vitamin D過多",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 20"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "High Anion Gap的代謝性酸中毒，常見原因包含?",
         "answer":  "MUDPILERS (Methanol, Uremia, Diabetic ketoacidosis, Propylene glycol, Isoniazid, Lactic acidosis, Ethylene glycol, Rhabdomyolisis, Salicylates)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 20-21"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "最容易導致腸阻塞的電解質不平衡是?",
         "answer":  "低血鉀 (Hypokalemia)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 21"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "一天所需給予的水分，該如何以體重來估算?",
         "answer":  "100-50-20 rule (前10kg*100 + 第二個10kg*50 + 剩下體重*20)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 26"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "CVP會上升的休克類型有哪些?",
         "answer":  "心因性、阻塞性",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 27"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "Heart Rate會下降的休克類型是哪一種?",
         "answer":  "神經性",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 27"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "第二級低血容性休克的評估內容有哪些?數值落在多少?預估失血量為多少?",
         "answer":  "BP: normal, HR \u003e 100/min, RR: 20-30/min, U/O: 20-30 c.c./hr。失血量：750-1500 mL (15-30%)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 27"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "第三級低血容性休克的評估內容有哪些?數值落在多少?預估失血量為多少?",
         "answer":  "BP: decreased, HR \u003e 120/min, RR: 30-40/min, U/O: 5-15 c.c./hr。失血量：1500-2000 mL (30-40%)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 27"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "成人、小孩、新生兒的正常排尿量分別是多少?",
         "answer":  "成人: \u003e 0.5 c.c./kg/hr, 小孩: \u003e 1mL/kg/hr, 新生兒: \u003e 2mL/kg/hr",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 27"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "SIRS (Systemic Inflammatory Response Syndrome)的診斷需符合那些標準至少2個以上?",
         "answer":  "1. BT \u003e 38度或 \u003c36度，2. HR \u003e 90/min，3. RR\u003e 20/min或PaCO2 \u003c 32mmHg，4. WBC\u003e 12000或 \u003c 4000",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 28"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "EGDT (Early Goal-Directed Therapy)是指在6小時內需達成哪些目標?",
         "answer":  "1. CVP維持在8-12 mmHg，2. MAP \u003e 65 mmHg，3. ScvO2 \u003e 70%",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 28-29"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "第一、二、三線升壓劑分別為何?",
         "answer":  "Norepinephrine, Vasopression, Epinephrine",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 29"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "晶體溶液(Crystalloid solution)包含哪些溶液?",
         "answer":  "N/S (Normal Saline), L/R (Latacted Ringer)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 30"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "大量輸血的定義是?",
         "answer":  "一次輸超過2500mL，或24小時內輸超過5000mL",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 30"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "大量輸血會引發的併發症有哪些?",
         "answer":  "低體溫、凝血功能異常(Dilution Thrombocytopenia)、急性溶血反應、電解質異常(高血鉀、低血鉀、低血鈣、代謝鹼中毒、酸中毒)、TRALI",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 30-31"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "pRBC: FFP : Platelet以多少比例輸注，可以預防凝血功能異常?",
         "answer":  "1:1:1",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 30"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "Lactated Ringer\u0027s solution的組成成分為?",
         "answer":  "鈉離子：130 mEq/L，鉀離子：4 mEq/L，氯離子：109 mEq/L，鈣離子：3 mEq/L，乳酸：28/mEq/L",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 36"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "小兒外傷的輸液處理原則?",
         "answer":  "先給予20mL/kg的含鈉crystalloid solution (N/S)，重複給予後無改善，再給予10 mL/kg的pRBC",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 38"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "術後常見的高體溫原因有哪些?發生的時間在術後甚麼時候?",
         "answer":  "2天內：肺塌陷。3天內：肺炎、泌尿道感染。5天內：傷口感染、anatomic leakage、腹內膿瘍。7天內：DVT。其他：藥物",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 46"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "腹腔內腔室症候群的定義為?",
         "answer":  "腹內壓力\u003e25 cmH2O，影響腹內器官血管灌流",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 47"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "腹腔內腔室症候群的處理方式為?",
         "answer":  "Surgical Decompression或是傷口不做primary closure",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 47, 54"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "肌肉腔室症候群的定義為?",
         "answer":  "肌肉室間壓力\u003e30 cmH2O，使得組織灌流不足，導致肌肉與神經受損。",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 47"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "肌肉腔室症候群最常發生在身體哪個部位?",
         "answer":  "小腿 (和骨折關聯性最高)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 47"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "肌肉腔室症候群的症狀有哪些?",
         "answer":  "6P: Pain (最早出現、最不專一), Pressure, Paresthesia, Paralysis, Pale, Pulseless",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 47"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "肌肉腔室症候群的處理方式為?",
         "answer":  "fasciotomy",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 47"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "DVT (Deep Vein Thrombosis)和PE (Pulmonary Embolism)的危險因子有哪些?",
         "answer":  "Virchow\u0027s Triad (Stasis, Hypercoagulable state, Endothelium Injury)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 48"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "外科傷口感染的定義為?",
         "answer":  "手術後一個月內手術部位有化膿、膿腫、蜂窩性組織炎。",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "第二常見的院內感染是?",
         "answer":  "外科傷口感染",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "乾淨(Clean)外科傷口的定義為?",
         "answer":  "傷口無發炎，且沒有切開經過呼吸道、消化道、泌尿道或生殖道的手術",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "乾淨(Clean)外科傷口使用抗生素的原則?",
         "answer":  "不使用預防性抗生素，若時間較長、有植入物，可使用第一代Cepha",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "乾淨但易受汙染(Clean-contaminated)外科傷口的定義為?",
         "answer":  "傷口有控制的情況下，有切開經過呼吸道、消化道、泌尿道或生殖道的手術",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "乾淨但易受汙染(Clean-contaminated)外科傷口使用抗生素的原則?",
         "answer":  "使用第一代Cepha(Grams+)、Aminoglycoside(Grams-)、Unasyn, Augmentin, Cefmetazole(厭氧菌)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "汙染(Contaminated)外科傷口的定義為?",
         "answer":  "6-8小時內新產生的開放性傷口，沒有清腸準備的腸胃道手術",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "汙染(Contaminated)外科傷口使用抗生素的原則?",
         "answer":  "治療性抗生素，第二代Cepha+Aminoglycoside",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "骯髒(Dirty)外科傷口的定義為?",
         "answer":  "舊有傷口出現壞死組織、新傷口感染、手術處有感染",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 56"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "骯髒(Dirty)外科傷口使用抗生素的原則?",
         "answer":  "治療性抗生素，第二代Cepha+Aminoglycoside",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 57"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "最常見的手術部位感染(SSI, Surgical Site Infection)是哪一種?",
         "answer":  "淺層切口手術部位感染",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 57"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "手術部位感染是指發生於術後多久內的感染?",
         "answer":  "30天內，植入物為1年內",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 57"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "偽膜性腸炎(Pseudomembranous Colitits)的治療方式為何?",
         "answer":  "口服Vancomycin或Metronidazole",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 59"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "最常見的院內感染是?",
         "answer":  "泌尿道感染 (UTI, Urinary Tract Infection)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 59"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "UTI常見的致病菌有哪些?",
         "answer":  "E.coli, Pseudomonas aeruginosa",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 59"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "第三常見的院內感染是?",
         "answer":  "肺炎",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 59"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "院內感染最常見的死因是?",
         "answer":  "肺炎",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 59"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "貓咬傷和哪種致病菌感染最有關?",
         "answer":  "Pasteurella multocida",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 61"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "猴子咬傷和哪種致病菌感染最有關?",
         "answer":  "B virus",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 61"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "海水魚咬傷與哪種致病菌感染最有關?",
         "answer":  "Vibrio spp.",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 61"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "狗咬傷和哪種致病菌感染最有關?",
         "answer":  "Pasteurella spp.",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 61"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "MHC基因位於哪裡?",
         "answer":  "第6對染色體短臂",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 69"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "Class I MHC (Major Histocompatibility Complex)包含哪些?",
         "answer":  "HLA-A, B, C",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 69"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "Class II MHC (Major Histocompatibility Complex)包含哪些?",
         "answer":  "HLA-DP, DQ, DR",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 69"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "Class I MHC (Major Histocompatibility Complex)存在於哪些細胞?",
         "answer":  "有核細胞、血小板",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 69"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "Class II MHC (Major Histocompatibility Complex)存在於哪些細胞?",
         "answer":  "抗原呈現細胞(APC, Antigen Presenting Cells)：B cell, Macrophage, Dendritic cell",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 69"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "超急性(Hyperacute)移植排斥反應是指發生於移植後多久?",
         "answer":  "數分鐘至數天內",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 70"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "超急性(Hyperacute)移植排斥反應的常見原因?",
         "answer":  "受贈者血液中存在針對捐贈者HLA抗原之抗體、ABO血型不符合",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 70"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "急性(Acute)移植排斥反應是指發生於移植後多久?",
         "answer":  "數天至數個月之內 (1週至6個月)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 70"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "慢性(Chronic)移植排斥反應是指發生於移植後多久?",
         "answer":  "數月至數年",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 70"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "移植後一個月內的感染以何種致病菌較常見?",
         "answer":  "細菌、Candida、病毒(HSV, HIV, HBV, HCV)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 71-72"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "移植後第二個月到第六個月的感染以何種致病菌較常見?",
         "answer":  "病毒(CMV, EBV, VZV)、伺機性感染(Nocardia, Listeria, Tuberculosis, Aspergillus, Crypotcoccus, Toxoplasma)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 71-72"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "移植後六個月後的感染以何種致病菌較常見?",
         "answer":  "伺機性病毒感染(Herpes Zoster)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 71-72"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "PTLD (Post-tranplant lymphoproliferative Disorders)與何種致病菌有關?",
         "answer":  "EBV",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 72"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "穿刺傷包含哪兩種類型?",
         "answer":  "高速傷：槍彈傷；低速傷：刀傷",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 84"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "刀傷最常傷害到哪一個器官?",
         "answer":  "肝臟",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 84"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "槍傷最常傷害到哪一個器官?",
         "answer":  "小腸",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 84"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "腹部鈍傷最常傷害到哪一個器官?",
         "answer":  "脾臟(最常見)、肝臟(第二常見)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 84"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "需要剖腹探查的情況包含哪些?",
         "answer":  "血型動力學不穩定、peritonneal sign、槍傷",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 84"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "FAST是檢查哪些部位，觀察是否有出血?",
         "answer":  "Pericardium, Morison\u0027s pouch, perisplenic space, rectovesicular space",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 86"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "致命三角(Lethal Triad)包含哪三項?",
         "answer":  "Hypothermia, Coagulopathy, Metabolic Acidosis",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 86"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "診斷吸入性灼傷，應該執行哪一種檢查?",
         "answer":  "支氣管鏡",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 87"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "DNR的適用範圍包含?",
         "answer":  "適用於心跳或呼吸停止時不進行心肺復甦術，不限制其他治療手段",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 99"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "末期病人無簽署意願書，且意識昏迷或無法清楚表達意願，其親屬應按照何順序，出具同意書替代之?",
         "answer":  "一、配偶。二、成年子女、孫子女。三、父母。四、兄弟姐妹。五、祖父母。六、曾祖父母、曾孫子女或三親等旁系血親。七、一親等直系姻親。",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 107"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "MELD score主要評估哪些項目?",
         "answer":  "Total Bilirubin, Creatinine, INR, Na+, Albumin, Age",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 111"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "65歲以上老年人最常見的外傷原因為何?",
         "answer":  "跌倒",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 113"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "燒燙傷治療中，靜脈輸液的給予可以用何公式計算?",
         "answer":  "Parkland formula = 4mL/kg per %TBSA burn (前8小時給總量的一半，後16小時給剩下的一半)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 114"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "尿液的Bence Jones Protein是何種癌症的tumor biomarker?",
         "answer":  "Multiple Myeloma (Plasma cells)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 114"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "使用warfarin者，在術前需要停用幾天?並將INR控制在多少以內?",
         "answer":  "5天、低於1.5",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 115"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "燒燙傷治療中，營養的估計可以用何公式計算?",
         "answer":  "Curreri Formula = 25 Kcal x 燒燙傷前體重(kg) + 40 Kcal x 燒燙傷面積百分比 (如果大於50%以50%計算)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 117"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "人體各器官與組織中，電阻最低的是哪些?",
         "answer":  "神經、血管、肌肉",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 117"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "人體各器官與組織中，電阻最高的是哪些?",
         "answer":  "皮膚",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 117"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "胸管放置的位置大約在哪裡?",
         "answer":  "腋中線或腋前線的第四或第五肋間",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 119"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "CA199是何種癌症的tumor biomarker?",
         "answer":  "胰臟癌",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 120"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "AFP是何種癌症的tumor biomarker?",
         "answer":  "肝癌",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 120"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "CEA是何種癌症的tumor biomarker?",
         "answer":  "大腸癌",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 120"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "HCG是何種癌症的tumor biomarker?",
         "answer":  "choriocarcinoma",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 120"
     },
     {
-        "type":  "國考QA",
         "subject":  "外科",
+        "type":  "國考",
         "question":  "Calot\u0027s triangle的邊界有哪些?",
         "answer":  "Common hepatic duct, cystic duct, liver edge (現代定義，過去是cystic a.)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 130"
     },
     {
-        "type":  "國考QA",
         "subject":  "腦神經外科",
+        "type":  "國考",
         "question":  "GCS (Glasgow Coma Score)當中，E (Best Eye Opening)的評估分數分別為?",
         "answer":  "4: 自動睜眼；3: 聲音刺激；2: 疼痛刺激；1: 無反應",
         "reference":  "First Choice 2025 醫學五 腦神經外科 p. 138"
     },
     {
-        "type":  "國考QA",
         "subject":  "腦神經外科",
+        "type":  "國考",
         "question":  "GCS (Glasgow Coma Score)當中，V (Best Verbal Response)的評估分數分別為?",
         "answer":  "5: 正常人；4: 答非所問；3: 單字；2: 聲音、呻吟；1: 無反應",
         "reference":  "First Choice 2025 醫學五 腦神經外科 p. 138"
     },
     {
-        "type":  "國考QA",
         "subject":  "腦神經外科",
+        "type":  "國考",
         "question":  "GCS (Glasgow Coma Score)當中，M (Best Motor Response)的評估分數分別為?",
         "answer":  "6: obey；5: localize；4: withdraw；3: upper limb flexion；2: upper limb extension；1: no response",
         "reference":  "First Choice 2025 醫學五 腦神經外科 p. 138"
     },
     {
-        "type":  "國考QA",
         "subject":  "腦神經外科",
+        "type":  "國考",
         "question":  "頭部外傷的嚴重程度，以GCS來分級，分別為?",
         "answer":  "輕度：13-15；中度：9-12；重度：3-8",
         "reference":  "First Choice 2025 醫學五 腦神經外科 p. 138"
     },
     {
-        "type":  "Symptoms \u0026 Signs",
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "腦震盪(Concussion)是指?",
+        "answer":  "頭骨與腦實質沒有受傷，僅有意識改變",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 144"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Contrecoup injury是指?",
+        "answer":  "受撞擊的對側受傷",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 144"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Diffuse axonal injury是指?",
+        "answer":  "撞擊時，加速/減速的過程受到的機械性損傷，使神經元軸突分裂/撕裂。(但解剖上、CT上看不見明顯異常)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 144"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "前顱窩骨折的病人，會有甚麼異常?",
+        "answer":  "Raccoon eye、鼻漏、結膜下出血",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 144"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "中顱窩骨折的病人，會有甚麼異常?",
+        "answer":  "外耳道出血、CSF滲出、Battle\u0027s sign",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 144"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "顏面骨折的分類分為?",
+        "answer":  "LeFort I, II, III",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 144-145"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "硬腦膜上出血(EDH, Epidural Hematoma)的特徵有哪些?",
+        "answer":  "中腦膜動脈破裂出血、Lucid Interval、紡錘狀(biconvex)、可以過中線(不會被falx侷限)、不會過skull suture",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 146-147"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "硬腦膜下出血(SDH, Subdural Hematoma)的特徵有哪些?",
+        "answer":  "橋靜脈出血、新月形(Crescentic)、不可以過中線(會被falx侷限)、會過skull suture",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 147"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "如何用CT density區分SDH的分期、時間?",
+        "answer":  "Hyperdense: acute, hours；Isodense: subacte, days；Hypodense: chronic, weeks",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 147"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Kernohan\u0027s phenomenon是指什麼?",
+        "answer":  "EDH或SDH因為mass effect推擠到對側大腦腳(Cerebral peduncle)、壓迫小腦天幕(Tentorium)，造成同側肢體癱瘓",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 148"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "大腦灌注壓(CPP)、平均動脈壓(MAP)和顱內壓(ICP)之間的關係為何?",
+        "answer":  "CPP = MAP - ICP",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 160"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "請問Cushing\u0027s triad包含哪些?",
+        "answer":  "Hypertension, Bradycarida, Respiratory Irregularity",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 160"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "請問降低顱內壓的方法有哪些?",
+        "answer":  "躺30-45度、脖子擺正伸直、繃帶不纏繞太緊、Osmolar Diuretics (20% Mannitol, Glycerol, Furosemide)、Hyperventilation (PaCO2: 30-35 mmHg)、抽CSF、High dose barbiturate (refractory IICP)、Hypothermia、Decompressive craniectomy、Steroids",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 161"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "最常造成蜘蛛膜下腔出血(SAH)的原因是?",
+        "answer":  "外傷(Trauma)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 166"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "最常造成自發性蜘蛛膜下腔出血(SAH)的原因是?",
+        "answer":  "顱內動脈瘤破裂 (Aneurysmal SAH)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 166"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "請問Aneurysmal SAH好發的季節和年齡分別是?",
+        "answer":  "春秋、55-60歲",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 166"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "請問Aneurysmal SAH在破裂之前，所謂的Warning symptoms包含哪些?",
+        "answer":  "Mass effect(CN II, III, pituitary gland, hemiplegia)、小出血(Sentinel hemorrhage)、暫時性失明(Amaurosis fugax)/視覺半盲(Homonymous hemianopsia)、Seizures、headache",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 166"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "請問Kernig sign是指?",
+        "answer":  "將病人的大腿彎曲後，再將小腿伸直時，大腿後側會感覺疼痛。",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 167"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "請問Brudzinski sign是指?",
+        "answer":  "將病人的頸部向前彎曲，大腿會不自主屈曲",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 167"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "動脈瘤大多位於腦血管何處?",
+        "answer":  "血管分岔處(Bification)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 167, 172"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "請問SAH病人抽取CSF會有哪些特徵?",
+        "answer":  "顏色不會越抽越淡、WBC上升、離心後上層是黃色的物體、不會有血塊凝結、蛋白質上升較多、opening pressure上升",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 168"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "評估大腦動脈瘤的gold standard是哪一種檢查?",
+        "answer":  "Angiogram: DSA(Digital subtraction angiography)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 168"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "SAH可以用哪種分級來評估預後與存活率?",
+        "answer":  "Hunt and Hess Grade, Fisher grading (CT), WFNS clinical Grading Scale, GCS",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 168"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Hunt and Hess Grade分別為何?",
+        "answer":  "0: Unruptured, 1: Asymptomatic or mild symptoms, 1a: fixed neurological deficit, 2: crainal nerve palsy, moderate to severe symptoms, 3: mild focal deficit, lethargy, confusion, 4: stupor, 5: deep coma",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 168"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Cerebral salt wasting的原因和結果是什麼?",
+        "answer":  "IICP --\u003e ANP分泌增加 \u003e腎臟的Na+和水排出增加 --\u003e hypovolemia",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 169"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "SAH的外科處置有哪些?",
+        "answer":  "Surgical Clipping, Coil embolization, Wrapping",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 169"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "SAH的併發症有哪些?",
+        "answer":  "Rebleeding, Hyponatremia, Hydrocephalus, Vasospasm(DIND, Delayed sichemic neurologic deficit)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 169-170"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Hunt and Hess Grade 1, 2的SAH最常見的死因為何?",
+        "answer":  "再度出血 (Rebleeding)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 169"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "請問CSW (Cerebral Salt Wasting)該如何治療?",
+        "answer":  "補水",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 170"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "SAH併發症當中的vasospasm最常發生在時候?",
+        "answer":  "4-10天內，好發於第7天",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 170"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "針對SAH vasospasm的治療方式是?",
+        "answer":  "Triple H Therapy (Hemodynamic augmentation: Hypertension, Hypervolemia, Hemodilution)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 170"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "SAH的病人，最典型的症狀是什麼?",
+        "answer":  "突發性劇烈頭痛 (頭從來沒有這麼痛過)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 167"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "顱內出血(ICH, Intracranial hemorrhage)最常發生的位置是?",
+        "answer":  "基底核(basal ganglia)的被殼(Putamen)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 182"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "顱內出血(ICH, Intracranial hemorrhage)最常見的病因是?",
+        "answer":  "高血壓，形成Charcot-Bouchard\u0027s aneurysm",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 182"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "橋腦血腫所導致的5P臨床症狀包含哪些?",
+        "answer":  "對側肢體無力(Paralysis)、細微脈搏(Pulsus parvus)、縮瞳(Pinpoint pupil)、高燒(Pyrexia)、週期性呼吸(Periodic respiration)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 183"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "動靜脈畸形(AVM, arteriovenous Malformation)是指什麼血管異常?",
+        "answer":  "動脈血直接注入靜脈，不經過微血管，由於血管腔內壓力流速大，也讓靜脈變大",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 190"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "動靜脈畸形(AVM, arteriovenous Malformation)最常見的臨床症狀是什麼?",
+        "answer":  "出血(最常見)、癲癇、盜血效應(stealing effect)、神經學缺損、頭痛、眼球雜音",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 190"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "動靜脈畸形(AVM, arteriovenous Malformation)可以用什麼來評估手術風險?",
+        "answer":  "Spetzler-Martin Grading System",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 192"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "海綿狀血管畸形(Cavernous malformations)最常見的症狀為何?",
+        "answer":  "癲癇(好發於顳葉、頂葉)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 191"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "診斷海綿狀血管畸形(Cavernous malformations)該使用何種檢查工具?",
+        "answer":  "MRI",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 191"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "海綿狀血管畸形(Cavernous malformations)在MRI中，會有何種特殊表現?",
+        "answer":  "爆米花特徵(Popcorn appearance)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 191"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "外傷造成的Carotid-cavernous fistula為哪一種類型?",
+        "answer":  "Direct type (high flow)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 191"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Carotid-cavernous fistula的治療首選為何?",
+        "answer":  "血管氣球栓塞",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 192"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "腦室系統的循環順序為何?",
+        "answer":  "Lateral ventricle --\u003e Monro foramen --\u003e 3rd ventricle --\u003e Aqueduct --\u003e 4th ventricle --\u003e Luschka + Magendie foramina --\u003e subarachnoid space",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 270"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "CSF由何種構造產生?每天產量大約為多少?",
+        "answer":  "脈絡叢(Choroid plexus)，500mL",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 270"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "水腦症分為哪兩類?",
+        "answer":  "阻塞型：腦室系統受阻塞、交通型：蜘蛛膜顆粒受影響",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 270"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Dandy-walker Malformation是指?",
+        "answer":  "Luschka和Magendie foramina狹窄，導致第四腦室擴大",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 270"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "落日眼(Setting sun appearance)是指?",
+        "answer":  "水腦症壓迫到四疊體，導致眼皮後翻、無法向上看",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 271"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "正常壓力水腦症(NPH, Normal Pressure Hydrocephalus)的典型症狀是?",
+        "answer":  "3w：失智症(weird)、步態不穩(wobby)、尿失禁(wet)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 271"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "三叉神經痛較常侵犯三叉神經的哪個分支?",
+        "answer":  "V2或V3",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 276"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "三叉神經痛最常見的原因是什麼?",
+        "answer":  "三叉神經根受到血管壓迫(以SCA, superior cerebellar a.最為常見)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 276"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "三叉神經痛的第一線治療是什麼?",
+        "answer":  "藥物治療：Carbamazepine",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 276"
+    },
+    {
         "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
         "question":  "Thumb sign",
         "answer":  "Acute Epiglottitis",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 278"
     },
     {
-        "type":  "Symptoms \u0026 Signs",
         "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
         "question":  "Fiery cherry-red epiglottis",
         "answer":  "Acute Epiglottitis",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 278"
     },
     {
-        "type":  "Symptoms \u0026 Signs",
         "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
         "question":  "Steeple sign",
         "answer":  "Croup",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 295"
     },
     {
-        "type":  "Symptoms \u0026 Signs",
         "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
         "question":  "Double tongue sign",
         "answer":  "Ludwig\u0027s angina",
-        "reference":  "N Engl J Med. 2019 Jul 11;381(2):163. "
+        "reference":  "N Engl J Med. 2019 Jul 11;381(2):163."
     },
     {
-        "type":  "Symptoms \u0026 Signs",
         "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
         "question":  "Allergic shiner",
         "answer":  "Allergic rhinitis",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 258"
     },
     {
-        "type":  "Symptoms \u0026 Signs",
         "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
         "question":  "Dennie-Morgan line",
         "answer":  "Allergic rhinitis",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 258"
     },
     {
-        "type":  "Symptoms \u0026 Signs",
         "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
         "question":  "Allergic crease",
         "answer":  "Allergic rhinitis",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 258"
     },
     {
-        "type":  "Symptoms \u0026 Signs",
         "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
         "question":  "Allergic salute",
         "answer":  "Allergic rhinitis",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 258"
     },
     {
-        "type":  "Symptoms \u0026 Signs",
         "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
         "question":  "Salt and pepper sign",
         "answer":  "Paraganglioma",
         "reference":  "First Choice 2025 醫學六 耳鼻喉科 p. 261"
     },
     {
-        "type":  "Symptoms \u0026 Signs",
         "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
         "question":  "Chvostek sign",
         "answer":  "Hypocalcemia",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 19"
     },
     {
-        "type":  "Symptoms \u0026 Signs",
         "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
         "question":  "Trousseau sign",
         "answer":  "Hypocalcemia",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 19"
     },
     {
-        "type":  "Symptoms \u0026 Signs",
         "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
         "question":  "Virchow\u0027s triad",
         "answer":  "PE (Pulmonary Embolism), DVT (Deep Vein Thrombosis)",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 48"
     },
     {
-        "type":  "Symptoms \u0026 Signs",
         "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
         "question":  "Lethal triad",
         "answer":  "Severe Trauma",
         "reference":  "First Choice 2025 醫學五 外科學概論 p. 86"
+    },
+    {
+        "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
+        "question":  "Raccoon eye",
+        "answer":  "Fractures of the base of the anterior cranial fossa",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 144"
+    },
+    {
+        "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
+        "question":  "Battle\u0027s sign",
+        "answer":  "Fractures of the base of the middle cranial fossa",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 144"
+    },
+    {
+        "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
+        "question":  "Kernig sign",
+        "answer":  "Meningitis, Meningismus (SAH)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 167"
+    },
+    {
+        "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
+        "question":  "Brudzinski sign",
+        "answer":  "Meningitis, Meningismus (SAH)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 167"
+    },
+    {
+        "subject":  "口訣",
+        "type":  "口訣",
+        "question":  "高血鉀治療方式?",
+        "answer":  "FAT DICKS (Furosemide, Albuterol, Turbutaline, Dialysis, Insulin/glucose, Calcium gluconate, Kayexalate/Kalimate/Lokelma, Sodium bicarbonate)",
+        "reference":  ""
+    },
+    {
+        "subject":  "口訣",
+        "type":  "口訣",
+        "question":  "High AG代謝性酸中毒的常見原因?",
+        "answer":  "MUDPILERS (Methanol, Uremia, Diabetic ketoacidosis, Propylene glycol, Isoniazid, Lactic acidosis, Ethylene glycol, Rhabdomyolisis, Salicylates)",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 20-21"
+    },
+    {
+        "subject":  "口訣",
+        "type":  "口訣",
+        "question":  "肌肉腔室症候群的症狀有哪些?",
+        "answer":  "6P: Pain, Pressure, Paresthesia, Paralysis, Pale, Pulseless",
+        "reference":  "First Choice 2025 醫學五 外科學概論 p. 47"
+    },
+    {
+        "subject":  "口訣",
+        "type":  "口訣",
+        "question":  "Caloric test的結果判讀?",
+        "answer":  "COWS (Cold opposite; Warm Same side)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 139"
+    },
+    {
+        "subject":  "口訣",
+        "type":  "口訣",
+        "question":  "橋腦血腫所導致的臨床症狀包含哪些?",
+        "answer":  "5P: 對側肢體無力(Paralysis)、細微脈搏(Pulsus parvus)、縮瞳(Pinpoint pupil)、高燒(Pyrexia)、週期性呼吸(Periodic respiration)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 183"
     }
 ]
