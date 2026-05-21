@@ -2170,6 +2170,314 @@
         "reference":  "First Choice 2025 醫學五 腦神經外科 p.257, 266"
     },
     {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "椎間盤突出(HIVD, Herniated Intervertebral Disc)最常發生在哪個部位?",
+        "answer":  "L4-5, L5-S1",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 198"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "椎間盤突出(HIVD, Herniated Intervertebral Disc)的首選檢查工具是什麼?",
+        "answer":  "MRI",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 199"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "腰椎狹窄(Lumbar Spinal Stenosis)最常發生在哪個部位?",
+        "answer":  "L4-5 --\u003e L3-4 --\u003e L2-3 --\u003e L5-S1 --\u003e L1-2",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 200"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "頸椎狹窄(Cervical Spinal Stenosis)最常發生在哪個部位?",
+        "answer":  "C6-7 --\u003e C5-6 --\u003e C7-T1 --\u003e C4-5",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 202"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "哪一條神經支配三角肌(Deltoid)?",
+        "answer":  "C5, C6",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 203"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "哪一條神經支配二頭肌(Biceps)?",
+        "answer":  "C5, C6",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 203"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "哪一條神經支配三頭肌(Triceps)?",
+        "answer":  "C7, C8",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 203"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "DTR (Deep tendon reflex)中，Biceps jerk和哪一條神經有關?",
+        "answer":  "C5, C6",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 203"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "DTR (Deep tendon reflex)中，Triceps jerk和哪一條神經有關?",
+        "answer":  "C7, C8",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 203"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "DTR (Deep tendon reflex)中，Supinator jerk和哪一條神經有關?",
+        "answer":  "C5, C6",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 203"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Beevor\u0027s sign是指什麼?",
+        "answer":  "將躺著的病人的脖子彎曲，肚臍朝向頭的方向移動，代表下腹肌群較上腹肌群無力",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 204"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Abdominal cutaneous reflex是指什麼?",
+        "answer":  "在腹部的四個象限朝肚臍方向刮搔皮膚，腹部肌肉會收縮",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 204"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Cremasteric reflex是指什麼?",
+        "answer":  "刮搔大腿內側皮膚，提睪肌會收縮，使得睪丸上提",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 204"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "hip flexion是由哪一條神經所支配?",
+        "answer":  "L2, L3",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 204"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Knee extension是由哪一條神經所支配?",
+        "answer":  "L3, L4",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 204"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "ankle dorsiflexion是由哪一條神經所支配?",
+        "answer":  "L4, L5",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 204"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "大拇指extension (dorsiflexion)是由哪一條神經所支配?",
+        "answer":  "L5, S1",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 204"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "DTR (Deep tendon reflex)中，Knee jerk和哪一條神經有關?",
+        "answer":  "L3, L4",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 204"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "DTR (Deep tendon reflex)中，Achilles jerk和哪一條神經有關?",
+        "answer":  "S1, S2",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 204"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Anal cutaneous reflex和bulbocavernous reflex和哪一條神經支配有關?",
+        "answer":  "S2-S4",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 204"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Central cord syndrome常和哪種動作有關?",
+        "answer":  "hyperextension，頸椎過度後仰",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 205"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Central cord syndrome有哪些特徵?",
+        "answer":  "溫痛覺異常，披肩式感覺異常(上肢\u003e下肢)、四肢無力(上肢\u003e下肢)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 205"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Brown-Sequard syndrome有哪些特徵?",
+        "answer":  "脊髓半邊受傷、預後佳、同側運動、本體震動覺喪失，對側溫痛覺喪失",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 206"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "C1 cervical fracture常因哪種原因而導致?",
+        "answer":  "垂直力量壓迫",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 209"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Jefferson fracture是指什麼樣的骨折?",
+        "answer":  "C1 fracture with anterior and posterior arches",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 209"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "最常見的C2 fracture是哪一種類型?",
+        "answer":  "Type II，odontoid process base斷裂，不穩定也最不容易癒合",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 210"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Hangman\u0027s fracture是指什麼樣的骨折?",
+        "answer":  "因為Hyperextension + Axial loading，導致C2 pars interarticularis斷裂與椎體分開",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 210"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "脊椎滑脫(Spondylolisthesis)可以用什麼方式來評估?",
+        "answer":  "Meyer-ding (Grade 1: 1-25%, Grade 2: 26-50%, Grade 3: 51-75%, Grade 4: 76-100%, Grade 5: \u003e 100%)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 212"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "脊椎側彎(Scoliosis)的定義為Cobb angle要大於多少角度?",
+        "answer":  "\u003e 10度",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 213"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Forward banding test是用來檢查什麼疾病?",
+        "answer":  "脊椎側彎(Scoliosis)，病人彎下腰，看兩側肩膀是否同高",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 214"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "如何以Cobb angle來評估脊椎側彎的嚴重度?",
+        "answer":  "10-20度: mild，20-40度: moderate，\u003e40度: severe",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 215"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "脊椎與脊髓種瘤，大部分是哪一種?",
+        "answer":  "硬膜外腫瘤(Extradural spinal cord tumor)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 216"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "硬膜外腫瘤(Extradural spinal cord tumor)以何種腫瘤最常見?",
+        "answer":  "轉移癌(Metastasis)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 216"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "硬膜外腫瘤(Extradural spinal cord tumor)當中的轉移癌，以什麼症狀最為常見?",
+        "answer":  "疼痛：骨頭痛、觸痛",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 216"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "硬膜內脊髓外腫瘤(Intradural extramedullary spinal cord tumor)以何種腫瘤最常見?",
+        "answer":  "Meningioma, Schwannoma",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 217"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "脊椎與脊髓種瘤，最少見的是哪一種?",
+        "answer":  "脊髓內腫瘤 (Intramedullary tumor)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 217"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "脊髓內腫瘤 (Intramedullary tumor)以何種腫瘤最常見?",
+        "answer":  "Astrocytoma, Ependymoma",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 217"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "脊柱裂(Spina bifida)，依照脊髓膨出程度可分為哪些類型?",
+        "answer":  "1. 隱性脊柱裂 (Spina bifida occulta) 2. 脊髓膜膨出 (Meningocele) 3. 脊髓脊膜膨出 (Myelomeningocele)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 218"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "脊柱裂(Spina bifida)中，最常見的類型是哪一種?",
+        "answer":  "隱性脊柱裂 (Spina bifida occulta)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 218"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "脊柱裂(Spina bifida)中，最嚴重的類型是哪一種?",
+        "answer":  "脊髓脊膜膨出 (Myelomeningocele)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 218"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "脊髓脊膜膨出 (Myelomeningocele)最常見於哪裡?",
+        "answer":  "胸腰椎交界處",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 218"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "ASIA將SCI (Spinal cord injury)用ASIA impairment scale分成哪些等級?",
+        "answer":  "A: 完全性，B: 不完全性、有感覺無運動，C: 有感覺有運動(MP\u003c=3)、D: 有感覺有運動(MP\u003e=3)、E: 感覺運動正常",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 221-222"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "脊椎狹窄最常見的原因是什麼?",
+        "answer":  "退化性變化 (椎間盤突出、椎間關節增生、黃韌帶肥厚)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 225"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Radiculopathy和Myelopathy的差異為何?",
+        "answer":  "Radiculopathy: nerve root受傷；Myelopathy: Spinal cord受傷",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 233"
+    },
+    {
         "subject":  "Symptoms \u0026 Signs",
         "type":  "Symptoms \u0026 Signs",
         "question":  "Thumb sign",
@@ -2287,6 +2595,27 @@
         "question":  "Brudzinski sign",
         "answer":  "Meningitis, Meningismus (SAH)",
         "reference":  "First Choice 2025 醫學五 腦神經外科 p. 167"
+    },
+    {
+        "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
+        "question":  "Sunset eye sign",
+        "answer":  "Hydrocephalus",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 271"
+    },
+    {
+        "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
+        "question":  "Lhermitte\u0027s sign",
+        "answer":  "Cervial Spinal stenosis",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 201"
+    },
+    {
+        "subject":  "Symptoms \u0026 Signs",
+        "type":  "Symptoms \u0026 Signs",
+        "question":  "Beevor\u0027s sign",
+        "answer":  "T10 spinal cord injury",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 204"
     },
     {
         "subject":  "口訣",
