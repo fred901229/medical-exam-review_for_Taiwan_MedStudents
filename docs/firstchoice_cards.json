@@ -1925,6 +1925,251 @@
         "reference":  "First Choice 2025 醫學五 腦神經外科 p. 276"
     },
     {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "舟狀頭(Scaphocephaly)是由於哪一個顱縫過早閉合導致?",
+        "answer":  "矢狀縫(saggital suture)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 278"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Arnold-Chiari malformation type I是指?",
+        "answer":  "單純小腦扁桃體下疝，無合併其他神經系統畸形",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 280"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Arnold-Chiari malformation type II是指?",
+        "answer":  "小腦扁桃體下疝，合併延髓(medulla)下疝+脊柱裂(脊膨出)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 280"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Arnold-Chiari malformation type III是指?",
+        "answer":  "小腦和腦幹下疝到椎管之內",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 280"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Arnold-Chiari malformation type IV是指?",
+        "answer":  "小腦扁桃體下疝，合併小腦發育不全",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 280"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "最常見的顱骨早閉(Craniosynostosis)是哪一種?",
+        "answer":  "矢狀縫顱骨早閉(saggital synostosis)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 283-284"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "腦血流量占心輸出量(CO, cardiac output)大約多少百分比?",
+        "answer":  "15%",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 285"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "最常見的原發性腦瘤是哪一種?",
+        "answer":  "星狀細胞瘤(Astrocytoma)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 244"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "腦部轉移癌當中，依照常見度排列，分別為來自何器官?",
+        "answer":  "肺癌 --\u003e 乳癌 --\u003e 腎臟癌 --\u003e 腸胃道癌",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 245"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "WHO classification of glioma，會使用哪些分子免疫染色來區分?",
+        "answer":  "IDH wild type/mutation, 1p/19q codeletion, EGFR, TP53, ATRX",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 245-246"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "WHO classification of glioma依照哪些腫瘤的病理特徵來評估惡性程度?",
+        "answer":  "Cellularity, Pleomorphism, Mitosis, Vascular proliferation, Necrosis",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 246"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "在Grade IV glioma當中，最常見的病理特徵是哪一個?",
+        "answer":  "Necrosis (CT上可見ring enhancement)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 246"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Oligodendroglioma的分子免疫染色通常會表現哪些突變?",
+        "answer":  "IDH mutant, 1p/19q codeletion",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 246"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Oligodendroglioma的組織病理表現，通常會有哪些特徵?",
+        "answer":  "Fried egg, chicken wire, calcification",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 246"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Glioma，常使用哪一種化療藥物做治療?",
+        "answer":  "Temozolomide",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 247"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "脈絡叢腫瘤(Choroid plexus tumor)，在成人和兒童好發的部位分別為?",
+        "answer":  "第四腦室、側腦室",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 247"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "Parinaud\u0027s syndrome是指什麼?",
+        "answer":  "四疊體受傷或壓迫，導致眼球向上凝聚力喪失(sunset eye)、瞳孔對光反應調節障礙",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 248"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "小孩最常見的腦部惡性腫瘤是哪一種?",
+        "answer":  "Medulloblastoma",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 248"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "髓母細胞瘤 (Medulloblastoma)好發年齡是幾歲?",
+        "answer":  "5-7歲",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 248"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "髓母細胞瘤 (Medulloblastoma)在MRI上會有什麼特徵?",
+        "answer":  "enhance with heterogenous,enhance的部分會像糖霜覆蓋在腫瘤上(icing like)，稱為Zuckerguss",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 248"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "小腦天幕下最常見的腫瘤是哪一種?",
+        "answer":  "聽神經瘤(Vestibular schwannoma/acoustic neuroma)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 248"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "腦膜瘤(Meningioma)是從何種構造長出來的腫瘤?",
+        "answer":  "蜘蛛網膜的帽細胞(cap cell)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 249"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "腦膜瘤(Meningioma)的好發位置依序分別為?",
+        "answer":  "矢狀正中切面旁(Parasagittal) --\u003e 大腦凸面(Convexity) --\u003e 蝶鞍 (Sphenoid ridge)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 249"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "腦膜瘤(Meningioma)在注射Gadolinium後，T1下，會看到什麼特徵?",
+        "answer":  "Dural Tail，腦膜瘤旁邊的硬腦膜增厚",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 249"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "腦膜瘤(Meningioma)可以用什麼評估工具，評估手術切除程度?",
+        "answer":  "Simpson Grading Scale",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 251, 257"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "腦下垂體腫瘤(Pituitary tumor)，依照腫瘤大小可以分為?",
+        "answer":  "Microadenoma (\u003c 1cm), Macroadenoma (\u003e 1cm)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 252"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "腦下垂體腫瘤(Pituitary tumor)，大多是哪一種分型?",
+        "answer":  "Microadenoma",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 252"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "最常見的功能性腦下垂體腫瘤，是哪一種?",
+        "answer":  "腦下垂體泌乳素瘤(Prolactinoma)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 252"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "針對腦下垂體泌乳素瘤(Prolactinoma)，第一線治療為何?",
+        "answer":  "藥物治療：dopamie agonist (Bromocriptine, Cabergoline)",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 254"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "大腦假性腫瘤(Pseudotumor cerebri; idiopathic intracranial hypertension)的治療方式有哪些?",
+        "answer":  "藥物：Acetazolamide (Diamox), Diuretics, (Steroid)、shunting手術、Lumbar puncture、減重",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 256"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "WHO classification of glioma腫瘤分級中，低惡性度是指那些?",
+        "answer":  "Grade I, Grade II",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 259"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "WHO classification of glioma腫瘤分級中，高惡性度是指那些?",
+        "answer":  "Grade III, Grade IV",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 259"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "WHO classification of glioma腫瘤分級中，GBM (Glioblastoma multiforme)指的是哪一個分級?",
+        "answer":  "Grade IV",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p. 259"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "雙側聽神經瘤，常和哪一型的neurofibromatosis有關?",
+        "answer":  "type II",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p.261, 266"
+    },
+    {
+        "subject":  "腦神經外科",
+        "type":  "國考",
+        "question":  "type II neurofibromatosis的病人，常常合併哪些腦瘤?",
+        "answer":  "雙側聽神經瘤、多發性腦膜瘤",
+        "reference":  "First Choice 2025 醫學五 腦神經外科 p.257, 266"
+    },
+    {
         "subject":  "Symptoms \u0026 Signs",
         "type":  "Symptoms \u0026 Signs",
         "question":  "Thumb sign",
