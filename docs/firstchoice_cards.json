@@ -3437,6 +3437,559 @@
         "reference": "First Choice 2025 醫學五 泌尿外科 p. 191"
     },
     {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "最常見的踝關節骨折是哪一種類型?",
+        "answer": "isolated malleolar fracture",
+        "reference": "First Choice 2025 醫學五 骨科 p. 4"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "固定踝關節外側的韌帶有哪些?",
+        "answer": "ATFL (Anterior tibiofibular lig.), PTFL (posterior tibiofibular lig.), CFL (calcaneofibular lig.)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 4"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "踝關節外側最強和最弱的分別是哪一條?",
+        "answer": "最強：PTFL (Post. tibiofibular lig.)；最弱：ATFL (Ant. tibiofibular lig.)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 4"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "用來評估踝關節疼痛病人是否需要照X-ray的Ottawa ankle rules，包含哪些?",
+        "answer": "Malleolar zone：內/外髁tip或往上6cm有tenderness、weight bearing會疼痛；Midfoot zone：5th metatarsal base有tenderness、weight bearing會疼痛",
+        "reference": "First Choice 2025 醫學五 骨科 p. 6"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Thompson's test是用來檢查甚麼疾病?",
+        "answer": "阿基里斯肌腱撕裂傷(擠壓gastrocnemius muscle時，病人不會plantar flexion)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 10"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Unhappy triad包含哪些構造撕裂傷?",
+        "answer": "Medial meniscus, ACL (Anterior cruciate ligament), MCL (Medial collateral ligament)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 14"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "半月板是由哪一種膠原蛋白構成的纖維軟骨?",
+        "answer": "Type I collagen",
+        "reference": "First Choice 2025 醫學五 骨科 p. 17"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "內側半月板和外側半月板的差異有哪些?",
+        "answer": "內側：橢圓形(C型)、開口較大、覆蓋面積較小、較外側容易受傷；外側：圓形(O型)、開口較小、覆蓋面積較大",
+        "reference": "First Choice 2025 醫學五 骨科 p. 17-18"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "在進行全膝人工關節置換術時，一定會切除的構造是?",
+        "answer": "ACL (Anteiror cruciate ligament)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 25"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "開放性骨折的Gustilo classification，分別為何?",
+        "answer": "Type I：傷口<1cm；Type II：傷口1~10cm；Type III：傷口>10cm (IIIA：軟組織可以覆蓋骨頭；IIIB：軟組織不能覆蓋傷口；IIIC：神經血管受損)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 28"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "最常見的開放性骨折致病菌為何?",
+        "answer": "Staphylococcus aureus",
+        "reference": "First Choice 2025 醫學五 骨科 p. 29"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "單純股骨幹骨折(femoral shaft fracture)的標準治療是?",
+        "answer": "IM (Intramedullary) nailing",
+        "reference": "First Choice 2025 醫學五 骨科 p. 33"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Proximal tibial fracture若合併fibular head fracture，容易傷到哪一條神經?",
+        "answer": "common fibular (peroneal) nerve",
+        "reference": "First Choice 2025 醫學五 骨科 p. 37"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "tibial shaft fracture，容易傷到哪一條神經?",
+        "answer": "deep peroneal nerve",
+        "reference": "First Choice 2025 醫學五 骨科 p. 37"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Femoral neck fracture的Garden's classfication，分別為何?",
+        "answer": "Non-displaced：Type I(incomplete)、Type II(complete)；Displaced：Type III(partial displaced)、Type IV(completed displaced)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 47"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "displaced femoral neck fracture的治療原則為何?",
+        "answer": "<60歲：open/close reduction + screws fixation；>60歲或無法承受兩次手術：hemiarthroplasty/THA(totalhip arthroplasty)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 47"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Femoral neck fracture最常見的併發症有哪些?",
+        "answer": "non-union, avascular necrosis",
+        "reference": "First Choice 2025 醫學五 骨科 p. 47"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Evan's classificaiton將intertrochanteric fracture分成哪些類型?",
+        "answer": "Stable (posteriormedial cortex完整)；unstable (lesser trochanteric fx, subtrochanter fx, reverse oblique fx)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 50"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "stable/unstable intertrochanteric fracture分別用甚麼方式治療?",
+        "answer": "Stable：sliding hip screw (DHS, dynamic hip screw)；Unstable：IM (intramedullary) screw",
+        "reference": "First Choice 2025 醫學五 骨科 p. 50"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Pelvic fracture的三高是指哪三個特性?",
+        "answer": "High energy trauma, High morbidity, High mortality",
+        "reference": "First Choice 2025 醫學五 骨科 p. 53"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "根據AO Universal classificaiton，Pelvic fracture可以分為哪些類別?",
+        "answer": "Type A: stable；Type B: partially stable；Type C: unstable",
+        "reference": "First Choice 2025 醫學五 骨科 p. 53"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "根據AO Universal classificaiton，type B1 Pelvic fracture指的是哪一種受傷機轉?",
+        "answer": "open book injury (anteroposterior compression)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 53"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "所有pelvic fracture當中，最常見的是哪一個類型?",
+        "answer": "Type B2/B3: lateral compression injury (+ ipilateral/contralateral SI joint injury)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 53-54"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "股骨頭壞死(ONFH, osteonecrosis of femoral head)，最常見的原因是甚麼?",
+        "answer": "外傷性；股骨頸骨折、股骨轉子間骨折",
+        "reference": "First Choice 2025 醫學五 骨科 p. 57"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "大部分的hip dislocation是哪一種?",
+        "answer": "posterior dislocation (hip flexion/internal rotation)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 60"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "total hip replacement以Posterior approach進行，需要切斷哪些肌肉?",
+        "answer": "obturator internus, superior/inferior gemellus muscle, piriformis",
+        "reference": "First Choice 2025 醫學五 骨科 p. 60"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "會導致snapping hip的肌肉包含哪些?",
+        "answer": "iliopsoas, iliotibial band, rectus femoris, gluteus maximus, biceps femoris",
+        "reference": "First Choice 2025 醫學五 骨科 p. 61"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "最容易發生脫位的關節是哪一個?",
+        "answer": "1st: shoulder, 2nd: elbow",
+        "reference": "First Choice 2025 醫學五 骨科 p. 64, 84"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "shoulder dislocation最常發生的類型是哪一個?",
+        "answer": "向前脫位",
+        "reference": "First Choice 2025 醫學五 骨科 p. 64"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "旋轉肌袖(Rotator cuff)，包含哪四條肌肉?",
+        "answer": "棘上肌(Supraspinatus)、棘下肌(Infraspinatus)、肩胛下肌(Subscapularis)、小圓肌(teres minor)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 65"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "旋轉肌袖(Rotator cuff)中，唯一在關節前方的肌肉是哪一條?",
+        "answer": "肩胛下肌(Subscapularis)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 65"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "shoulder dislocation最容易傷到哪一條神經?",
+        "answer": "Axillary nerve",
+        "reference": "First Choice 2025 醫學五 骨科 p. 65"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Median nerve支配哪些手指的感覺?",
+        "answer": "橈側三指半的感覺",
+        "reference": "First Choice 2025 醫學五 骨科 p. 71"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Ulnar nerve支配哪些手指的感覺?",
+        "answer": "尺側一指半的感覺",
+        "reference": "First Choice 2025 醫學五 骨科 p. 72"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Ulnar nerve受損，會導致甚麼疾病或症狀?",
+        "answer": "爪狀手(Claw hand, 4+5th MP joint hyperextention + DIP/PIP flexion)、肘隧道症候群(Cubital tunnel syndrome)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 72"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Radial nerve受損，會導致甚麼疾病或症狀?",
+        "answer": "Drop hand、垂腕(Drop wrist)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 72"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "humeral shaft fracture時，容易傷到哪一條神經?",
+        "answer": "Radial nerve",
+        "reference": "First Choice 2025 醫學五 骨科 p. 73"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "proximal radial fracture時，容易傷到哪一條神經?",
+        "answer": "PIN (Posterior interosseous nerve)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 74"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "旋轉肌袖(Rotator cuff)中，最常斷裂的肌肉是哪一條?",
+        "answer": "棘上肌(Supraspinatus)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 76"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "小朋友最常見的肘關節骨折是哪一種?",
+        "answer": "肱骨上髁骨折(Humeral Supracondylar Fracture)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 78"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "肱骨上髁骨折(Humeral Supracondylar Fracture)，大部分屬於哪一類?",
+        "answer": "Extension fracture (FOOSH, Fall Onto an Out-Stretched Hand) (Distal condylar complex往後移動)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 80"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "肱骨上髁骨折(Humeral Supracondylar Fracture)，最常損傷的血管是哪一條?",
+        "answer": "Brachial a. ",
+        "reference": "First Choice 2025 醫學五 骨科 p. 81"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "肱骨上髁骨折(Humeral Supracondylar Fracture)，最常損傷的神經是哪一條?",
+        "answer": "median n.",
+        "reference": "First Choice 2025 醫學五 骨科 p. 81"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "肱骨外上髁炎(Lateral epicondylitis)，又稱作?",
+        "answer": "網球肘(Tennis elbow)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 83"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "肱骨內上髁炎(Medial epicondylitis)，又稱作?",
+        "answer": "高爾夫球肘(Golfer's elbow)、投手肘、棒球肘",
+        "reference": "First Choice 2025 醫學五 骨科 p. 83"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "terrible triad of elbow，包含哪些?",
+        "answer": "elbow dislocation、radial head fracture、coronoid fracture (、LCUL (lateral collateral ulnar ligament))",
+        "reference": "First Choice 2025 醫學五 骨科 p. 84"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "上肢最常見的骨折是哪一種骨折?",
+        "answer": "Distal radial fracture",
+        "reference": "First Choice 2025 醫學五 骨科 p. 84"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Distal radial fracture最常見的類型是哪一種?",
+        "answer": "Colles' fracture (Distal radial fracture + dorsal tilt)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 84, 91"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Smith fracture是指哪一種的骨折?",
+        "answer": "Distal radial fracture + volar tilt",
+        "reference": "First Choice 2025 醫學五 骨科 p. 91"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Essex-Lopresti fracture是指哪一種的骨折?",
+        "answer": "Radial head fracture + distal radioulnar joint dislocation + antebrachial interosseous membrane rupture",
+        "reference": "First Choice 2025 醫學五 骨科 p. 91"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Chauffeur's fracture是指哪一種的骨折?",
+        "answer": "Distal radial fracture, involved radial styloid process",
+        "reference": "First Choice 2025 醫學五 骨科 p. 91"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Galeazzi fracture是指哪一種的骨折?",
+        "answer": "Proximal radial fracture + distal radioulnar joint dislocation",
+        "reference": "First Choice 2025 醫學五 骨科 p. 91"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Monteggia fracture是指哪一種的骨折?",
+        "answer": "proximal ulnar fracture + radial head dislocation",
+        "reference": "First Choice 2025 醫學五 骨科 p. 91"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Carpal tunnel的內容物包含哪些構造?",
+        "answer": "Median n., FDS (Flexor digitorum superficialis), FDP (Flexor digitorum profundus), FPL (Flexor pollicis longus), FCR (Flexor carpi radialis)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 96"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "腕骨骨折中最常見的是哪一個類型?",
+        "answer": "Scaphoid fracture",
+        "reference": "First Choice 2025 醫學五 骨科 p. 101"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "如果出現Snuff box tenderness，可能是哪一個骨頭骨折?",
+        "answer": "Scaphoid fracture",
+        "reference": "First Choice 2025 醫學五 骨科 p. 101"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Kienbock's disease指的是哪一個骨頭發生缺血性壞死(AVN)?",
+        "answer": "Lunate",
+        "reference": "First Choice 2025 醫學五 骨科 p. 103"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Mallet finger是哪個關節的肌腱斷裂?",
+        "answer": "DIP (distal interphalangeal) joint",
+        "reference": "First Choice 2025 醫學五 骨科 p. 104"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Mallet finger會導致關節呈現甚麼動作?",
+        "answer": "DIP flexion, PIP hyperextension",
+        "reference": "First Choice 2025 醫學五 骨科 p. 104"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Boutonniere's deformity是哪個關節的肌腱斷裂?",
+        "answer": "PIP (Proximal interphalangeal) joint",
+        "reference": "First Choice 2025 醫學五 骨科 p. 104"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Boutonniere's deformity會導致關節呈現甚麼動作?",
+        "answer": "PIP flexion, DIP hyperextension",
+        "reference": "First Choice 2025 醫學五 骨科 p. 104"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "媽媽手(de Quervain's syndrome)是因為哪兩條肌肉使用過度導致發炎?",
+        "answer": "1st extensor compartment (APL (Abductor pollicis longus)、EPB (extensor pollicis brevis))",
+        "reference": "First Choice 2025 醫學五 骨科 p. 106"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "扳機指(Trigger finger)，是何處狹窄造成的stenosing tenosynovitis?",
+        "answer": "A1 pulley",
+        "reference": "First Choice 2025 醫學五 骨科 p. 108"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "扳機指(Trigger finger)會有那些症狀?",
+        "answer": "手指卡在flexion，需要外力才能伸直，A1 pulley tenderness/nodule",
+        "reference": "First Choice 2025 醫學五 骨科 p. 108"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Bennett fracture是指哪一種的骨折?",
+        "answer": "thumb metacarpal base fracture (simple, split type)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 110"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Rolando fracture是指哪一種的骨折?",
+        "answer": "thumb metacarpal base fracture (comminuted type)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 110"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Jones fracture是指哪一種的骨折?",
+        "answer": "5th metacarpal base fracture",
+        "reference": "First Choice 2025 醫學五 骨科 p. 110"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Boxer's fracture是指哪一種的骨折?",
+        "answer": "5th metacarpal neck fracture",
+        "reference": "First Choice 2025 醫學五 骨科 p. 110"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "手腕關節處最常見的腫瘤是哪一種?",
+        "answer": "Ganglion cyst",
+        "reference": "First Choice 2025 醫學五 骨科 p. 113"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "骨頭的轉移癌，常見的來源有哪些?",
+        "answer": "肺癌、乳癌、前列腺癌、甲狀腺腫瘤、肝癌",
+        "reference": "First Choice 2025 醫學五 骨科 p. 116"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "最常見的原發性骨癌是哪一個癌症?",
+        "answer": "MM (Multiple Myeloma)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 116"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "MM (Multiple Myeloma)會有那些症狀?",
+        "answer": "CRAB (hyperCalcemia, Renal impairment, Anemia, Bone pain)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 116"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "最常見的良性骨瘤是哪一種腫瘤?",
+        "answer": "Osteochondroma",
+        "reference": "First Choice 2025 醫學五 骨科 p. 116"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "小孩/青少年最常見、第二常見的惡性骨腫瘤分別是哪一種腫瘤?",
+        "answer": "Osteosarcoma, Ewing's sarcoma",
+        "reference": "First Choice 2025 醫學五 骨科 p. 116"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "大人最常見的惡性骨腫瘤是哪一種?",
+        "answer": "Chondrosarcoma",
+        "reference": "First Choice 2025 醫學五 骨科 p. 116"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "哪一種癌症的骨轉移，是造成osteoblastic lesion?",
+        "answer": "前列腺癌",
+        "reference": "First Choice 2025 醫學五 骨科 p. 116"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "好發在Epiphysis的原發性骨癌有哪些?",
+        "answer": "Giant cell tumor, Chondroblastoma, Clear cell tumor",
+        "reference": "First Choice 2025 醫學五 骨科 p. 117"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "服用Aspirin、NSAIDs可以減緩疼痛的是哪一種骨瘤?",
+        "answer": "OO (Osteoid Osteoma)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 118"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "OO (Osteoid Osteoma)在影像上的特徵為何?",
+        "answer": "< 2 cm Nidus + sclerotic reactive bone",
+        "reference": "First Choice 2025 醫學五 骨科 p. 118"
+    },
+    {
         "subject": "Symptoms & Signs",
         "type": "Symptoms & Signs",
         "question": "Thumb sign",
@@ -3598,6 +4151,62 @@
         "reference": "First Choice 2025 醫學五 泌尿外科 p. 71"
     },
     {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Mondor sign",
+        "answer": "calcaneal (heel bone) fracture",
+        "reference": "First Choice 2025 醫學五 骨科 p. 8"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "posterior sagging sign",
+        "answer": "PCL (Posterior cruciate ligment) rupture",
+        "reference": "First Choice 2025 醫學五 骨科 p. 16, 51"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Trendelenburg sign",
+        "answer": "hip abductor weakness/dysfunction",
+        "reference": "First Choice 2025 醫學五 骨科 p. 51"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "crescent sign",
+        "answer": "ONFH (osteonecrosis of femoral head)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 57"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "light bulb sign",
+        "answer": "posterior shoulder dislocation",
+        "reference": "First Choice 2025 醫學五 骨科 p. 65"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Silver-fork deformity",
+        "answer": "Colles' fracture (Distal radial fracture + dorsal tilt)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 84, 91"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Popeye deformity",
+        "answer": "long head of biceps tendon rupture",
+        "reference": "First Choice 2025 醫學五 骨科 p. 89"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Tinel's sign",
+        "answer": "Carpal tunnel syndrome",
+        "reference": "First Choice 2025 醫學五 骨科 p. 97"
+    },
+    {
         "subject": "口訣",
         "type": "口訣",
         "question": "高血鉀治療方式?",
@@ -3631,5 +4240,12 @@
         "question": "橋腦血腫所導致的臨床症狀包含哪些?",
         "answer": "5P: 對側肢體無力(Paralysis)、細微脈搏(Pulsus parvus)、縮瞳(Pinpoint pupil)、高燒(Pyrexia)、週期性呼吸(Periodic respiration)",
         "reference": "First Choice 2025 醫學五 腦神經外科 p. 183"
+    },
+    {
+        "subject": "口訣",
+        "type": "口訣",
+        "question": "旋轉肌袖(Rotator cuff)，包含哪四條肌肉?",
+        "answer": "SItS: Supraspinatus, Infraspinatus, teres minor, Subscapularis",
+        "reference": "First Choice 2025 醫學五 骨科 p. 76"
     }
 ]
