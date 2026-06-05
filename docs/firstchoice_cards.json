@@ -4207,6 +4207,111 @@
         "reference": "First Choice 2025 醫學五 骨科 p. 97"
     },
     {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Thompson's test",
+        "answer": "Achilles tendon rupture",
+        "reference": "First Choice 2025 醫學五 骨科 p. 10"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Lachman test",
+        "answer": "ACL (Anterior cruciate ligament) rupture",
+        "reference": "First Choice 2025 醫學五 骨科 p. 14"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Anterior drawer test",
+        "answer": "ACL (Anterior cruciate ligament) rupture",
+        "reference": "First Choice 2025 醫學五 骨科 p. 14"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Pivot shift test (MacIntosh test)",
+        "answer": "ACL (Anterior cruciate ligament) rupture",
+        "reference": "First Choice 2025 醫學五 骨科 p. 14"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Posterior drawer test",
+        "answer": "PCL (Posterior cruciate ligament) rupture",
+        "reference": "First Choice 2025 醫學五 骨科 p. 16"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "McMurray's test",
+        "answer": "meniscus tear",
+        "reference": "First Choice 2025 醫學五 骨科 p. 19"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Apley test",
+        "answer": "meniscus tear",
+        "reference": "First Choice 2025 醫學五 骨科 p. 51"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Apprehension test",
+        "answer": "shoulder anterior instability",
+        "reference": "First Choice 2025 醫學五 骨科 p. 67"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Jerk test (Jahnke test)",
+        "answer": "shoulder poseterior instability",
+        "reference": "First Choice 2025 醫學五 骨科 p. 67"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "sulcus test",
+        "answer": "shoulder inferior instability",
+        "reference": "First Choice 2025 醫學五 骨科 p. 67"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Kim test",
+        "answer": "shoulder poseterior instability",
+        "reference": "First Choice 2025 醫學五 骨科 p. 67"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Drop arm test",
+        "answer": "supraspinatus tear",
+        "reference": "First Choice 2025 醫學五 骨科 p. 77"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Phalen's test",
+        "answer": "carpal tunnel syndrome",
+        "reference": "First Choice 2025 醫學五 骨科 p. 97"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Durkan's test",
+        "answer": "carpal tunnel syndrome",
+        "reference": "First Choice 2025 醫學五 骨科 p. 97"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Finkelstein test",
+        "answer": "de Quervain's syndrome",
+        "reference": "First Choice 2025 醫學五 骨科 p. 106"
+    },
+    {
         "subject": "口訣",
         "type": "口訣",
         "question": "高血鉀治療方式?",
