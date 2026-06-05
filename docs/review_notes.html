@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>國考重點複習筆記 — 醫師二階國考</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
+  <style>
+    :root {
+      --bg:#0d1117; --surface:#161b22; --surface2:#1c2333; --surface3:#21262d;
+      --border:#30363d; --text:#e6edf3; --text2:#8b949e; --text3:#484f58;
+      --primary:#f97316; --primary-dim:#3c1c06;
+      --shadow:0 4px 16px rgba(0,0,0,.4); --radius:10px; --sw:230px;
+    }
+    body.light {
+      --bg:#f4f6f9; --surface:#ffffff; --surface2:#f8fafc; --surface3:#f1f5f9;
+      --border:#e2e8f0; --text:#0f172a; --text2:#64748b; --text3:#94a3b8;
+      --primary:#ea580c; --primary-dim:#fff7ed; --shadow:0 2px 12px rgba(0,0,0,.08);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+
+    /* Header */
+    .hdr{background:var(--surface);border-bottom:1px solid var(--border);padding:10px 16px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:200;gap:8px}
+    .hdr-l{display:flex;align-items:center;gap:10px}
+    .back{background:var(--surface2);border:1px solid var(--border);color:var(--text2);padding:5px 10px;border-radius:7px;cursor:pointer;font-size:.85rem;text-decoration:none;transition:.15s}
+    .back:hover{border-color:var(--primary);color:var(--primary)}
+    .hdr h1{font-size:1rem;font-weight:700}
+    .hdr h1 span{color:var(--primary)}
+    .tbtn{background:var(--surface2);border:1px solid var(--border);color:var(--text);width:34px;height:34px;border-radius:7px;cursor:pointer;font-size:1rem;display:flex;align-items:center;justify-content:center}
+    .tbtn:hover{border-color:var(--primary)}
+
+    /* Layout */
+    .wrap{display:flex;max-width:1440px;margin:0 auto}
+
+    /* Sidebar */
+    .sidebar{width:var(--sw);flex-shrink:0;position:sticky;top:53px;height:calc(100vh - 53px);overflow-y:auto;background:var(--surface);border-right:1px solid var(--border);padding:10px 0}
+    .sb-title{font-size:.68rem;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:.08em;padding:0 12px 8px}
+    .sidebar a{display:flex;align-items:center;gap:6px;padding:6px 12px;color:var(--text2);text-decoration:none;font-size:.84rem;border-left:3px solid transparent;transition:.12s}
+    .sidebar a:hover{color:var(--text);background:var(--surface2);border-left-color:var(--primary)}
+    .sidebar a.active{color:var(--primary);background:var(--primary-dim);border-left-color:var(--primary);font-weight:600}
+    .sb-badge{margin-left:auto;background:var(--surface3);color:var(--text3);font-size:.68rem;padding:1px 5px;border-radius:8px}
+
+    /* Main */
+    .main{flex:1;padding:20px 24px;min-width:0}
+
+    /* Section */
+    .sec{margin-bottom:36px;scroll-margin-top:62px}
+    .sec-hdr{display:flex;align-items:center;gap:8px;margin-bottom:14px;padding-bottom:8px;border-bottom:2px solid var(--primary)}
+    .sec-hdr h2{font-size:1.2rem;font-weight:700}
+    .count-badge{background:var(--primary-dim);color:var(--primary);font-size:.72rem;padding:2px 8px;border-radius:10px;font-weight:600}
+
+    /* Topic */
+    .topic{margin-bottom:16px}
+    .topic h3{font-size:.85rem;font-weight:700;color:var(--primary);margin-bottom:7px;display:flex;align-items:center;gap:5px}
+    .topic h3::before{content:'';display:inline-block;width:3px;height:13px;background:var(--primary);border-radius:2px}
+
+    /* Bullet list */
+    ul.bl{list-style:none;display:flex;flex-direction:column;gap:5px}
+    ul.bl li{padding:7px 10px;background:var(--surface);border:1px solid var(--border);border-radius:7px;font-size:.85rem;line-height:1.5;transition:.12s}
+    ul.bl li:hover{border-color:var(--primary)}
+    ul.bl li strong{color:var(--primary)}
+
+    /* Two-col grid */
+    .grid2{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:5px}
+
+    /* Sign/test table style */
+    .sign-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:5px}
+    .sign-card{background:var(--surface);border:1px solid var(--border);border-radius:7px;padding:7px 10px;display:flex;align-items:baseline;gap:6px;transition:.12s}
+    .sign-card:hover{border-color:var(--primary)}
+    .sn{font-weight:700;color:var(--primary);font-size:.88rem;white-space:nowrap}
+    .sa{font-size:.84rem;color:var(--text)}
+
+    /* Mnemonic */
+    .mcard{background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--primary);border-radius:7px;padding:9px 12px;margin-bottom:6px}
+    .mcard .mq{font-size:.82rem;color:var(--text2);margin-bottom:3px}
+    .mcard .ma{font-size:.88rem;color:var(--text);font-weight:600}
+
+    @media(max-width:700px){.sidebar{display:none}.main{padding:14px}}
+  </style>
+</head>
+<body>
+<header class="hdr">
+  <div class="hdr-l">
+    <a href="index.html" class="back">← 返回</a>
+    <h1>國考前快速複習 <span>重點筆記</span></h1>
+  </div>
+  <button class="tbtn" id="tbtn">🌙</button>
+</header>
+
+<div class="wrap">
+<nav class="sidebar" id="sb">
+  <div class="sb-title">科別導覽</div>
+  <a href="#s-骨科">🦴 骨科<span class="sb-badge">79</span></a>
+  <a href="#s-腦神">🧠 腦神經外科<span class="sb-badge">135</span></a>
+  <a href="#s-泌尿">🫀 泌尿外科<span class="sb-badge">97</span></a>
+  <a href="#s-外科">⚕ 外科<span class="sb-badge">104</span></a>
+  <a href="#s-麻醉">💉 麻醉科<span class="sb-badge">82</span></a>
+  <a href="#s-耳鼻喉">👂 耳鼻喉科<span class="sb-badge">33</span></a>
+  <a href="#s-家醫">🏠 家庭醫學科<span class="sb-badge">40</span></a>
+  <a href="#s-signs">📋 Symptoms &amp; Signs<span class="sb-badge">31</span></a>
+  <a href="#s-tests">🔬 Clinical Tests<span class="sb-badge">15</span></a>
+  <a href="#s-mnemo">💡 口訣<span class="sb-badge">6</span></a>
+</nav>
+
+<main class="main">
+
+<!-- ══════════════ 骨科 ══════════════ -->
+<section class="sec" id="s-骨科">
+<div class="sec-hdr"><h2>🦴 骨科</h2><span class="count-badge">79 題</span></div>
+
+<div class="topic"><h3>踝/足部</h3><ul class="bl">
+<li><strong>最常見踝骨折</strong>：isolated malleolar fracture</li>
+<li><strong>踝關節外側韌帶</strong>：ATFL（最弱）、PTFL（最強）、CFL</li>
+<li><strong>Ottawa Ankle Rules</strong>：Malleolar zone（內/外髁tip或往上6cm tenderness + weight bearing痛）；Midfoot zone（5th metatarsal base tenderness）</li>
+<li><strong>Thompson's test</strong> → Achilles tendon rupture（擠壓gastrocnemius時不會plantar flexion）</li>
+<li><strong>Mondor sign</strong> → calcaneal（跟骨）骨折</li>
+</ul></div>
+
+<div class="topic"><h3>膝關節/韌帶</h3><ul class="bl">
+<li><strong>Unhappy triad</strong>：Medial meniscus + ACL + MCL 撕裂傷</li>
+<li><strong>半月板</strong>：Type I collagen 纖維軟骨；內側（C型、較易受傷）；外側（O型、覆蓋面積較大）</li>
+<li><strong>全膝置換術（TKA）</strong>一定切除 → ACL</li>
+<li><strong>Lachman test / Anterior drawer test / Pivot shift test</strong> → ACL rupture</li>
+<li><strong>Posterior drawer test</strong> → PCL rupture</li>
+<li><strong>McMurray's test / Apley test</strong> → meniscus tear</li>
+<li><strong>posterior sagging sign</strong> → PCL rupture</li>
+</ul></div>
+
+<div class="topic"><h3>開放性骨折 / Gustilo Classification</h3><ul class="bl">
+<li>Type I：傷口 &lt;1cm；Type II：1–10cm；Type III：&gt;10cm</li>
+<li>IIIA：軟組織可覆蓋；IIIB：不能覆蓋；IIIC：神經血管受損</li>
+<li><strong>最常見致病菌</strong>：Staphylococcus aureus</li>
+</ul></div>
+
+<div class="topic"><h3>股骨/髖關節</h3><ul class="bl">
+<li><strong>Femoral shaft fracture 標準治療</strong>：IM nailing</li>
+<li><strong>Femoral neck fracture 分類（Garden）</strong>：I/II = non-displaced；III/IV = displaced</li>
+<li><strong>Displaced femoral neck fracture</strong>：&lt;60歲 → reduction + screw fixation；&gt;60歲 → hemiarthroplasty/THA</li>
+<li><strong>最常見併發症</strong>：non-union、avascular necrosis</li>
+<li><strong>Intertrochanteric fracture（Evan's）</strong>：Stable → DHS（sliding hip screw）；Unstable → IM screw</li>
+<li><strong>股骨頭壞死（ONFH）</strong>最常見原因：外傷（股骨頸骨折、轉子間骨折）</li>
+<li><strong>crescent sign</strong> → ONFH</li>
+<li><strong>Hip dislocation</strong>：大部分為 posterior（屈曲+內旋）</li>
+<li><strong>THA posterior approach 切斷肌肉</strong>：obturator internus、superior/inferior gemellus、piriformis</li>
+<li><strong>Snapping hip 相關肌肉</strong>：iliopsoas、iliotibial band、rectus femoris、gluteus maximus、biceps femoris</li>
+<li><strong>Trendelenburg sign</strong> → hip abductor weakness/dysfunction</li>
+</ul></div>
+
+<div class="topic"><h3>骨盆骨折（AO Universal Classification）</h3><ul class="bl">
+<li>Type A：stable；Type B：partially stable（B1=open book，B2/B3=lateral compression，最常見）；Type C：unstable</li>
+<li><strong>Pelvic fracture 三高</strong>：High energy trauma、High morbidity、High mortality</li>
+</ul></div>
+
+<div class="topic"><h3>肩關節</h3><ul class="bl">
+<li><strong>最容易脫位的關節</strong>：1st = shoulder；2nd = elbow</li>
+<li><strong>Shoulder dislocation 最常見類型</strong>：向前脫位；最容易傷到神經 → Axillary nerve</li>
+<li><strong>Rotator cuff（SItS）</strong>：Supraspinatus（最常斷裂）、Infraspinatus、teres minor、Subscapularis（唯一在前方）</li>
+<li><strong>Drop arm test</strong> → supraspinatus tear</li>
+<li><strong>Apprehension test</strong> → shoulder anterior instability</li>
+<li><strong>Jerk test / Kim test</strong> → shoulder posterior instability</li>
+<li><strong>sulcus test</strong> → shoulder inferior instability</li>
+<li><strong>light bulb sign</strong> → posterior shoulder dislocation</li>
+</ul></div>
+
+<div class="topic"><h3>肘關節 / 上臂</h3><ul class="bl">
+<li><strong>小孩最常見肘骨折</strong>：Humeral Supracondylar Fracture（大部分為 Extension，FOOSH）</li>
+<li><strong>Supracondylar Fx 最常傷到血管</strong>：Brachial a.；最常傷到神經：median n.</li>
+<li><strong>Lateral epicondylitis（Tennis elbow）</strong>；Medial epicondylitis（Golfer's elbow）</li>
+<li><strong>Terrible triad of elbow</strong>：elbow dislocation + radial head fracture + coronoid fracture（+ LCUL）</li>
+<li><strong>Humeral shaft fracture</strong> → Radial nerve 受傷</li>
+<li><strong>Proximal radial fracture</strong> → PIN（Posterior interosseous nerve）受傷</li>
+</ul></div>
+
+<div class="topic"><h3>前臂/腕部骨折</h3><ul class="bl">
+<li><strong>上肢最常見骨折</strong>：Distal radial fracture；最常見類型：Colles' fracture（dorsal tilt）</li>
+<li><strong>Smith fracture</strong>：Distal radial fx + volar tilt</li>
+<li><strong>Silver-fork deformity</strong> → Colles' fracture</li>
+<li><strong>Chauffeur's fracture</strong>：Distal radial fx，含 radial styloid process</li>
+<li><strong>Galeazzi fracture</strong>：Proximal radial fx + distal radioulnar joint dislocation</li>
+<li><strong>Monteggia fracture</strong>：Proximal ulnar fx + radial head dislocation</li>
+<li><strong>Essex-Lopresti fracture</strong>：Radial head fx + DRUJ dislocation + interosseous membrane rupture</li>
+<li><strong>Scaphoid fracture（最常見腕骨骨折）</strong>→ Snuff box tenderness</li>
+<li><strong>Kienbock's disease</strong>：Lunate AVN</li>
+</ul></div>
+
+<div class="topic"><h3>手部</h3><ul class="bl">
+<li><strong>Carpal tunnel 內容物</strong>：Median n.、FDS、FDP、FPL、FCR</li>
+<li><strong>Phalen's test / Durkan's test / Tinel's sign</strong> → Carpal tunnel syndrome</li>
+<li><strong>Mallet finger（DIP 肌腱斷）</strong>：DIP flexion + PIP hyperextension</li>
+<li><strong>Boutonniere's deformity（PIP 肌腱斷）</strong>：PIP flexion + DIP hyperextension</li>
+<li><strong>de Quervain's syndrome（媽媽手）</strong>：1st extensor compartment（APL + EPB）發炎；Finkelstein test 陽性</li>
+<li><strong>Trigger finger（扳機指）</strong>：A1 pulley 狹窄；手指卡 flexion</li>
+<li><strong>Bennett fracture</strong>：thumb metacarpal base（simple split）</li>
+<li><strong>Rolando fracture</strong>：thumb metacarpal base（comminuted）</li>
+<li><strong>Jones fracture</strong>：5th metacarpal base；Boxer's fracture：5th metacarpal neck</li>
+<li><strong>手腕最常見腫瘤</strong>：Ganglion cyst</li>
+<li><strong>Popeye deformity</strong> → long head of biceps tendon rupture</li>
+</ul></div>
+
+<div class="topic"><h3>神經支配（損傷 → 症狀）</h3><ul class="bl">
+<li><strong>Median n.</strong>：橈側三指半感覺；損傷 → Carpal tunnel syndrome</li>
+<li><strong>Ulnar n.</strong>：尺側一指半感覺；損傷 → Claw hand（4+5th MP過伸+DIP/PIP屈）、Cubital tunnel syndrome</li>
+<li><strong>Radial n.</strong>：損傷 → Drop hand / Drop wrist</li>
+<li><strong>Proximal tibial fx + fibular head fx</strong> → common fibular（peroneal）nerve</li>
+<li><strong>Tibial shaft fx</strong> → deep peroneal nerve</li>
+</ul></div>
+
+<div class="topic"><h3>骨腫瘤</h3><ul class="bl">
+<li><strong>骨轉移最常見來源</strong>：肺、乳、前列腺、甲狀腺、肝（前列腺 → osteoblastic）</li>
+<li><strong>最常見原發性骨癌</strong>：MM（Multiple Myeloma）→ CRAB（Hypercalcemia, Renal, Anemia, Bone pain）</li>
+<li><strong>最常見良性骨瘤</strong>：Osteochondroma</li>
+<li><strong>小孩/青少年惡性骨腫瘤</strong>：1st Osteosarcoma；2nd Ewing's sarcoma</li>
+<li><strong>大人最常見惡性骨腫瘤</strong>：Chondrosarcoma</li>
+<li><strong>Epiphysis 好發</strong>：Giant cell tumor、Chondroblastoma、Clear cell tumor</li>
+<li><strong>Osteoid Osteoma（OO）</strong>：Aspirin/NSAIDs 減痛；CT 見 &lt;2cm nidus + sclerotic bone</li>
+</ul></div>
+
+<div class="topic"><h3>脊椎側彎 / Cobb angle</h3><ul class="bl">
+<li><strong>脊椎側彎定義</strong>：Cobb angle &gt; 10度；mild 10–20；moderate 20–40；severe &gt;40</li>
+<li><strong>Forward bending test</strong> → 脊椎側彎篩檢（看兩側肩膀是否等高）</li>
+</ul></div>
+</section>
+
+<!-- ══════════════ 腦神經外科 ══════════════ -->
+<section class="sec" id="s-腦神">
+<div class="sec-hdr"><h2>🧠 腦神經外科</h2><span class="count-badge">135 題</span></div>
+
+<div class="topic"><h3>GCS 評估</h3><ul class="bl">
+<li><strong>E（Best Eye Opening）</strong>：4自動、3聲音、2疼痛、1無反應</li>
+<li><strong>V（Best Verbal Response）</strong>：5正常、4答非所問、3單字、2聲音/呻吟、1無反應</li>
+<li><strong>M（Best Motor Response）</strong>：6 obey、5 localize、4 withdraw、3 UL flexion、2 UL extension、1無</li>
+<li><strong>頭部外傷嚴重度</strong>：輕度 13–15；中度 9–12；重度 3–8</li>
+</ul></div>
+
+<div class="topic"><h3>頭部外傷</h3><ul class="bl">
+<li><strong>腦震盪（Concussion）</strong>：無腦實質受傷，僅意識改變</li>
+<li><strong>Contrecoup injury</strong>：撞擊對側受傷</li>
+<li><strong>Diffuse axonal injury</strong>：加速/減速機械性損傷，CT 正常</li>
+<li><strong>前顱窩骨折</strong>：Raccoon eye、鼻漏、結膜下出血</li>
+<li><strong>中顱窩骨折</strong>：外耳道出血、CSF滲出、Battle's sign</li>
+<li><strong>顏面骨折分類</strong>：LeFort I、II、III</li>
+</ul></div>
+
+<div class="topic"><h3>EDH vs SDH</h3><ul class="bl">
+<li><strong>EDH（硬腦膜上出血）</strong>：中腦膜動脈破裂；Lucid interval；紡錘狀（biconvex）；可過中線；不過 skull suture</li>
+<li><strong>SDH（硬腦膜下出血）</strong>：橋靜脈破裂；新月形（crescentic）；不過中線（被falx侷限）；會過 skull suture</li>
+<li><strong>SDH CT 分期</strong>：Hyperdense = acute（hours）；Isodense = subacute（days）；Hypodense = chronic（weeks）</li>
+<li><strong>Kernohan's phenomenon</strong>：EDH/SDH mass effect 推擠對側大腦腳→同側肢體癱瘓</li>
+</ul></div>
+
+<div class="topic"><h3>顱內壓（ICP）升高</h3><ul class="bl">
+<li><strong>CPP = MAP − ICP</strong></li>
+<li><strong>Cushing's triad</strong>：Hypertension、Bradycardia、Respiratory Irregularity</li>
+<li><strong>降 ICP 方法</strong>：30–45度躺、20% Mannitol、Hyperventilation（PaCO2 30–35）、抽CSF、High-dose barbiturate、Hypothermia、Decompressive craniectomy、Steroids</li>
+</ul></div>
+
+<div class="topic"><h3>蜘蛛膜下腔出血（SAH）</h3><ul class="bl">
+<li><strong>最常見原因</strong>：外傷；<strong>自發性 SAH</strong>：顱內動脈瘤破裂</li>
+<li><strong>好發</strong>：春秋、55–60歲；動脈瘤位於血管分岔處</li>
+<li><strong>典型症狀</strong>：突發性劇烈頭痛（thunderclap headache）</li>
+<li><strong>Kernig sign</strong>：屈髖伸膝時大腿後側痛</li>
+<li><strong>Brudzinski sign</strong>：頸前屈→下肢不自主屈曲</li>
+<li><strong>CSF 特徵</strong>：不越抽越淡、WBC↑、離心後黃色、蛋白質↑、opening pressure↑</li>
+<li><strong>Gold standard 評估</strong>：DSA（Digital Subtraction Angiography）</li>
+<li><strong>外科處置</strong>：Surgical clipping、Coil embolization、Wrapping</li>
+<li><strong>併發症</strong>：Rebleeding（Grade 1/2 最常見死因）、Hyponatremia、Hydrocephalus、Vasospasm（4–10天，好發第7天）→ Triple H therapy</li>
+<li><strong>Cerebral salt wasting</strong>：IICP→ANP↑→腎Na+和水↑→hypovolemia；治療：補水</li>
+</ul></div>
+
+<div class="topic"><h3>顱內出血（ICH）</h3><ul class="bl">
+<li><strong>最常發生位置</strong>：基底核 Putamen</li>
+<li><strong>最常見病因</strong>：高血壓（Charcot-Bouchard's aneurysm）</li>
+<li><strong>橋腦血腫 5P</strong>：Paralysis、Pulsus parvus、Pinpoint pupil、Pyrexia、Periodic respiration</li>
+</ul></div>
+
+<div class="topic"><h3>腦血管畸形</h3><ul class="bl">
+<li><strong>AVM</strong>：動脈直接注入靜脈（不過微血管）；最常見症狀：出血、癲癇；手術風險：Spetzler-Martin grading</li>
+<li><strong>Cavernous malformations</strong>：最常見症狀 = 癲癇（顳/頂葉）；MRI診斷 → Popcorn appearance</li>
+<li><strong>Carotid-cavernous fistula</strong>：外傷 → Direct type（high flow）；治療：血管氣球栓塞</li>
+</ul></div>
+
+<div class="topic"><h3>水腦症</h3><ul class="bl">
+<li><strong>腦室循環</strong>：Lateral→Monro→3rd→Aqueduct→4th→Luschka+Magendie→subarachnoid</li>
+<li><strong>CSF</strong>：脈絡叢（Choroid plexus）產生，每天 500mL</li>
+<li><strong>水腦症分類</strong>：阻塞型（腦室系統阻塞）；交通型（蜘蛛膜顆粒受影響）</li>
+<li><strong>Dandy-Walker malformation</strong>：Luschka和Magendie foramina狹窄→第四腦室擴大</li>
+<li><strong>落日眼（Setting sun）</strong>：水腦壓迫四疊體→眼皮後翻、無法向上看</li>
+<li><strong>NPH（Normal Pressure Hydrocephalus）3W</strong>：Weird（失智）、Wobbly（步態不穩）、Wet（尿失禁）</li>
+</ul></div>
+
+<div class="topic"><h3>腦瘤</h3><ul class="bl">
+<li><strong>最常見原發性腦瘤</strong>：星狀細胞瘤（Astrocytoma）</li>
+<li><strong>腦轉移順序</strong>：肺→乳→腎→腸胃道</li>
+<li><strong>Glioma WHO 分子標記</strong>：IDH wild/mutant、1p/19q codeletion、EGFR、TP53、ATRX</li>
+<li><strong>Grade IV Glioma 病理特徵</strong>：Necrosis（CT見ring enhancement）</li>
+<li><strong>Oligodendroglioma</strong>：IDH mutant + 1p/19q codeletion；組織：Fried egg、chicken wire、calcification</li>
+<li><strong>Glioma 化療</strong>：Temozolomide</li>
+<li><strong>Medulloblastoma（小孩最常見惡性腦瘤）</strong>：5–7歲；MRI = Zuckerguss（icing-like enhance）</li>
+<li><strong>天幕下最常見腫瘤</strong>：Vestibular schwannoma（聽神經瘤）</li>
+<li><strong>Meningioma</strong>：蜘蛛網膜 cap cell；好發：Parasagittal→Convexity→Sphenoid ridge；Gd-T1 → Dural tail；切除評估：Simpson grading</li>
+<li><strong>Pituitary tumor</strong>：Micro（&lt;1cm）多；最常見功能性：Prolactinoma → 第一線：Dopamine agonist（Bromocriptine/Cabergoline）</li>
+<li><strong>Parinaud's syndrome</strong>：四疊體受傷→眼球向上凝聚力喪失、瞳孔對光反應障礙</li>
+<li><strong>NF type II</strong>：雙側聽神經瘤 + 多發性腦膜瘤</li>
+<li><strong>Pseudotumor cerebri 治療</strong>：Acetazolamide、Diuretics、減重、LP、Shunting</li>
+</ul></div>
+
+<div class="topic"><h3>脊椎病變</h3><ul class="bl">
+<li><strong>HIVD 最常發生</strong>：L4-5、L5-S1；診斷：MRI</li>
+<li><strong>腰椎狹窄最常見</strong>：L4-5；頸椎狹窄最常見：C6-7</li>
+<li><strong>Lhermitte's sign</strong> → Cervical spinal stenosis</li>
+<li><strong>C1（Jefferson）骨折</strong>：垂直壓迫；anterior + posterior arches 骨折</li>
+<li><strong>C2 odontoid 骨折最常見</strong>：Type II（base断裂，不穩定）</li>
+<li><strong>Hangman's fracture</strong>：Hyperextension + axial loading → C2 pars interarticularis 骨折</li>
+<li><strong>脊椎滑脫 Meyerding</strong>：Grade 1（1–25%）→ Grade 5（&gt;100%）</li>
+<li><strong>Brown-Séquard syndrome</strong>：脊髓半邊受傷；同側運動+本體感覺喪失；對側溫痛覺喪失；預後佳</li>
+<li><strong>Central cord syndrome</strong>：Hyperextension；披肩式溫痛覺異常（上肢&gt;下肢）</li>
+<li><strong>脊柱裂</strong>：occulta（最常見）；Meningocele；Myelomeningocele（最嚴重，好發胸腰椎交界）</li>
+<li><strong>ASIA impairment scale</strong>：A完全→E感覺運動正常</li>
+<li><strong>脊椎腫瘤分類</strong>：Extradural（最多，轉移癌最常見）；Intradural extramedullary（Meningioma/Schwannoma）；Intramedullary（最少，Astrocytoma/Ependymoma）</li>
+</ul></div>
+
+<div class="topic"><h3>神經反射（DTR / 肌力）</h3><ul class="bl">
+<li>C5/C6：Deltoid、Biceps、Biceps jerk、Supinator jerk</li>
+<li>C7/C8：Triceps、Triceps jerk</li>
+<li>L2/L3：Hip flexion</li>
+<li>L3/L4：Knee extension、Knee jerk</li>
+<li>L4/L5：Ankle dorsiflexion</li>
+<li>L5/S1：Big toe extension（dorsiflexion）</li>
+<li>S1/S2：Achilles jerk</li>
+<li>S2–S4：Anal cutaneous reflex、Bulbocavernous reflex</li>
+<li>T6–T8：Autonomous dysreflexia（AD）</li>
+<li><strong>Beevor's sign</strong>：彎頸→肚臍朝頭移動（下腹較上腹無力）→ T10 SCI</li>
+</ul></div>
+
+<div class="topic"><h3>三叉神經痛 / 顱縫</h3><ul class="bl">
+<li><strong>三叉神經痛</strong>：好發 V2/V3；最常見原因：SCA 血管壓迫三叉神經根；第一線：Carbamazepine</li>
+<li><strong>Arnold-Chiari I</strong>：單純小腦扁桃體下疝；<strong>II</strong>：+延髓下疝+脊柱裂；<strong>III</strong>：+腦幹下疝入椎管；<strong>IV</strong>：+小腦發育不全</li>
+<li><strong>舟狀頭（Scaphocephaly）</strong>：sagittal suture 過早閉合</li>
+<li><strong>腦血流量</strong>占 CO 約 15%</li>
+</ul></div>
+</section>
+
+<!-- ══════════════ 泌尿外科 ══════════════ -->
+<section class="sec" id="s-泌尿">
+<div class="sec-hdr"><h2>🫀 泌尿外科</h2><span class="count-badge">97 題</span></div>
+
+<div class="topic"><h3>腎臟腫瘤</h3><ul class="bl">
+<li><strong>最常見原發性腎臟惡性腫瘤</strong>：RCC（Renal Cell Carcinoma）</li>
+<li><strong>遺傳性 RCC</strong>：VHL disease（小腦血管母細胞瘤+視網膜血管瘤+雙側腎透明細胞癌）</li>
+<li><strong>RCC Paraneoplastic syndrome</strong>：高血壓（40%）、高血鈣（20%）、Stauffer's syndrome（肝功能異常，分泌 GM-CSF）、紅血球增多症（5%）</li>
+<li><strong>RCC CT 特徵</strong>：A phase 較亮 → V phase 較暗（early wash out）</li>
+<li><strong>AML（angiomyolipoma）</strong>：超音波高回音；CT 低密度（脂肪）；&lt;4cm 每年追蹤；合併結節性硬化症 → 雙側</li>
+<li><strong>急性腎盂腎炎（APN）</strong>：CT 灌流缺失（perfusion defect）；常見菌：大腸桿菌（80%）</li>
+<li><strong>小兒腎臟最常見惡性腫瘤</strong>：Wilms' tumor（Nephroblastoma）</li>
+<li><strong>腎盂/輸尿管癌影像</strong>：Filling defect</li>
+</ul></div>
+
+<div class="topic"><h3>膀胱疾病</h3><ul class="bl">
+<li><strong>最常見膀胱癌</strong>：Transitional cell carcinoma（UCC）；第二常見泌尿道惡性腫瘤</li>
+<li><strong>Squamous cell bladder carcinoma</strong>：慢性發炎（膀胱炎/結石/長期導尿/埃及血吸蟲）</li>
+<li><strong>膀胱癌轉移</strong>：骨頭、肺、肝</li>
+<li><strong>BCG 膀胱灌注適應症</strong>：Tis、Ta（large/multiple/high grade/recurrent）</li>
+<li><strong>最常轉移至膀胱</strong>：黑色素瘤</li>
+<li><strong>血尿最常見原因</strong>：UTI</li>
+<li><strong>膀胱外傷診斷</strong>：逆行性膀胱攝影</li>
+<li><strong>Intraperitoneal rupture</strong>：膀胱滿時；Flame sign；須手術</li>
+<li><strong>Extraperitoneal rupture</strong>：合併骨盆骨折；淚滴狀；自行癒合</li>
+<li><strong>VUR 分級</strong>：I（輸尿管）→ III（輕微擴大）→ V（明顯擴大，乳頭壓跡消失）</li>
+</ul></div>
+
+<div class="topic"><h3>攝護腺</h3><ul class="bl">
+<li><strong>最常見泌尿系統癌症</strong>：攝護腺癌（Adenocarcinoma，70% 在 Peripheral zone）</li>
+<li><strong>BPH</strong>：Transitional zone；IPSS = FUN-WISE；手術絕對適應症：反覆尿滯留/血尿/UTI/腎功能不佳/水腎/膀胱結石</li>
+<li><strong>PSA 正常值</strong>：&lt;4 ng/mL；年齡分層：40–49=0–2.5；50–59=0–3.5；60–69=0–4.5；70–79=0–6.5</li>
+<li><strong>PSA 相關</strong>：與攝護腺癌發生率有關；與嚴重度/預後無關</li>
+<li><strong>攝護腺癌骨轉移</strong>：腰椎（中軸骨），Osteoblastic 病灶</li>
+<li><strong>TUR syndrome</strong>：低滲透壓液進入血流→低血鈉；症狀：噁心、嘔吐、意識改變、高BP、心跳慢</li>
+<li><strong>維生素 D</strong> 可降低攝護腺癌風險</li>
+</ul></div>
+
+<div class="topic"><h3>睪丸 / 陰莖疾病</h3><ul class="bl">
+<li><strong>睪丸扭轉（Testicular torsion）</strong>：15歲青少年；Bell Clapper's deformity；突然劇痛；提睪時加劇（Prehn's sign）；提睪肌反射消失（Rabinowitz's sign）；Doppler 低血流</li>
+<li><strong>精索靜脈曲張</strong>：好發左側（直角注入左腎靜脈 + Nutcracker effect）；Scrotal Doppler（&gt;3mm）；最常見男性不孕原因</li>
+<li><strong>副睪炎</strong>：逐漸疼痛；Doppler high flow；抬高陰囊可緩解</li>
+<li><strong>Fournier gangrene</strong>：會陰部壞死性筋膜炎</li>
+<li><strong>隱睪症</strong>：手術時機 &lt;1歲</li>
+<li><strong>睪丸癌</strong>：大部分生殖細胞癌；年輕男性（15–30歲）最常見固態腫瘤；Choriocarcinoma 以血液轉移</li>
+<li><strong>陰莖癌</strong>：HPV type 16；SCC；Buck's fascia 阻擋血液轉移；淋巴路徑：腹股溝→骨盆LN</li>
+<li><strong>兒童最常見睪丸腫瘤</strong>：Teratoma、Yolk sac tumor</li>
+<li><strong>LH → Leydig cell（睪固酮）；FSH → Sertoli cell（精子形成）</strong></li>
+</ul></div>
+
+<div class="topic"><h3>尿路結石</h3><ul class="bl">
+<li><strong>輸尿管三處狹窄</strong>：UPJ、輸尿管-髂動靜脈交叉、UVJ</li>
+<li><strong>最常引起感染結石</strong>：磷酸胺鎂（Struvite）→ 鹿角狀、尿pH &gt;7.2、Proteus</li>
+<li><strong>尿酸結石</strong>：男性/痛風；pH &lt;5.5；X光 Radiolucent</li>
+<li><strong>Radiolucent 結石</strong>：尿酸、黃嘌呤、Indinavir（CT 也看不到）</li>
+<li><strong>抑制結石離子</strong>：硫（Sulfate）、鎂（Mg）、檸檬酸（Citrate）</li>
+<li><strong>ESWL 禁忌症</strong>：懷孕、腹主動脈瘤、出血傾向、完全阻塞伴重度水腎、心律器、骨骼畸形</li>
+<li><strong>&gt;2cm 結石</strong>：PCNL（經皮腎造口碎石術）</li>
+<li><strong>Type I RTA</strong> → 腎結石</li>
+</ul></div>
+
+<div class="topic"><h3>排尿功能 / 腎上腺</h3><ul class="bl">
+<li><strong>Pves = Pabd + Pdet</strong></li>
+<li><strong>S2–4以上病灶</strong>：膀胱過動、逼尿肌反射過強、DSD</li>
+<li><strong>S2–4以下病灶</strong>：膀胱鬆弛、容量增大、逼尿肌無反射、overflow incontinence</li>
+<li><strong>腎上腺皮質層</strong>：Glomerulosa→礦物皮質素；Fasciculata→糖皮質素；Reticularis→雄性素；髓質→兒茶酚胺</li>
+<li><strong>Pheochromocytoma 10% rule</strong>：10% family/bilateral/malignant/child/extra-adrenal/calcification/unrelated to HTN</li>
+<li><strong>Pheochromocytoma 核醫檢查</strong>：MIBG（I-131-meta-iodobenzylguanidine）</li>
+<li><strong>腎臟移植</strong>：首選切除活體捐贈者左腎（腎靜脈較長）；種植右髂窩（血管較水平）</li>
+</ul></div>
+</section>
+
+<!-- ══════════════ 外科 ══════════════ -->
+<section class="sec" id="s-外科">
+<div class="sec-hdr"><h2>⚕ 外科</h2><span class="count-badge">104 題</span></div>
+
+<div class="topic"><h3>營養</h3><ul class="bl">
+<li><strong>評估營養狀況</strong>：Albumin、Pre-albumin、Transferrin</li>
+<li><strong>腸胃道營養優點</strong>：維持黏膜完整性、降低細菌 translocation、提高免疫、便宜、少併發症；最常見併發症：腹瀉</li>
+<li><strong>TPN 適應症</strong>：腸道失功能、禁食 &gt;7–14 天；需中央靜脈給予（較高滲透壓）</li>
+<li><strong>TPN 容易缺乏微量元素</strong>：Zn、Cu、Se、Cr、Mn</li>
+<li><strong>Refeeding Syndrome</strong>：三低一高（低血鉀、低血磷、低血鎂、高血糖）</li>
+<li><strong>熱量估算</strong>：輕中度外傷 25–35 Kcal/kg；重度 40–45；肝衰竭 25–30</li>
+<li><strong>每日水分 100-50-20 rule</strong>：前10kg×100 + 第二10kg×50 + 剩下×20 (mL/day)</li>
+<li><strong>燒燙傷輸液</strong>：Parkland = 4mL/kg/%TBSA（前8hr給一半）</li>
+<li><strong>燒燙傷營養</strong>：Curreri = 25×體重 + 40×%TBSA（&gt;50%以50%計）</li>
+</ul></div>
+
+<div class="topic"><h3>電解質</h3><ul class="bl">
+<li><strong>正常血鈉</strong>：135–145 mEq/L；Hypervolemic Hyponatremia→利尿劑；Euvolemic Hyponatremia→限水+3% N/S（矯正速度 ≤10–12 mEq/L/day，過快→Central Pontine Demyelination）</li>
+<li><strong>TURP syndrome</strong>：BPH手術大量沖洗液→低血鈉</li>
+<li><strong>神經外科低血鈉</strong>：常見原因 SIADH</li>
+<li><strong>正常血鉀</strong>：3.5–5.0 mEq/L；低血鉀→最易導致腸阻塞</li>
+<li><strong>高血鉀治療（FAT DICKS）</strong>：Furosemide、Albuterol/Terbutaline、Dialysis、Insulin/glucose、Calcium gluconate、Kayexalate/Kalimate/Lokelma、Sodium bicarbonate</li>
+<li><strong>正常血鈣</strong>：8–10 mEq/L；低血鈣 → Chvostek sign、Trousseau sign</li>
+<li><strong>高血鈣原因</strong>：惡性腫瘤（最常見）、副甲亢、肉芽腫、Thiazide、Vit D過多</li>
+<li><strong>High AG代謝性酸中毒（MUDPILERS）</strong>：Methanol、Uremia、DKA、Propylene glycol、Isoniazid、Lactic acidosis、Ethylene glycol、Rhabdomyolysis、Salicylates</li>
+</ul></div>
+
+<div class="topic"><h3>休克 / 輸液</h3><ul class="bl">
+<li><strong>CVP 上升的休克</strong>：心因性、阻塞性；HR 下降的休克：神經性</li>
+<li><strong>Hypovolemic shock 分級 II</strong>：BP正常、HR&gt;100、RR 20–30、U/O 20–30cc/hr；失血750–1500mL（15–30%）</li>
+<li><strong>Hypovolemic shock 分級 III</strong>：BP降低、HR&gt;120、RR 30–40、U/O 5–15cc/hr；失血1500–2000mL（30–40%）</li>
+<li><strong>正常排尿量</strong>：成人 &gt;0.5cc/kg/hr；小孩 &gt;1mL/kg/hr；新生兒 &gt;2mL/kg/hr</li>
+<li><strong>升壓劑順序</strong>：1st Norepinephrine→2nd Vasopressin→3rd Epinephrine</li>
+<li><strong>大量輸血定義</strong>：一次&gt;2500mL 或24hr內&gt;5000mL；pRBC:FFP:Platelet = 1:1:1</li>
+<li><strong>Lethal Triad</strong>：Hypothermia、Coagulopathy、Metabolic Acidosis</li>
+<li><strong>小兒輸液</strong>：20mL/kg crystalloid(N/S)→重複後無改善→10mL/kg pRBC</li>
+<li><strong>SIRS 診斷（≥2項）</strong>：BT&gt;38或&lt;36；HR&gt;90；RR&gt;20或PaCO2&lt;32；WBC&gt;12000或&lt;4000</li>
+<li><strong>EGDT 6hr目標</strong>：CVP 8–12；MAP&gt;65；ScvO2&gt;70%</li>
+</ul></div>
+
+<div class="topic"><h3>外科傷口 / 感染</h3><ul class="bl">
+<li><strong>院內感染順序</strong>：1st UTI、2nd 外科傷口感染、3rd 肺炎（但肺炎是最常見死因）</li>
+<li><strong>傷口分類與抗生素</strong>：
+  <br>Clean（無預防性抗生素；若長時間/植入物可用第一代Cepha）
+  <br>Clean-contaminated（第一代Cepha + Aminoglycoside + Unasyn/Cefmetazole）
+  <br>Contaminated/Dirty（治療性抗生素，第二代Cepha + Aminoglycoside）
+</li>
+<li><strong>手術部位感染（SSI）</strong>：術後30天內（植入物1年）；最常見：淺層切口感染</li>
+<li><strong>Pseudomembranous colitis 治療</strong>：口服 Vancomycin 或 Metronidazole</li>
+<li><strong>動物咬傷</strong>：貓咬→Pasteurella multocida；狗咬→Pasteurella spp.；猴子咬→B virus；海水魚咬→Vibrio spp.</li>
+</ul></div>
+
+<div class="topic"><h3>移植免疫</h3><ul class="bl">
+<li><strong>MHC</strong>：第6對染色體短臂；Class I（HLA-A/B/C）存在有核細胞+血小板；Class II（HLA-DP/DQ/DR）存在APC（B cell/Macrophage/DC）</li>
+<li><strong>排斥分類</strong>：Hyperacute（數分鐘-數天，ABO不符/現有HLA抗體）；Acute（1週-6個月）；Chronic（數月-數年）</li>
+<li><strong>移植後感染時程</strong>：第1個月→細菌/Candida/病毒（HSV/HBV/HCV）；第2–6個月→CMV/EBV/VZV/伺機性感染；第6個月後→Herpes Zoster</li>
+<li><strong>PTLD</strong>：與 EBV 有關</li>
+</ul></div>
+
+<div class="topic"><h3>外傷 / 腔室症候群</h3><ul class="bl">
+<li><strong>腹部鈍傷</strong>：1st 脾臟；2nd 肝臟</li>
+<li><strong>刀傷最常傷</strong>：肝臟；槍傷最常傷：小腸</li>
+<li><strong>FAST 部位</strong>：Pericardium、Morison's pouch、perisplenic space、rectovesicular space</li>
+<li><strong>腹腔室症候群</strong>：腹內壓&gt;25cmH2O；治療：外科減壓</li>
+<li><strong>肌肉腔室症候群</strong>：室間壓&gt;30cmH2O；6P症狀（Pain最早最不專一）；最常發生：小腿；治療：fasciotomy</li>
+<li><strong>DVT/PE 危險因子</strong>：Virchow's Triad（Stasis、Hypercoagulable state、Endothelium injury）</li>
+<li><strong>吸入性灼傷診斷</strong>：支氣管鏡</li>
+<li><strong>胸管位置</strong>：腋中線/腋前線第4或第5肋間</li>
+</ul></div>
+
+<div class="topic"><h3>腫瘤標記 / 倫理法規</h3><ul class="bl">
+<li><strong>腫瘤標記</strong>：CA199→胰臟癌；AFP→肝癌；CEA→大腸癌；HCG→Choriocarcinoma；Bence Jones protein→Multiple Myeloma</li>
+<li><strong>Calot's triangle</strong>：Common hepatic duct + Cystic duct + Liver edge</li>
+<li><strong>DNR</strong>：適用心跳或呼吸停止時，不限制其他治療</li>
+<li><strong>末期親屬代理同意順序</strong>：配偶→成年子女/孫→父母→兄弟姐妹→祖父母→曾祖父母/三親等旁系→一親等直系姻親</li>
+<li><strong>65歲以上最常見外傷原因</strong>：跌倒</li>
+<li><strong>MELD score</strong>：Total Bilirubin、Creatinine、INR、Na+、Albumin、Age</li>
+<li><strong>電阻最低</strong>：神經、血管、肌肉；最高：皮膚</li>
+</ul></div>
+</section>
+
+<!-- ══════════════ 麻醉科 ══════════════ -->
+<section class="sec" id="s-麻醉">
+<div class="sec-hdr"><h2>💉 麻醉科</h2><span class="count-badge">82 題</span></div>
+
+<div class="topic"><h3>困難插管評估</h3><ul class="bl">
+<li><strong>3-3-2 rules</strong>：張口3指幅；下巴前緣到舌骨3指幅；舌骨到甲狀軟骨2指幅</li>
+<li><strong>Mallampati III/IV</strong>：困難插管（III=uvula base；IV=hard palate）</li>
+<li><strong>BURP maneuver</strong>：壓甲狀軟骨（Thyroid cartilage）→ vocal cord 更易顯現</li>
+<li><strong>Sellick maneuver</strong>：壓環狀軟骨（Cricoid cartilage）→ 防止 aspiration</li>
+<li><strong>困難插管+困難通氣</strong>：Flexible fiberoptic intubation（Awake intubation）</li>
+<li><strong>CICO（Cannot Intubate Cannot Oxygenate）</strong>→ Cricothyroidotomy（環甲膜切開術）</li>
+<li><strong>Cuff pressure</strong>：20–30 cmH2O</li>
+<li><strong>RSI 7P 最優先步驟</strong>：Preoxygenation</li>
+</ul></div>
+
+<div class="topic"><h3>術中監測</h3><ul class="bl">
+<li><strong>低體溫定義</strong>：中心體溫 &lt;36°C；術中監測體溫目的：及早發現惡性高熱、防止低體溫</li>
+<li><strong>假性高 SpO2</strong>：CO中毒、methemoglobinemia</li>
+<li><strong>假性低 SpO2</strong>：低血壓、貧血、深色指甲油、抖動</li>
+<li><strong>Capnography 分期</strong>：Phase I = dead space；II = mixed；III = alveolar gas；0 = inspiration</li>
+<li><strong>A-line 最常使用血管</strong>：橈動脈（Radial artery）</li>
+<li><strong>Swan-Ganz catheter 路徑</strong>：IJV→RA→RV→PA→pulmonary capillary</li>
+<li><strong>Cardiac Index（CI）</strong>：CO / BSA</li>
+<li><strong>全身麻醉 BIS 目標</strong>：40–60</li>
+<li><strong>睫毛反射消失</strong> → Stage II（Excitement/Delirium）</li>
+<li><strong>術中血糖目標</strong>：≤180 mg/dL</li>
+</ul></div>
+
+<div class="topic"><h3>吸入性麻醉劑（MAC）</h3><ul class="bl">
+<li><strong>MAC 定義</strong>：一大氣壓下，50%病人接受刺激後不動的劑量</li>
+<li><strong>MAC 最小</strong>：Halothane；<strong>MAC 最大</strong>：N2O</li>
+<li><strong>Desflurane</strong>：最刺激呼吸道（易氣管痙攣）；遇 CO2 吸附劑→產生 CO</li>
+<li><strong>Sevoflurane</strong>：遇 CO2 吸附劑→產生 Compound A（腎毒性）</li>
+</ul></div>
+
+<div class="topic"><h3>肌肉鬆弛劑（NMBDs）</h3><ul class="bl">
+<li><strong>非去極化肌鬆劑分類</strong>：Steroidal（-ronium）；Benzylisoquinolinium（-curium）</li>
+<li><strong>Hofmann elimination</strong>：不須肝腎，直接體內自然降解；代表藥：Atracurium、Cisatracurium</li>
+<li><strong>TOF 監測肌肉/神經</strong>：adductor pollicis brevis / 尺神經</li>
+<li><strong>TOF fade 現象</strong>：Non-depolarizing NMBDs</li>
+<li><strong>拔管條件（ASA）</strong>：TOF ratio ≥0.9</li>
+<li><strong>給解藥條件（ASA）</strong>：TOF count=4 且 TOF ratio ≥0.4</li>
+<li><strong>Sugammadex（Bridion）</strong>：逆轉 Steroidal NMBDs（Vecuronium/Rocuronium）；腎臟排出</li>
+<li><strong>Edrophonium</strong>：Tensilon test（診斷重症肌無力）</li>
+<li><strong>Pyridostigmine</strong>：治療重症肌無力</li>
+<li><strong>Glycopyrrolate</strong>：唯一四級胺 anticholinergic，不過 BBB</li>
+</ul></div>
+
+<div class="topic"><h3>局部麻醉劑</h3><ul class="bl">
+<li><strong>Amide 類</strong>（藥名有兩個 i）：肝臟代謝、過敏率低</li>
+<li><strong>Ester 類</strong>（藥名一個 i）：Plasma cholinesterase 水解、代謝產物 PABA 過敏率高</li>
+<li><strong>機轉</strong>：使鈉離子通道不活化，提高動作電位閾值</li>
+<li><strong>Differential blockade 順序</strong>：B（交感）→ C（感覺）→ A（運動）</li>
+<li><strong>加 Epinephrine</strong>：血管收縮→局麻作用延長、減少全身吸收</li>
+<li><strong>LAST（Local Anesthetic Systemic Toxicity）</strong>：解藥 = 20% lipid emulsion</li>
+<li><strong>Lidocaine 最大劑量</strong>：4.5mg/kg；加 epi → 7mg/kg</li>
+<li><strong>PDPH 治療</strong>：Epidural Blood Patch</li>
+<li><strong>Loss of resistance（Epidural）</strong>：針尖通過黃韌帶（Ligamentum flavum）</li>
+</ul></div>
+
+<div class="topic"><h3>疼痛術語</h3><ul class="bl">
+<li>Allodynia：non-noxious 刺激→痛覺（異感痛）</li>
+<li>Analgesia：痛刺激卻無痛感</li>
+<li>Hyperalgesia：輕微痛刺激→強烈痛覺</li>
+<li>Dysesthesia：令人不愉快的異常感（非痛）</li>
+<li>Paresthesia：所有感覺異常的總稱</li>
+<li><strong>Opioid 副作用受器</strong>：mu-receptor</li>
+<li><strong>Meperidine（Demerol）</strong>→ 慢性腎衰竭累積 Normeperidine → 癲癇</li>
+<li><strong>Naloxone</strong>：呼吸抑制/搔癢解毒；Methylnaltrexone：便秘解毒</li>
+<li><strong>慢性疼痛定義</strong>：&gt;3個月</li>
+<li><strong>PHN（Postherpetic Neuralgia）</strong>：Herpes Zoster 癒合後疼痛&gt;3個月</li>
+<li><strong>Gabapentin/Pregabalin</strong>：抑制鈣離子通道→神經痛</li>
+<li><strong>癌痛 3B 原則</strong>：By the mouth、By the clock、By the ladder</li>
+<li><strong>三叉神經痛首選藥</strong>：Carbamazepine</li>
+</ul></div>
+
+<div class="topic"><h3>惡性高熱（Malignant Hyperthermia）</h3><ul class="bl">
+<li><strong>機轉</strong>：RYR1 基因突變→鈣離子通道無法關閉→Ca2+ 累積→肌肉持續收縮</li>
+<li><strong>早期症狀</strong>：End-tidal CO2↑、心跳加快</li>
+<li><strong>治療</strong>：Dantrolene（抑制 Ryanodine receptor）</li>
+<li><strong>禁用</strong>：CCB（高血壓時）</li>
+</ul></div>
+
+<div class="topic"><h3>術後 / ARDS / Sepsis</h3><ul class="bl">
+<li><strong>最常見麻醉併發症（術後恢復室）</strong>：PONV</li>
+<li><strong>Apfel score PONV 危險因子</strong>：女性、不抽菸、動暈症/PONV病史、術後 opioid</li>
+<li><strong>ARDS 定義</strong>：急性7天內雙側肺浸潤無其他原因</li>
+<li><strong>ARDS 分級（P/F ratio）</strong>：Mild 200–300；Moderate 100–200；Severe &lt;100 mmHg</li>
+<li><strong>ARDS 治療</strong>：Low TV（6mL/kg）、Plateau pressure ≤30、PEEP ≥5、Prone position、VV-ECMO</li>
+<li><strong>SOFA</strong>：腦/心/肝/肺/腎/血；<strong>qSOFA</strong>：RR≥22、Altered mentation、SBP≤100</li>
+<li><strong>Surviving Sepsis Campaign</strong>：3hr內30mL/kg balanced crystalloid；MAP&gt;65；1st 升壓劑 Norepinephrine；血糖144–180 mg/dL</li>
+<li><strong>術後高體溫時間規律</strong>：2天內→肺塌陷；3天→肺炎/UTI；5天→傷口感染/腹內膿瘍；7天→DVT</li>
+</ul></div>
+</section>
+
+<!-- ══════════════ 耳鼻喉科 ══════════════ -->
+<section class="sec" id="s-耳鼻喉">
+<div class="sec-hdr"><h2>👂 耳鼻喉科</h2><span class="count-badge">33 題</span></div>
+
+<div class="topic"><h3>唾液腺</h3><ul class="bl">
+<li><strong>最常見腮裂異常</strong>：第二對</li>
+<li><strong>Stensen's duct</strong>→腮腺；<strong>Wharton's duct</strong>→頷下腺</li>
+<li><strong>唾液腺結石最常發生</strong>：頷下腺；腫瘤最常發生：腮腺</li>
+<li><strong>最常見唾液腺腫瘤</strong>：多形性腺瘤（Pleomorphic adenoma，良性）</li>
+<li><strong>最常見惡性唾液腺腫瘤</strong>：Mucoepidermoid carcinoma；第二：Adenoid cystic carcinoma</li>
+<li><strong>急性細菌性唾液腺炎</strong>：S. aureus</li>
+</ul></div>
+
+<div class="topic"><h3>甲狀腺癌</h3><ul class="bl">
+<li><strong>最常見甲狀腺癌</strong>：PTC（Papillary thyroid cancer）</li>
+<li><strong>最常見甲狀腺淋巴癌</strong>：Non-Hodgkin lymphoma</li>
+<li><strong>最常見甲狀腺轉移癌</strong>：肺癌轉移</li>
+</ul></div>
+
+<div class="topic"><h3>喉癌 / 口咽癌</h3><ul class="bl">
+<li><strong>最常見喉癌</strong>：聲門癌（Glottis cancer）</li>
+<li><strong>最容易淋巴轉移的喉癌</strong>：聲門上癌（Supraglottic cancer）</li>
+<li><strong>喉癌最常見症狀</strong>：聲音沙啞</li>
+<li><strong>口咽癌</strong>：較常表現耳部轉移性疼痛</li>
+<li><strong>Cetuximab</strong>：EGFR 標靶單株抗體；最常見副作用：痤瘡型紅疹</li>
+</ul></div>
+
+<div class="topic"><h3>鼻咽癌（NPC）</h3><ul class="bl">
+<li><strong>最常見類型</strong>：Non-keratinizing undifferentiated carcinoma（WHO type III，最常見且預後最好）</li>
+<li><strong>預後最差</strong>：Keratinizing SqCC（WHO type I）</li>
+<li><strong>好發部位</strong>：側壁（Rosenmuller fossa）</li>
+<li><strong>最常見症狀</strong>：頸部腫塊</li>
+</ul></div>
+
+<div class="topic"><h3>聽力 / 耳部</h3><ul class="bl">
+<li><strong>老年型聽力退化（Presbycusis）</strong>：Down-sloping pattern</li>
+<li><strong>噪音性聽力喪失（NIHL）</strong>：4kHz notch</li>
+<li><strong>SSNHL 定義（Triad）</strong>：3天內、3個連續頻率、&gt;30dB 感音性聽損</li>
+<li><strong>AOM 最常見致病菌</strong>：S. pneumoniae</li>
+<li><strong>OME 最常見致病菌</strong>：Haemophilus influenzae</li>
+<li><strong>Meniere's disease Triad</strong>：陣發性聽力喪失（低頻）+ 耳鳴/耳悶 + 反覆性暈眩</li>
+<li><strong>過敏性黴菌性鼻竇炎</strong>：Aspergillus</li>
+<li><strong>急性會厭炎（Acute Epiglottitis）</strong>：Haemophilus influenzae type B；Thumb sign；Fiery cherry-red epiglottis</li>
+<li><strong>OSA 定義</strong>：睡眠時超過10秒的氣流停止；最常見類型：阻塞性（OSA）</li>
+</ul></div>
+</section>
+
+<!-- ══════════════ 家庭醫學科 ══════════════ -->
+<section class="sec" id="s-家醫">
+<div class="sec-hdr"><h2>🏠 家庭醫學科</h2><span class="count-badge">40 題</span></div>
+
+<div class="topic"><h3>評估量表 / 模式</h3><ul class="bl">
+<li><strong>Family APGAR</strong>：Adaptation、Partnership、Growth、Affection、Resolve</li>
+<li><strong>基層保健 3C2A</strong>：Comprehensiveness、Continuity、Coordination、Accessibility、Accountability</li>
+<li><strong>LEARN model</strong>：Listen、Explain、Acknowledge、Recommend、Negotiate</li>
+<li><strong>OCEAN（五因素人格）</strong>：Openness、Conscientiousness、Extraversion、Agreeableness、Neuroticism</li>
+<li><strong>醫病溝通模式</strong>：Paternalistic（醫師主導）、Informative（病人主導）、Interpretive（醫師協助）、Deliberative（醫師勸說）</li>
+<li><strong>跨越理論模式</strong>：懵懂→沉思→準備→行動→維持→復發</li>
+<li><strong>5A 行為諮商</strong>：Ask、Assess、Advise、Assist、Arrange</li>
+<li><strong>動機式晤談（RULE）</strong>：Resist righting reflex、Understand motivation、Listen、Empower</li>
+<li><strong>告知壞消息（SPIKES）</strong>：Setting、Perception、Invitation、Knowledge、Empathy、Strategy/Summary</li>
+</ul></div>
+
+<div class="topic"><h3>老年醫學</h3><ul class="bl">
+<li><strong>MMSE</strong>：低於同齡教育程度 → 認知功能異常</li>
+<li><strong>Mini-Cog</strong>：畫時鐘 + 3個名詞記憶；全錯 → 失智症</li>
+<li><strong>最常見失智症</strong>：退化型（Alzheimer's → Dementia with Lewy bodies）</li>
+<li><strong>可回復的失智原因</strong>：NPH、Vit B12/Folate deficiency、Hypothyroidism</li>
+<li><strong>GDS-15</strong>：≥5分 → 憂鬱症（全量表）</li>
+<li><strong>MNA 評分 ≤16.5</strong> → 營養不良</li>
+<li><strong>ADLs（Barthel）</strong>：個人日常自我照顧；<strong>IADLs</strong>：社區獨立生活（購物/出行/烹調/家務/洗衣/電話/藥物/財務）</li>
+<li><strong>多重用藥定義</strong>：同時服用 ≥5 種藥物</li>
+<li><strong>衰弱（Frailty）</strong>：非刻意體重減輕、疲憊感、肌力下降、行走速度慢、低身體活動量</li>
+<li><strong>台灣過重/肥胖 BMI</strong>：過重 24–27；肥胖 ≥27 kg/m²</li>
+<li><strong>代謝症候群（台灣）≥3項</strong>：腰圍 ≥90/80cm（男/女）、TG≥150、HDL&lt;40/50、BP≥130/85 或藥物、空腹血糖≥100 或藥物</li>
+</ul></div>
+
+<div class="topic"><h3>安寧照顧 / 倫理</h3><ul class="bl">
+<li><strong>生命倫理四原則</strong>：尊重自主、行善、不傷害、正義</li>
+<li><strong>四主題法（Four boxes）</strong>：醫療適應性、病人偏好、生活品質、情境特徵</li>
+<li><strong>安寧四全照顧</strong>：全人、全家、全程、全隊</li>
+<li><strong>WHO疼痛三原則</strong>：By the mouth、By the clock、By the ladder</li>
+<li><strong>Rescue dose</strong>：藥效短速效藥，劑量為全天總量的1/6</li>
+<li><strong>DNR 簽署條件</strong>：二位醫師診斷末期病人，有意願書</li>
+<li><strong>DNR 代理優先順序</strong>：配偶→直系血親卑親屬→父母→兄弟姊妹→祖父母→曾祖父母/三親等旁系→一親等直系姻親</li>
+<li><strong>病人自主權利法適用</strong>：末期病人、不可逆昏迷、永久植物人、極重度失智、主管機關公告之疾病</li>
+<li><strong>ANOREXIA 末期原因</strong>：Aches、Nausea、Oral candidiasis、Reactive depression、Evacuation problems、Xerostomia、Iatrogenic、Acid-related</li>
+</ul></div>
+
+<div class="topic"><h3>疫苗 / 預防保健</h3><ul class="bl">
+<li><strong>狂犬病疫苗時程</strong>：暴露前第0/7/21（28）天（3劑）；暴露後第0/3/7/14天（4劑）</li>
+<li><strong>疫苗接種原則</strong>：2種非活性→可同時/任意時間；2種活性減毒→可同時/不同時間隔≥4周；非活化+活性→霍亂+黃熱病間隔≥3周，其他可同時</li>
+<li><strong>各國 GDP 醫療花費</strong>：美國 &gt; 加拿大 &gt; 英國</li>
+<li><strong>Sertraline（SSRI）</strong>：治療恐慌症</li>
+<li><strong>S-ABCDE 血壓控制</strong>：Salt、Alcohol、Body weight、Cigarette、Diet、Exercise</li>
+</ul></div>
+</section>
+
+<!-- ══════════════ Symptoms & Signs ══════════════ -->
+<section class="sec" id="s-signs">
+<div class="sec-hdr"><h2>📋 Symptoms &amp; Signs</h2><span class="count-badge">31 題</span></div>
+
+<div class="topic"><h3>耳鼻喉科相關</h3>
+<div class="sign-grid">
+  <div class="sign-card"><span class="sn">Thumb sign</span><span class="sa">→ Acute Epiglottitis</span></div>
+  <div class="sign-card"><span class="sn">Fiery cherry-red epiglottis</span><span class="sa">→ Acute Epiglottitis</span></div>
+  <div class="sign-card"><span class="sn">Steeple sign</span><span class="sa">→ Croup</span></div>
+  <div class="sign-card"><span class="sn">Double tongue sign</span><span class="sa">→ Ludwig's angina</span></div>
+  <div class="sign-card"><span class="sn">Allergic shiner</span><span class="sa">→ Allergic rhinitis</span></div>
+  <div class="sign-card"><span class="sn">Dennie-Morgan line</span><span class="sa">→ Allergic rhinitis</span></div>
+  <div class="sign-card"><span class="sn">Allergic crease</span><span class="sa">→ Allergic rhinitis</span></div>
+  <div class="sign-card"><span class="sn">Allergic salute</span><span class="sa">→ Allergic rhinitis</span></div>
+  <div class="sign-card"><span class="sn">Salt and pepper sign</span><span class="sa">→ Paraganglioma</span></div>
+</div></div>
+
+<div class="topic"><h3>電解質 / 外科相關</h3>
+<div class="sign-grid">
+  <div class="sign-card"><span class="sn">Chvostek sign</span><span class="sa">→ Hypocalcemia</span></div>
+  <div class="sign-card"><span class="sn">Trousseau sign</span><span class="sa">→ Hypocalcemia</span></div>
+  <div class="sign-card"><span class="sn">Virchow's triad</span><span class="sa">→ PE / DVT</span></div>
+  <div class="sign-card"><span class="sn">Lethal triad</span><span class="sa">→ Severe Trauma</span></div>
+  <div class="sign-card"><span class="sn">Flame sign</span><span class="sa">→ Bladder rupture（intraperitoneal）</span></div>
+</div></div>
+
+<div class="topic"><h3>神經外科相關</h3>
+<div class="sign-grid">
+  <div class="sign-card"><span class="sn">Raccoon eye</span><span class="sa">→ Anterior cranial fossa fracture</span></div>
+  <div class="sign-card"><span class="sn">Battle's sign</span><span class="sa">→ Middle cranial fossa fracture</span></div>
+  <div class="sign-card"><span class="sn">Kernig sign</span><span class="sa">→ Meningitis / SAH</span></div>
+  <div class="sign-card"><span class="sn">Brudzinski sign</span><span class="sa">→ Meningitis / SAH</span></div>
+  <div class="sign-card"><span class="sn">Sunset eye sign</span><span class="sa">→ Hydrocephalus</span></div>
+  <div class="sign-card"><span class="sn">Lhermitte's sign</span><span class="sa">→ Cervical spinal stenosis</span></div>
+  <div class="sign-card"><span class="sn">Beevor's sign</span><span class="sa">→ T10 spinal cord injury</span></div>
+</div></div>
+
+<div class="topic"><h3>泌尿外科相關</h3>
+<div class="sign-grid">
+  <div class="sign-card"><span class="sn">Prehn's sign</span><span class="sa">→ Testicular torsion（上提加劇）</span></div>
+  <div class="sign-card"><span class="sn">Rabinowitz's sign</span><span class="sa">→ Testicular torsion（提睪肌反射消失）</span></div>
+</div></div>
+
+<div class="topic"><h3>骨科相關</h3>
+<div class="sign-grid">
+  <div class="sign-card"><span class="sn">Mondor sign</span><span class="sa">→ Calcaneal fracture</span></div>
+  <div class="sign-card"><span class="sn">posterior sagging sign</span><span class="sa">→ PCL rupture</span></div>
+  <div class="sign-card"><span class="sn">Trendelenburg sign</span><span class="sa">→ Hip abductor weakness</span></div>
+  <div class="sign-card"><span class="sn">crescent sign</span><span class="sa">→ ONFH（femoral head AVN）</span></div>
+  <div class="sign-card"><span class="sn">light bulb sign</span><span class="sa">→ Posterior shoulder dislocation</span></div>
+  <div class="sign-card"><span class="sn">Silver-fork deformity</span><span class="sa">→ Colles' fracture</span></div>
+  <div class="sign-card"><span class="sn">Popeye deformity</span><span class="sa">→ Long head of biceps tendon rupture</span></div>
+  <div class="sign-card"><span class="sn">Tinel's sign</span><span class="sa">→ Carpal tunnel syndrome</span></div>
+</div></div>
+</section>
+
+<!-- ══════════════ Clinical Tests ══════════════ -->
+<section class="sec" id="s-tests">
+<div class="sec-hdr"><h2>🔬 Clinical Tests</h2><span class="count-badge">15 題</span></div>
+
+<div class="topic"><h3>骨科臨床測試</h3>
+<div class="sign-grid">
+  <div class="sign-card"><span class="sn">Thompson's test</span><span class="sa">→ Achilles tendon rupture</span></div>
+  <div class="sign-card"><span class="sn">Lachman test</span><span class="sa">→ ACL rupture</span></div>
+  <div class="sign-card"><span class="sn">Anterior drawer test</span><span class="sa">→ ACL rupture</span></div>
+  <div class="sign-card"><span class="sn">Pivot shift test (MacIntosh)</span><span class="sa">→ ACL rupture</span></div>
+  <div class="sign-card"><span class="sn">Posterior drawer test</span><span class="sa">→ PCL rupture</span></div>
+  <div class="sign-card"><span class="sn">McMurray's test</span><span class="sa">→ Meniscus tear</span></div>
+  <div class="sign-card"><span class="sn">Apley test</span><span class="sa">→ Meniscus tear</span></div>
+  <div class="sign-card"><span class="sn">Drop arm test</span><span class="sa">→ Supraspinatus tear</span></div>
+  <div class="sign-card"><span class="sn">Phalen's test</span><span class="sa">→ Carpal tunnel syndrome</span></div>
+  <div class="sign-card"><span class="sn">Durkan's test</span><span class="sa">→ Carpal tunnel syndrome</span></div>
+  <div class="sign-card"><span class="sn">Finkelstein test</span><span class="sa">→ de Quervain's syndrome</span></div>
+</div></div>
+
+<div class="topic"><h3>肩關節穩定測試</h3>
+<div class="sign-grid">
+  <div class="sign-card"><span class="sn">Apprehension test</span><span class="sa">→ Shoulder anterior instability</span></div>
+  <div class="sign-card"><span class="sn">Jerk test (Jahnke test)</span><span class="sa">→ Shoulder posterior instability</span></div>
+  <div class="sign-card"><span class="sn">Kim test</span><span class="sa">→ Shoulder posterior instability</span></div>
+  <div class="sign-card"><span class="sn">sulcus test</span><span class="sa">→ Shoulder inferior instability</span></div>
+</div></div>
+</section>
+
+<!-- ══════════════ 口訣 ══════════════ -->
+<section class="sec" id="s-mnemo">
+<div class="sec-hdr"><h2>💡 口訣 &amp; 記憶法</h2><span class="count-badge">6 題</span></div>
+
+<div class="mcard"><div class="mq">高血鉀治療方式</div><div class="ma">FAT DICKS：Furosemide、Albuterol/Terbutaline、Dialysis、Insulin/glucose、Calcium gluconate、Kayexalate/Kalimate/Lokelma、Sodium bicarbonate</div></div>
+<div class="mcard"><div class="mq">High Anion Gap 代謝性酸中毒原因</div><div class="ma">MUDPILERS：Methanol、Uremia、DKA、Propylene glycol、Isoniazid、Lactic acidosis、Ethylene glycol、Rhabdomyolysis、Salicylates</div></div>
+<div class="mcard"><div class="mq">肌肉腔室症候群症狀</div><div class="ma">6P：Pain（最早最不專一）、Pressure、Paresthesia、Paralysis、Pale、Pulseless</div></div>
+<div class="mcard"><div class="mq">Caloric test 結果判讀</div><div class="ma">COWS：Cold Opposite，Warm Same side（正常反應眼球偏向）</div></div>
+<div class="mcard"><div class="mq">橋腦血腫臨床症狀</div><div class="ma">5P：Paralysis（對側）、Pulsus parvus、Pinpoint pupil、Pyrexia、Periodic respiration</div></div>
+<div class="mcard"><div class="mq">Rotator cuff 四條肌肉</div><div class="ma">SItS：Supraspinatus（最常斷）、Infraspinatus、teres minor、Subscapularis（唯一在前方）</div></div>
+
+</section>
+
+</main>
+</div>
+
+<script>
+  const tbtn = document.getElementById('tbtn');
+  const saved = localStorage.getItem('review-theme');
+  if (saved === 'light') { document.body.classList.add('light'); tbtn.textContent = '☀️'; }
+  tbtn.addEventListener('click', () => {
+    document.body.classList.toggle('light');
+    const isLight = document.body.classList.contains('light');
+    tbtn.textContent = isLight ? '☀️' : '🌙';
+    localStorage.setItem('review-theme', isLight ? 'light' : 'dark');
+  });
+
+  // Sidebar active highlight on scroll
+  const secs = document.querySelectorAll('.sec');
+  const links = document.querySelectorAll('.sidebar a');
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        links.forEach(l => l.classList.remove('active'));
+        const l = document.querySelector(`.sidebar a[href="#${e.target.id}"]`);
+        if (l) l.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-20% 0px -70% 0px' });
+  secs.forEach(s => obs.observe(s));
+</script>
+</body>
+</html>
