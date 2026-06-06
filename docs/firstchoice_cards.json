@@ -4151,6 +4151,293 @@
         "reference": "First Choice 2025 醫學五 骨科 p. 175"
     },
     {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "Cooper's ligament指的是甚麼構造?",
+        "answer": "支撐breast lobules的纖維化組織",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 234"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "腋下淋巴結依照何種構造區分為三區(level)?分別為何?",
+        "answer": "胸小肌 (level I: 外側；level II: 後側；level III: 內側)",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 235"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "哪一條神經受損，會導致上臂內側與後側疼痛麻木?",
+        "answer": "肋間臂神經(intercostal brachial nerve)",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 236"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "哪一條神經受損，會導致翼狀肩胛(winged scapula)?",
+        "answer": "長胸神經(long thoracic nerve)",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 236"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "年輕女性最常見的乳房良性腫瘤是哪一種?",
+        "answer": "纖維腺瘤(Fibroadenoma)",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 240"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "中年女性最常見的乳房良性腫瘤是哪一種?",
+        "answer": "乳房葉狀腫瘤(Phyllodes tumor)",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 241"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "若看到乳頭血狀分泌物，需要考慮甚麼疾病?",
+        "answer": "Intraductal papilloma, invasive papillary carcinoma",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 243"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "乳房超音波較適合哪一種女性?",
+        "answer": "乳腺緻密、纖維組織豐富、東方女性、年輕女性",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 248"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "乳房超音波的缺點是什麼?",
+        "answer": "operator-dependent",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 248"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "乳房超音波下的惡性特徵包含哪些?",
+        "answer": "spiculation, deeper than wide, microlobulations, hypoechoic nodule, acoustic shadow (opsterior attenuation), microcalcification, 形狀不規則, 邊界不明顯, branch pattern",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 248-249"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "早期乳癌篩檢的標準工具是甚麼檢查?",
+        "answer": "乳房攝影(Mammography)",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 250"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "乳房攝影適合哪一種女性?",
+        "answer": "年長女性(40歲以上)、乳房脂肪含量增加",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 250"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "台灣國民健康署建議乳癌篩檢的適應症包含哪些?",
+        "answer": "一般族群：45-69歲女性 (每兩年一次)；高風險族群：具二等親內乳癌家族史的40-44歲女性(每兩年一次)",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 250"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "乳房攝影包含哪兩個view?",
+        "answer": "CC view: 上下夾、由上往下照；MLO view: 左右夾、由側邊照 (可看到胸大肌)",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 250"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "BI-RADS (breast imaging-reporting and data system)，將影像學區分成哪七大類?",
+        "answer": "0: 評估不完整；1: 正常 (negative finding)；2: 良性發現 (typically benign findings；3: 可能為良性發現 (probably benign)；4: 懷疑異常(suspicious abnormality)；5: 高度懷疑；6: 組織學已證實為惡性",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 253"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "乳房細針抽吸(FNAC, fine needle aspiration cytology)，需使用哪一種針頭?",
+        "answer": "22號針頭",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 253, 259"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "台灣女性發生率第一名的癌症是哪一種癌症?",
+        "answer": "乳癌(Breast cancer)",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 264"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "乳癌的危險因子包含哪些?",
+        "answer": ">40歲、乳癌家族史、BRCA1/2 gene mutation、初經早、停經晚、第一胎晚生、未生育、賀爾蒙治療超過5年、high breast density、radiation、breast tumor",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 264"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "非侵襲性乳癌當中，乳管原位癌(DCIS, ductal carcinoma in situ)，組織學上的分型與預後大致如何?",
+        "answer": "預後最好到最差：papillary --> cribriform --> solid --> comedo",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 265"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "非侵襲性乳癌當中，葉狀原位癌(LCIS, lobular carcinoma in situ)，染色會發現何種蛋白質缺乏?",
+        "answer": "E-cadherin",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 267"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "侵襲性乳癌當中，最常見的乳癌是哪一種?",
+        "answer": "infiltrating ductal cancer",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 267"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "侵襲性乳癌當中，預後最好的乳癌是哪一種?",
+        "answer": "mucinous cancer",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 267, 270"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "乳癌最常轉移的器官或位置是那些?",
+        "answer": "骨頭(70%)、肺臟、淋巴結、腦部、肝臟",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 270"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "BRCA1基因突變，常和哪一種乳癌有關?",
+        "answer": "Basal-like breast cancer (TNBC, triple negative breast cancer)",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 270"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "乳癌術後追蹤指標，可以抽哪些marker?",
+        "answer": "CA 15-3, CEA等等",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 272"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "用來決定乳癌組織分型的IHC包含哪些染色?",
+        "answer": "ER (Estrogen receptor), PR (Progesterone receptor), Her2/neu (ERB2), Ki-67",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 273"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "以乳癌型別來說，預後最好到最差分別為何?",
+        "answer": "Luminal A (ER/PR+, HER2-, Ki-67 <14%) --> Luminal B (ER/PR+, HER2+/-, Ki67 > 14%) --> Her-2 (ER/PR-, HER2+) --> TNBC (ER/PR-, HER2-)",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 274"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "乳癌的腫瘤大小(T)，該如何區分?",
+        "answer": "T1：<=2 cm (T1a: 0.1-0.5, T1b: 0.5-1, T1c: 1-2 cm)；T2：2-5 cm；T3：>5cm；T4：往內往外侵犯",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 274"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "前哨淋巴結切片(SLNB, Sentinel lymph node biopsy)，主要的目的是?",
+        "answer": "減少廓清導致的併發症，像是：手臂淋巴水腫、感覺麻痺、手臂活動受限等等",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 278"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "前哨淋巴結(Sentinel lymph node)的定義是?",
+        "answer": "最先受到侵犯、第一顆或第一群可能轉移的淋巴結",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 278"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "前哨淋巴結切片(SLNB, Sentinel lymph node biopsy)，會在腫瘤旁注射什麼來定位前哨淋巴結?",
+        "answer": "甲基藍、同位素",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 278"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "乳房保留手術+術後放射治療，和改良式根除性乳房全切除術的預後比較如何?",
+        "answer": "臨床預後相同",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 279"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "常見的乳癌賀爾蒙治療包含哪些類型的藥物?",
+        "answer": "Tamoxifen (SERM), Aromatase inhibitor, LH-RH agonist",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 280"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "使用於停經前婦女的第一線乳癌賀爾蒙藥物是哪一個?",
+        "answer": "Tamoxifen (SERM)",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 280"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "常見的乳癌HER2標靶治療包含哪些藥物?",
+        "answer": "Trastuzumab (Herceptin), Pertuzumab (Perjeta), Lapatinib (Tykerb)",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 281"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "乳癌常見的化學治療藥物包含哪些?常見的副作用是甚麼?",
+        "answer": "紫杉醇：周邊神經病變、水腫；Anthracycline：心臟毒性",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 282"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "乳房重建手術當中，術後立即重建與延遲重建兩者的存活率與復發率有無差異?",
+        "answer": "無差異，重建時間點不影響存活率或復發率",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 282"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "乳房重建手術當中，延遲重建的時間點通常是甚麼時候?",
+        "answer": "接受化放療三個月後，或術後兩年無乳癌復發",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 282"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "乳房重建手術當中，最常使用的自體皮瓣移植是哪一種?",
+        "answer": "腹直肌皮瓣(TRAM flap, Transverse rectus abdominis myocutaneous flap)",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 282"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "腹直肌皮瓣(TRAM flap, Transverse rectus abdominis myocutaneous flap)的相對禁忌症有哪些?",
+        "answer": "肥胖、曾經接受腹部手術",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 282"
+    },
+    {
+        "subject": "乳房外科",
+        "type": "國考",
+        "question": "乳房重建手術當中，闊背肌皮瓣 (lattisimus dorsi myocutaneous flap)的特色有哪些?",
+        "answer": "因為背部脂肪較少，適合乳房體積小的病人。當乳房體積大時，常合併義乳植入",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 283"
+    },
+    {
         "subject": "Symptoms & Signs",
         "type": "Symptoms & Signs",
         "question": "Thumb sign",
@@ -4443,6 +4730,20 @@
         "question": "Pencil-in-cup deformity",
         "answer": "PA (Psoriatic arthritis)",
         "reference": "First Choice 2025 醫學五 骨科 p. 172"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Winged scapula",
+        "answer": "long thoracic nerve injury",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 236, 237"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "nipple bloody discharge",
+        "answer": "intraductal papilloma, invasive papillary carcinoma",
+        "reference": "First Choice 2025 醫學五 乳房外科 p. 243"
     },
     {
         "subject": "Test",
