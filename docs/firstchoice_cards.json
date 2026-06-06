@@ -3945,7 +3945,7 @@
         "type": "國考",
         "question": "最常見的良性骨瘤是哪一種腫瘤?",
         "answer": "Osteochondroma",
-        "reference": "First Choice 2025 醫學五 骨科 p. 116"
+        "reference": "First Choice 2025 醫學五 骨科 p. 116, 121"
     },
     {
         "subject": "骨科",
@@ -3988,6 +3988,167 @@
         "question": "OO (Osteoid Osteoma)在影像上的特徵為何?",
         "answer": "< 2 cm Nidus + sclerotic reactive bone",
         "reference": "First Choice 2025 醫學五 骨科 p. 118"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Fibrous dysplasia好發於哪個位置?",
+        "answer": "Proximal femur",
+        "reference": "First Choice 2025 醫學五 骨科 p. 119"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "近端股骨如果像牧羊人的拐杖(Shepherd's crook deformity)，代表甚麼疾病?",
+        "answer": "纖維性發育不良(Fibrous dysplasia)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 119"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "最常見的原發性骨惡性肉瘤是哪一種?",
+        "answer": "OGS (Osteosarcoma; osteogenic sarcoma)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 120"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Osteochondroma在影像上可以分為哪兩種類型?",
+        "answer": "Sessile (Broad base)；Pedunculated (narrow stalk，朝遠離關節方向生長)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 121"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "多顆的osteochondromatosis，需要懷疑甚麼遺傳疾病?",
+        "answer": "MHE (Multiple Herediary Exostosis (AD; Autosomal dominant)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 121"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Ollier disease和Maffucci's syndrome差別在哪裡?",
+        "answer": "Ollier disease: multiple condroma; Maffucci's syndrome: multiple condroma + hemangioma",
+        "reference": "First Choice 2025 醫學五 骨科 p. 122"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "在影像上會出現Scalloping的骨腫瘤是哪一個?",
+        "answer": "Chondrosarcoma",
+        "reference": "First Choice 2025 醫學五 骨科 p. 123"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "GCT (Giant Cell Tumor)，最常發生在哪一個位置?",
+        "answer": "膝蓋上下方(Distal femur, Proximal tibia)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 123"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "GCT (Giant Cell Tumor)和Chondroblastoma最主要的相同點和差異點為何?",
+        "answer": "相同點：好發在Epiphysis；相異點：GCT和Chondroblastoma分別發生在epiphyseal line癒合之後/之前",
+        "reference": "First Choice 2025 醫學五 骨科 p. 123-124"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Ewing's sarcoma常常會出現何種基因缺陷?",
+        "answer": "t(11:22) translocation --> EWS/Fli1 fusion protein",
+        "reference": "First Choice 2025 醫學五 骨科 p. 124"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "McCune-Albright Syndrome指的是何種疾病?",
+        "answer": "Fibrous dysplasia + skin abnormally (Café au lait spots) + Endocrine abnormally (precocious puberty)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 140"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "腦性麻痺(CP, Cerebral palsy)的特色有哪些?",
+        "answer": "Upper motor neuron disease、Static encephalopathy、以痙攣型(Spastic)最為常見 --> 剪刀腳、大腿內轉、膝蓋僵直、踮腳尖",
+        "reference": "First Choice 2025 醫學五 骨科 p. 148"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "腦性麻痺(CP, Cerebral palsy)最常合併的骨頭病變是甚麼?",
+        "answer": "Hip dislocation (posterior + upward)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 148"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "腦性麻痺(CP, Cerebral palsy)最常見的足部變形是?",
+        "answer": "馬蹄足(Equinus deformity)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 149"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "脊椎側彎的治療原則，若以Cobb angle區分，分別為何?",
+        "answer": "< 25度：observation + f/u；25-45度：brace + f/u；> 45度：posterior correction + instrumentation + posterior fusion",
+        "reference": "First Choice 2025 醫學五 骨科 p. 149"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "髖關節發育不良(DDH, Developmental dysplasia of hip)，常見的危險因子包含哪些?",
+        "answer": "第一胎、女孩、Breech presentation、family history of DDH、斜頸",
+        "reference": "First Choice 2025 醫學五 骨科 p. 149"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "針對Pediatric physeal fracture的Salter-Harris classification，分為哪五型?",
+        "answer": "Type I: S (Stright across); Type II: A (Above); Type III: L (Lower or beLow); Type IV: T (Two or Through); Type V: ER (Erasure of growth plate or CRush)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 154"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "針對Pediatric physeal fracture的Salter-Harris classification，最常見的是哪一型?",
+        "answer": "Type II (Above)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 154"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "最容易造成Salter-Harris Type II的是哪一種骨折?",
+        "answer": "Proxminal humeral fracture",
+        "reference": "First Choice 2025 醫學五 骨科 p. 154"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Osteopenia和Osteoporosis的定義分別為何?",
+        "answer": "Osteopenia: T-score -1~-2.5；Osteoporosis: T-socre < -2.5",
+        "reference": "First Choice 2025 醫學五 骨科 p. 166"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "診斷骨質疏鬆的gold-standard是哪一項檢查?",
+        "answer": "雙能量X光吸收儀(DEXA: Dual Energy X-ray Absorptiometry)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 167"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Paget's disease，常和哪一種感染有關?",
+        "answer": "Paramyxovirus",
+        "reference": "First Choice 2025 醫學五 骨科 p. 169"
+    },
+    {
+        "subject": "骨科",
+        "type": "國考",
+        "question": "Ischemia time在各個組織大約為多久?",
+        "answer": "Muscle: 8 hrs; Skin + subcutaneous tissue: 12 hrs; Bone: 24 hrs",
+        "reference": "First Choice 2025 醫學五 骨科 p. 175"
     },
     {
         "subject": "Symptoms & Signs",
@@ -4207,6 +4368,83 @@
         "reference": "First Choice 2025 醫學五 骨科 p. 97"
     },
     {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Café au lait spot",
+        "answer": "McCune Albright Syndrome; Neurofibroma",
+        "reference": "First Choice 2025 醫學五 骨科 p. 119, 162"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Shepherd's crook deformity",
+        "answer": "Fibrous dysplasia",
+        "reference": "First Choice 2025 醫學五 骨科 p. 119"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Sun-burst lesion/hair on line",
+        "answer": "OGS (Osteosarcoma; osteogenic sarcoma)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 120"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Codman's triangle",
+        "answer": "OGS (Osteosarcoma; osteogenic sarcoma)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 120"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Onion peel appearance",
+        "answer": "Ewing's sarcoma",
+        "reference": "First Choice 2025 醫學五 骨科 p. 125"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Fallen leaf sign",
+        "answer": "Unicameral Bone Cyst (simple bone cyst)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 125"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "fluid-fluid level",
+        "answer": "ABC (Aneurysmal Bone Cyst)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 126"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Fixed pronation deformity",
+        "answer": "Congenital Radioulnar Synostosis",
+        "reference": "First Choice 2025 醫學五 骨科 p. 144"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Equinus deformity",
+        "answer": "CP (Cerebral palsy)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 148"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Bamboo spine",
+        "answer": "Ankylosing Spondylitis, AS",
+        "reference": "First Choice 2025 醫學五 骨科 p. 172"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Pencil-in-cup deformity",
+        "answer": "PA (Psoriatic arthritis)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 172"
+    },
+    {
         "subject": "Test",
         "type": "Test",
         "question": "Thompson's test",
@@ -4310,6 +4548,34 @@
         "question": "Finkelstein test",
         "answer": "de Quervain's syndrome",
         "reference": "First Choice 2025 醫學五 骨科 p. 106"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Adams forward bend test",
+        "answer": "Scoliosis",
+        "reference": "First Choice 2025 醫學五 骨科 p. 149"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Ortolani test",
+        "answer": "DDH (Developmental dysplasia of hip)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 149"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Barlow test",
+        "answer": "DDH (Developmental dysplasia of hip)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 149"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Galeazzi test",
+        "answer": "DDH (Developmental dysplasia of hip)",
+        "reference": "First Choice 2025 醫學五 骨科 p. 150"
     },
     {
         "subject": "口訣",
