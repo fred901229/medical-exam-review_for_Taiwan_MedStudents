@@ -4725,6 +4725,62 @@
         "reference": "First Choice 2025 醫學五 整形外科 p. 354, 356-357"
     },
     {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "紅癬(Erythrasma)是哪一種微生物感染所導致?",
+        "answer": "細微棒狀桿菌(Corynebacterium minutissimum)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 15"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "紅癬(Erythrasma)在伍氏燈(Wood's lamp)下，會有什麼表現?",
+        "answer": "珊瑚紅螢光(coral red) (因為細菌分泌coproporphyrin III)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 15"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "Tzanck smear下可以看到giant and multinucleated cells的是什麼感染?",
+        "answer": "VZV, HSV",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 21, 24"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "皮膚疹編號，從第一疾病(first disease)到第六疾病分別為何?",
+        "answer": "First: Measles; Second: Scarlet fever; Third: Rubella; Fourth: Filatow-Dukes' disease; Fifth: Erythema infectiosum; Sixth: Roseola infantum",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 19"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "疱疹後神經痛(PHN, Postherpetic neuralgia)最常發生在哪一個神經?",
+        "answer": "三叉神經第一分支(V1)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 22-23"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "傳染性軟疣(Molluscum Contagiosum)是由哪一種病毒感染引起的?",
+        "answer": "MCV (Molluscum contagiosum virus)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 25"
+    },
+    {
+        "subject": "",
+        "type": "國考",
+        "question": "診斷疥瘡(Scabies)，會使用何種檢查?",
+        "answer": "KOH",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 42"
+    },
+    {
+        "subject": "",
+        "type": "國考",
+        "question": "針對Scabies的藥物，個別的特點與缺點為何?",
+        "answer": "Permethrin 5%: 第一線用藥、不經皮吸收、副作用低；Lindane：神經毒性；Benzyl Benzoate：具刺激性；Crotamiton：殺菌、止癢；Ivermectin：孕婦禁用、副作用多(頭痛、噁心、腹瀉、癢)、和Permethrin 5%並用治療挪威型疥瘡",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 43"
+    },
+    {
         "subject": "Symptoms & Signs",
         "type": "Symptoms & Signs",
         "question": "Thumb sign",
@@ -5031,6 +5087,125 @@
         "question": "nipple bloody discharge",
         "answer": "intraductal papilloma, invasive papillary carcinoma",
         "reference": "First Choice 2025 醫學五 乳房外科 p. 243"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Nikolsky sign",
+        "answer": "SSSS (Staphylococcal scalded skin syndrome)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 10"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "white strawberry tongue",
+        "answer": "Scarlet fever",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 11"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "red strawberry tongue",
+        "answer": "Scarlet fever",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 12"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Sandpaper-like rash",
+        "answer": "Scarlet fever",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 12"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Pastia lines",
+        "answer": "Scarlet fever",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 12"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Slapped cheek",
+        "answer": "Erythema infectiosum",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 18"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "herald patch",
+        "answer": "Pityriasis rosea",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 19"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "christmas tree pattern",
+        "answer": "Pityriasis rosea",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 20"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "dewdrops on a rose petal rash",
+        "answer": "Chicken pox",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 21"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Hutchinson's sign",
+        "answer": "Herpes Zoster Ophthalmicus",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 23"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "umbilicated lesion",
+        "answer": "Molluscum Contagiosum",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 25"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Hard chancre",
+        "answer": "Primary syphilis",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 35"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Condylomata lata",
+        "answer": "Secondary syphilis",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 35"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "moth-eaten alopecia",
+        "answer": "Secondary syphilis",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 35"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "gumma",
+        "answer": "Tertiary syphilis",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 36"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Burrow",
+        "answer": "Scabies",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 42"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "serpiginous rash",
+        "answer": "Cutaneous Larva Migrans (CLM)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 44"
     },
     {
         "subject": "Test",
