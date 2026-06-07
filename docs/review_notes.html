@@ -92,7 +92,50 @@
     #lb-sub{font-size:.78rem;color:var(--text2);margin-top:3px}
     .lb-src{font-size:.68rem;color:var(--text3);margin-top:6px}
 
-    @media(max-width:700px){.sidebar{display:none}.main{padding:14px}}
+    /* ── Flashcard mode ── */
+    .fc-menu-btn{display:none}
+    @media(max-width:700px){
+      .sidebar{display:none}.main{padding:14px}
+      .fc-menu-btn{display:flex}
+    }
+
+    /* Drawer overlay */
+    .fc-drw-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:600}
+    .fc-drw-bg.open{display:block}
+    /* Drawer panel */
+    .fc-drawer{position:fixed;top:0;left:-270px;width:250px;height:100%;background:var(--surface);border-right:1px solid var(--border);z-index:700;transition:left .22s ease;overflow-y:auto;padding:12px 0 24px}
+    .fc-drawer.open{left:0;box-shadow:4px 0 24px rgba(0,0,0,.35)}
+    .fc-drw-hdr{padding:10px 14px 12px;font-size:.72rem;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:.08em;border-bottom:1px solid var(--border);margin-bottom:6px}
+    .fc-drawer a{display:flex;align-items:center;gap:7px;padding:9px 14px;color:var(--text2);font-size:.88rem;cursor:pointer;border-left:3px solid transparent;transition:.12s;text-decoration:none}
+    .fc-drawer a:hover{color:var(--primary);background:var(--surface2);border-left-color:var(--primary)}
+    .fc-drawer .sb-badge{margin-left:auto;background:var(--surface3);color:var(--text3);font-size:.66rem;padding:1px 5px;border-radius:8px;flex-shrink:0}
+
+    /* Flashcard overlay (full screen) */
+    .fc-overlay{display:none;position:fixed;inset:0;background:var(--bg);z-index:800;flex-direction:column}
+    .fc-overlay.open{display:flex}
+    .fc-ov-hdr{background:var(--surface);border-bottom:1px solid var(--border);padding:9px 12px;display:flex;align-items:center;gap:8px;flex-shrink:0}
+    .fc-ov-back{background:none;border:none;color:var(--text2);font-size:1.05rem;cursor:pointer;padding:4px 8px;border-radius:6px;line-height:1}
+    .fc-ov-back:hover{background:var(--surface2);color:var(--text)}
+    .fc-ov-subj{font-size:.9rem;font-weight:700;color:var(--text);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .fc-ov-prog{font-size:.8rem;color:var(--text2);flex-shrink:0}
+    .fc-ov-menu{background:none;border:none;color:var(--text2);font-size:1.1rem;cursor:pointer;padding:4px 8px;border-radius:6px}
+    .fc-ov-menu:hover{background:var(--surface2);color:var(--text)}
+    /* Topic label bar */
+    .fc-topic-bar{background:var(--surface2);border-bottom:1px solid var(--border);padding:5px 14px;font-size:.74rem;font-weight:600;color:var(--primary);flex-shrink:0;min-height:28px}
+    /* Card area */
+    .fc-card-area{flex:1;display:flex;align-items:center;justify-content:center;padding:18px 16px;overflow-y:auto}
+    .fc-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:22px 18px;max-width:500px;width:100%;font-size:.92rem;line-height:1.75;box-shadow:var(--shadow)}
+    .fc-card strong{color:var(--primary)}
+    /* Nav bar */
+    .fc-nav{background:var(--surface);border-top:1px solid var(--border);padding:10px 14px;display:flex;align-items:center;gap:10px;flex-shrink:0}
+    .fc-btn{flex:1;padding:10px 6px;background:var(--surface2);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:.88rem;cursor:pointer;transition:.15s}
+    .fc-btn:hover:not(:disabled){border-color:var(--primary);color:var(--primary)}
+    .fc-btn:disabled{opacity:.3;cursor:default}
+    .fc-btn.accent{background:var(--primary);border-color:var(--primary);color:#fff}
+    .fc-btn.accent:hover:not(:disabled){opacity:.9}
+    /* Progress bar */
+    .fc-pbar{flex:2;height:5px;background:var(--surface3);border-radius:3px;overflow:hidden}
+    .fc-pbar-fill{height:100%;background:var(--primary);border-radius:3px;transition:width .2s}
   </style>
 </head>
 <body>
@@ -101,8 +144,36 @@
     <a href="index.html" class="back">← 返回</a>
     <h1>國考前快速複習 <span>重點筆記</span></h1>
   </div>
-  <button class="tbtn" id="tbtn">🌙</button>
+  <div style="display:flex;gap:6px;align-items:center">
+    <button class="tbtn fc-menu-btn" onclick="openFcDrawer()">☰</button>
+    <button class="tbtn" id="tbtn">🌙</button>
+  </div>
 </header>
+
+<!-- Flashcard drawer -->
+<div id="fc-drw-bg" class="fc-drw-bg" onclick="closeFcDrawer()"></div>
+<nav id="fc-drawer" class="fc-drawer">
+  <div class="fc-drw-hdr">📖 科別選擇 — 閃卡複習</div>
+</nav>
+
+<!-- Flashcard overlay -->
+<div id="fc-overlay" class="fc-overlay">
+  <div class="fc-ov-hdr">
+    <button class="fc-ov-back" onclick="closeFcOverlay()">←</button>
+    <span id="fc-subj" class="fc-ov-subj"></span>
+    <span id="fc-prog" class="fc-ov-prog"></span>
+    <button class="fc-ov-menu" onclick="closeFcOverlay();openFcDrawer()">☰</button>
+  </div>
+  <div id="fc-topic-bar" class="fc-topic-bar"></div>
+  <div class="fc-card-area">
+    <div class="fc-card"><div id="fc-content"></div></div>
+  </div>
+  <div class="fc-nav">
+    <button id="fc-prev" class="fc-btn" onclick="fcMove(-1)">← 上一張</button>
+    <div class="fc-pbar"><div id="fc-pbar-fill" class="fc-pbar-fill" style="width:0%"></div></div>
+    <button id="fc-next" class="fc-btn accent" onclick="fcMove(1)">下一張 →</button>
+  </div>
+</div>
 
 <div class="wrap">
 <nav class="sidebar" id="sb">
@@ -988,6 +1059,118 @@
     const isLight = document.body.classList.contains('light');
     tbtn.textContent = isLight ? '☀️' : '🌙';
     localStorage.setItem('review-theme', isLight ? 'light' : 'dark');
+  });
+
+  // ── Flashcard Mode ──
+  const FC_SECTIONS = [
+    {id:'s-骨科',    label:'🦴 骨科'},
+    {id:'s-腦神',   label:'🧠 腦神經外科'},
+    {id:'s-泌尿',   label:'🫀 泌尿外科'},
+    {id:'s-外科',   label:'⚕️ 外科'},
+    {id:'s-麻醉',   label:'💉 麻醉科'},
+    {id:'s-耳鼻喉', label:'👂 耳鼻喉科'},
+    {id:'s-家醫',   label:'🏠 家庭醫學科'},
+    {id:'s-乳房',   label:'🎀 乳房外科'},
+    {id:'s-整形',   label:'✂️ 整形外科'},
+    {id:'s-signs',  label:'📋 Symptoms & Signs'},
+    {id:'s-tests',  label:'🔬 Clinical Tests'},
+    {id:'s-mnemo',  label:'💡 口訣'},
+  ];
+
+  function fcExtractCards(sectionId) {
+    const sec = document.getElementById(sectionId);
+    if (!sec) return [];
+    const result = [];
+    sec.querySelectorAll('.topic').forEach(topic => {
+      const topicName = topic.querySelector('h3')?.textContent || '';
+      topic.querySelectorAll('ul.bl li').forEach(li => {
+        result.push({topic: topicName, html: li.innerHTML});
+      });
+      topic.querySelectorAll('.sign-card').forEach(sc => {
+        const sn = sc.querySelector('.sn')?.textContent || '';
+        const sa = sc.querySelector('.sa')?.textContent || '';
+        result.push({topic: topicName, html: `<strong>${sn}</strong><br><span style="color:var(--text2);font-size:.88rem">${sa}</span>`});
+      });
+      topic.querySelectorAll('.mcard').forEach(mc => {
+        const mq = mc.querySelector('.mq')?.innerHTML || '';
+        const ma = mc.querySelector('.ma')?.innerHTML || '';
+        result.push({topic: topicName, html: `<div style="font-size:.8rem;color:var(--text2);margin-bottom:6px">${mq}</div>${ma}`});
+      });
+    });
+    return result;
+  }
+
+  // Build drawer links
+  (function buildDrawer() {
+    const nav = document.getElementById('fc-drawer');
+    FC_SECTIONS.forEach(s => {
+      const cards = fcExtractCards(s.id);
+      const a = document.createElement('a');
+      a.innerHTML = `${s.label}<span class="sb-badge">${cards.length}</span>`;
+      a.onclick = () => fcStart(s.id, s.label);
+      nav.appendChild(a);
+    });
+  })();
+
+  function openFcDrawer() {
+    document.getElementById('fc-drw-bg').classList.add('open');
+    document.getElementById('fc-drawer').classList.add('open');
+  }
+  function closeFcDrawer() {
+    document.getElementById('fc-drw-bg').classList.remove('open');
+    document.getElementById('fc-drawer').classList.remove('open');
+  }
+
+  let _fcCards = [], _fcIdx = 0;
+
+  function fcStart(sectionId, label) {
+    closeFcDrawer();
+    _fcCards = fcExtractCards(sectionId);
+    _fcIdx = 0;
+    document.getElementById('fc-subj').textContent = label;
+    document.getElementById('fc-overlay').classList.add('open');
+    fcRender();
+  }
+  function closeFcOverlay() {
+    document.getElementById('fc-overlay').classList.remove('open');
+  }
+  function fcRender() {
+    if (!_fcCards.length) return;
+    const c = _fcCards[_fcIdx];
+    document.getElementById('fc-content').innerHTML = c.html;
+    document.getElementById('fc-topic-bar').textContent = c.topic;
+    document.getElementById('fc-prog').textContent = `${_fcIdx+1} / ${_fcCards.length}`;
+    document.getElementById('fc-pbar-fill').style.width = ((_fcIdx+1)/_fcCards.length*100).toFixed(1)+'%';
+    document.getElementById('fc-prev').disabled = _fcIdx === 0;
+    document.getElementById('fc-next').disabled = _fcIdx === _fcCards.length-1;
+  }
+  function fcMove(dir) {
+    _fcIdx = Math.max(0, Math.min(_fcCards.length-1, _fcIdx+dir));
+    fcRender();
+  }
+  window.openFcDrawer = openFcDrawer;
+  window.closeFcDrawer = closeFcDrawer;
+  window.fcStart = fcStart;
+  window.closeFcOverlay = closeFcOverlay;
+  window.fcMove = fcMove;
+
+  // Swipe gesture
+  (function() {
+    let sx = 0;
+    const el = document.getElementById('fc-overlay');
+    el.addEventListener('touchstart', e => { sx = e.changedTouches[0].screenX; }, {passive:true});
+    el.addEventListener('touchend', e => {
+      const dx = e.changedTouches[0].screenX - sx;
+      if (Math.abs(dx) > 50) fcMove(dx < 0 ? 1 : -1);
+    }, {passive:true});
+  })();
+
+  // Keyboard nav in flashcard mode
+  document.addEventListener('keydown', e => {
+    if (!document.getElementById('fc-overlay').classList.contains('open')) return;
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') fcMove(1);
+    if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp')   fcMove(-1);
+    if (e.key === 'Escape') closeFcOverlay();
   });
 
   // Lightbox
