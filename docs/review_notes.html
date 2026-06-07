@@ -76,6 +76,22 @@
     .mcard .mq{font-size:.82rem;color:var(--text2);margin-bottom:3px}
     .mcard .ma{font-size:.88rem;color:var(--text);font-weight:600}
 
+    /* Sign card with image thumbnail */
+    .sign-card.has-img{align-items:center;cursor:pointer}
+    .sign-thumb{width:54px;height:46px;object-fit:cover;border-radius:5px;margin-left:auto;flex-shrink:0;border:1px solid var(--border);transition:.15s}
+    .sign-card.has-img:hover .sign-thumb{transform:scale(1.1);border-color:var(--primary)}
+
+    /* Lightbox */
+    .lb-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:999;align-items:center;justify-content:center;padding:16px}
+    .lb-overlay.open{display:flex}
+    .lb-box{position:relative;max-width:500px;width:100%;background:var(--surface);border-radius:12px;padding:16px;box-shadow:0 8px 32px rgba(0,0,0,.6)}
+    .lb-close{position:absolute;top:10px;right:12px;background:none;border:none;color:var(--text2);font-size:1.3rem;cursor:pointer;line-height:1;padding:2px 6px;border-radius:4px}
+    .lb-close:hover{color:var(--text);background:var(--surface2)}
+    #lb-img{width:100%;border-radius:8px;display:block;max-height:70vh;object-fit:contain;background:#000}
+    #lb-caption{margin-top:10px;font-size:.9rem;font-weight:700;color:var(--primary)}
+    #lb-sub{font-size:.78rem;color:var(--text2);margin-top:3px}
+    .lb-src{font-size:.68rem;color:var(--text3);margin-top:6px}
+
     @media(max-width:700px){.sidebar{display:none}.main{padding:14px}}
   </style>
 </head>
@@ -834,9 +850,9 @@
 
 <div class="topic"><h3>耳鼻喉科相關</h3>
 <div class="sign-grid">
-  <div class="sign-card"><span class="sn">Thumb sign</span><span class="sa">→ Acute Epiglottitis</span></div>
+  <div class="sign-card has-img" onclick="openImg('https://upload.wikimedia.org/wikipedia/commons/5/5c/Epiglottitis.jpg','Thumb sign → Acute Epiglottitis','Lateral neck X-ray：epiglottis 腫大如拇指')"><span class="sn">Thumb sign</span><span class="sa">→ Acute Epiglottitis</span><img class="sign-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Epiglottitis.jpg/250px-Epiglottitis.jpg" alt="Thumb sign" loading="lazy"></div>
   <div class="sign-card"><span class="sn">Fiery cherry-red epiglottis</span><span class="sa">→ Acute Epiglottitis</span></div>
-  <div class="sign-card"><span class="sn">Steeple sign</span><span class="sa">→ Croup</span></div>
+  <div class="sign-card has-img" onclick="openImg('https://upload.wikimedia.org/wikipedia/commons/1/12/Croup_steeple_sign.jpg','Steeple sign → Croup','AP neck X-ray：subglottic 對稱性狹窄如教堂尖塔')"><span class="sn">Steeple sign</span><span class="sa">→ Croup</span><img class="sign-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Croup_steeple_sign.jpg/250px-Croup_steeple_sign.jpg" alt="Steeple sign" loading="lazy"></div>
   <div class="sign-card"><span class="sn">Double tongue sign</span><span class="sa">→ Ludwig's angina</span></div>
   <div class="sign-card"><span class="sn">Allergic shiner</span><span class="sa">→ Allergic rhinitis</span></div>
   <div class="sign-card"><span class="sn">Dennie-Morgan line</span><span class="sa">→ Allergic rhinitis</span></div>
@@ -856,7 +872,7 @@
 
 <div class="topic"><h3>神經外科相關</h3>
 <div class="sign-grid">
-  <div class="sign-card"><span class="sn">Raccoon eye</span><span class="sa">→ Anterior cranial fossa fracture</span></div>
+  <div class="sign-card has-img" onclick="openImg('https://upload.wikimedia.org/wikipedia/commons/e/e6/Bilateral_periorbital_ecchymosis_%28raccoon_eyes%29.jpg','Raccoon eye → Anterior cranial fossa fracture','雙側眼眶瘀血：前顱窩骨折血液滲入眼眶')"><span class="sn">Raccoon eye</span><span class="sa">→ Anterior cranial fossa fracture</span><img class="sign-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Bilateral_periorbital_ecchymosis_%28raccoon_eyes%29.jpg/250px-Bilateral_periorbital_ecchymosis_%28raccoon_eyes%29.jpg" alt="Raccoon eye" loading="lazy"></div>
   <div class="sign-card"><span class="sn">Battle's sign</span><span class="sa">→ Middle cranial fossa fracture</span></div>
   <div class="sign-card"><span class="sn">Kernig sign</span><span class="sa">→ Meningitis / SAH</span></div>
   <div class="sign-card"><span class="sn">Brudzinski sign</span><span class="sa">→ Meningitis / SAH</span></div>
@@ -877,20 +893,20 @@
   <div class="sign-card"><span class="sn">posterior sagging sign</span><span class="sa">→ PCL rupture</span></div>
   <div class="sign-card"><span class="sn">Trendelenburg sign</span><span class="sa">→ Hip abductor weakness</span></div>
   <div class="sign-card"><span class="sn">crescent sign</span><span class="sa">→ ONFH（femoral head AVN）</span></div>
-  <div class="sign-card"><span class="sn">light bulb sign</span><span class="sa">→ Posterior shoulder dislocation</span></div>
+  <div class="sign-card has-img" onclick="openImg('https://upload.wikimedia.org/wikipedia/commons/b/be/Lightbulb_sign_-_posterior_shoulder_dislocation_-_Roe_vor_und_nach_Reposition_001.jpg','Light bulb sign → Posterior shoulder dislocation','AP shoulder X-ray：肱骨頭因內轉呈燈泡形')"><span class="sn">light bulb sign</span><span class="sa">→ Posterior shoulder dislocation</span><img class="sign-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Lightbulb_sign_-_posterior_shoulder_dislocation_-_Roe_vor_und_nach_Reposition_001.jpg/250px-Lightbulb_sign_-_posterior_shoulder_dislocation_-_Roe_vor_und_nach_Reposition_001.jpg" alt="Light bulb sign" loading="lazy"></div>
   <div class="sign-card"><span class="sn">Silver-fork deformity</span><span class="sa">→ Colles' fracture</span></div>
   <div class="sign-card"><span class="sn">Popeye deformity</span><span class="sa">→ Long head of biceps tendon rupture</span></div>
   <div class="sign-card"><span class="sn">Tinel's sign</span><span class="sa">→ Carpal tunnel syndrome</span></div>
   <div class="sign-card"><span class="sn">Café au lait spot</span><span class="sa">→ McCune Albright Syndrome；Neurofibroma</span></div>
   <div class="sign-card"><span class="sn">Shepherd's crook deformity</span><span class="sa">→ Fibrous dysplasia</span></div>
   <div class="sign-card"><span class="sn">Sun-burst / hair on line</span><span class="sa">→ Osteosarcoma（OGS）</span></div>
-  <div class="sign-card"><span class="sn">Codman's triangle</span><span class="sa">→ Osteosarcoma（OGS）</span></div>
-  <div class="sign-card"><span class="sn">Onion peel appearance</span><span class="sa">→ Ewing's sarcoma</span></div>
+  <div class="sign-card has-img" onclick="openImg('https://upload.wikimedia.org/wikipedia/commons/5/50/Codman_triangle_2014-01-29_21-07.jpeg','Codman\'s triangle → Osteosarcoma','X-ray：腫瘤掀起骨膜形成三角形鈣化影')"><span class="sn">Codman's triangle</span><span class="sa">→ Osteosarcoma（OGS）</span><img class="sign-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Codman_triangle_2014-01-29_21-07.jpeg/250px-Codman_triangle_2014-01-29_21-07.jpeg" alt="Codman triangle" loading="lazy"></div>
+  <div class="sign-card has-img" onclick="openImg('https://upload.wikimedia.org/wikipedia/commons/3/3e/Ewing_sarcoma_tibia_child.jpg','Onion peel appearance → Ewing\'s sarcoma','X-ray：骨膜多層反應如洋蔥皮（tibia）')"><span class="sn">Onion peel appearance</span><span class="sa">→ Ewing's sarcoma</span><img class="sign-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ewing_sarcoma_tibia_child.jpg/250px-Ewing_sarcoma_tibia_child.jpg" alt="Onion peel Ewing sarcoma" loading="lazy"></div>
   <div class="sign-card"><span class="sn">Fallen leaf sign</span><span class="sa">→ Unicameral Bone Cyst（simple bone cyst）</span></div>
   <div class="sign-card"><span class="sn">fluid-fluid level</span><span class="sa">→ ABC（Aneurysmal Bone Cyst）</span></div>
   <div class="sign-card"><span class="sn">Fixed pronation deformity</span><span class="sa">→ Congenital Radioulnar Synostosis</span></div>
   <div class="sign-card"><span class="sn">Equinus deformity</span><span class="sa">→ Cerebral palsy（CP）</span></div>
-  <div class="sign-card"><span class="sn">Bamboo spine</span><span class="sa">→ Ankylosing Spondylitis（AS）</span></div>
+  <div class="sign-card has-img" onclick="openImg('https://upload.wikimedia.org/wikipedia/commons/b/b0/Bamboo_spine_ankylosing_spondylitis.jpg','Bamboo spine → Ankylosing Spondylitis（AS）','脊椎 X-ray：椎體間韌帶骨化如竹節')"><span class="sn">Bamboo spine</span><span class="sa">→ Ankylosing Spondylitis（AS）</span><img class="sign-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Bamboo_spine_ankylosing_spondylitis.jpg/250px-Bamboo_spine_ankylosing_spondylitis.jpg" alt="Bamboo spine" loading="lazy"></div>
   <div class="sign-card"><span class="sn">Pencil-in-cup deformity</span><span class="sa">→ Psoriatic arthritis（PA）</span></div>
 </div></div>
 
@@ -953,6 +969,16 @@
 </main>
 </div>
 
+<!-- Lightbox -->
+<div id="lb" class="lb-overlay" onclick="closeLb()">
+  <div class="lb-box" onclick="event.stopPropagation()">
+    <button class="lb-close" onclick="closeLb()">✕</button>
+    <img id="lb-img" src="" alt="" loading="lazy">
+    <p id="lb-caption"></p>
+    <p id="lb-sub"></p>
+    <p class="lb-src">圖片來源：Wikimedia Commons（CC 授權）</p>
+  </div>
+</div>
 <script>
   const tbtn = document.getElementById('tbtn');
   const saved = localStorage.getItem('review-theme');
@@ -963,6 +989,21 @@
     tbtn.textContent = isLight ? '☀️' : '🌙';
     localStorage.setItem('review-theme', isLight ? 'light' : 'dark');
   });
+
+  // Lightbox
+  function openImg(full, caption, sub) {
+    document.getElementById('lb-img').src = full;
+    document.getElementById('lb-caption').textContent = caption;
+    document.getElementById('lb-sub').textContent = sub || '';
+    document.getElementById('lb').classList.add('open');
+    document.addEventListener('keydown', lbKey);
+  }
+  function closeLb() {
+    document.getElementById('lb').classList.remove('open');
+    document.removeEventListener('keydown', lbKey);
+  }
+  function lbKey(e) { if (e.key === 'Escape') closeLb(); }
+  window.openImg = openImg; window.closeLb = closeLb;
 
   // Sidebar active highlight on scroll
   const secs = document.querySelectorAll('.sec');
