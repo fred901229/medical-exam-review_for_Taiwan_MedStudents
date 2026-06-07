@@ -4438,6 +4438,293 @@
         "reference": "First Choice 2025 醫學五 乳房外科 p. 283"
     },
     {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "傷口重建中的重建階梯(Reconstructive ladder)，思考順序依序為何?",
+        "answer": "自行癒合(healed by secondary intention) --> 直接縫合(primary/delayed closure) --> 皮膚移植 (skin graft) --> 皮瓣手術 (local --> distant --> free flap)",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 290"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "傷口癒合的順序，依序為何?",
+        "answer": "止血期(coagulation and hemostasis phase) --> 發炎期 (Inflammatory phase) --> 增生期 (proliferative phase [granulation phase --> wound contraction --> epithelization phase]) --> 重塑期 (remodeling and maturation phase)",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 291-292"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "主要負責傷口縮合(wound contraction)的細胞是哪一種?",
+        "answer": "肌纖維母細胞(myofibroblasts)",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 292"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "傷口癒合出現的細胞順序，依序為何?",
+        "answer": "血小板(platelets) --> 嗜中性球(Neutrophils) --> 單核球(Monocytes) --> 巨噬細胞(Macrophages) --> 纖維母細胞(Fibroblasts) --> 淋巴球(Lymphocytes)",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 291-292"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "在傷口癒合的肉芽組織生長期(Granulation phase)，纖維母細胞主要分泌哪一種膠原蛋白?",
+        "answer": "Type III collagen",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 292"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "在傷口癒合的重塑成熟期(remodeling and maturation phase)，Type III collagen會被逐漸替代成哪一種膠原蛋白",
+        "answer": "Type I collagen",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 292"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "影響傷口癒合的內在/局部和外在/全身因素，包含哪些?",
+        "answer": "內在/局部：氧合、灌流、感染、異物、血腫、放療、術中適當止血、減少不必要電燒、ligation、封閉性引流；外在/全身：年紀、營養不良(肥胖、vitamin A、Vitamin C、Zn、Fe、Cu)、抽菸、類固醇、抗癌藥物、糖尿病、尿毒症",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 292"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "全身上下的拆線時機(timing of suture removal)，原則為何?",
+        "answer": "臉皮頭皮：1周；頸部：8-10天；其他部位：2周",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 293, 295"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "正常capillary filling pressure約為多少?接受多少壓力與超過多少時間，易形成壓瘡?",
+        "answer": "16-32 mmHg；接受60mmHg超過1小時，容易形成壓瘡",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 294"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "關於壓瘡(Pressure sore)的分期，stage I, II, III, IV分別為何?",
+        "answer": "Stage I: intact skin；Stage II: partial loss of dermis (open ulcer)；Stage III: full loss (visible subcutaneous fat)；Stage IV: full loss (exposed bone, tendon, muscle)",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 298"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "關於壓瘡(Pressure sore)的治療，原則為何?",
+        "answer": "Stage I, II: 保守治療(減壓、敷料、換藥)；III: 植皮；IV: 局部肌皮瓣修補(臀大肌皮瓣)",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 316"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "Skin graft中，STSG和FTSG的比較?",
+        "answer": "STSG：上皮+部分真皮、容易take成功、容易色素沉積、secondary contraction多；FTSG：上皮+全層真皮、容易take失敗、美觀、primary contraction多、感覺恢復快、可直接縫合",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 304"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "Skin graft中，graft healing的步驟分別為何?",
+        "answer": "Adherence --> Take (Plasmatic circulation --> Inosculation --> Revascularization)",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 302-303"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "最容易skin graft failure的是哪一個階段?",
+        "answer": "Inosculation",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 303"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "Skin graft常見的失敗原因有哪些?",
+        "answer": "infection, hematoma, seroma, movement",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 304-305"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "Random flap的血液供應是由何者提供?",
+        "answer": "dermal and subdermal plexus",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 308"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "Axial/Pedicle flap主要可以依照型態分為哪些種類?",
+        "answer": "半島型(Peninsular，血管組織皆有相連)、島嶼型(Island，只有血管相連)、游離型(Free，血管組織皆分離)",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 308-309"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "Mathes & Nahia classification，依照血管供應方式，將muscle flap分為哪些類型?",
+        "answer": "Type I: 單一血管供應 (tensor fascia lata, soleus)；Type II: 一條主血管+數條小血管個別供應(Gracilis, gastrocnemius)；Type III: 兩條主要血管供應(Gluteus maximus, pectoralis major, rectus abdominis)；Type IV: 數條相同大小血管供應(Sartorius)；Type V: 一條主要血管供應全部+數條小血管分段供應(Lattisimus dorsi)",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 309"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "Z-plasty的角度以及對應增加疤痕長度為何?",
+        "answer": "30度：25%；45度：50%；60度：75%；75度：100%；90度：120%",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 311"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "如何評估皮瓣存活的狀況?",
+        "answer": "Color, Capillary blanching, Warmth, Stab wound bleeding",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 311"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "該如何分類皮瓣是動脈受阻還是靜脈回流受阻?",
+        "answer": "溫度下降：快(a.)、慢(v.)；組織彈性改變：變虛(a.)、變硬(v.)；顏色：蒼白(a.)、瘀青(v.)",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 312"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "身體各個組織的warm/cold ischemia time分別為多久?",
+        "answer": "Bone, tendon, skin, 一般斷指: Warm 8-12 hrs, Cold: 24 hrs；Muscle: Warm: 2-6 hrs, Cold: 8-12 hrs；體積大的斷肢: Warm: 4-6 hrs, Cold: 10-12 hrs",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 312"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "乳房重建，最常使用的重建方式是?",
+        "answer": "義乳乳房重建(Implant-based reconstruction)",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 314"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "顯微血管吻合手術，end-to-end和end-to-side的差異為何?",
+        "answer": "end-to-end：用於大小相近的血管、直接血流通路、小血管吻合最常使用；end-to-side：用於大小不同的血管。兩者血流暢通機率無差異",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 317, 356"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "關於乳房重建(breast construction)，可使用的皮瓣之間差異為何?",
+        "answer": "pedicled TRAM (transverse rectus abdominis myocutaneous) flap：血液供應差、壞死機率高、腹部凸出及疝氣機率高；free muscle sapring TRAM flap：腹部凸出及疝氣機率低；free DIEP (deep inferior epigastric artery perforator) flap：幾乎無腹部後遺症；lattisimus dorsi myocutaneous flap：常需再放置人工義乳",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 326"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "唇裂(Cleft lip)的手術原則為何?",
+        "answer": "Rule of 10：age > 10 weeks(出生後三個月大)、body weight > 10 pound、Hgb > 10、WBC < 10000",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 330"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "最常見的先天顏面異常為何?",
+        "answer": "唇顎裂",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 332"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "唇顎裂的治療流程大致為何?",
+        "answer": "3個月大：唇裂修補；9個月到1歲半：顎裂修補 + 中耳引流手術；5歲：咽瓣手術 + 語言治療；6歲到11歲：鼻頭矯正、牙床裂修補、植骨手術；成年：正顎手術",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 332"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "最常見的手指先天畸形是哪一個疾病?",
+        "answer": "併指(Syndactyly)",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 336"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "併指(Syndactyly)最常發生的位置是在哪兩根手指頭之間?",
+        "answer": "三四指之間 --> 二三指之間",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 336"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "多指(Polydactyly)，最常發生在那些手指頭?",
+        "answer": "小指側(postaxial) --> 大拇指側(preaxial)",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 337"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "最常見的隆乳手術(Breast augmentation)後遺症是什麼?",
+        "answer": "夾膜攣縮(Capsular contracture)",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 340"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "眼瞼下垂(Ptosis)，依照兩側眼瞼水平高度差異，如何區分嚴重程度?",
+        "answer": "Mild: < 2mm；moderate: 2-3mm；severe: >= 4mm",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 343"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "眼瞼下垂(Ptosis)的手術治療選擇?",
+        "answer": "Putterman procedure (Muller's msucle resection): mild ptosis；Levator resection: moderate or severe ptosis + levator function >= 5mm；Frontalis fascial sling: severe ptosis + levator function < 5mm；Levator plication: mild impairment of levator muscle",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 343"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "燒燙傷的分級該如何評估?",
+        "answer": "一度：表皮、觸痛、3-5天癒合；淺二度：真皮乳突層、壓迫後變色、14天內癒合；深二度：真皮深層、受刺激疼痛、21天以上癒合(盡快植皮)；三度：全層、焦黑如皮革、疼痛消失；四度：皮瓣移植、截肢機率大",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 344"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "牙齒咬合分類方式當中的Angle classification，分為哪些類型?",
+        "answer": "Class I: 正常咬合；Class II: 暴牙(retrognathia)；Class III: 戽斗(prognathia)；Class IV: 更為異常的咬合",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 344-345"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "醫美手術中，常使用的雷射種類、標的物與適應症分別為何?",
+        "answer": "除皺磨皮：水 (CO2, Er:YAG)；紅臉/血管瘤：血紅素(PDL; Pulse dye laser)；打斑除毛：黑色素(Nd:YAG、Ruby、Alexandrite)",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 342, 347, Gemini"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "進行高壓氧治療前，最主要的先決條件?",
+        "answer": "確認血液循環暢通",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 348"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "Keloid較常發生在哪些部位?",
+        "answer": "皮膚張力大的位置：前胸、肩膀、上背、關節活動處",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 349"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "斷指重接(replantation)的禁忌症包含哪些?",
+        "answer": "Multi-level amputation、severe crusing, life-threatening injuries, prolonged warm ischemia time, mentally unstable, proximal to flexore digitorum superficialis",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 356"
+    },
+    {
+        "subject": "整形外科",
+        "type": "國考",
+        "question": "Sunderland將神經損傷(Nerve injury)分為哪幾類?分別為何?",
+        "answer": "Grade I: Neurapraxia (local conduciton block)；Grade II: Axonotmesis (loss continuity)；Grade III: neurotmesis (loss continuity + endoneurium)；Grade IV: neurotmesis (loss continuity + endoneurium + perineurium)；Grade V: neurotmesis (loss continuity + endoneurium + perineurium + epineurium)；Grade VI: neuroma-in-continuity",
+        "reference": "First Choice 2025 醫學五 整形外科 p. 354, 356-357"
+    },
+    {
         "subject": "Symptoms & Signs",
         "type": "Symptoms & Signs",
         "question": "Thumb sign",
