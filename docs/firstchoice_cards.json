@@ -4767,18 +4767,172 @@
         "reference": "First Choice 2025 醫學四 皮膚科 p. 25"
     },
     {
-        "subject": "",
+        "subject": "皮膚科",
         "type": "國考",
         "question": "診斷疥瘡(Scabies)，會使用何種檢查?",
         "answer": "KOH",
         "reference": "First Choice 2025 醫學四 皮膚科 p. 42"
     },
     {
-        "subject": "",
+        "subject": "皮膚科",
         "type": "國考",
         "question": "針對Scabies的藥物，個別的特點與缺點為何?",
         "answer": "Permethrin 5%: 第一線用藥、不經皮吸收、副作用低；Lindane：神經毒性；Benzyl Benzoate：具刺激性；Crotamiton：殺菌、止癢；Ivermectin：孕婦禁用、副作用多(頭痛、噁心、腹瀉、癢)、和Permethrin 5%並用治療挪威型疥瘡",
         "reference": "First Choice 2025 醫學四 皮膚科 p. 43"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "人類最常見的黴菌感染，是哪一種疾病?",
+        "answer": "足癬 (Tinea pedis/Athelete's foot)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 47"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "最常見的指甲病變是哪一種疾病?",
+        "answer": "甲癬 (Tinea unguium/onychomycosis)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 47"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "Id reaction指的是甚麼反應?",
+        "answer": "接觸黴菌、細菌、過敏原所引起的過敏反應，會在病灶處較遠的地方出現濕疹化病變，針對濕疹病灶檢查，不會發現異常",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 48"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "皮癬菌症(Dermatophytosis)以10% KOH檢查，會發現什麼?",
+        "answer": "有分岔之菌絲(Hyphae)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 48"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "如何以Wood's lamp區分頭癬患者的致病菌?",
+        "answer": "綠色螢光：M. audouinii或M. canis；陰性螢光反應：T. tonsurans",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 49"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "抗黴菌藥物當中，只對皮癬菌有效的是哪一種藥物?",
+        "answer": "Griseofluvin (灰黃黴素)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 49"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "念珠菌感染(Candidiasis)以10% KOH檢查，會發現什麼?",
+        "answer": "芽孢(Yeast form) + 假性菌絲(Pseudohyphae)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 50"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "變色糠疹/汗斑(Pityriasis versicolor)，是由甚麼病原菌感染導致的?",
+        "answer": "皮屑芽孢菌(Pityrosporum ovale; Malassezia furfur)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 51"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "變色糠疹/汗斑(Pityriasis versicolor)以10% KOH檢查，會發現什麼?",
+        "answer": "Spaghetti and meatballs (芽孢和絲狀假性菌絲混合在一起)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 51"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "變色糠疹/汗斑(Pityriasis versicolor)以Wood's lamp檢查，會發現什麼?",
+        "answer": "淡黃色螢光(Coppery-orange)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 51"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "痤瘡桿菌(Cutibacterium acnes)以Wood's lamp檢查，會發現什麼?",
+        "answer": "橙色螢光",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 52"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "黑色真菌症(chromomycosis)，在病理切片下，會有甚麼特殊發現?",
+        "answer": "錢幣狀菌體(copper pennies)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 53"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "治療甲癬的首選藥物是哪一種藥物?",
+        "answer": "Terbinafine(療黴舒)、Itraconazole(試譜諾)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 53"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "哪一種黴菌感染症，最常見於免疫不全病患",
+        "answer": "Candidiasis",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 56"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "丹毒(Erysipelas)最常見的病原體為何?",
+        "answer": "GAS (Group A Streptococcus)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 59"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "口服isotretinoin的絕對禁忌症是甚麼?",
+        "answer": "懷孕",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 60"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "天皰瘡(Pemphigus)的致病機轉為何?",
+        "answer": "IG攻擊Desmosome內的Desmoglein (表皮: Desmoglein 1; 黏膜: Desmoglein 3)，導致acantholysis，因而產生水泡",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 66"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "天皰瘡中最常見、最嚴重的是哪一種類型?",
+        "answer": "尋常性天皰瘡(PV, pemphigus vulgaris)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 67"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "尋常性天皰瘡(PV, pemphigus vulgaris)的特點有哪些?",
+        "answer": "Nikolsky sign +、suprabasal blister (intraepidermal cleft)、DIF呈現intercellular deposition (網狀IC pattern)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 67"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "落葉型天皰瘡(PF, pemphigus foliaceus)的特點有哪些?",
+        "answer": "Nikolsky sign +、不會有黏膜病灶(因為只攻擊desmoglein 1)、裂解位置最表淺、易破水泡、suprabasal blister (subcorneal cleft)、DIF呈現intercellular deposition (網狀IC pattern)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 67-68"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "類天皰瘡(BP, bullous pemphigoid)的致病機轉為何?",
+        "answer": "IG攻擊hemidesmosome內的BPAg1/2，導致表皮與真皮分離、形成水泡",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 69"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "類天皰瘡(BP, bullous pemphigoid)的特點有哪些?",
+        "answer": "常見於老年人、腦中風或中樞神經病變患者、tense bullae、Nikolsky sign -、Subepidermal blister (subepidermal cleft)、DIF呈現IgG、C3 linear deposition",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 69-70"
     },
     {
         "subject": "Symptoms & Signs",
@@ -5092,22 +5246,22 @@
         "subject": "Symptoms & Signs",
         "type": "Symptoms & Signs",
         "question": "Nikolsky sign",
-        "answer": "SSSS (Staphylococcal scalded skin syndrome)",
-        "reference": "First Choice 2025 醫學四 皮膚科 p. 10"
+        "answer": "SSSS (Staphylococcal scalded skin syndrome), PV (Pemphigus Vulgaris), PF (Pemphigus Foliaceus), SJS, TEN",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 10, 67, 77"
     },
     {
         "subject": "Symptoms & Signs",
         "type": "Symptoms & Signs",
         "question": "white strawberry tongue",
-        "answer": "Scarlet fever",
-        "reference": "First Choice 2025 醫學四 皮膚科 p. 11"
+        "answer": "Scarlet fever, Kawasaki disease",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 11, 80"
     },
     {
         "subject": "Symptoms & Signs",
         "type": "Symptoms & Signs",
         "question": "red strawberry tongue",
-        "answer": "Scarlet fever",
-        "reference": "First Choice 2025 醫學四 皮膚科 p. 12"
+        "answer": "Scarlet fever, Kawasaki disease",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 12, 80"
     },
     {
         "subject": "Symptoms & Signs",
@@ -5206,6 +5360,55 @@
         "question": "serpiginous rash",
         "answer": "Cutaneous Larva Migrans (CLM)",
         "reference": "First Choice 2025 醫學四 皮膚科 p. 44"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "one hand and two feet",
+        "answer": "Tinea mannum",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 48"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Satellite papulopustules",
+        "answer": "Cutaneous Candidiasis",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 50"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Heliotrope sign",
+        "answer": "dermatomyositis",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 81"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Gottron sign",
+        "answer": "dermatomyositis",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 82"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Shawl sign (V-sign)",
+        "answer": "dermatomyositis",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 83"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Malar rash (Butterfly rash)",
+        "answer": "Lupus Erythematosus",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 84"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Discoid rash",
+        "answer": "Lupus Erythematosus",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 85"
     },
     {
         "subject": "Test",
@@ -5339,6 +5542,13 @@
         "question": "Galeazzi test",
         "answer": "DDH (Developmental dysplasia of hip)",
         "reference": "First Choice 2025 醫學五 骨科 p. 150"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Pathergy test",
+        "answer": "Behcet's disease",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 88"
     },
     {
         "subject": "口訣",
