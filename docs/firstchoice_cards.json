@@ -4935,6 +4935,167 @@
         "reference": "First Choice 2025 醫學四 皮膚科 p. 69-70"
     },
     {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "皮肌炎(Dermatomyositis)的臨床表現有哪些?",
+        "answer": "Heliotrope sign、Gottron sign、Shawl sign、四肢近端肌肉對稱性無力、CK上升、肌電圖、肌肉切片異常",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 81-84"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "紅斑性狼瘡(Lupus erythematosus)，在急性、亞急性、慢性分別會出現甚麼皮膚病灶?",
+        "answer": "Acute: Malar rash (Butterfly rash)；Subacute: Psoriasiform papulosqaumous or annular rash；Chronic: Discoid rash",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 84-85"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "紅斑性狼瘡(Lupus erythematosus)的最佳篩檢工具是哪一個?",
+        "answer": "ANA",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 85"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "與紅斑性狼瘡(Lupus erythematosus)疾病活動度相關的實驗室檢查有哪些?",
+        "answer": "anti-dsDNA, C3, C4",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 85"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "硬皮症(Scleroderma)可以分為哪些類型?",
+        "answer": "全身硬皮症(systemic scleroderma)：lSSc (limited systemic scleroderma)、dSSc(diffuse systemic scleroderma)；局部硬皮症(localized scleroderma-morphea)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 86-87"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "lSSc (limited systemic scleroderma)、dSSc(diffuse systemic scleroderma)兩者之間的差別為何?",
+        "answer": "lSSc (limited systemic scleroderma)：較少侵犯內臟器官、和CREST syndrome有關、anti-centromeric Ab；dSSc(diffuse systemic scleroderma)：進程迅速、侵犯一到多個內臟、anti-Scl-70 (anti-topoisomerase I)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 87"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "硬皮症(Scleroderma)的臨床特徵包含哪些?",
+        "answer": "Raynaud phenomenon(最早的表現)、手會紅腫、失去自然皺褶、看起來發亮、緊繃感",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 87"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "Behcet's disease的臨床特徵包含哪些?",
+        "answer": "Triad：反覆口腔潰瘍、反覆生殖器潰瘍、眼睛葡萄膜炎(前葡萄膜炎/全葡萄膜炎)、erythema nodosum、HLA-51、Silk road disease、Pathergy test (+)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 88"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "HSP (Henoch-Schonlein purpura)的臨床特徵包含哪些?",
+        "answer": "好發2-8歲男童、發病2-3周前有上呼吸道感染、Triad：下肢/臀部皮膚紫斑、腹痛、暫時性關節炎、血管旁IgA沉澱",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 89-90"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "過敏性血管炎(Hypersensitivity vasculitis)的臨床特徵包含哪些?",
+        "answer": "Type III hypersensitivity、雙下肢palpable purpura、Diascopy無法將purpura壓退",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 89"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "蕁麻疹(Urticaria)的臨床特徵有甚麼?",
+        "answer": "Wheal、常合併angioedema、IgE-mediated (Type I hypersensitivity, mast cell, histamine)、皮膚劃紋症(Dermographism)、第一線治療：anti-histamine",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 102-104"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "急性/慢性蕁麻疹(Urticaria)區分的時間點為何?",
+        "answer": "6週",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 102"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "接觸性皮膚炎(Contact dermatitis)分為哪兩類?",
+        "answer": "刺激性接觸性皮膚炎(ICD, irritant contact dermatitis)、過敏性接觸性皮膚炎(ACD, Allergic contact dermatitis)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 104"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "刺激性接觸性皮膚炎(ICD, irritant contact dermatitis)、過敏性接觸性皮膚炎(ACD, Allergic contact dermatitis)兩者之間的差異?",
+        "answer": "ICD：較常見、侷限暴露位置、界線分明、與接觸的物質濃度、滲透性、皮膚角質層厚度有關、達到閾值即會引發；ACD：Type IV hypersensitivity、擴散到全身、較嚴重、Patch test (+)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 104-105"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "異位性皮膚炎(AD, atopic dermatitis)的臨床特徵有哪些?",
+        "answer": "家族史/異位性體質(allergic rhinitits, asthma)、急性/慢性分別與Th2/Th1免疫反應有關(但IgE並非診斷依據)，容易因為反覆搔抓導致苔癬化、掌紋變多，嬰兒好發於臉部、頸部、四肢伸側；幼童好發四肢屈側",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 106"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "脂漏性皮膚炎(Seborrheic dermatitis)的臨床特徵有哪些?",
+        "answer": "好發於皮脂腺分泌旺盛部位(Seborrheic area，頭皮、鼻翼兩側、眉毛、眉間、耳後、耳內、前胸)、男生、皮屑芽孢菌(Malassezia furfur)過度增生(使用抗黴菌藥可以改善)、HIV感染、Parkinsonsim",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 106-107"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "扁平苔癬(Lichen planus)的臨床特徵有哪些?",
+        "answer": "5P: Planus (flat-topped), Pruritic, Polygonal, Purple, Papule、Wickham striae、Koebner phenomenon",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 108-109"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "固定性藥物疹(Fixed drug eruption)的臨床特徵是?",
+        "answer": "每次服用相同藥物後，在相同部位出現藥物疹，好發於生殖器部位、肛門周圍",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 134"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "常導致SJS(Steven Johnson Syndrome)/TEN(Toxic Epidermal Necrolysis)的藥物有哪些?",
+        "answer": "Carbamazepine (HLA-B1502)、Allopurinol (HLA-B5801)、Abacavir (HLA-B5701)、Phenytoin、Sulfa類抗生素、消炎止痛藥物",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 134, 136"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "SJS(Steven Johnson Syndrome)/TEN(Toxic Epidermal Necrolysis)該如何區分?",
+        "answer": "病灶面積占BSA 的比例 (SJS: < 10%; SJS-TEN overlap: 10-30%; TEN: >30%)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 134"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "SJS(Steven Johnson Syndrome)/TEN(Toxic Epidermal Necrolysis)的臨床特徵有哪些?",
+        "answer": "藥物導致、和HLA-B基因型有關、活化CD8+ T cell攻擊表皮細胞、Nikolsky sign (+)、Target-like lesions、異常疼痛",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 134-135"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "乾癬(Psoriasis)的臨床特徵有哪些?",
+        "answer": "好發於23歲或55歲、白種人、與HLA-Cw6有關、Beta-blocker會導致乾癬發生或惡化、好發頭皮、腹股溝、手肘、膝蓋、Th1/Th17免疫反應、Scales、Auspitz sign(+)、Koebner phenomenon、10-30%合併關節疾病(Psoriatic arthritis)、90%合併指甲病灶(Nail pitting, oil-drop sign)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 142-143"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "乾癬(Psoriasis)的治療包含哪些選擇?",
+        "answer": "外用Vitamin D、局部類固醇、紫外光、MTX (Methotrexate)、cyclosporine、口服A酸、生物製劑(anti-TNF, TNFR, IL-12, IL-23, CD2)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 144-145"
+    },
+    {
         "subject": "Symptoms & Signs",
         "type": "Symptoms & Signs",
         "question": "Thumb sign",
@@ -5246,8 +5407,8 @@
         "subject": "Symptoms & Signs",
         "type": "Symptoms & Signs",
         "question": "Nikolsky sign",
-        "answer": "SSSS (Staphylococcal scalded skin syndrome), PV (Pemphigus Vulgaris), PF (Pemphigus Foliaceus), SJS, TEN",
-        "reference": "First Choice 2025 醫學四 皮膚科 p. 10, 67, 77"
+        "answer": "SSSS (Staphylococcal scalded skin syndrome), PV (Pemphigus Vulgaris), PF (Pemphigus Foliaceus), SJS (Steven-Johnson syndrome, TEN (Toxic epidermal necrolysis)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 10, 67, 77, 134"
     },
     {
         "subject": "Symptoms & Signs",
@@ -5411,6 +5572,104 @@
         "reference": "First Choice 2025 醫學四 皮膚科 p. 85"
     },
     {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Raynaud phenomenon",
+        "answer": "Scleroderma",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 87"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Darier's sign",
+        "answer": "Cutaneous mastocytosis (urticaria pigmentosa)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 99, 112"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Wheal",
+        "answer": "Urticaria",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 102"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Dermographism",
+        "answer": "Urticaria",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 103"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Periorbital pigmentation",
+        "answer": "AD (Atopic dermatitis)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 106"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Dennie-Morgan line",
+        "answer": "AD (Atopic dermatitis)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 106"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Wickham striae",
+        "answer": "Lichen planus",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 108"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Koebner phenomenon",
+        "answer": "Lichen planus, Psoriasis, Vitiligo, Halo naevus",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 109, 142, 149, 157"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Auspitz sign",
+        "answer": "Psoriasis",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 112, 143"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Target-like lesion",
+        "answer": "SJS (Steven-Johnson Syndrome), TEN (Toxic Epidermal Necrolysis)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 134"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Nail pitting",
+        "answer": "Psoriasis",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 143"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "oil drop sign",
+        "answer": "Psoriasis",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 143"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Scales",
+        "answer": "Psoriasis",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 143"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "iris translucency",
+        "answer": "Albinism",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 157"
+    },
+    {
         "subject": "Test",
         "type": "Test",
         "question": "Thompson's test",
@@ -5551,6 +5810,20 @@
         "reference": "First Choice 2025 醫學四 皮膚科 p. 88"
     },
     {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Diascopy",
+        "answer": "Hypersensitivity vasculitis",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 89"
+    },
+    {
+        "subject": "Test",
+        "type": "Test",
+        "question": "Patch test",
+        "answer": "ACD (allergic contact dermatitis)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 105"
+    },
+    {
         "subject": "口訣",
         "type": "口訣",
         "question": "高血鉀治療方式?",
@@ -5591,5 +5864,12 @@
         "question": "旋轉肌袖(Rotator cuff)，包含哪四條肌肉?",
         "answer": "SItS: Supraspinatus, Infraspinatus, teres minor, Subscapularis",
         "reference": "First Choice 2025 醫學五 骨科 p. 76"
+    },
+    {
+        "subject": "口訣",
+        "type": "口訣",
+        "question": "扁平苔癬(Lichen planus)臨床症狀包含哪些?",
+        "answer": "5P: Planus (flat-topped), Pruritic, Polygonal, Purple, Papule",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 108"
     }
 ]
