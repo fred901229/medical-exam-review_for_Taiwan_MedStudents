@@ -5096,6 +5096,251 @@
         "reference": "First Choice 2025 醫學四 皮膚科 p. 144-145"
     },
     {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "Hypermelanosis和Hypomelanosis的相關疾病分別有哪些?",
+        "answer": "Hypermelanosis: Addison disease (MSH增加 --> 黑色素增加), Solar lentigo(黑色素細胞增加、黑色素增加), Freckle, Melasma(黑色素細胞不變、黑色素增加)；Hypomelanosis: Albinism(黑色素細胞不變、黑色素減少), Vitiligo (黑色素細胞減少消失、黑色素減少)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 154"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "太田氏母斑(Nevus of Ota)的臨床特徵有哪些?",
+        "answer": "亞州女童常見、逐漸擴大至成年穩定、藍灰色、好發三叉神經第一第二分支、90%單側",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 155"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "伊藤氏母斑(Nevus of Ito)的臨床特徵有哪些?",
+        "answer": "罕見、亞州女童常見、好發於肩膀、側胸部",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 155"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "蒙古斑(Mongolian spot)的臨床特徵有哪些?",
+        "answer": "好發於腰薦部、出生後出現、隨年紀增長而消失",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 155"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "Hori's nevus的臨床特徵有哪些?",
+        "answer": "發生在成年後、雙側臉頰出現bluish-gary macule、不會長在黏膜處(結膜鞏膜)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 155"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "肝斑(Melasma/Chloasma)的臨床特徵有哪些?",
+        "answer": "深棕色、對稱出現、好發於顴骨上、額頭、臉頰、上眼皮、上唇、90%女性、和肝功能異常或肝臟疾病無關、與陽光曝曬、女性荷爾蒙、藥物有關",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 156"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "白斑(Vitiligo)的臨床特徵有哪些?",
+        "answer": "黑色素細胞受破壞消失、黑色素分泌停止、常見於10-30歲、Koebner phenomenon、界線分明、形狀不規則、不脫屑的雪白斑塊、Wood's lamp會使對比更明顯",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 157-159"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "Follicular pattern repigmentation是指甚麼?",
+        "answer": "接受照光治療後，毛囊outer root sheath的黑色素母細胞活化，移行到表皮，以各個毛孔為中心開始恢復皮膚原先的色素、往外擴散",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 159"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "新生兒最常見的腫瘤是甚麼?",
+        "answer": "血管瘤(Memangioma)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 170"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "最常見的良性上皮細胞瘤是甚麼?",
+        "answer": "脂漏性角化症(Seborrheic keratosis)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 172"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "脂漏性角化症(Seborrheic keratosis)的臨床特徵有哪些?",
+        "answer": "老人斑(隨年紀增加數量)、不會癌化、表面有油光、像蠟滴在皮膚上、常見於光曝部位、Leser-Trelat sign常與癌症有關",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 172"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "光化性角化症(Actinic keratosis/Solar keratosis)的臨床特徵有哪些?",
+        "answer": "鱗狀細胞癌的前期病變、常見於光曝部位、會有atypical keratinocytes增生(但沒有影響整層表皮)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 172-173"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "外觀為單一圓頂突起結節(Nodule)、充滿角質鱗屑的中央凹陷(火山口Crater)，是什麼惡性腫瘤的特徵?",
+        "answer": "角化棘皮瘤(Keratoacanthoma)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 176"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "黑色素細胞瘤(Melanoma)的ABCDE rule包含哪些?",
+        "answer": "Asymmetry, Border irregular, Color variation, Diameter > 6mm, Enlargement, Elevation",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 177"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "黑色素細胞瘤(Melanoma)的四種亞型分別為何?各自的臨床特徵有哪些?",
+        "answer": "Superficial spreading melanoma：最常見、好發女性下肢/男性上背；Nodular melanoma：第二常見、生長快速、像藍莓；Acral lentiginous melanoma：東方人(台灣)最常見、好發手掌、腳掌、指甲床(Hutchinson sign(+))、常見於老人、預後差；Lentigo maligna melanoma：最少見、好發於日曬部位、生長緩慢",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 178"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "在指甲出現Hutchinson sign代表甚麼疾病?",
+        "answer": "肢端惡性黑色素瘤(Acral lentiginous melanoma)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 178"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "黑色素細胞瘤(Melanoma)的相關預後因子包含哪些?",
+        "answer": "Tumor thickness (最重要)、Histologic ulceration、Lymph node involvement、microscopic satellitosis, vascular invasion, mitotic rate >= 1/mm",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 180"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "最常見的皮膚癌是哪一種?",
+        "answer": "基底細胞癌(BCC, Basal cell carcinoma)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 180"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "基底細胞癌(BCC, Basal cell carcinoma)的臨床特徵有哪些?",
+        "answer": "好發於>40歲、男性、與紫外線照射有關、少有轉移、預後良好、表面發亮蠟狀像珍珠(Pearly)、可以看到末梢血管擴張(Telangiectasia)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 180"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "基底細胞癌(BCC, Basal cell carcinoma)的亞型包含哪些?各自的臨床特徵有哪些?",
+        "answer": "Nodular：最常見；Ulcerating：中央潰瘍、rodent ulcer；Pigmented：色素沉澱；Sclerosing：血管擴張；Superficial：像濕疹或銀屑",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 181"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "基底細胞癌(BCC, Basal cell carcinoma)的病理特徵有哪些?",
+        "answer": "high N/C ratio, retraction artifact, tumor island, palisading cells",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 181"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "第二常見的皮膚癌是哪一種?",
+        "answer": "鱗狀上皮癌(SqCC, Squamous cell carcinoma)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 182"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "Bowen's disease是甚麼疾病?",
+        "answer": "skin SqCC in situ，病理上可以看到整層表皮的atypical keratinocyte",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 183"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "卡波西氏肉瘤(KS, Kaposi's sarcoma)的臨床特徵包含哪些?",
+        "answer": "HHV-8引起、好發於AIDS、侵犯內臟器官(胃腸肝脾肺)、侵犯淋巴(淋巴水腫)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 183"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "卡波西氏肉瘤(KS, Kaposi's sarcoma)的亞型包含哪些?各自的臨床特徵有哪些?",
+        "answer": "典型：好發於老人、男性、下肢、常伴隨淋巴水腫、對放療反應好；地域型：赤道非洲、好發於大人(35 yrs)和小孩(3yrs)、常侵犯內臟、對化療反應好；化療/器官移植而免疫力低下型；常見於solid organ移植服用免疫抑制劑的病人，停藥/換藥會改善；AIDS型：好發於男同性戀、臉部、蔓延至軀幹",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 184"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "卡波西氏肉瘤(KS, Kaposi's sarcoma)的病理特徵包含哪些?",
+        "answer": "spindle cell聚集成漩渦狀、不規則的血管間隙(irregular, slit-like, angulated vascular channel)、間隙內可以看到紅血球",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 184"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "最常見的皮膚T細胞淋巴癌是哪一種?",
+        "answer": "蕈狀肉芽腫(Mycosis fungoides)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 184"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "第一型神經纖維瘤(NF1, type I neurofibromatosis)的臨床特徵包含哪些?",
+        "answer": "自體顯性(chr 17)、咖啡牛奶斑(Café-ua-lait spots，最先出現)、腋下或鼠蹊部雀斑、神經纖維瘤、雙側視神經膠瘤、iris Lisch nodules",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 200-201"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "第二型神經纖維瘤(NF2, type II neurofibromatosis)的臨床特徵包含哪些?",
+        "answer": "自體顯性(chr 22)、預後差、雙側聽神經瘤(acoustic neuroma)、單側聽神經瘤併發其他CNS腫瘤、青春型白內障",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 201"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "結節性硬化症(TSC, Tuberous sclerosis)的臨床特徵包含哪些?",
+        "answer": "自體顯性(chr 9: TSC1 --> hamartin; chr 16: TSC2 --> tuberin)、影響皮膚、CNS、心臟、腎臟等器官，嬰兒型癲癇(infantile spasm)、ash-leaf or confetti hypomelanotic macules、Koenen tumor、shagreen patch",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 201-202"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "尋常性魚鱗癬(Ichthyosis vulgaris)的臨床特徵包含哪些?",
+        "answer": "自體顯性(profilaggrin gene mutation)、角質層代謝異常無法脫落、容易併發異位性皮膚炎、乾癬，魚鱗狀皮膚好發四肢伸側(屈側皺褶處不會有病灶)、冬天乾燥時加重、毛孔角化症、掌紋變明顯",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 203-204"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "Darie's disease的臨床特徵包含哪些?",
+        "answer": "自體顯性(chr 12: ATP2A2 gene --> SERCA2(calcium pump))、好發於皮膚皮脂區、腋下、鼠蹊部、乳房下皺褶處、指甲變異(紅白並列的直條紋longituidinal band, nail ridges, splitting)、夏天潮濕悶熱或陽光曝曬惡化",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 204-205"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "鋅缺乏(Zinc deficiency)的臨床特徵包含哪些?",
+        "answer": "腹瀉、食慾不振、毛髮脫落、肢體末端、生殖器、肛門周圍出現脫屑及濕疹樣皮膚病變、嘴角潰瘍等症狀 (Acrodermatitis enteropathica)、ALP下降",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 223"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "關於蟹足腫(Keloid)的治療方式有哪些?",
+        "answer": "局部注射類固醇、冷凍治療、放射線治療、染料雷射、使用矽膠凝膠/矽膠片壓迫、特殊情況使用手術切除(e.g. 穿耳洞)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 224"
+    },
+    {
+        "subject": "皮膚科",
+        "type": "國考",
+        "question": "黑色棘皮症(acanthosis nigricans)的臨床特徵包含哪些?",
+        "answer": "皮膚增厚(天鵝絨狀外觀)、色素沉澱斑塊好發於腋下、頸部、鼠蹊部等皺褶處、與肥胖、胰島素抗性、高雄性素、菸鹼酸、避孕藥、人類生長激素有關，為一種paraneoplastic syndrome (最常合併胃癌)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 225"
+    },
+    {
         "subject": "Symptoms & Signs",
         "type": "Symptoms & Signs",
         "question": "Thumb sign",
@@ -5317,7 +5562,7 @@
         "type": "Symptoms & Signs",
         "question": "Café au lait spot",
         "answer": "McCune Albright Syndrome; Neurofibroma",
-        "reference": "First Choice 2025 醫學五 骨科 p. 119, 162"
+        "reference": "First Choice 2025 醫學五 骨科 p. 119, 162 醫學四 皮膚科 p. 201"
     },
     {
         "subject": "Symptoms & Signs",
@@ -5470,8 +5715,8 @@
         "subject": "Symptoms & Signs",
         "type": "Symptoms & Signs",
         "question": "Hutchinson's sign",
-        "answer": "Herpes Zoster Ophthalmicus",
-        "reference": "First Choice 2025 醫學四 皮膚科 p. 23"
+        "answer": "Herpes Zoster Ophthalmicus, Acral lentiginous melanoma (Subungual melanoma)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 23, 178"
     },
     {
         "subject": "Symptoms & Signs",
@@ -5638,8 +5883,8 @@
         "subject": "Symptoms & Signs",
         "type": "Symptoms & Signs",
         "question": "Target-like lesion",
-        "answer": "SJS (Steven-Johnson Syndrome), TEN (Toxic Epidermal Necrolysis)",
-        "reference": "First Choice 2025 醫學四 皮膚科 p. 134"
+        "answer": "SJS (Steven-Johnson Syndrome), TEN (Toxic Epidermal Necrolysis), Erythema multiforme",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 134, 219"
     },
     {
         "subject": "Symptoms & Signs",
@@ -5668,6 +5913,76 @@
         "question": "iris translucency",
         "answer": "Albinism",
         "reference": "First Choice 2025 醫學四 皮膚科 p. 157"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Leser-Trelat sign",
+        "answer": "Paraneoplastic syndrome",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 172"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Lisch nodule",
+        "answer": "neurofibroma",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 201"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Café au lait spot",
+        "answer": "neurofibroma",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 201"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "ash-leaf spots",
+        "answer": "TSC (Tuberous Sclerosis)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 202"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "confetti skin lesions",
+        "answer": "TSC (Tuberous Sclerosis)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 202"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "shagreen patch",
+        "answer": "TSC (Tuberous Sclerosis)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 202"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Osler node",
+        "answer": "IE (Infective endocarditis)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 217-218"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Janeway lesion",
+        "answer": "IE (Infective endocarditis)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 217-218"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Roth spot",
+        "answer": "IE (Infective endocarditis)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 217-218"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "salmon colored rash",
+        "answer": "AOSD (Adult-Onset Still's Disease)",
+        "reference": "First Choice 2025 醫學四 皮膚科 p. 220-221"
     },
     {
         "subject": "Test",
