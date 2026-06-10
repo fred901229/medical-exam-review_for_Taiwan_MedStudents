@@ -5341,6 +5341,174 @@
         "reference": "First Choice 2025 醫學四 皮膚科 p. 225"
     },
     {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "主動脈剝離(Aortic dissection)的分類依照時間與侵犯位置，可以怎麼區分?",
+        "answer": "急性：14天內；慢性：14天以上。Stanford (Type A: 有侵犯Ascending aorta；Type B: 沒侵犯Ascending aorta)、Debakey (Type I: Ascending + Descending; Type II: Ascending; Type III: Descending)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 4"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "主動脈剝離(Aortic dissection)的臨床特徵有哪些?",
+        "answer": "突發性劇烈胸痛、interscapular pain、tearing pain、malperfusion syndrome、cardiac temponade",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 5-6"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "主動脈剝離(Aortic dissection)的影像特徵有哪些?",
+        "answer": "CXR: 主動脈邊界模糊、氣管往右偏移、縱膈腔變寬。Contrast CT: 內膜和中膜分離形成True lumen (較亮)、False lumen (較暗)、intimal flap。",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 6"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "主動脈剝離(Aortic dissection)的處置原則為何?",
+        "answer": "急性type A：緊急開刀；complicated 急性type B：手術、Endoluminal intervention (fenestration, stent, aortic graft replacement bypass grafting)；uncomplicated 急性typeB：藥物治療；慢性：藥物治療(anti-impulse therapy: Beta-blocker, CCB, sodium nitroprusside)、門診追蹤 (最大直徑>5cm或每年增加>0.5cm則開刀)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 7-8"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "血管瘤(Aneurysm)依照病因來說，哪一種最常見?",
+        "answer": "Degenerative aneurysm",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 18"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "Infected (Mycotic) aneurysm最常見的感染源是哪一種致病菌?",
+        "answer": "Staphylococcus aureus --> Salmonella spp., Pseudomonas aeruginosa",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 18"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "血管瘤(Aneurysm)大部分發生在哪個位置?",
+        "answer": "腹主動脈 (腎動脈以下)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 18"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "DTAA (Descending thoracic aortic aneurysm)可以分為哪些類型?",
+        "answer": "Type A: left subclavian a. 到 6th intercostal space；Type B: 6th intercostal space到diapharm；Type C: whole descending aorta",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 19"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "TAAA (Thoracoabdominal aortic aneurysm)可以分為哪些類型?",
+        "answer": "Type I: left subclavian a.到腎動脈；Type II: left subclavian a.到iliac bifurcation；Type III: 6th intercostal space到iliac bifurcation；Type IV: diaphram到iliac bifurcation；Type V: 6th intercostal space到renal a.",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 19"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "AAA (Abdominal aortic aneurysm)可以分為哪些類型?",
+        "answer": "Infra-renal (I): 腎動脈下方到iliac bifurcation；Juxta-renal (II): 緊鄰腎動脈到iliac bifurcation；Para-renal (III): 侵犯腎動脈；Supra-renal (IV): diaphram到iliac bifurcation",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 20"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "血管瘤(Aneurysm)的手術適應症包含哪些?",
+        "answer": "最大直徑>5.5 cm (胸>6cm、腹>5cm、髂動脈>3.5cm)、最大直徑一年增加1cm或半年增加0.5cm、症狀持續加重、BSA較小的女性最大直徑>4.5cm、其他情況(saccular, mycotic, pseudoaneurysm, dissecting, fistula)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 22"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "EVAR(Endovascular Aortic Aneurysm Repair)併發症當中的Endoleak，可以分為哪四種類型?",
+        "answer": "Type I: inadequate seal of proximal (Ia) or distal (Ib) end of endograft(近端或遠端滲漏)；Type II: flow from backbleeding arteries (most common) (分支動脈回流滲漏)；Type III: modular disconnection, graft fracture (支架結構性問題)；Type IV: graft fabric (支架織物滲漏)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 25-27"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "AMI後的併發症，以哪一種最致命?",
+        "answer": "Mechanical complication：VFWR (Ventricular free wall rupture, AMI死亡主因)、VSR (Ventricular Septal Rupture)、MR (Mitral regurgitation)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 30-31"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "VSR (Ventricular Septal Rupture)或VSD (Ventricular Septal defect)，在聽診時可以聽到什麼?",
+        "answer": "holosystolic murmur (L to R shunt)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 31"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "手術前放置IABP (Intra-aortic balloon pump)，有甚麼好處或優點?",
+        "answer": "穩定血液循環、降低after-load (SVR)、增加血液灌流至coronary perfusion",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 31"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "AMI後的acute MR (Mitral regurgitation)，主要是什麼原因導致?",
+        "answer": "papillary muscle壞死、斷裂 (posteromedial papillary muscle較anterolateral papillary muscle常見)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 32"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "chronic stable angina或是無臨床症狀的病人，採用CABG (Coronary artery bypass graft)的適應症有哪些?",
+        "answer": "LCA stenosis >=50%、proximal LAD + proximal LCA >=70%、Triple-VD (RCA+LAD+LCX) + EF < 50%、Two-VD +proximal LAD stenosis + EF < 50%、high risk population、no improvement after medication",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 32-33"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "non-stable angina或NSTEMI病人，採用CABG (Coronary artery bypass graft)的適應症有哪些?",
+        "answer": "LCA stenosis >=50%、proximal LAD + proximal LCA >=70%、no improvement after medication",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 33"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "AMI/STEMI病人，採用CABG (Coronary artery bypass graft)的適應症有哪些?",
+        "answer": "persistent symptoms or hemodynamics unstable after PCI、VSR or MR after AMI、ventricular arrhythmias + LCA stenosis >=50%、Triple-VD",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 33"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "關於CABG (Coronary artery bypass graft)所使用的移植血管(Conduits)，可選擇的血管與之間特點比較?",
+        "answer": "10年內暢通率：LIMA (Left intramammary a.): 90%、RIMA (Right intramammary a.): 80%、Radial a.: 70%、GSV (Great saphenous v.): 50% (最常使用)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 33"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "CABG (Coronary artery bypass graft)術中使用on pump CAB或off pump CAB的比較?",
+        "answer": "On-pump：要降低體溫、給予心肌麻痺液、避免產生併發症(短暫缺血、腦中風)；Off-pump：因為會夾緊血管而產生thromboembolization，所以要給予Heparin。兩者在手術後一年各項指標並無顯著差異",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 34"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "TMLR (Transmyocaridal laser revascularization的特點有哪些?",
+        "answer": "雷射燒灼受損心肌、破壞心室感覺神經、減緩疼痛、刺激血管新生、要3-6個月才會有顯著療效、Contraindication：LVEF < 30%、heart transplantation、emergent revascularization",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 35"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "心臟移植(Heart transplantation)的適應症包含哪些?",
+        "answer": "Absolute：hemodynamic compromise due to heart failure (refractory cardiogenic shock, using IV inotropic agent for sufficient organ perfusion, Peak VO2 < 10 mL/kg/min)、心肌缺血症狀嚴重(無法以CABG/PCI改善)、refractory ventricular arrhythmia(無法以其他方法有效改善)。Relative：Peak VO2 11-14 mL/kg/min + 日常活動受限、Refractory unstable angina (無法以其他方法有效控制)、常規治療下仍舊體液不平衡或腎功能不穩定。Insufficient (單有以下狀況不足以作移植)：LVEF低下、NYHA class III/IV heart failure、Peak VO2 > 15 mL/kg/min",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 108"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "心臟移植(Heart transplantation)的禁忌症包含哪些?",
+        "answer": "Absolute：嚴重肺高壓(治療後PVR > 6 wood unit)、CCr < 50 mg/mL/min、肝功能異常、severe COPD、malignancy、active infection、DM with secondary organ damage。Relative： >65 yrs、Obesity、active peptic ulcer、drug abuse",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 109"
+    },
+    {
         "subject": "Symptoms & Signs",
         "type": "Symptoms & Signs",
         "question": "Thumb sign",
@@ -5983,6 +6151,34 @@
         "question": "salmon colored rash",
         "answer": "AOSD (Adult-Onset Still's Disease)",
         "reference": "First Choice 2025 醫學四 皮膚科 p. 220-221"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Kussmaul's sign",
+        "answer": "Cardiac tamponade",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 6"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Beck's triad",
+        "answer": "Cardiac tamponade",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 6"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "Pulsus paradoxus",
+        "answer": "Cardiac tamponade",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 6"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "Symptoms & Signs",
+        "question": "holosystolic murmur",
+        "answer": "VSR (Ventricular septal rupture), VSD (Ventricular septal defect), MR (mitral regurgitation)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 31-32"
     },
     {
         "subject": "Test",
