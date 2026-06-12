@@ -119,6 +119,11 @@
     .tbl-wrap{overflow-x:auto;margin:4px 0}
 
     /* CHD Diagrams */
+    .chd-flex{display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap}
+    .chd-flex .tbl-wrap{flex:1;min-width:280px}
+    .chd-dg-2col{grid-template-columns:repeat(2,1fr)!important;width:322px;flex-shrink:0}
+    .chd-legend{font-size:.68rem;color:var(--text2);margin-bottom:6px;grid-column:1/-1}
+    @media(max-width:700px){.chd-flex{flex-direction:column}.chd-dg-2col{width:100%!important}}
     .chd-dg-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:10px;margin:4px 0}
     .chd-dc{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:8px;text-align:center}
     .chd-dc-title{font-weight:700;color:var(--primary);font-size:.8rem;margin-bottom:4px;line-height:1.35}
@@ -1064,6 +1069,7 @@
 </div>
 
 <div class="topic"><h3>先天性心臟病—發紺型（Cyanotic CHD）</h3>
+<div class="chd-flex">
 <div class="tbl-wrap"><table class="tbl">
 <tr><th>疾病</th><th>心臟異常</th><th>病理機轉</th><th>手術/治療</th></tr>
 <tr>
@@ -1091,9 +1097,54 @@
   <td>肺靜脈接左心房 + 關閉 ASD；Sutureless Repair（心包膜包覆，減少肺靜脈狹窄）</td>
 </tr>
 </table></div>
+<div class="chd-dg-grid chd-dg-2col">
+<p class="chd-legend"><span style="color:#E74C3C">■</span> 充氧血 &nbsp;<span style="color:#2980B9">■</span> 缺氧血 &nbsp;<span style="color:#8E24AA">■</span> 混合血 &nbsp;<span style="color:var(--text3)">—— 動畫箭頭＝異常血流</span></p>
+<div class="chd-dc"><div class="chd-dc-title">TOF ★<br><small>法洛氏四重症</small></div><svg viewBox="0 0 160 155" xmlns="http://www.w3.org/2000/svg">
+<rect x="20" y="8" width="30" height="38" rx="3" fill="#1565C0" stroke="#2980B9" stroke-width="1.5"/><text x="35" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">PA</text><polygon points="35,2 28,8 42,8" fill="#2980B9"/>
+<rect x="73" y="8" width="30" height="38" rx="3" fill="#4A0080" stroke="#8E24AA" stroke-width="1.5"/><text x="88" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">Ao</text><polygon points="88,2 81,8 95,8" fill="#8E24AA"/>
+<rect x="5" y="50" width="68" height="40" rx="4" fill="#1A3A5C" stroke="#2980B9" stroke-width="1.5"/><text x="39" y="74" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">RA</text>
+<rect x="87" y="50" width="68" height="40" rx="4" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="121" y="74" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">LA</text>
+<rect x="5" y="95" width="68" height="50" rx="4" fill="#4A148C" stroke="#8E24AA" stroke-width="1.5"/><text x="39" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">RV</text>
+<rect x="87" y="95" width="68" height="50" rx="4" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="121" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">LV</text>
+<line x1="78" y1="50" x2="78" y2="112" stroke="#505050" stroke-width="2"/><line x1="78" y1="130" x2="78" y2="147" stroke="#505050" stroke-width="2"/>
+<line x1="5" y1="93" x2="155" y2="93" stroke="#404040" stroke-width="1"/>
+<rect x="23" y="30" width="24" height="7" rx="1" fill="#555" stroke="#2980B9" stroke-width="1.5"/><text x="35" y="29" text-anchor="middle" fill="#2980B9" font-size="7" font-weight="bold" font-family="system-ui,sans-serif">狹窄</text><path d="M 12 121 L 77 121" stroke="#8E24AA" stroke-width="2.5" fill="none" class="chdf-r"/><polygon points="77,117 77,125 85,121" fill="#8E24AA"/><text x="80" y="149" text-anchor="middle" fill="#8E24AA" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">R→L shunt（RVOTO+VSD+Ao跨位）</text></svg><div class="chd-dc-cap">最常見發紺型；RVOTO+VSD → R→L shunt</div></div>
+<div class="chd-dc"><div class="chd-dc-title">TGA<br><small>大動脈轉位</small></div><svg viewBox="0 0 160 155" xmlns="http://www.w3.org/2000/svg">
+<rect x="110" y="8" width="30" height="38" rx="3" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="125" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">PA</text><polygon points="125,2 118,8 132,8" fill="#E74C3C"/>
+<rect x="20" y="8" width="30" height="38" rx="3" fill="#1A3A5C" stroke="#2980B9" stroke-width="1.5"/><text x="35" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">Ao</text><polygon points="35,2 28,8 42,8" fill="#2980B9"/>
+<rect x="5" y="50" width="68" height="40" rx="4" fill="#1A3A5C" stroke="#2980B9" stroke-width="1.5"/><text x="39" y="74" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">RA</text>
+<rect x="87" y="50" width="68" height="40" rx="4" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="121" y="74" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">LA</text>
+<rect x="5" y="95" width="68" height="50" rx="4" fill="#1A3A5C" stroke="#2980B9" stroke-width="1.5"/><text x="39" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">RV</text>
+<rect x="87" y="95" width="68" height="50" rx="4" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="121" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">LV</text>
+<line x1="78" y1="50" x2="78" y2="147" stroke="#505050" stroke-width="2"/>
+<line x1="5" y1="93" x2="155" y2="93" stroke="#404040" stroke-width="1"/>
+<path d="M 35 46 Q 80 30 125 46" stroke="#888" stroke-width="1.5" fill="none" stroke-dasharray="4,3"/><text x="80" y="33" text-anchor="middle" fill="#888" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">⇄ 轉位</text><text x="80" y="149" text-anchor="middle" fill="#888" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">Ao接RV（缺氧）、PA接LV（充氧）</text></svg><div class="chd-dc-cap">Ao接RV、PA接LV；體/肺循環獨立</div></div>
+<div class="chd-dc"><div class="chd-dc-title">HLHS<br><small>左心發育不全</small></div><svg viewBox="0 0 160 155" xmlns="http://www.w3.org/2000/svg">
+<rect x="20" y="8" width="30" height="38" rx="3" fill="#4A0080" stroke="#8E24AA" stroke-width="1.5"/><text x="35" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">PA</text><polygon points="35,2 28,8 42,8" fill="#8E24AA"/>
+<rect x="110" y="8" width="30" height="38" rx="3" fill="#4A0080" stroke="#8E24AA" stroke-width="1.5"/><text x="125" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">Ao</text><polygon points="125,2 118,8 132,8" fill="#8E24AA"/>
+<rect x="5" y="50" width="68" height="40" rx="4" fill="#1A3A5C" stroke="#2980B9" stroke-width="1.5"/><text x="39" y="74" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">RA</text>
+<rect x="87" y="50" width="68" height="40" rx="4" fill="#4A148C" stroke="#8E24AA" stroke-width="1.5" opacity="0.3"/><text x="121" y="74" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" opacity="0.3">LA</text>
+<rect x="5" y="95" width="68" height="50" rx="4" fill="#4A148C" stroke="#8E24AA" stroke-width="1.5"/><text x="39" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">RV</text>
+<rect x="87" y="95" width="68" height="50" rx="4" fill="#4A148C" stroke="#8E24AA" stroke-width="1.5" opacity="0.3"/><text x="121" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" opacity="0.3">LV</text>
+<line x1="78" y1="50" x2="78" y2="147" stroke="#505050" stroke-width="2"/>
+<line x1="5" y1="93" x2="155" y2="93" stroke="#404040" stroke-width="1"/>
+<path d="M 35 12 Q 80 -4 125 12" stroke="#8E24AA" stroke-width="2.5" fill="none" class="chdf-r"/><polygon points="125,12 118,6 132,6" fill="#8E24AA"/><text x="80" y="4" text-anchor="middle" fill="#8E24AA" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">PDA→體循環</text><text x="80" y="149" text-anchor="middle" fill="#8E24AA" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">左心發育不全；右心代償體循環</text></svg><div class="chd-dc-cap">三階段：Norwood→Glenn→Fontan</div></div>
+<div class="chd-dc"><div class="chd-dc-title">TAPVR<br><small>全肺靜脈回流異常</small></div><svg viewBox="0 0 160 155" xmlns="http://www.w3.org/2000/svg">
+<rect x="20" y="8" width="30" height="38" rx="3" fill="#1565C0" stroke="#2980B9" stroke-width="1.5"/><text x="35" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">PA</text><polygon points="35,2 28,8 42,8" fill="#2980B9"/>
+<rect x="110" y="8" width="30" height="38" rx="3" fill="#B71C1C" stroke="#E74C3C" stroke-width="1.5"/><text x="125" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">Ao</text><polygon points="125,2 118,8 132,8" fill="#E74C3C"/>
+<rect x="5" y="50" width="68" height="40" rx="4" fill="#4A148C" stroke="#8E24AA" stroke-width="1.5"/><text x="39" y="74" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">RA</text>
+<rect x="87" y="50" width="68" height="40" rx="4" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="121" y="74" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">LA</text>
+<rect x="5" y="95" width="68" height="50" rx="4" fill="#4A148C" stroke="#8E24AA" stroke-width="1.5"/><text x="39" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">RV</text>
+<rect x="87" y="95" width="68" height="50" rx="4" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="121" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">LV</text>
+<line x1="78" y1="50" x2="78" y2="65" stroke="#505050" stroke-width="2"/><line x1="78" y1="81" x2="78" y2="93" stroke="#505050" stroke-width="2"/><line x1="78" y1="95" x2="78" y2="147" stroke="#505050" stroke-width="2"/>
+<line x1="5" y1="93" x2="155" y2="93" stroke="#404040" stroke-width="1"/>
+<path d="M 5 44 Q 20 38 25 50" stroke="#E74C3C" stroke-width="1.5" fill="none" stroke-dasharray="4,3"/><text x="5" y="42" text-anchor="middle" fill="#E74C3C" font-size="7" font-weight="bold" font-family="system-ui,sans-serif">PV</text><path d="M 12 73 L 77 73" stroke="#8E24AA" stroke-width="2.5" fill="none" class="chdf-r"/><polygon points="77,69 77,77 85,73" fill="#8E24AA"/><text x="80" y="149" text-anchor="middle" fill="#8E24AA" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">肺靜脈→RA→ASD→LA→體循環</text></svg><div class="chd-dc-cap">肺靜脈→RA→ASD→LA</div></div>
+</div>
+</div>
 </div>
 
 <div class="topic"><h3>先天性心臟病—非發紺型（Acyanotic CHD）</h3>
+<div class="chd-flex">
 <div class="tbl-wrap"><table class="tbl">
 <tr><th>疾病</th><th>亞型（★最常見）</th><th>病理機轉</th><th>手術/治療</th></tr>
 <tr>
@@ -1121,12 +1172,8 @@
   <td>Extended end-to-end anastomosis / Subclavian flap aortoplasty / Patch augmentation</td>
 </tr>
 </table></div>
-</div>
-
-<div class="topic" id="chd-diagrams">
-<h3>先天性心臟病 — 血流示意圖</h3>
-<p style="font-size:.75rem;color:var(--text2);margin-bottom:10px;display:flex;flex-wrap:wrap;gap:10px;align-items:center"><span><span style="color:#E74C3C;font-size:1rem">■</span> 充氧血</span><span><span style="color:#2980B9;font-size:1rem">■</span> 缺氧血</span><span><span style="color:#8E24AA;font-size:1rem">■</span> 混合血</span><span style="color:var(--text3)">—— 動畫箭頭 = 異常血流方向</span></p>
-<div class="chd-dg-grid">
+<div class="chd-dg-grid chd-dg-2col">
+<p class="chd-legend"><span style="color:#E74C3C">■</span> 充氧血 &nbsp;<span style="color:#2980B9">■</span> 缺氧血 &nbsp;<span style="color:#8E24AA">■</span> 混合血 &nbsp;<span style="color:var(--text3)">—— 動畫箭頭＝異常血流</span></p>
 <div class="chd-dc"><div class="chd-dc-title">VSD<br><small>心室中膈缺損</small></div><svg viewBox="0 0 160 155" xmlns="http://www.w3.org/2000/svg">
 <rect x="20" y="8" width="30" height="38" rx="3" fill="#1565C0" stroke="#2980B9" stroke-width="1.5"/><text x="35" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">PA</text><polygon points="35,2 28,8 42,8" fill="#2980B9"/>
 <rect x="110" y="8" width="30" height="38" rx="3" fill="#B71C1C" stroke="#E74C3C" stroke-width="1.5"/><text x="125" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">Ao</text><polygon points="125,2 118,8 132,8" fill="#E74C3C"/>
@@ -1136,7 +1183,7 @@
 <rect x="87" y="95" width="68" height="50" rx="4" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="121" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">LV</text>
 <line x1="78" y1="50" x2="78" y2="112" stroke="#505050" stroke-width="2"/><line x1="78" y1="130" x2="78" y2="147" stroke="#505050" stroke-width="2"/>
 <line x1="5" y1="93" x2="155" y2="93" stroke="#404040" stroke-width="1"/>
-<path d="M 150 121 L 86 121" stroke="#E74C3C" stroke-width="2.5" fill="none" class="chdf-l"/><polygon points="86,117 86,125 78,121" fill="#E74C3C"/><text x="80" y="149" text-anchor="middle" fill="#8E24AA" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">L→R shunt（心室中膈缺損）</text></svg><div class="chd-dc-cap">最常見CHD；Down syndrome常合併；L→R shunt → Eisenmenger's</div></div>
+<path d="M 150 121 L 86 121" stroke="#E74C3C" stroke-width="2.5" fill="none" class="chdf-l"/><polygon points="86,117 86,125 78,121" fill="#E74C3C"/><text x="80" y="149" text-anchor="middle" fill="#8E24AA" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">L→R shunt（心室中膈缺損）</text></svg><div class="chd-dc-cap">最常見CHD；L→R → Eisenmenger's</div></div>
 <div class="chd-dc"><div class="chd-dc-title">ASD<br><small>心房中膈缺損</small></div><svg viewBox="0 0 160 155" xmlns="http://www.w3.org/2000/svg">
 <rect x="20" y="8" width="30" height="38" rx="3" fill="#1565C0" stroke="#2980B9" stroke-width="1.5"/><text x="35" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">PA</text><polygon points="35,2 28,8 42,8" fill="#2980B9"/>
 <rect x="110" y="8" width="30" height="38" rx="3" fill="#B71C1C" stroke="#E74C3C" stroke-width="1.5"/><text x="125" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">Ao</text><polygon points="125,2 118,8 132,8" fill="#E74C3C"/>
@@ -1146,7 +1193,7 @@
 <rect x="87" y="95" width="68" height="50" rx="4" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="121" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">LV</text>
 <line x1="78" y1="50" x2="78" y2="65" stroke="#505050" stroke-width="2"/><line x1="78" y1="81" x2="78" y2="93" stroke="#505050" stroke-width="2"/><line x1="78" y1="95" x2="78" y2="147" stroke="#505050" stroke-width="2"/>
 <line x1="5" y1="93" x2="155" y2="93" stroke="#404040" stroke-width="1"/>
-<path d="M 150 73 L 86 73" stroke="#E74C3C" stroke-width="2.5" fill="none" class="chdf-l"/><polygon points="86,69 86,77 78,73" fill="#E74C3C"/><text x="80" y="149" text-anchor="middle" fill="#8E24AA" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">L→R shunt（心房中膈缺損）</text></svg><div class="chd-dc-cap">Ostium secundum 最常見；L→R shunt → 右心擴大</div></div>
+<path d="M 150 73 L 86 73" stroke="#E74C3C" stroke-width="2.5" fill="none" class="chdf-l"/><polygon points="86,69 86,77 78,73" fill="#E74C3C"/><text x="80" y="149" text-anchor="middle" fill="#8E24AA" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">L→R shunt（心房中膈缺損）</text></svg><div class="chd-dc-cap">Ostium secundum 最常見</div></div>
 <div class="chd-dc"><div class="chd-dc-title">PDA<br><small>開放性動脈導管</small></div><svg viewBox="0 0 160 155" xmlns="http://www.w3.org/2000/svg">
 <rect x="20" y="8" width="30" height="38" rx="3" fill="#4A0080" stroke="#8E24AA" stroke-width="1.5"/><text x="35" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">PA</text><polygon points="35,2 28,8 42,8" fill="#8E24AA"/>
 <rect x="110" y="8" width="30" height="38" rx="3" fill="#B71C1C" stroke="#E74C3C" stroke-width="1.5"/><text x="125" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">Ao</text><polygon points="125,2 118,8 132,8" fill="#E74C3C"/>
@@ -1156,7 +1203,7 @@
 <rect x="87" y="95" width="68" height="50" rx="4" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="121" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">LV</text>
 <line x1="78" y1="50" x2="78" y2="147" stroke="#505050" stroke-width="2"/>
 <line x1="5" y1="93" x2="155" y2="93" stroke="#404040" stroke-width="1"/>
-<path d="M 125 12 Q 80 -4 35 12" stroke="#8E24AA" stroke-width="2.5" fill="none" class="chdf-l"/><polygon points="35,12 30,5 42,8" fill="#8E24AA"/><text x="80" y="4" text-anchor="middle" fill="#8E24AA" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">PDA</text><text x="80" y="149" text-anchor="middle" fill="#8E24AA" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">主動脈→PDA→肺動脈</text></svg><div class="chd-dc-cap">Ao→PDA→PA；Indomethacin 可關閉 PDA</div></div>
+<path d="M 125 12 Q 80 -4 35 12" stroke="#8E24AA" stroke-width="2.5" fill="none" class="chdf-l"/><polygon points="35,12 30,5 42,8" fill="#8E24AA"/><text x="80" y="4" text-anchor="middle" fill="#8E24AA" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">PDA</text><text x="80" y="149" text-anchor="middle" fill="#8E24AA" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">主動脈→PDA→肺動脈</text></svg><div class="chd-dc-cap">Indomethacin 可關閉 PDA</div></div>
 <div class="chd-dc"><div class="chd-dc-title">CoA<br><small>主動脈窄縮</small></div><svg viewBox="0 0 160 155" xmlns="http://www.w3.org/2000/svg">
 <rect x="20" y="8" width="30" height="38" rx="3" fill="#1565C0" stroke="#2980B9" stroke-width="1.5"/><text x="35" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">PA</text><polygon points="35,2 28,8 42,8" fill="#2980B9"/>
 <rect x="110" y="8" width="30" height="38" rx="3" fill="#B71C1C" stroke="#E74C3C" stroke-width="1.5"/><text x="125" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">Ao</text><polygon points="125,2 118,8 132,8" fill="#E74C3C"/>
@@ -1166,47 +1213,8 @@
 <rect x="87" y="95" width="68" height="50" rx="4" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="121" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">LV</text>
 <line x1="78" y1="50" x2="78" y2="147" stroke="#505050" stroke-width="2"/>
 <line x1="5" y1="93" x2="155" y2="93" stroke="#404040" stroke-width="1"/>
-<rect x="114" y="22" width="22" height="7" rx="1" fill="#555" stroke="#E74C3C" stroke-width="1.5"/><line x1="110" y1="22" x2="114" y2="22" stroke="#E74C3C" stroke-width="1.5"/><line x1="136" y1="22" x2="140" y2="22" stroke="#E74C3C" stroke-width="1.5"/><text x="125" y="19" text-anchor="middle" fill="#E74C3C" font-size="7" font-weight="bold" font-family="system-ui,sans-serif">狹窄▼</text><text x="80" y="149" text-anchor="middle" fill="#E74C3C" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">降主動脈狹窄→上肢高壓</text></svg><div class="chd-dc-cap">Preductal（下半身發紺）/ Postductal（上肢高血壓）</div></div>
-<div class="chd-dc"><div class="chd-dc-title">TOF ★<br><small>法洛氏四重症</small></div><svg viewBox="0 0 160 155" xmlns="http://www.w3.org/2000/svg">
-<rect x="20" y="8" width="30" height="38" rx="3" fill="#1565C0" stroke="#2980B9" stroke-width="1.5"/><text x="35" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">PA</text><polygon points="35,2 28,8 42,8" fill="#2980B9"/>
-<rect x="73" y="8" width="30" height="38" rx="3" fill="#4A0080" stroke="#8E24AA" stroke-width="1.5"/><text x="88" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">Ao</text><polygon points="88,2 81,8 95,8" fill="#8E24AA"/>
-<rect x="5" y="50" width="68" height="40" rx="4" fill="#1A3A5C" stroke="#2980B9" stroke-width="1.5"/><text x="39" y="74" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">RA</text>
-<rect x="87" y="50" width="68" height="40" rx="4" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="121" y="74" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">LA</text>
-<rect x="5" y="95" width="68" height="50" rx="4" fill="#4A148C" stroke="#8E24AA" stroke-width="1.5"/><text x="39" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">RV</text>
-<rect x="87" y="95" width="68" height="50" rx="4" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="121" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">LV</text>
-<line x1="78" y1="50" x2="78" y2="112" stroke="#505050" stroke-width="2"/><line x1="78" y1="130" x2="78" y2="147" stroke="#505050" stroke-width="2"/>
-<line x1="5" y1="93" x2="155" y2="93" stroke="#404040" stroke-width="1"/>
-<rect x="23" y="30" width="24" height="7" rx="1" fill="#555" stroke="#2980B9" stroke-width="1.5"/><text x="35" y="29" text-anchor="middle" fill="#2980B9" font-size="7" font-weight="bold" font-family="system-ui,sans-serif">狹窄</text><path d="M 12 121 L 77 121" stroke="#8E24AA" stroke-width="2.5" fill="none" class="chdf-r"/><polygon points="77,117 77,125 85,121" fill="#8E24AA"/><text x="80" y="149" text-anchor="middle" fill="#8E24AA" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">R→L shunt（RVOTO+VSD+Ao override）</text></svg><div class="chd-dc-cap">最常見發紺型 CHD；R→L shunt → 全身缺氧</div></div>
-<div class="chd-dc"><div class="chd-dc-title">TGA<br><small>大動脈轉位</small></div><svg viewBox="0 0 160 155" xmlns="http://www.w3.org/2000/svg">
-<rect x="110" y="8" width="30" height="38" rx="3" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="125" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">PA</text><polygon points="125,2 118,8 132,8" fill="#E74C3C"/>
-<rect x="20" y="8" width="30" height="38" rx="3" fill="#1A3A5C" stroke="#2980B9" stroke-width="1.5"/><text x="35" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">Ao</text><polygon points="35,2 28,8 42,8" fill="#2980B9"/>
-<rect x="5" y="50" width="68" height="40" rx="4" fill="#1A3A5C" stroke="#2980B9" stroke-width="1.5"/><text x="39" y="74" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">RA</text>
-<rect x="87" y="50" width="68" height="40" rx="4" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="121" y="74" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">LA</text>
-<rect x="5" y="95" width="68" height="50" rx="4" fill="#1A3A5C" stroke="#2980B9" stroke-width="1.5"/><text x="39" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">RV</text>
-<rect x="87" y="95" width="68" height="50" rx="4" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="121" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">LV</text>
-<line x1="78" y1="50" x2="78" y2="147" stroke="#505050" stroke-width="2"/>
-<line x1="5" y1="93" x2="155" y2="93" stroke="#404040" stroke-width="1"/>
-<path d="M 35 46 Q 80 30 125 46" stroke="#888" stroke-width="1.5" fill="none" stroke-dasharray="4,3"/><text x="80" y="33" text-anchor="middle" fill="#888" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">⇄ 轉位</text><text x="80" y="149" text-anchor="middle" fill="#888" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">Ao接RV（缺氧）、PA接LV（充氧）</text></svg><div class="chd-dc-cap">Ao接RV、PA接LV；體/肺循環各自獨立</div></div>
-<div class="chd-dc"><div class="chd-dc-title">HLHS<br><small>左心發育不全</small></div><svg viewBox="0 0 160 155" xmlns="http://www.w3.org/2000/svg">
-<rect x="20" y="8" width="30" height="38" rx="3" fill="#4A0080" stroke="#8E24AA" stroke-width="1.5"/><text x="35" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">PA</text><polygon points="35,2 28,8 42,8" fill="#8E24AA"/>
-<rect x="110" y="8" width="30" height="38" rx="3" fill="#4A0080" stroke="#8E24AA" stroke-width="1.5"/><text x="125" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">Ao</text><polygon points="125,2 118,8 132,8" fill="#8E24AA"/>
-<rect x="5" y="50" width="68" height="40" rx="4" fill="#1A3A5C" stroke="#2980B9" stroke-width="1.5"/><text x="39" y="74" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">RA</text>
-<rect x="87" y="50" width="68" height="40" rx="4" fill="#4A148C" stroke="#8E24AA" stroke-width="1.5" opacity="0.3"/><text x="121" y="74" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" opacity="0.3">LA</text>
-<rect x="5" y="95" width="68" height="50" rx="4" fill="#4A148C" stroke="#8E24AA" stroke-width="1.5"/><text x="39" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">RV</text>
-<rect x="87" y="95" width="68" height="50" rx="4" fill="#4A148C" stroke="#8E24AA" stroke-width="1.5" opacity="0.3"/><text x="121" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif" opacity="0.3">LV</text>
-<line x1="78" y1="50" x2="78" y2="147" stroke="#505050" stroke-width="2"/>
-<line x1="5" y1="93" x2="155" y2="93" stroke="#404040" stroke-width="1"/>
-<path d="M 35 12 Q 80 -4 125 12" stroke="#8E24AA" stroke-width="2.5" fill="none" class="chdf-r"/><polygon points="125,12 118,6 132,6" fill="#8E24AA"/><text x="80" y="4" text-anchor="middle" fill="#8E24AA" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">PDA→體循環</text><text x="80" y="149" text-anchor="middle" fill="#8E24AA" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">左心發育不全；右心代償體循環</text></svg><div class="chd-dc-cap">左心系統缺損；三階段手術 Norwood→Glenn→Fontan</div></div>
-<div class="chd-dc"><div class="chd-dc-title">TAPVR<br><small>全肺靜脈回流異常</small></div><svg viewBox="0 0 160 155" xmlns="http://www.w3.org/2000/svg">
-<rect x="20" y="8" width="30" height="38" rx="3" fill="#1565C0" stroke="#2980B9" stroke-width="1.5"/><text x="35" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">PA</text><polygon points="35,2 28,8 42,8" fill="#2980B9"/>
-<rect x="110" y="8" width="30" height="38" rx="3" fill="#B71C1C" stroke="#E74C3C" stroke-width="1.5"/><text x="125" y="36" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="system-ui,sans-serif">Ao</text><polygon points="125,2 118,8 132,8" fill="#E74C3C"/>
-<rect x="5" y="50" width="68" height="40" rx="4" fill="#4A148C" stroke="#8E24AA" stroke-width="1.5"/><text x="39" y="74" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">RA</text>
-<rect x="87" y="50" width="68" height="40" rx="4" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="121" y="74" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">LA</text>
-<rect x="5" y="95" width="68" height="50" rx="4" fill="#4A148C" stroke="#8E24AA" stroke-width="1.5"/><text x="39" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">RV</text>
-<rect x="87" y="95" width="68" height="50" rx="4" fill="#7B1010" stroke="#E74C3C" stroke-width="1.5"/><text x="121" y="123" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="system-ui,sans-serif">LV</text>
-<line x1="78" y1="50" x2="78" y2="65" stroke="#505050" stroke-width="2"/><line x1="78" y1="81" x2="78" y2="93" stroke="#505050" stroke-width="2"/><line x1="78" y1="95" x2="78" y2="147" stroke="#505050" stroke-width="2"/>
-<line x1="5" y1="93" x2="155" y2="93" stroke="#404040" stroke-width="1"/>
-<path d="M 5 44 Q 20 38 25 50" stroke="#E74C3C" stroke-width="1.5" fill="none" stroke-dasharray="4,3"/><text x="5" y="42" text-anchor="middle" fill="#E74C3C" font-size="7" font-weight="bold" font-family="system-ui,sans-serif">PV</text><path d="M 12 73 L 77 73" stroke="#8E24AA" stroke-width="2.5" fill="none" class="chdf-r"/><polygon points="77,69 77,77 85,73" fill="#8E24AA"/><text x="80" y="149" text-anchor="middle" fill="#8E24AA" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">肺靜脈→RA→ASD→LA→體循環</text></svg><div class="chd-dc-cap">肺靜脈→RA→ASD→LA；合併ASD維持混血</div></div>
+<rect x="114" y="22" width="22" height="7" rx="1" fill="#555" stroke="#E74C3C" stroke-width="1.5"/><line x1="110" y1="22" x2="114" y2="22" stroke="#E74C3C" stroke-width="1.5"/><line x1="136" y1="22" x2="140" y2="22" stroke="#E74C3C" stroke-width="1.5"/><text x="125" y="19" text-anchor="middle" fill="#E74C3C" font-size="7" font-weight="bold" font-family="system-ui,sans-serif">狹窄▼</text><text x="80" y="149" text-anchor="middle" fill="#E74C3C" font-size="8" font-weight="bold" font-family="system-ui,sans-serif">降主動脈狹窄→上肢高壓</text></svg><div class="chd-dc-cap">上肢高血壓、下肢脈弱</div></div>
+</div>
 </div>
 </div>
 
