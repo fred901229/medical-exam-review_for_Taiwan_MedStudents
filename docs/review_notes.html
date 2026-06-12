@@ -77,8 +77,10 @@
     .mcard .ma{font-size:.88rem;color:var(--text);font-weight:600}
 
     /* Sign card with image thumbnail */
-    .sign-card.has-img{align-items:center;cursor:pointer}
-    .sign-thumb{width:54px;height:46px;object-fit:cover;border-radius:5px;margin-left:auto;flex-shrink:0;border:1px solid var(--border);transition:.15s}
+    .sign-card.has-img{display:grid;grid-template-columns:1fr 60px;align-items:center;gap:3px 8px;cursor:pointer}
+    .sign-card.has-img .sn{grid-column:1;grid-row:1;white-space:normal;word-break:break-word}
+    .sign-card.has-img .sa{grid-column:1;grid-row:2;white-space:normal}
+    .sign-thumb{grid-column:2;grid-row:1/3;width:54px;height:46px;object-fit:cover;border-radius:5px;border:1px solid var(--border);transition:.15s;align-self:center}
     .sign-card.has-img:hover .sign-thumb{transform:scale(1.1);border-color:var(--primary)}
 
     /* Lightbox */
