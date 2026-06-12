@@ -5509,6 +5509,370 @@
         "reference": "First Choice 2025 醫學五 心臟血管外科 p. 109"
     },
     {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "CABG (Coronary artery bypass graft)術中使用on pump CPB或off pump CPB的比較?",
+        "answer": "On-pump：要降低體溫、給予心肌麻痺液、避免產生併發症(短暫缺血、腦中風)、給予Heparin；Off-pump：因為會夾緊血管而產生thromboembolization，所以要給予Heparin。兩者在手術後一年各項指標並無顯著差異",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 34, 116"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "PAOD (Peripheral Artery Occlusion Disease)依照Fontaine stage classification可以分為哪些分級?",
+        "answer": "Stage I: Asymptomatic, decreased pulses (ABI < 0.9)、Stage II: claudation (IIa: mild, IIb: moderate to severe)、Stage III: rest pain、Stage IV: tissue necrosis,ulceration , gangrene",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 98"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "ABI(ankle-brachial index)依照數值高低可以將阻塞程度分為哪些程度?",
+        "answer": "1: normal、0.9-0.7: mild, intermittent claudication、0.7-0.4: moderate, ischemic pain、< 0.4: severe, limb necrosis、> 1.4: atherosclerosis",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 99"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "長時間缺血，再灌流後導致的reperfusion injury/syndrome，會有甚麼症狀?",
+        "answer": "高血鉀、低血鈣、CK上升、AKI、myoglobinuria、compartment syndrome",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 100"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "Vena Cava Filter使用的適應症包含哪些?",
+        "answer": "使用抗凝血劑仍反覆栓塞、DVT病人但無法使用抗凝血劑、慢性肺栓塞+肺高壓、使用抗凝血劑有不良併發症、iliofemoral v.或IVC有free-floating thrombus",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 101"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "診斷DVT的首選工具為何?",
+        "answer": "督卜勒超音波(Duplex ultrasound)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 101"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "主動脈內氣球幫補(IABP, Intra-aortic ballon pump)是將其放置於那裡?",
+        "answer": "降主動脈靠近主動脈弓處",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 114"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "主動脈內氣球幫補(IABP, Intra-aortic ballon pump)的禁忌症有哪些?",
+        "answer": "Absolute: severe AR、Aortic dissection、Aneurysm、severe aorta-iliac a. calcification、chronic end-stage heart failure",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 115"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "心肺體外循環(CPB, Cadiopulmonary Bypass)是將導管插置於哪些血管上?",
+        "answer": "升主動脈(回輸動脈血)、上腔靜脈(引流頭部與上肢靜脈血)、下腔靜脈(引流腹部與下肢靜脈血)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 115, 120"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "心臟手術進行體外循環時，要注意哪些事情?",
+        "answer": "灌注心肌麻痺液(cardioplegia，高K+溶液)(心肌停止跳動 --> 降低心肌需求、減少缺血受損、增加手術視野)、低體溫療法(20°C) (降低全身代謝)、引流心臟內的血液 (心肌鬆弛)、維持腦部灌流(innominal a. --> coratid a.，避免中風)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 116"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "Heparin的解毒劑為何?",
+        "answer": "Protamine",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 116"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "心房黏液瘤(myxoma)的臨床特徵有哪些?",
+        "answer": "心臟最常見的良性腫瘤、心內膜異常增生、女>男、75%左心房、容易脫落導致血管栓塞",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 119"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "Marfan syndrome是由於哪一種蛋白質異常所導致?",
+        "answer": "Fibrillin",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 121"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "二尖瓣狹窄(MS, Mitral Stenosis)，依照口徑大小如何區分嚴重度?",
+        "answer": "moderate: < 1.5 cm2；severe: < 1cm2",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 82"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "二尖瓣狹窄(MS, Mitral Stenosis)依照病理機轉，會有哪些臨床症狀?",
+        "answer": "左心房壓力上升 --> 肺靜脈壓上升 --> 肺動脈高壓 --> 右心室肥大 --> 三尖瓣逆流 --> 右心房擴張 --> 右心衰竭",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 82"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "二尖瓣狹窄(MS, Mitral Stenosis)最常見的原因為何?",
+        "answer": "風溼熱(Rheumatic fever)、感染性心內膜炎(IE, infective endocarditis)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 82"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "二尖瓣逆流(MR, Mitral Regurgitation)依照病理機轉，會有哪些臨床症狀?",
+        "answer": "血液回流左心房 --> 左心房擴張；左心室代償擴大肥厚 --> 左心衰竭",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 83"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "老年人和年輕人的主動脈瓣狹窄(AS, Aortic Stenosis)，最常見的原因分別為何?",
+        "answer": "老年人：退化性、鈣化；年輕人：先天性、BAV(Bicuspid aortic valve)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 84"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "主動脈瓣狹窄(AS, Aortic Stenosis)，依照口徑大小如何區分嚴重度?",
+        "answer": "Normal: 3-4 cm2；Mild: 1.5-3 cm2；Moderate: 1-1.5 cm2；Severe: < 1 cm2",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 84"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "主動脈瓣狹窄(AS, Aortic Stenosis)的三大症狀為何?",
+        "answer": "Angina、Syncope、Congestive Heart Failure",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 84"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "Ross procedure指的是甚麼樣的手術?",
+        "answer": "拿掉主動脈瓣+一段主動脈，將肺動脈瓣+肺動脈拿去修補主動脈瓣(autograft)，再將器捐者的肺動脈拿去修補肺動脈(allograft)，不用服抗凝血劑，瓣膜可隨年紀而長大，適合小孩與年輕人",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 85-86"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "主動脈瓣逆流(AR, Aortic Regurgitation)依照病理機轉，會有哪些臨床症狀?",
+        "answer": "血液回流左心室 --> 左心preload增加 --> 左心代償擴大肥厚 --> 左心衰竭",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 86"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "主動脈瓣逆流(AR, Aortic Regurgitation)接受手術的適應症有哪些?",
+        "answer": "出現臨床症狀、無症狀 + EF < 50%、無症狀 + LVESD > 55 mmHg or LVEDD > 70 mmHg、合併其他疾病須同時手術修正",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 86"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "關於人造瓣膜的選擇與比較，機械性瓣膜與生物性瓣膜的優缺點有哪些?",
+        "answer": "機械性瓣膜：動力學效果佳、耐久、須終身服用抗凝血劑、栓塞率高；生物性瓣膜；栓塞率低、只需短期服用抗凝血劑、使用10-20年",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 87"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "機械性瓣膜與生物性瓣膜各自適合哪些族群?",
+        "answer": "機械性瓣膜：小孩、<60歲、Atral fibrillation (使用Wafarin)、瓣膜環部(annular)太小；生物性瓣膜：> 70歲、懷孕(Wafarin有致畸胎性)、高出血風險者(血友病、洗腎)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 87"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "最常見的發紺型先天性心臟病是哪一個疾病?",
+        "answer": "法洛氏四重症(TOF, Tetralogy of Fallot)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 49"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "法洛氏四重症(TOF, Tetralogy of Fallot)包含哪些心臟異常?",
+        "answer": "VSD (Ventricular septal defect)、Aortic override、RVOTO (Right ventricular outflow tract obstruction)、RVH (Right ventricular hypertrophy)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 49"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "法洛氏四重症(TOF, Tetralogy of Fallot)的病理機轉為何?",
+        "answer": "心室中膈缺損 --> 主動脈、心室連接異常 --> 主動脈跨位至右心室 --> 右心室出口受阻 --> R-to-L shunt (右心室 --VSD--> 左心室)、右心室代償肥厚",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 49"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "法洛氏四重症(TOF, Tetralogy of Fallot)的手術方式為何?",
+        "answer": "Total Correction：VSD修補、右心室出口或肺動脈狹窄擴大術；B-T shunt：將subclavian a.接到pulmonary a. --> pulmonary blood flow增加 --> 回心含氧血增加",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 50"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "大動脈轉位(TGA, Transposition of great arteries)包含哪些心臟異常?",
+        "answer": "主動脈接到右心室，肺動脈接到左心室",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 51"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "大動脈轉位(TGA, Transposition of great arteries)的病理機轉為何?",
+        "answer": "體循環、肺循環各自獨立(缺氧血：上下腔靜脈 --> 右心房、右心室 --> 主動脈 --> 體循環 --> 上下腔靜脈；含氧血：肺靜脈 --> 左心房、左心室 --> 肺動脈 --> 肺循環 --> 肺靜脈)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 51"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "大動脈轉位(TGA, Transposition of great arteries)的手術方式為何?",
+        "answer": "Total Correction：1. Jatene operation (主動脈、肺動脈互換)、2. Mustard and Senning operation (心房互換)、3. Rastelli operation (心室互換)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 51-52"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "左心發育不全症候群(HLHS, Hypoplastic Left Heart Syndrome)包含哪些心臟異常?",
+        "answer": "左心發育不全，常合併左心相關異常(主動脈弓窄縮、主動脈瓣/二尖瓣的狹窄/閉鎖",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 52"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "左心發育不全症候群(HLHS, Hypoplastic Left Heart Syndrome)的病理機轉為何?",
+        "answer": "左心無功能 --> 右心代償供應體循環(肺動脈 --> PDA --> 主動脈) --> 心臟衰竭；左心回流受阻 --> 肺靜脈壓增加 --> 心臟衰竭",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 52"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "左心發育不全症候群(HLHS, Hypoplastic Left Heart Syndrome)的手術方式為何?",
+        "answer": "三階段手術：1. Norwood procedure (心房中膈切除：血流從左心房分流到右心房；主動脈接到右心室；肺動脈與右心室分離、B-T shunt引流部分右心室血至肺動脈)、2. Bidirectional Glenn procedure (上腔靜脈接到肺動脈)、3. Fontan procedure (下腔靜脈接到肺動脈)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 52-53"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "全肺靜脈回流異常(TAPVR, Total anomalous pulmonary venous return)包含哪些心臟異常?",
+        "answer": "肺靜脈接到上下腔靜脈或右心房，常合併ASD",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 53"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "全肺靜脈回流異常(TAPVR, Total anomalous pulmonary venous return)的病理機轉為何?",
+        "answer": "充氧血：肺靜脈 --> 上下腔靜脈 --> 右心房 --ASD--> 左心房 --> 左心室 --> 體循環",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 53"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "全肺靜脈回流異常(TAPVR, Total anomalous pulmonary venous return)的手術方式為何?",
+        "answer": "直接肺靜脈吻合術(Pulmonary Vein-to-Left Atrium Anastomosis)；肺靜脈接到左心房、關閉ASD；肺靜脈無縫修補術(Sutureless Repair)：不縫合肺靜脈，使用心包膜組織包覆肺靜脈，減少肺靜脈狹窄的機率",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 53"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "開放性動脈導管(PDA, Patent ductus arteriosus)包含哪些心臟異常?",
+        "answer": "PDA不關閉",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 56-57"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "開放性動脈導管(PDA, Patent ductus arteriosus)的病理機轉為何?",
+        "answer": "PDA開放 ：主動脈 --PDA--> 肺動脈 --> 肺動脈高壓、肺水腫 --> 右心代償 --> R-to-L shunt --> Eisenmenger's syndrome",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 57"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "開放性動脈導管(PDA, Patent ductus arteriosus)的手術方式為何?",
+        "answer": "注射Indomethacin、手術將PDA綁緊或切斷",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 57"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "最常見的先天性心臟病是哪一個疾病?",
+        "answer": "心室中膈缺損(VSD, Ventricular Septal Defect)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 58"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "Down syndrome最常合併哪一種先天性心臟病?",
+        "answer": "心室中膈缺損(VSD, Ventricular Septal Defect)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 58"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "心室中膈缺損(VSD, Ventricular Septal Defect)包含哪些心臟異常?",
+        "answer": "心室中膈缺損：左心室 --VSD--> 右心室 (Perimembranous VSD：最常見；Subarterial VSD：最常合併主動脈瓣脫垂(右冠狀動脈瓣較常見)；Atrioventricular cannal-type VSD；Muscular VSD)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 58"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "心室中膈缺損(VSD, Ventricular Septal Defect)的病理機轉為何?",
+        "answer": "心室中膈缺損：左心室 --VSD--> 右心室 --> 肺動脈高壓 --> 右心代償 --> R-to-L shunt --> Eisenmenger's syndrome",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 58"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "心室中膈缺損(VSD, Ventricular Septal Defect)的手術方式為何?",
+        "answer": "肺動脈繃紮術(PA banding)、VSD修補、心肺移植(Eisenmenger's syndrome)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 58"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "心房中膈缺損(ASD, Atrial Septal Defect)包含哪些心臟異常?",
+        "answer": "心房中膈缺損：左心房 --ASD--> 右心房 (Ostium secundum ASD：最常見；Ostium primum；Sinus venous ASD：常合併partial abnormal pulmonary venous return；Coronary sinus ASD)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 59"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "心房中膈缺損(ASD, Atrial Septal Defect)的病理機轉為何?",
+        "answer": "心房中膈缺損：左心房 --ASD--> 右心房 --> 右心室 --> 肺動脈高壓 --> 右心代償 --> R-to-L shunt --> Eisenmenger's syndrome",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 59"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "心房中膈缺損(ASD, Atrial Septal Defect)的手術方式為何?",
+        "answer": "心導管放置關閉器(Ostium secundum ASD)、ASD修補",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 60"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "主動脈窄縮(CoA, Coarctation of Aorta)包含哪些心臟異常?",
+        "answer": "主動脈先天性狹窄 (最常發生在降主動脈與PDA連接處) (Preductal/infantile；Postductal/Adult)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 61"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "主動脈窄縮(CoA, Coarctation of Aorta)的病理機轉為何?",
+        "answer": "主動脈狹窄 --> 左心室afterload增加 --> 左心室擴大 --> 心臟衰竭 (Preductal/infantile：前段窄縮 --> 肺動脈 --PDA--> 降主動脈 --> 下半身輕度發紺；Postductal/Adult：後段窄縮 --> 下肢脈搏微弱、消失 (上肢脈搏>下肢脈搏，上肢血壓高：頭痛、頭暈、流鼻血、中風))",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 61"
+    },
+    {
+        "subject": "心臟血管外科",
+        "type": "國考",
+        "question": "主動脈窄縮(CoA, Coarctation of Aorta)的手術方式為何?",
+        "answer": "廣泛切除後兩端吻合(Extended end-to-end anastomosis)、鎖骨下動脈皮瓣主動脈成形術(subclavian flap aortoplasty)、布塊擴大術(Patch augmentation)",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 61"
+    },
+    {
         "subject": "Symptoms & Signs",
         "type": "Symptoms & Signs",
         "question": "Thumb sign",
