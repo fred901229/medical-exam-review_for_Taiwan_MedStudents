@@ -110,6 +110,14 @@
     .fc-drawer a:hover{color:var(--primary);background:var(--surface2);border-left-color:var(--primary)}
     .fc-drawer .sb-badge{margin-left:auto;background:var(--surface3);color:var(--text3);font-size:.66rem;padding:1px 5px;border-radius:8px;flex-shrink:0}
 
+    /* ── Comparison Table ── */
+    .tbl{width:100%;border-collapse:collapse;font-size:.83rem;margin:6px 0}
+    .tbl th{background:var(--primary-dim);color:var(--primary);font-weight:700;text-align:left;padding:6px 10px;border:1px solid var(--border);white-space:nowrap}
+    .tbl td{padding:5px 10px;border:1px solid var(--border);vertical-align:top;line-height:1.5}
+    .tbl tr:nth-child(even) td{background:var(--surface2)}
+    .tbl tr:hover td{background:var(--surface3)}
+    .tbl-wrap{overflow-x:auto;margin:4px 0}
+
   </style>
 </head>
 <body>
@@ -175,8 +183,14 @@
 </ul></div>
 
 <div class="topic"><h3>開放性骨折 / Gustilo Classification</h3><ul class="bl">
-<li>Type I：傷口 &lt;1cm；Type II：1–10cm；Type III：&gt;10cm</li>
-<li>IIIA：軟組織可覆蓋；IIIB：不能覆蓋；IIIC：神經血管受損</li>
+<div class="tbl-wrap"><table class="tbl">
+<tr><th>Type</th><th>傷口大小</th><th>特點</th></tr>
+<tr><td>I</td><td>&lt;1 cm</td><td>清潔傷口</td></tr>
+<tr><td>II</td><td>1–10 cm</td><td>中等汙染</td></tr>
+<tr><td>IIIA</td><td>&gt;10 cm</td><td>軟組織可覆蓋骨頭</td></tr>
+<tr><td>IIIB</td><td>&gt;10 cm</td><td>軟組織無法覆蓋（需皮瓣）</td></tr>
+<tr><td>IIIC</td><td>&gt;10 cm</td><td>合併神經血管損傷</td></tr>
+</table></div>
 <li><strong>最常見致病菌</strong>：Staphylococcus aureus</li>
 </ul></div>
 
@@ -273,12 +287,27 @@
 <section class="sec" id="s-腦神">
 <div class="sec-hdr"><h2>🧠 腦神經外科</h2><span class="count-badge">135 題</span></div>
 
-<div class="topic"><h3>GCS 評估</h3><ul class="bl">
-<li><strong>E（Best Eye Opening）</strong>：4自動、3聲音、2疼痛、1無反應</li>
-<li><strong>V（Best Verbal Response）</strong>：5正常、4答非所問、3單字、2聲音/呻吟、1無反應</li>
-<li><strong>M（Best Motor Response）</strong>：6 obey、5 localize、4 withdraw、3 UL flexion、2 UL extension、1無</li>
-<li><strong>頭部外傷嚴重度</strong>：輕度 13–15；中度 9–12；重度 3–8</li>
-</ul></div>
+<div class="topic"><h3>GCS 評估</h3>
+<div class="tbl-wrap"><table class="tbl">
+<tr><th>項目</th><th>分數</th><th>描述</th></tr>
+<tr><td rowspan="4"><strong>E 眼睛睜開</strong></td><td>4</td><td>自動睜開</td></tr>
+<tr><td>3</td><td>聲音刺激</td></tr>
+<tr><td>2</td><td>疼痛刺激</td></tr>
+<tr><td>1</td><td>無反應</td></tr>
+<tr><td rowspan="5"><strong>V 語言反應</strong></td><td>5</td><td>正常對答</td></tr>
+<tr><td>4</td><td>答非所問</td></tr>
+<tr><td>3</td><td>僅說單字</td></tr>
+<tr><td>2</td><td>聲音/呻吟</td></tr>
+<tr><td>1</td><td>無反應</td></tr>
+<tr><td rowspan="6"><strong>M 動作反應</strong></td><td>6</td><td>遵從指令（obey）</td></tr>
+<tr><td>5</td><td>定位疼痛（localize）</td></tr>
+<tr><td>4</td><td>退縮（withdraw）</td></tr>
+<tr><td>3</td><td>上肢屈曲（flexion）</td></tr>
+<tr><td>2</td><td>上肢伸直（extension）</td></tr>
+<tr><td>1</td><td>無反應</td></tr>
+</table></div>
+<ul class="bl"><li><strong>頭部外傷嚴重度</strong>：輕度 13–15；中度 9–12；重度 3–8</li></ul>
+</div>
 
 <div class="topic"><h3>頭部外傷</h3><ul class="bl">
 <li><strong>腦震盪（Concussion）</strong>：無腦實質受傷，僅意識改變</li>
@@ -514,7 +543,12 @@
 
 <div class="topic"><h3>移植免疫</h3><ul class="bl">
 <li><strong>MHC</strong>：第6對染色體短臂；Class I（HLA-A/B/C）存在有核細胞+血小板；Class II（HLA-DP/DQ/DR）存在APC（B cell/Macrophage/DC）</li>
-<li><strong>排斥分類</strong>：Hyperacute（數分鐘-數天，ABO不符/現有HLA抗體）；Acute（1週-6個月）；Chronic（數月-數年）</li>
+<div class="tbl-wrap"><table class="tbl">
+<tr><th>類型</th><th>發生時間</th><th>主要機轉/原因</th></tr>
+<tr><td><strong>Hyperacute</strong></td><td>數分鐘—數天</td><td>ABO 血型不符 / 現有 anti-HLA 抗體</td></tr>
+<tr><td><strong>Acute</strong></td><td>1 週—6 個月</td><td>T cell mediated（細胞免疫為主）</td></tr>
+<tr><td><strong>Chronic</strong></td><td>數月—數年</td><td>抗體 + 細胞免疫，不可逆纖維化</td></tr>
+</table></div>
 <li><strong>移植後感染時程</strong>：第1個月→細菌/Candida/病毒（HSV/HBV/HCV）；第2–6個月→CMV/EBV/VZV/伺機性感染；第6個月後→Herpes Zoster</li>
 <li><strong>PTLD</strong>：與 EBV 有關</li>
 </ul></div>
@@ -628,7 +662,12 @@
 <li><strong>最常見麻醉併發症（術後恢復室）</strong>：PONV</li>
 <li><strong>Apfel score PONV 危險因子</strong>：女性、不抽菸、動暈症/PONV病史、術後 opioid</li>
 <li><strong>ARDS 定義</strong>：急性7天內雙側肺浸潤無其他原因</li>
-<li><strong>ARDS 分級（P/F ratio）</strong>：Mild 200–300；Moderate 100–200；Severe &lt;100 mmHg</li>
+<div class="tbl-wrap"><table class="tbl">
+<tr><th>嚴重度</th><th>P/F ratio（mmHg）</th></tr>
+<tr><td>Mild</td><td>200–300</td></tr>
+<tr><td>Moderate</td><td>100–200</td></tr>
+<tr><td>Severe</td><td>&lt;100</td></tr>
+</table></div>
 <li><strong>ARDS 治療</strong>：Low TV（6mL/kg）、Plateau pressure ≤30、PEEP ≥5、Prone position、VV-ECMO</li>
 <li><strong>SOFA</strong>：腦/心/肝/肺/腎/血；<strong>qSOFA</strong>：RR≥22、Altered mentation、SBP≤100</li>
 <li><strong>Surviving Sepsis Campaign</strong>：3hr內30mL/kg balanced crystalloid；MAP&gt;65；1st 升壓劑 Norepinephrine；血糖144–180 mg/dL</li>
@@ -757,7 +796,16 @@
 <li><strong>早期乳癌篩檢標準工具</strong>：乳房攝影（Mammography）；適合 ≥40歲、乳房脂肪較多女性</li>
 <li><strong>台灣乳癌篩檢建議</strong>：一般族群 45–69歲每兩年一次；二等親內家族史者 40–44歲每兩年一次</li>
 <li><strong>乳房攝影兩種 view</strong>：CC view（上下夾，由上往下）；MLO view（左右夾，可見胸大肌）</li>
-<li><strong>BI-RADS 分類</strong>：0=評估不完整；1=正常；2=良性；3=可能良性；4=懷疑異常；5=高度懷疑；6=已知惡性</li>
+<div class="tbl-wrap"><table class="tbl">
+<tr><th>Grade</th><th>意義</th><th>處置</th></tr>
+<tr><td>0</td><td>評估不完整</td><td>需補充影像</td></tr>
+<tr><td>1</td><td>正常</td><td>常規追蹤</td></tr>
+<tr><td>2</td><td>良性</td><td>常規追蹤</td></tr>
+<tr><td>3</td><td>可能良性（惡性率 &lt;2%）</td><td>6 個月追蹤</td></tr>
+<tr><td>4</td><td>懷疑異常</td><td>建議切片</td></tr>
+<tr><td>5</td><td>高度懷疑惡性（&gt;95%）</td><td>切片確認</td></tr>
+<tr><td>6</td><td>已知惡性（病理確認）</td><td>治療計畫</td></tr>
+</table></div>
 <li><strong>FNAC（細針抽吸）</strong>：使用 22號針頭</li>
 </ul></div>
 
@@ -863,7 +911,14 @@
 </ul></div>
 
 <div class="topic"><h3>燒燙傷 / 疤痕 / 美容</h3><ul class="bl">
-<li><strong>燒燙傷分級</strong>：一度 表皮/觸痛/3–5天；淺二度 真皮乳突層/14天內；深二度 真皮深層/21天以上（儘快植皮）；三度 全層/焦黑/無痛；四度 皮瓣/截肢</li>
+<div class="tbl-wrap"><table class="tbl">
+<tr><th>分級</th><th>深度</th><th>外觀/感覺</th><th>癒合/處置</th></tr>
+<tr><td>一度</td><td>表皮</td><td>紅斑、觸痛</td><td>3–5 天自癒</td></tr>
+<tr><td>淺二度</td><td>真皮乳突層</td><td>水泡、濕潤</td><td>≤14 天</td></tr>
+<tr><td>深二度</td><td>真皮深層</td><td>感覺減退</td><td>≥21 天，儘快植皮</td></tr>
+<tr><td>三度</td><td>全層皮膚</td><td>焦黑、無痛</td><td>植皮/皮瓣</td></tr>
+<tr><td>四度</td><td>骨/肌腱/深層組織</td><td>—</td><td>皮瓣或截肢</td></tr>
+</table></div>
 <li><strong>Keloid 好發部位</strong>：皮膚張力大處（前胸、肩膀、上背、關節活動處）</li>
 <li><strong>眼瞼下垂（Ptosis）嚴重度</strong>：Mild &lt;2 mm；Moderate 2–3 mm；Severe ≥4 mm</li>
 <li><strong>Ptosis 手術選擇</strong>：Putterman procedure（mild）；Levator resection（mod/severe + levator fn ≥5 mm）；Frontalis fascial sling（severe + levator fn &lt;5 mm）；Levator plication（mild levator impairment）</li>
@@ -904,7 +959,13 @@
 <li><strong>CABG 適應症（穩定型心絞痛）</strong>：LCA ≥50%、proximal LAD+LCA ≥70%、Triple-VD + EF<50%、Two-VD + proximal LAD + EF<50%</li>
 <li><strong>CABG 適應症（non-stable angina/NSTEMI）</strong>：LCA ≥50%、proximal LAD+LCA ≥70%、藥物無效</li>
 <li><strong>CABG 適應症（AMI/STEMI）</strong>：PCI 失敗後仍不穩定、VSR/MR 後、ventricular arrhythmia + LCA ≥50%、Triple-VD</li>
-<li><strong>Conduits（10年通暢率）</strong>：LIMA 90% > RIMA 80% > Radial a. 70% > GSV 50%（最常使用）</li>
+<div class="tbl-wrap"><table class="tbl">
+<tr><th>移植血管</th><th>10年通暢率</th><th>備注</th></tr>
+<tr><td>LIMA（左胸廓內動脈）</td><td>90%</td><td></td></tr>
+<tr><td>RIMA（右胸廓內動脈）</td><td>80%</td><td></td></tr>
+<tr><td>Radial a.（橈動脈）</td><td>70%</td><td></td></tr>
+<tr><td>GSV（大隱靜脈）</td><td>50%</td><td>最常使用</td></tr>
+</table></div>
 <li><strong>On-pump vs Off-pump</strong>：On-pump → 需降體溫 + 心肌麻痺液；Off-pump → 需 Heparin（避免血栓）；術後1年兩者無顯著差異</li>
 <li><strong>TMLR（Transmyocardial laser revascularization）</strong>：雷射燒灼受損心肌、破壞心室感覺神經、刺激血管新生；效果需3-6個月；Contraindication：LVEF <30%</li>
 </ul></div>
@@ -926,8 +987,22 @@
 </ul></div>
 
 <div class="topic"><h3>周邊動脈疾病（PAOD）/ DVT</h3><ul class="bl">
-<li><strong>PAOD Fontaine 分期</strong>：Stage I（無症狀，ABI &lt;0.9）/ Stage IIa（輕度間歇性跛行）/ Stage IIb（中重度間歇性跛行）/ Stage III（休息痛）/ Stage IV（組織壞死、潰瘍、壞疽）</li>
-<li><strong>ABI 判讀</strong>：1（正常）/ 0.9–0.7（輕度，間歇性跛行）/ 0.7–0.4（中度，缺血性疼痛）/ &lt;0.4（重度，肢體壞死）/ &gt;1.4（動脈硬化鈣化）</li>
+<div class="tbl-wrap"><table class="tbl">
+<tr><th>Fontaine Stage</th><th>臨床表現</th></tr>
+<tr><td>Stage I</td><td>無症狀（ABI &lt;0.9）</td></tr>
+<tr><td>Stage IIa</td><td>輕度間歇性跛行</td></tr>
+<tr><td>Stage IIb</td><td>中重度間歇性跛行</td></tr>
+<tr><td>Stage III</td><td>休息痛</td></tr>
+<tr><td>Stage IV</td><td>組織壞死、潰瘍、壞疽</td></tr>
+</table></div>
+<div class="tbl-wrap"><table class="tbl">
+<tr><th>ABI 值</th><th>臨床意義</th></tr>
+<tr><td>1</td><td>正常</td></tr>
+<tr><td>0.9–0.7</td><td>輕度（間歇性跛行）</td></tr>
+<tr><td>0.7–0.4</td><td>中度（缺血性疼痛）</td></tr>
+<tr><td>&lt;0.4</td><td>重度（肢體壞死風險）</td></tr>
+<tr><td>&gt;1.4</td><td>動脈硬化鈣化（偽高值）</td></tr>
+</table></div>
 <li><strong>Reperfusion injury 症狀</strong>：高血鉀、低血鈣、CK 上升、AKI、myoglobinuria、compartment syndrome</li>
 <li><strong>DVT 診斷首選</strong>：督卜勒超音波（Duplex ultrasound）</li>
 <li><strong>Vena Cava Filter 適應症</strong>：使用抗凝血劑仍反覆栓塞、DVT 無法使用抗凝血劑、慢性肺栓塞+肺高壓、抗凝血劑有不良併發症、iliofemoral v. 或 IVC 有 free-floating thrombus</li>
@@ -946,12 +1021,15 @@
 <li><strong>AR 手術適應症</strong>：出現臨床症狀、無症狀 + EF &lt;50%、無症狀 + LVESD &gt;55 mmHg 或 LVEDD &gt;70 mmHg、合併其他須手術疾病</li>
 </ul></div>
 
-<div class="topic"><h3>人造瓣膜選擇</h3><ul class="bl">
-<li><strong>機械性瓣膜</strong>：動力學佳、耐久；需終身抗凝血劑；栓塞率高</li>
-<li><strong>生物性瓣膜</strong>：栓塞率低；短期抗凝血劑；使用壽命 10–20 年</li>
-<li><strong>機械性適合族群</strong>：小孩、&lt;60 歲、Atrial fibrillation（需 Warfarin）、瓣膜環（annular）太小</li>
-<li><strong>生物性適合族群</strong>：&gt;70 歲、懷孕（Warfarin 致畸胎性）、高出血風險（血友病、洗腎）</li>
-</ul></div>
+<div class="topic"><h3>人造瓣膜選擇</h3>
+<div class="tbl-wrap"><table class="tbl">
+<tr><th>項目</th><th>機械性瓣膜</th><th>生物性瓣膜</th></tr>
+<tr><td>耐久性</td><td>永久耐久</td><td>10–20 年</td></tr>
+<tr><td>抗凝血劑</td><td>終身需要（Warfarin）</td><td>短期即可</td></tr>
+<tr><td>栓塞率</td><td>高</td><td>低</td></tr>
+<tr><td>適合族群</td><td>小孩、&lt;60 歲、AF（需 Warfarin）、annular 太小</td><td>&gt;70 歲、懷孕、高出血風險（血友病、洗腎）</td></tr>
+</table></div>
+</div>
 
 <div class="topic"><h3>先天性心臟病—發紺型（Cyanotic CHD）</h3><ul class="bl">
 <li><strong>最常見發紺型先天性心臟病</strong>：TOF（法洛氏四重症，Tetralogy of Fallot）</li>
