@@ -1,6 +1,14 @@
 [
   {
     "date": "2026-06-12",
+    "title": "新增 Symptoms & Signs 閃卡 & 頁面圖片",
+    "items": [
+      "Symptoms & Signs 閃卡新增 5 筆：Homan's sign（DVT）、Clubbing finger（發紺型CHD）、Boot-shaped Heart sign（TOF）、Egg-shaped heart（TGA）、Snowman heart sign（TAPVR）",
+      "複習筆記 Signs 區新增「先天性心臟病相關」子區塊，附 Wikimedia CC 授權圖片（Boot-shaped Heart CXR、Egg-on-side CXR、Clubbing finger）"
+    ]
+  },
+  {
+    "date": "2026-06-12",
     "title": "新增心臟血管外科閃卡",
     "items": [
       "心臟血管外科 First Choice 閃卡由 24 張擴充至 76 張",

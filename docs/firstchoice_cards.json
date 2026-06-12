@@ -6545,6 +6545,41 @@
         "reference": "First Choice 2025 醫學五 心臟血管外科 p. 31-32"
     },
     {
+        "subject": "Symptoms & Signs",
+        "type": "徵象",
+        "question": "Homan's sign",
+        "answer": "DVT（Deep Venous Thrombosis）",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 100"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "徵象",
+        "question": "Clubbing finger",
+        "answer": "Cyanotic congenital heart disease（發紺型先天性心臟病）",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 49"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "徵象",
+        "question": "Boot-shaped Heart sign（coeur en sabot）",
+        "answer": "TOF（Tetralogy of Fallot，法洛氏四重症）",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 49"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "徵象",
+        "question": "Egg-shaped heart（egg on side sign）",
+        "answer": "TGA（Transposition of great arteries，大動脈轉位）",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 51"
+    },
+    {
+        "subject": "Symptoms & Signs",
+        "type": "徵象",
+        "question": "Snowman heart sign（figure-of-8 sign）",
+        "answer": "TAPVR supracardiac type（全肺靜脈回流異常心上型）",
+        "reference": "First Choice 2025 醫學五 心臟血管外科 p. 53"
+    },
+    {
         "subject": "Test",
         "type": "Test",
         "question": "Thompson's test",
