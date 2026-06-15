@@ -5952,13 +5952,6 @@
   {
     "subject": "Symptoms & Signs",
     "type": "Symptoms & Signs",
-    "question": "Virchow's triad",
-    "answer": "PE (Pulmonary Embolism), DVT (Deep Vein Thrombosis)",
-    "reference": "First Choice 2025 醫學五 外科學概論 p. 48"
-  },
-  {
-    "subject": "Symptoms & Signs",
-    "type": "Symptoms & Signs",
     "question": "Lethal triad",
     "answer": "Severe Trauma",
     "reference": "First Choice 2025 醫學五 外科學概論 p. 86"
@@ -7271,5 +7264,376 @@
     "question": "Whipple triad",
     "answer": "insulinoma",
     "reference": "First Choice 2025 ??? ????? p. 264"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "支配甲狀腺的動脈有哪些?",
+    "answer": "1. external carotid a. --> superior thyroid a. 2. subclavian a. --> Thyrocervical trunk --> inferior thyroid a. 3. aortic arch or right common coratid a. or subclaivan a. --> thyroid ima a.",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 226"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "甲狀腺內有哪些細胞?分別負責甚麼功能?",
+    "answer": "Follicular cell：T3、T4；Parafollicular cell (C cell)：calcitonin",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 226"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "T3和T4的差異為何?",
+    "answer": "T3：與TBG結合力弱、作用快、作用強、維持時間短；T4：與TBG結合力強、作用慢、作用弱、維持時間長、血液中主要的甲狀腺素",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 226"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "甲狀腺亢進和甲狀腺低下各自的臨床特徵有哪些?",
+    "answer": "甲狀腺亢進：皮膚溫暖、濕，血管阻力下降、心跳加速，喘，食慾增加、腸蠕動增加、DTR增強、高血鈣、骨質疏鬆、多尿、基礎代謝率上升、貧血、常見原因：Grave diseases、Plummer's disease、Follicular adenoma。甲狀腺低下：皮膚冷乾，血管阻力上升、心跳變慢，呼吸抑制、CO2 retention、肋膜積液，食慾降低、腸蠕動減少、DTR減弱、ALP增加、LDH增加、AST增加，少尿、基礎代謝率下降、貧血、常見原因；Hashimoto thyroiditis、Iodine deficiency、post operation",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 227"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "超音波下，甲狀腺較有可能是惡性的特徵有哪些?",
+    "answer": "Hypoechoic、incomplete peripheral halo、邊緣不規則、小鈣化點、cyst > 3cm、硬塊、有中央血流供應",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 228, 232"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Tc99m thyroid scan哪一種nodule較有可能是惡性的?",
+    "answer": "cold nodule",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 228"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "FNA (fine needle aspiration)後的Bethesda classification，分別為何?對應的處理為何?",
+    "answer": "1. Nondiagnostic or unsatisfactory --> FNA again 2. Benign --> follow up 3. Atypia or undetermined --> FNA again, molecular testing, lobectomy 4. Follicular neoplasm --> molecular testing, lobectomy 5. suspicious for malignancy --> near-total thyroidectomy or lobectomy 6. Malignant --> near-total thyroidectomy or lobectomy",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 228-229"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "甲狀腺亢進最常見的原因為何?",
+    "answer": "Graves disease",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 230"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "甲狀腺低下最常見的原因為何?",
+    "answer": "Hashimoto thyroiditis",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 231"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "甲狀腺結節的首選檢查方法為何?",
+    "answer": "FNA (Fine needle aspiration)",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 232"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "甲狀腺乳突癌(PTC, papillary thyroid carcinoma)的臨床特徵包含哪些?",
+    "answer": "衍生自濾泡上皮細胞、佔85%甲狀腺癌、好發於30-45歲、女性、生長最緩慢、多發性、易局部淋巴轉移、不易血液轉移、10年存活率90%、病理：Psammoma bodies (tall cells, columnar, insular patterns were poor prognosis)",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 233"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "甲狀腺乳突癌(PTC, papillary thyroid carcinoma)的治療包含哪些?",
+    "answer": "Total thyroidectomy、ipsilateral central neck dissection (if LN meta)、Radioablation (131I, except for partial Stage I patients)、Life long-term thyroxine suppresion、thyroglobulin follow-up",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 233"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "根據2018 AJCC，well-differentiated thyroid carcinoma的分期為何?",
+    "answer": "T1：<=2 cm (T1a: <= 1cm, T1b: 1-2 cm)；T2：2-4 cm；T3a：> 4cm, within capsule；T3b：diffuse to extra-capsule, with muscle invasion；T4a：soft tissue, larynx, trachea, esophagus, recurrent laryngeal n. invasion；T4b：pre-vetebral fascia, carotid a. or other vessel invasion；N1a：VI or VII lymph nodes；N1b：I~V lymph nodes",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 234"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "根據2018 AJCC，well-differentiated thyroid carcinoma的分期是以幾歲為分界?",
+    "answer": "< 55歲：stage I (any T, any N, M0)、stage II (any T, any N, M1)；>=55歲：stage I、Stage II (T1N1M0, T2N1M0, T3a/T3b, any N, M0)、Stage III (T4a, any N, M0)、Stage IVA (T4b, any N, M0)、Stage IVB (any T, any N, M1)",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 234"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "甲狀腺濾泡癌(FTC, follicular thyroid carcinoma)的臨床特徵包含哪些?",
+    "answer": "衍生自濾泡上皮細胞、佔10%甲狀腺癌、好發於50歲之後、女性、單發性、不易局部淋巴轉移、易血液轉移 (肺、骨頭、肝臟)、10年存活率60-80%、病理：侵犯包膜、血管、淋巴管",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 234"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "甲狀腺濾泡癌(FTC, follicular thyroid carcinoma)的治療包含哪些?",
+    "answer": "thyroid lobectomy (< 1cm、單側、較少侵犯包膜)、Total thyroidectomy (> 1cm、多發性、侵犯包膜或血管、遠端轉移)、Radioablation、thyroid hormone suppression",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 235"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Hurthle cell carcinoma指的是甚麼樣的癌症?",
+    "answer": "FTC (Follicular thyroid carcinoma)的一種亞型，好發老年人、易淋巴轉移、對I131有抗性，病理：嗜酸性細胞",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 234"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "甲狀腺髓質癌(MTC, medullary thyroid carcinoma)的臨床特徵包含哪些?",
+    "answer": "衍生自濾泡旁細胞、佔5-10%甲狀腺癌、tumor marker：calcitonin, CEA、局部淋巴轉移、血行性遠端轉移、病理：amyloid (calcitonin片段)堆積、sporadic較常見、familial常與MEN IIA/IIB相關、I131治療效果差",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 236"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "甲狀腺髓質癌(MTC, medullary thyroid carcinoma)的治療包含哪些?",
+    "answer": "Total thyroidectomy + Central neck dissection、併發Pheochromocytoma時先處理pheochromocytoma、modified neck dissection (Ipsilateral cervical LN)",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 236"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "甲狀腺切除後，常見的併發症有哪些?",
+    "answer": "Hemorrhage (< 6hrs)、Transient hypocalcemia (24-48 hrs)、Recurrent laryngeal n. injury (單側：聲音沙啞；雙側：呼吸困難)、external br. of superior laryngeal n. injury (環甲肌 --> high pitch weakness)、thyroid storm/ thyroid crisis (12-36 hrs)",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 237-238"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "thyroid storm/ thyroid crisis的治療方式有哪些?",
+    "answer": "PTU (anti-thyroid)、Lugol solution/SSKI (Iodine solution) (Wolff-chaikoff effect)、corticosteroid、Beta-blocker、dialysis",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 238-239"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "上對副甲狀腺與下對副甲狀腺分別源自於那裡?分別由甚麼血管供應?",
+    "answer": "上對：4th pharyngeal pouch、上/下甲狀腺動脈；下對：3rd pharyngeal pouch、下甲狀腺動脈",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 254"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "primary/secondary/tertiary HPT (Hyperparathyroidism)各自的臨床特徵與表現為何?",
+    "answer": "Primary HPT：PTH上升 --> Ca上升、甲狀腺不正常增生(singel parathyroid adenoma 85%)、MEN I or MEN IIA；Secondary HPT：Ca下降 --> PTH上升、慢性腎衰竭 (高血磷 --> 低血鈣；Vitamin D減少 --> Ca吸收減少；EPO下降 --> 貧血)；腎性骨病變(renal osteodystrophy)、Osteomalacia、intestinal malabsorption；Tertiary HPT：secondary HPT時間久 --> PTH上升 --> Ca上升、長期腎衰竭接受腎臟移植後",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 254"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "最常用於檢測原發性副甲狀腺亢進的檢查工具是甚麼?",
+    "answer": "MIBI scan (Tc-sestamibi scintigraphy)",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 255"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "原發性副甲狀腺亢進(Primary HPT)的手術原則為何?",
+    "answer": "symptomatic：parathyroidectomy；asymptomatic (with age < 50yrs, can't follow-up, serum Ca > 11mg/dL, urine Ca > 400mg/24hrs, Ccr < 60 mL/min, osteoporosis：parathyroidectomy；Adenoma：切除Lesion、留下正常的組織；Hyperplasia：subtotal parathyroidectomy (留下100 mg)、total parathyroidectomy (自體移植到肱橈肌或SCM)",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 255-256"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胰島素瘤(Insulinoma)的臨床特徵包含哪些?",
+    "answer": "最常見的胰島細胞瘤、與MEN I有關、常見<2cm的單一良性腫瘤、Whipple's triad (Hypoglycemia, sugar < 50 mg/dL, symptoms relief after giving glucose (IV or PO))",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 264"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胰島素瘤(Insulinoma)的診斷方式包含哪些?",
+    "answer": "Whipple's triad、禁食72小時、每6小時測量血糖與胰島素 (Neuroglycopenia, Insulin > 5mU/mL, sugar < 50 mg/dL, elevation of C-peptide and pro-insulin)",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 264"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胰島素瘤(Insulinoma)的定位方式有哪些?",
+    "answer": "contrast CT (首選)、111In-octreotide scintigraphy、Calcium angiography (在不同動脈注射calcium刺激胰島素分泌，於對應的靜脈測量胰島素濃度，術前定位腫瘤位置最精準)",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 264"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胰島素瘤(Insulinoma)的治療方式有哪些?",
+    "answer": "手術(首選)：head --> enucleated、body or tail --> resection；藥物：diazoxide, verapamil, octreotide",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 265"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胃泌素瘤(Gastrinoma, Zollinger-Ellison syndrome)的臨床特徵包含哪些?",
+    "answer": "第二常見的胰島細胞瘤、與MEN I有關、60%惡性(轉移至附近淋巴結或肝臟)、PUD、epigastric pain、diarrhea、weight loss",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 265"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胃泌素瘤(Gastrinoma, Zollinger-Ellison syndrome)的診斷方式包含哪些?",
+    "answer": "fasting serum gastrin > 100 pg/mL、BAO (Basal gastric acid output) > 15 mEq/hr、Secretin test：gastrin超過baseline 200 pg/mL",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 265-266"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胃泌素瘤(Gastrinoma, Zollinger-Ellison syndrome)的定位方式有哪些?",
+    "answer": "Gastinoma triangle (膽管、十二指腸第二第三部分、胰頸部)、111In-octreotide scintigraphy (最有效)",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 266"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胃泌素瘤(Gastrinoma, Zollinger-Ellison syndrome)的治療方式有哪些?",
+    "answer": "藥物：H2 antatgonist、PPI；手術：head --> enucleated、body or tail --> resection、無法定位 --> parietal cell vagotomy、在十二指腸/胰臟頭部，太大且淋巴轉移無法局部切除 --> Whipple procedure",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 266"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "VIPoma的臨床特徵包含哪些?",
+    "answer": "源自D1細胞、分泌VIP (Vasoactive intestinal peptide)、好發於胰臟尾部、50%惡性、腹瀉、低血鉀、胃酸低、高血糖、高血鈣、潮紅",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 266"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "VIPoma的診斷方式包含哪些?",
+    "answer": "Fasting VIP > 190 pg/mL、secretory diarrhea",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 267"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "VIPoma的治療方式有哪些?",
+    "answer": "Octreotide、手術：遠端胰臟切除",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 267"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Glucagonoma的臨床特徵包含哪些?",
+    "answer": "源自alpha細胞、分泌glucagon、好發於胰臟尾部、75%惡性、T2DM、低胺基酸血症、貧血、體重減輕、壞死性移走紅斑(Necrolytic migratory erythema)",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 267"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Glucagonoma的診斷方式包含哪些?",
+    "answer": "臨床症狀、皮膚切片、Glucagon > 1000 pg/mL",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 267"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Glucagonoma的定位方式有哪些?",
+    "answer": "CT",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 267"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Glucagonoma的治療方式有哪些?",
+    "answer": "紅斑：somatostatin；tumor：手術",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 267"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Somatostatinoma的臨床特徵包含哪些?",
+    "answer": "源自sigma細胞、分泌somatostatin、罕見、好發於胰臟頭部、T2DM、脂漏症、膽結石",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 267"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "常導致Cushing syndrome的原因有哪些?",
+    "answer": "醫源性(最常見)、Cushing disease(非醫源性中最常見)、腎上腺腫瘤、ectopic ACTH",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 272"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Hyperaldosteronism的常見病因包含哪些?",
+    "answer": "Primary (aldosterone上升 --> Renin下降)：adenoma (Conn's syndrome，多為單側，佔30%)、hyperplasia (多為雙側，佔60%)、carcinoma (< 1%)；Secondary (volume不足 --> Renin上升 --> aldosterone上升)：Renin-producing tumor、腎動脈狹窄、肝硬化、腎病症候群、心衰竭",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 274"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Hyperaldosteronism的診斷包含哪些?",
+    "answer": "Renin、Aldosterone、Aldosterone/Renin、Salt suppression test、high-resolution CT、AVS(Aldosterone vein sampling)",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 274"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "嗜鉻細胞瘤(Pheochromocytoma)的臨床特徵包含哪些?",
+    "answer": "源自Chromaffin cell、分泌Catecholamines (norepinephrine, epinephrine)、遺傳性與MEN IIA/IIB、von Hippel-Lindau syndrome有關、症狀：5P (Pressure, Pain, Palpitation, Perspiration, Pallor)、10% rule (10%雙側、多發性、惡性、幼兒、家族性、腎上腺外、復發率)",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 275"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "嗜鉻細胞瘤(Pheochromocytoma)的診斷方式包含哪些?",
+    "answer": "尿中VMA (Vanillylmandelic acid)、Metanephirne、nor-metanephrine上升；CT；MRI (Hyperintensity on T2WI)；131I-MIBG scan",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 275-276"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "MEN I包含哪些臨床特色?",
+    "answer": "AD (11q13 MENIN gene)、Parathyroid hyperplasia/adenoma、Pancreatic islet-cell tumor (insulomia, gastrinoma, glucagonoma, VIPoma)、Pituitary adenoma (functional or non-functional)",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 280"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "MEN IIA包含哪些臨床特色?",
+    "answer": "AD (10q RET proto-oncogene)、MTC (Medullary Thyroid Carcinoma)、Pheochromocytoma、Parathryoid hyperplasia",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 280"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "MEN IIB包含哪些臨床特色?",
+    "answer": "AD (10q RET proto-oncogene)、MTC (Medullary Thyroid Carcinoma)、Pheochromocytoma、Mucosal and gastrointestinal neuroma",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 280"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "moon face",
+    "answer": "Cushing syndrome",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 273"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "Buffalo hump",
+    "answer": "Cushing syndrome",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 273"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "Purple striae",
+    "answer": "Cushing syndrome",
+    "reference": "First Choice 2025 醫學五 內分泌外科 p. 273"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "Virchow's triad",
+    "answer": "PE (Pulmonary Embolism), DVT (Deep Vein Thrombosis)",
+    "reference": "First Choice 2025 醫學五 外科學概論 p. 48、心臟血管外科 p.100"
   }
 ]
