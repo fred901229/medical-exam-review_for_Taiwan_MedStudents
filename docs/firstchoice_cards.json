@@ -6781,5 +6781,418 @@
         "question": "扁平苔癬(Lichen planus)臨床症狀包含哪些?",
         "answer": "5P: Planus (flat-topped), Pruritic, Polygonal, Purple, Papule",
         "reference": "First Choice 2025 醫學四 皮膚科 p. 108"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "請問大腸的哪幾段是後腹膜器官?",
+        "answer": "升結腸、降結腸、直腸",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 134"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "White line of Toldt指的是甚麼解剖構造?",
+        "answer": "壁層腹膜(parietal peritoneum)沿著升降結腸外側與腸繫膜連接的轉折處，手術上藉此線將結腸與後腹壁分離",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 134"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "SMA和IMA分別支配腸胃道的哪些構造?",
+        "answer": "SMA：小腸、盲腸、升結腸、前2/3橫結腸；IMA：後1/3橫結腸、降結腸、乙狀結腸、直腸上1/3",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 134"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "SMA和IMA之間藉由甚麼血管吻合相通?",
+        "answer": "Arc of Riolan、Marginal a.",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 134"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "大腸各段主要負責的功能有哪些?",
+        "answer": "升結腸：水分吸收、電解質吸收與分泌、逆蠕動；降結腸：逆蠕動、蠕動；乙狀結腸：大蠕動",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 134-135"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "大腸內的菌叢以何者最常見?",
+        "answer": "Bacteroides (2/3) --> E. coli",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 135"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "腸氣的主要來源為何?",
+        "answer": "腸內菌叢產生 (75%)、口腔吞嚥",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 135"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "肛門直腸環，包含哪些肌肉?",
+        "answer": "恥骨直腸肌(Puborectalis)、肛門內括約肌、肛門外括約肌",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 135"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "Levator ani muscle，包含哪些肌肉?",
+        "answer": "puborectalis, pubococcygeus, iliococcygeus",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 135, 137"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "骨盆底肌肉包含哪些肌肉?",
+        "answer": "Levator ani muscle (puborectalis, pubococcygeus, iliococcygeus) + coccygeus",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 135, 137"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "陰部神經(pudendal n.)分支出來的下直腸神經(inf. Rectal n.)，負責甚麼?",
+        "answer": "肛門外括約肌的運動、肛管下半部感覺",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 138"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "Waldeyer's fascia和Denonvilliers fascia分別又稱作甚麼?",
+        "answer": "Recto-sacral fascia、Recto-prostatic fascia",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 141"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "腸扭轉(Volvulus)最常見的是哪一種?",
+        "answer": "第一常見；乙狀結腸扭轉 (80-90%)；第二常見：盲腸扭轉 (< 5%)",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 144-145"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "腸扭轉(Volvulus)當中，乙狀結腸扭轉和盲腸扭轉，分別常見哪一種方向的扭結?",
+        "answer": "乙狀結腸扭轉：逆時針；盲腸扭轉：順時針",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 145"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "乙狀結腸扭轉(Sigmoid volvulus)的臨床特徵包含哪些?",
+        "answer": "常見於老年人、慢性便秘、高纖飲食、服用抗精神病藥物；影像學可以看到coffee bean sign、bird-beak deformity、Whirl sign",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 144"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "乙狀結腸扭轉(Sigmoid volvulus)的處理原則為何?",
+        "answer": "no peritoneal sign：保守治療，使用內視鏡將扭轉部分打開並放置肛管； peritoneal sign (+)或保守治療失敗：開刀",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 145"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "盲腸扭轉(Cecal volvulus)的臨床特徵包含哪些?",
+        "answer": "常見於年輕人、孕婦、接受過腹腔手術，常伴隨遠端迴腸與升結腸扭結",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 145"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "盲腸扭轉(Cecal volvulus)的處理原則為何?",
+        "answer": "緊急手術",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 145"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "真憩室(true diverticulum)和假憩室(false diverticulum)的差異為何?",
+        "answer": "真憩室：整層腸壁向外突出；假憩室：黏膜層穿過肌肉層向外膨出，但肌肉層並無膨出",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 150"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "大腸憩室好發的膨出點位於哪裡?",
+        "answer": "腸壁脆弱之處，血管穿透肌肉層的部分，lateral mesenteric (anti-mesenteric) taeniae的mesenteric side靠近mesenteric taenia處",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 150"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "大腸憩室的常見原因包含哪些?",
+        "answer": "老人、低纖維飲食",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 150"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "大腸憩室的常見併發症包含哪些?",
+        "answer": "憩室出血(dicerticular hemorrhage)、憩室炎(diverticulitis)",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 150"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "下消化道出血最常見的原因是甚麼?",
+        "answer": "大腸憩室",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 150"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "憩室炎常見的症狀為何?",
+        "answer": "左下腹疼痛，可能轉移至恥骨上區、左邊鼠蹊部、背部",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 151"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "診斷憩室炎最佳的診斷工具為何?",
+        "answer": "CT，可見腸壁增厚、腸氣外滲、膿瘍",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 151"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "診斷憩室炎不建議用何種檢查工具?",
+        "answer": "sigmoidoscopy或contrast enema，避免憩室破裂，導致腹腔感染",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 151"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "急性憩室炎的modified Hinchey classificaiton，包含哪些臨床分期?",
+        "answer": "Stage 0：輕微發炎；Stage Ia：發炎、積液侷限在憩室周圍；Stage Ib：合併大腸周圍(<5cm)或腸系膜膿瘍；Stage II：骨盆腔、遠處腹腔內(>5cm或遠離原發處)、後腹腔膿瘍；Stage III：廣泛性化膿性腹膜炎；Stage IV：廣泛性化膿性腹膜炎+腸道穿孔或腹腔內有糞便",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 151"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "造成腸道膀胱瘻管(enterovesical fistula)最常見的原因為何?",
+        "answer": "憩室炎",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 152"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "憩室炎最常產生fistula的器官為何?",
+        "answer": "膀胱",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 152"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "Ogilvie's syndrome是指甚麼疾病?",
+        "answer": "Acute colonic psudo-obstruction",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 160"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "偽結腸阻塞(colonic pseudo-obstruction)的臨床特色包含哪些?",
+        "answer": "長期臥床、病危者、外傷者、共病多、重大手術者、使用抗膽鹼類藥物、鴉片類藥物者",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 160"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "偽結腸阻塞(colonic pseudo-obstruction)的臨床處理方式包含哪些?",
+        "answer": "減壓(NG、rectal tube、enema)、停用降低腸胃蠕動的藥物、給予IV neostigmine增進腸胃蠕動",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 160"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "Neostigmine的解毒劑為何種藥物?",
+        "answer": "Atropine",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 160"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "導致缺血性腸炎(Ischemic colitis)的常見原因包含哪些?",
+        "answer": "動靜脈血栓 (SMA embolis)、醫源性(腹主動脈瘤手術將IMA ligation後，導致left & sigmoid colon ischemia)、血管炎(Polyarteritis nodosa)",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 165"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "缺血性腸炎(Ischemic colitis)的臨床特徵包含哪些?",
+        "answer": "老年人有心臟相關病史、結腸狹窄(colonic stricture) --> thumbprint、最好發於結腸脾彎曲、其次為乙狀結腸",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 165"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "缺血性腸炎(Ischemic colitis)為何較少發生於直腸?",
+        "answer": "因為直腸有自己的血液供應",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 165, 175"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "關於UC (Ulcerative Colitis)和CD(Crohn's Disease)兩者的比較為何?",
+        "answer": "UC：好發男性、急性發炎、連續式分布、常侵犯直腸、侵犯黏膜層與黏膜下層、常見假性息肉、瀰漫性充血、表淺不規則潰瘍、較常見血便、腸外症狀包含關節炎、虹膜炎、壞疽性膿皮、硬化性膽管炎、常見癮窩膿瘍(Crypt abscess)、與抽菸負相關、對5-ASA有效。CD：好發女性、慢性發炎、跳躍式分布、侵犯腸道全層、腸壁增厚、肉芽腫(noncaseating granulomas)、淋巴組織增生(Lymphoid aggregates)、鵝卵石樣(cobble stone)、線性潰瘍、較常見腹瀉與腹痛、腸外症狀包含關節炎、虹膜炎、肛裂、肛門瘻管、剛圍膿瘍、膽結石、腎結石、與抽菸正相關、對5-ASA較無效",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 170-171"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "關於UC (Ulcerative Colitis)和CD(Crohn's Disease)兩者的治療原則分別為何?",
+        "answer": "UC：內科治療無效、手術將結腸直腸切除、保留肛門括約肌功能、Total proctocolectom with IPAA (ileal pouch-anal anastomosis)，切除後可痊癒；CD：手術針對併發症切除，因為CD為慢性疾病，無法靠手術切除痊癒",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 172"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "最常見的大腸息肉為哪一種類型?",
+        "answer": "增生性息肉(hyperplastic)",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 178"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "PJS (Peutz-Jeghers syndrome)的臨床特徵包含哪些?",
+        "answer": "腸胃道息肉、嘴唇周圍口腔色素沉澱、腸胃道出血或阻塞",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 178"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "良性息肉和有惡性傾向的息肉分別包含哪些?",
+        "answer": "良性；增生性息肉、過誤瘤性息肉(PJS, Juvenile polyp)、發炎性息肉；惡性傾向：腺瘤(Adenoma)",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 178"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "腺瘤(Adenoma)依照組織分型，惡性傾向由低到高分別為何種類型?",
+        "answer": "tubular --> tubulovillous --> villous",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 178"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "家族性息肉症候群(FAP, Familial adenomatous polyposis)的臨床特徵包含哪些?",
+        "answer": "體顯性遺傳(AD, 5q21的APC mutation)、數量眾多的息肉、100%轉為惡性大腸癌、診斷年齡約為40歲、常合併Gardner's syndrome(polyposis + osteoma + fibroma + sebaceous cyst)、Turcot's syndrome (glioblastoma)、CHRPE (congenital hypertrophy of retinal pigmented epithelium)",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 180, 184"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "各種息肉的處理原則為何?",
+        "answer": "內視鏡切除 --> 增生性：定期追蹤。PJS：定期追蹤、> 1.5 cm切除。Juvenile polyp：單發性 --> 定期追蹤；多發性：手術。發炎性：定期追蹤。腺瘤：依照惡性程度決定定期追蹤或手術",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 180"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "HNPCC (Hereditary Nonpolyposis Colon Cancer)的臨床特徵包含哪些?",
+        "answer": "體顯性遺傳(AD, MSH2, MLH1, MSH6(endometrial cancer))、好發於右結腸、診斷年齡約為44歲、罹患其他癌症的機率上升(子宮內膜癌最常見)",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 184"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "大腸直腸癌的TNM stage分別為何?",
+        "answer": "Tx：Cannot be assessed；T0：no primary tumor；Tis：intraepithelial or lamina propira invasion；T1：submucosa；T2：muscularis propria；T3：invasion through muscularis propria into peri-colorectal tissues；T4a：visceral peritoneum；T4b：other organs or structures。Nx：Cannot be assessed；N0：no LN metastasis；N1：1 regional LN (N1a)、2-3 regional LN (N1b)、Tumor Deposits without LN meta (N1c)；N2：4-6 regional LN (N2a)、> 7 regional LN (N2b)。M0：no distant metastasis；M1：one organ or site (M1a)、> 1 organ or site or peritoneum (M1b)",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 186-187"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "大腸直腸癌的Duke classification分別為何?",
+        "answer": "Stage A：submucosa；Stage B1：muscularis propria、Stage B2：visceral peritoneum、Stage B3：peri-organ、Stage C1：B1 + LN meta；Stage C2：B2 + LN meta；Stage C3：B3 + LN meta；Stage D：distant meta",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 187"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "大腸直腸癌的分期治療原則分別為何?",
+        "answer": "Stage 0：手術+固定追蹤；Stage 1：手術 (poor prognosis factor加上術後化放療)；Stage 2, 3：術前化放療+手術；stage 4：手術+化放療 (無法手術切除者；化療+標靶)",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 191"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "淋巴癌最常轉移的器官為何?",
+        "answer": "結腸直腸",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 191"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "類癌(Carcinoid tumor)的臨床特徵有哪些?",
+        "answer": "生長緩慢、神經內分泌瘤、最常見於腸胃道(80%迴腸)、其次呼吸道、分泌過多血清素，類癌症候群(Carcinoid syndrome)：熱潮紅、腹瀉、氣管痙攣，chromogranin A、5-HIAA會上升",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 192"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "肛門癌大部分是哪一種類型?",
+        "answer": "鱗狀上皮癌(SqCC, Squamous cell carcinoma)",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 192"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "鱗狀上皮肛門癌的治療原則是什麼?",
+        "answer": "腹部會陰切除術(APR, abdomino-perineal resection)+永久人工造口，放射治療+化學治療",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 192-193"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "痔瘡(Hemorrhoids)的定義為何?",
+        "answer": "由動靜脈交通(AV malformation)、結締組織與細小平滑肌所構成的先天性肛門軟墊(Anal cushions)",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 204"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "痔瘡(Hemorrhoids)的好發位置是哪些方向?",
+        "answer": "3點鐘：left lateral；7點鐘：right posterolateral；11點鐘：right anterolateral",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 204"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "痔瘡(Hemorrhoids)依照嚴重程度，可以分成?",
+        "answer": "Grade I：無脫垂、伸進去肛門摸得到；Grade II：大便時掉出來、會自行縮回去；Grade III：脫垂於肛門外，用手才能回推；Grade IV：脫垂於肛門外，用手無法回推",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 204"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "肛裂(Anal Fissure)的triad包含哪些?",
+        "answer": "鄰近的外痔(sentinel pile)、增生性乳凸(hypertrophic papilla)、清晰可見的內括約肌與周圍的結疤",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 205"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "肛裂(Anal Fissure)好發於哪些位置?",
+        "answer": "肛門正中線 (肛門後中線 > 前中線)",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 205"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "關於肛門瘻管的內口與外口開口，根據Goodsall's rule，會位於哪個位置?",
+        "answer": "前半部：直線狀瘻管，內口外口的開口位於最近的齒狀線上。後半部：弧狀/馬蹄狀瘻管，內口位於後中線的齒狀線上(6點鐘方向)",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 206-207"
+    },
+    {
+        "subject": "大腸直腸外科",
+        "type": "國考",
+        "question": "闌尾炎(Appenditis)常見的臨床表現有哪些?",
+        "answer": "最先出現：間歇性腹部周圍疼痛(上腹部、肚臍周圍)，24小時內轉移到RLQ，peritoneal sign、Obturator sign、Psoas sign、Rovsing's sign、McBurney's tenderness，影像上看到右下腹部腫塊、鈣化糞石(appendicoliths)，Appendix直徑大於6mm、附近有fluid accumulation",
+        "reference": "First Choice 2025 醫學五 大腸直腸外科 p. 212-213"
     }
 ]
