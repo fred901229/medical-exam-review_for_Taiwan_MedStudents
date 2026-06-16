@@ -7642,5 +7642,306 @@
     "question": "嗜鉻細胞瘤(Pheochromocytoma)的臨床症狀包含哪些?",
     "answer": "5P: Pressure (Hypertension), Pain (headache, chest pain), Palpitation, Perspiration, Pallor",
     "reference": "First Choice 2025 醫學五 內分泌外科 p. 275"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "Homan's sign",
+    "answer": "DVT (Deep Venous Thrombosis)",
+    "reference": "First Choice 2025 醫學五 心臟血管外科 p. 100"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "clubbing finger",
+    "answer": "cyanotic congenital heart disease",
+    "reference": "First Choice 2025 醫學五 心臟血管外科 p. 49"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "Boot-shaped Heart sign",
+    "answer": "TOF (Tetralogy of Fallot)",
+    "reference": "First Choice 2025 醫學五 心臟血管外科 p. 49"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "egg shaped heart",
+    "answer": "TGA (Transposition of great arteries",
+    "reference": "First Choice 2025 醫學五 心臟血管外科 p. 51"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "Snowman heart",
+    "answer": "TAPVR (Total anomalous pulmonary venous return)",
+    "reference": "First Choice 2025 醫學五 心臟血管外科 p. 53"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "stack of coin sign",
+    "answer": "Ileus",
+    "reference": "First Choice 2025 醫學五 小腸外科 p. 70"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "Air-fluid levels",
+    "answer": "Ileus",
+    "reference": "First Choice 2025 醫學五 小腸外科 p. 71"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "String-of-bead sign",
+    "answer": "Ileus",
+    "reference": "First Choice 2025 醫學五 小腸外科 p. 71"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "bent-inner tube sign",
+    "answer": "Ileus",
+    "reference": "First Choice 2025 醫學五 小腸外科 p. 71"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "spoke-wheel sign",
+    "answer": "FNH (Focal nodular hyperplasia)",
+    "reference": "First Choice 2025 醫學五 肝臟外科 p. 112"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "Acoustic shadow",
+    "answer": "choleithiasis",
+    "reference": "First Choice 2025 醫學五 膽道外科 p. 151"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "Murphy sign",
+    "answer": "Acute cholecystitis",
+    "reference": "First Choice 2025 醫學五 膽道外科 p. 152"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "Charcot's triad",
+    "answer": "Cholangitis",
+    "reference": "First Choice 2025 醫學五 膽道外科 p. 158"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "Reynold's pentad",
+    "answer": "Cholangitis",
+    "reference": "First Choice 2025 醫學五 膽道外科 p. 158"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "Rigler's triad",
+    "answer": "Gallstone ileus",
+    "reference": "First Choice 2025 醫學五 膽道外科 p. 159"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "Cullen's sign",
+    "answer": "acute pancreatitis",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 190"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "Grey Turner's sign",
+    "answer": "acute pancreatitis",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 190"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "腸胃道的各種賀爾蒙分別由哪些細胞分泌?",
+    "answer": "G cell：Gastrin --> 刺激胃酸分泌(刺激ECL cell分泌histamine --> parietal cell分泌胃酸)、胃蛋白酶活化(Chief cell分泌pepsinogen --> pepsin --> 分解蛋白質)；D cell：Somatostatin --> 抑制胃排空、抑制膽囊收縮、抑制激素分泌；Mucosal cell：Ghrelin --> 促進胃蠕動、胃酸分泌、增加食慾、增加脂肪吸收堆積、促進生長激素釋放；K cell：GIP (Gastric inhibitory peptide) --> 抑制胃蠕動、增加胰島素分泌；S cell：Secretin --> 分泌水、碳酸氫鹽(中和胃酸)、抑制胃蠕動與激素釋放；I cell：CCK (Cholecystokinin) --> 排出膽汁、刺激胰液分泌；M cell：Motilin --> 小腸移行性運動(MMG)",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 6-8"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胃的細胞，何者粒線體含量最多?",
+    "answer": "Parietal cell",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 10"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胃的細胞，何者佔比最高?",
+    "answer": "Chief cell",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 11"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "根據Modified Johnson classification，消化性潰瘍可以分為哪些類型?",
+    "answer": "Type I：only gastric ulcer (almost lesser curvature)、60%；Type II：gastric body and duodenal ulcer、15%、related to HCl；Type III：prepyloric ulcer、20%、related to HCl；Type IV：EC junction、< 10%；Type V：any location with NSAIDs use、5%",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 14-15"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "消化性潰瘍的golden standard檢查為何?",
+    "answer": "上消化道內視鏡檢查",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 15"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "十二指腸潰瘍出血與胃潰瘍出血的治療原則，分別為何?",
+    "answer": "十二指腸潰瘍出血：十二指腸切開術(duodenostomy) + Three-point ligation (proximal and distal gastroduodenal a. + transverse pancreatic a.) + H. pylori treatment；胃潰瘍出血：unstable --> oversewing, wedge resection，stable --> truncal vagotomy + antrectomy",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 16-17"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "PPU (Perforated Peptic Ulcer)，常見的臨床特徵有哪些?",
+    "answer": "90%為十二指腸潰瘍引起、好發於十二指腸第一部分前壁、胃小彎、影像上可看到subphrenic area有free air",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 17-18"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "PPU (Perforated Peptic Ulcer)當中，十二指腸潰瘍穿孔與胃潰瘍穿孔的治療原則分別為何?",
+    "answer": "十二指腸潰瘍穿孔：簡單縫合+omental patch+腹腔灌洗(Abdominal cavity lavage) +/- Truncal vagotomy and pyloroplasty (合併幽門狹窄或出血) + H. pylori treatment；胃潰瘍穿孔：unstable --> biopsy + suture +/- truncal vagotomy and pyloroplasty，stable --> + distal gastrectomy",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 18-19"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "關於迷走神經阻斷術，三種不同術式的差異為何?",
+    "answer": "TV (Truncal vagotomy)：阻斷在GE junction之上、全部截斷(不保留celiac br.、hepatic br.)、需搭配pylorus drainage術式、會影響消化道功能；SV (Selective vagotomy)：阻斷在GE junction、保留celiac br. + hepatic br.、需搭配pylorus drainage術式、不會影響消化道功能；HSV/PV (Highly selective vagotomy/Proximal vagotomy)：截斷fundus + body的神經、阻斷支配parietal cell、不需搭配pylorus drainage術式、不會影響消化道功能",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 19-20"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胃癌的外在/內在危險因子包含哪些?",
+    "answer": "外在危險因子；低社經地位、飲食習慣不良(煙燻、醃製、蔬果不足)、吸菸、幽門螺旋桿菌感染 (Group I carcinogen)、曾接受胃切除手術、胃酸缺乏、胃萎縮、惡性貧血；內在危險因子：男性、家族史、Polyposis syndrome (FAP, Lynch syndrome)、Menetrier disease、慢性胃炎",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 30-31"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胃癌大部分是哪一種組織類型?",
+    "answer": "胃腺癌(Adenocarcinoma)",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 31"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "早期胃癌(early gastric cancer)的定義為何?",
+    "answer": "只侵犯到胃壁黏膜層或黏膜下層，不論有無淋巴結轉移",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 31"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "早期胃癌(early gastric cancer)可以分為哪些類型?",
+    "answer": "Protruded：Type 0-I；Superficial：Type 0-II、most common (80%)；excavated：Type o-III",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 31"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Borrmann classification可以將晚期胃癌分為哪些類型?",
+    "answer": "Type 1：polypoid、隆起；Type 2：fungating、界線明顯；Type 3：ulcerated、界線不明、最常見；Type 4：infiltrative、浸潤型、皮革胃",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 32"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Luaren classificaiton可以在顯微鏡底下，將胃癌區分為哪些型態?",
+    "answer": "Diffuse type：70%、瀰漫型分布、好發於年輕人、女性、胃部近端、易淋巴轉移、預後較差；Intestinal type：30%、腺體結構、好發於男性、老年人、胃部遠端、易血液轉移、與H. pylori感染、FAP (APC gene mutation)有關",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 32"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胃癌TNM Stage當中，T主要依照何者來分期?",
+    "answer": "侵犯胃壁的深度 (T1a: lamina propria or muscularis mucosa、T1b: submucosa、T2: muscularis propria、T3: subserosa、T4a: serosa、T4b: serosa + adjacent tissue",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 33"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "關於胃部切除術後的重建方式，各自的特色為何?",
+    "answer": "Billroth I：適用遠端1/3的早期胃癌、將胃與十二指腸相接、併發症：postgastrectomy syndromes (膽汁逆流、逆行性胃炎)、Dumping syndrome；Billroth II：殘胃端與十二指腸距離太遠、胃殘端與空腸吻合(形成afferent loop + efferent loop)、較Billroth I容易、時間較短、殘胃癌風險較高、併發症：postgastrectomy syndrome、dumpting syndrome、afferent loop syndrome；Roux-en-Y：最推薦的重建方式、將空腸截成兩段 (空腸遠端斷端與胃相接 --> Roux limb、空腸近端斷端與斷端遠端小腸相接 --> Y)、併發症：postgastrctomy (膽汁逆流較少、減少殘胃癌)、Dumping syndrome (較嚴重)、Roux stasis syndrome；Sleeve gastrectomy：減重手術、切除胃大彎、保留幽門",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 38-40"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Dumping syndrome的特色是甚麼?",
+    "answer": "胃部切除後-->儲存容積下降-->食物快速進入小腸，好發於Billroth II、前三個月發生。Early dumping：腸胃道症狀+心血管症狀 (高滲透性物質 --> 水分從血管移到腸腔、serotonin增加 --> 小腸血管腫脹)；Late dumping：低血糖 (醣類食物 --> 葡萄糖快速吸收+胰島素過度分泌)",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 41"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "loop syndrome的特色是甚麼?",
+    "answer": "Billroth II術後的Afferent loop或Efferent loop阻塞，嘔吐後通常會好轉。Afferent loop sydrome：無膽汁性嘔吐、黃疸、灰白便並有大量脂肪、Amylase + Bilirubin 上升、影像可看到脹大的A-loop；Efferent loop syndrome：膽汁性嘔吐、腹痛、噁心",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 43-44"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "最常見的腸胃道外淋巴瘤(Extranodal lymphoma)是哪一種淋巴瘤?",
+    "answer": "胃淋巴瘤",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 52"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "幽門螺旋桿菌與哪一種淋巴瘤有關?",
+    "answer": "low grade MALT (mucosa-associated lymphoid tissue) lymphoma",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 52"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胃腸道基質瘤(GIST)的臨床特色包含哪些?",
+    "answer": "衍自Cajal cell或stem cell、C-Kit (CD117) positive、不容易侵犯淋巴結、可用手術或TKI (imatinib, sunitinib, regorafenib)治療",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 53-54"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "減重手術(Bariatric surgery)可以區分為哪些手術?各自的特色為何?",
+    "answer": "侷限性手術(Restrictive)：減少胃容量 --> SG (Sleeve gastrectomy)(最常使用)、調節式胃束帶手術(ABG, adjustable gastric banding)、垂直束帶胃成型術(VBG, vertical banded gastroplasty)、胃內水球置放術(BIB)；吸收不良性手術(Malabsorptive)：改變腸道解剖構造、需補充營養、維他命；混合型(Combination)：侷限性+吸收不良性 --> Roux-en Y胃腸繞道手術 (RYGB) (胃 --> 小胃囊，食糜繞過十二指腸與部分空腸)、膽胰繞道並十二指腸反轉(BPD with DS, biliopancreatic diversion with duodenal switch)",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 55-58"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "病態性肥胖(morbid obesity)的定義為何?",
+    "answer": "1. 體重超過理想體重45kg (100磅) 2. BMI >= 35且有肥胖引起併發症 3. BMI >= 40 4. 體重大於標準體重兩倍",
+    "reference": "First Choice 2025 醫學五 胃外科 p. 59"
+  },
+  {
+    "subject": "口訣",
+    "type": "口訣",
+    "question": "肌肉腔室症候群/急性動脈阻塞的症狀有哪些?",
+    "answer": "6P: Pain, Pressure, Paresthesia, Paralysis, Pale, Pulseless",
+    "reference": "First Choice 2025 醫學五 外科學概論 p. 47、心臟血管外科 p.98"
+  },
+  {
+    "subject": "口訣",
+    "type": "口訣",
+    "question": "急性胰臟炎(Acute Pancreatitis)的常見原因?",
+    "answer": "I HATED, I GATED (Idiopathic, High TG, Anatomic, Trauma, ERCP, Drugs, Infection, Gallstones (Most common), Autoimmune, Tumor, Ethanol, Defect)",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 190"
   }
 ]
