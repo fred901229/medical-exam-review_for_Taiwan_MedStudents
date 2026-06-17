@@ -8251,5 +8251,446 @@
     "question": "急性胰臟炎(Acute Pancreatitis)的常見原因?",
     "answer": "I HATED, I GATED (Idiopathic, High TG, Anatomic, Trauma, ERCP, Drugs, Infection, Gallstones (Most common), Autoimmune, Tumor, Ethanol, Defect)",
     "reference": "First Choice 2025 醫學五 胰臟外科 p. 190"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "single-bubble sign",
+    "answer": "HPS (Hypertrophic pyloric stenosis)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 177"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "olive mass",
+    "answer": "HPS (Hypertrophic pyloric stenosis)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 177"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "double track sign",
+    "answer": "HPS (Hypertrophic pyloric stenosis)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 177"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "shoulder sign",
+    "answer": "HPS (Hypertrophic pyloric stenosis)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 177"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "double-bubble sign",
+    "answer": "Duodenal atresia",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 179, 181"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "corkscrew sign (spiral sign)",
+    "answer": "midgut volvulus",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 183"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "football sign",
+    "answer": "NEC (Necrotizing enterocolitis)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 187"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "sausage mass",
+    "answer": "Intussusception",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 189"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "target sign (doughnut sign)",
+    "answer": "Intussusception",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 189"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "pseudokidney sign",
+    "answer": "Intussusception",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 189"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "coil spring sign",
+    "answer": "Intussusception",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 189"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "blueberry muffin appearance",
+    "answer": "NBL (Neuroblastoma)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 229"
+  },
+  {
+    "subject": "Symptoms & Signs",
+    "type": "Symptoms & Signs",
+    "question": "panda or raccoon eyes",
+    "answer": "NBL (Neuroblastoma)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 229"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "小兒每日維持輸液量，該如何計算?",
+    "answer": "100-50-20 rule (前10kg*100 + 第二個10kg*50 + 剩下體重*20)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 146"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "1-15歲孩童最常見死因為何?",
+    "answer": "創傷",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 148"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "關於小兒的創傷時，Circulation的輸液處理該如何計算?",
+    "answer": "20 mL/kg crystalloid bolus，若灌注40 mL/kg仍生命生向不穩 --> 輸血",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 148"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "鰓裂遺跡(Branchial cleft remnants)的臨床特色為何?",
+    "answer": "腮裂因為發育異常而形成漏管、竇或囊腫、孩童以瘻管最常見、成人以囊腫最常見、類型：第一腮裂 (位置：耳前、下頷下區域，與外聽到、耳下腺相連)、第二腮裂 (最常見、位置：SCM前、伴隨上呼吸道感染、與同側扁桃腺窩相通、沿著內外頸動脈之間下降)、第三腮裂 (位置：SCM前、伴隨上呼吸道感染、與梨狀窩相通、沿著內外頸動脈分支後方下降)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 156"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "鰓裂遺跡(Branchial cleft remnants)的治療為何?",
+    "answer": "階梯式切除術(Stepladder incision technique)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 156"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "甲狀舌骨囊腫(Thyroglossal duct cyst)的臨床特色為何?",
+    "answer": "最常見的頸部中線腫塊、因為甲狀腺移行失敗所形成、最常見於舌骨或舌骨下、會隨吞嚥或吐舌頭上下移動、好發於學齡前兒童",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 156-157"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "甲狀舌骨囊腫(Thyroglossal duct cyst)的治療為何?",
+    "answer": "Sistrunk procedure：切除甲狀舌骨囊腫管道、舌骨中央部、舌骨以上到舌頭基部",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 157"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "斜頸(Torticollis)的臨床特色為何?",
+    "answer": "因為胸鎖乳突肌纖維化導致、出生後2-6周發現、男=女、常見於Breech delivery、DDH、頸部朝健側旋轉、患側肩膀上舉、患側發育不全",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 157-158"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "斜頸(Torticollis)的治療為何?",
+    "answer": "主動復健運動：增加活動範圍，每天4次持續2-3個月；手術：胸鎖乳突肌鎖骨端雙腱頭橫向切開術",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 158"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "先天橫膈疝氣(CDH, Congenital diaphragmatic hernia)的臨床特色為何?",
+    "answer": "成因未知 (肋膜腔與後腹腔未正常關閉 --> 後外側橫膈缺口)、好發於左側、出生後有數小時無症狀honeymoon period --> 呼吸紊亂、CXR：胸腔有gastric air bubble",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 164-165"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "先天橫膈疝氣(CDH, Congenital diaphragmatic hernia)的治療為何?",
+    "answer": "解除壓力：放置鼻胃管、禁止使用面罩；穩定心肺功能再手術介入(無須ECMO之嬰兒)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 164-165"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "食道閉鎖與氣管食道瘻管(EA (Esophageal atresia & Tracheoesophageal fistula)的臨床特色為何?",
+    "answer": "成因未知、男性、低體重、VACTERL syndrome、羊水過多、餵食時口水分泌過多導致嗆咳、無法順利放置鼻胃管、急性胃脹氣(遠端瘻管)、預後相關：出生體重、先天異常、心臟病、肺部狀況",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 164-165"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "食道閉鎖與氣管食道瘻管(EA (Esophageal atresia & Tracheoesophageal fistula)的類型包含哪些?",
+    "answer": "Type A：EA、7%；Type B：EA + TEF between proximal esophagus and trachea、2%；Type C：EA with distal TEF、86%、most common；Type D：EA with fistula between both proximal and distal ends fo the esophagus and trachea、1%；Type E：TEF without EA、4%",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 170"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "食道閉鎖與氣管食道瘻管(EA (Esophageal atresia & Tracheoesophageal fistula)的治療為何?",
+    "answer": "胸廓切開術+肋膜外分離術：將奇靜脈分離、暴露出瘻管並分離 --> 切除瘻管、在氣管與食道黏膜交界處ligation ---> 剝離近端食道、降低食道吻合處壓力、避免過度剝離下段食道導致缺血(因為下段血液供應較少)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 171"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "肥厚性幽門狹窄(HPS, Hypertrophic Pyloric Stenosis)的臨床特色為何?",
+    "answer": "好發於男生、白人、有家族史、第一胎男孩、橄欖狀腫塊(olive mass)、吐後仍想吃(Hungry vomiter)、非膽汁性噴射式嘔吐(non-bilious projectile vigorous emesis)、低氯性代謝性鹼中毒、低血鉀、X光：single bubble sign、上消化道鋇劑攝影：double track sign、shoulder sign",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 177"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "肥厚性幽門狹窄(HPS, Hypertrophic Pyloric Stenosis)的治療為何?",
+    "answer": "手術：Ramstedt's procedure (pyloromyotomy，幽門括約肌切開術)；內科治療：輸液、補鉀離子、HCO3、Atropine",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 177"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "囊性纖維化(Cystic Fibrosis, CF)的臨床特色為何?",
+    "answer": "AR (CFTR gene mutation)、氯離子通道異常、好發美國白人、腸阻塞、黃疸、脂肪肝、糖尿病、經常性呼吸道感染、汗液濃縮有鹹味、輸精管異常、第二性徵發育不良、脊柱側彎",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 180"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "腸道閉鎖以哪一種類型最常見?",
+    "answer": "空迴腸閉鎖(jejunoileal atresia) (空腸>迴腸)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 181-182"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "十二指腸閉鎖(duodenal atresia)的特色有哪些?",
+    "answer": "十二指腸空腔化(Vacuolization)失敗導致、好發於壺腹遠端、膽汁性嘔吐、餐後嘔吐、KUB：double bubble sign",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 181"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "轉位異常(Malrotation)以哪一種類型最常見?",
+    "answer": "中腸完全未轉位(Non-rotation)：C-loop消失、Treitz lig.在右邊、盲腸在左邊",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 183"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "中腸扭轉(Midgut volvulus)的golden standard是哪一種檢查?",
+    "answer": "上消化道顯影劑攝影：corkscrew sign (spiral sign)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 183"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "中腸扭轉(Midgut volvulus)的手術方式為何?",
+    "answer": "Ladd's procedure：將腸子逆時針轉回 --> 分離Ladd's band --> 腸系膜鋪寬 (mesentery widening)、預防性切除闌尾",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 183-184"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "壞死性腸炎(NEC, Necrotizing Enterocolitis)的臨床特色為何?",
+    "answer": "最常見的腸胃道急症、80%發生在出生後一個月、成因未知、危險因子：早產(最重要)、經口餵食、使用外源表面張力素、呼吸機、最常影響遠端迴腸與升結腸、X光：Pneumatosis intestinalis、portal venous gas、fixed loops of small bowel、football sign、50%經內科保守治療後可改善",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 186-187"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "壞死性腸炎(NEC, Necrotizing Enterocolitis)的治療為何?",
+    "answer": "保守治療：鼻胃管減壓、靜脈輸液、輸血、廣效性抗生素；手術：腸道切除造瘻術",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 187"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "腸套疊(Intussusception)的臨床特色為何?",
+    "answer": "腸阻塞最常見原因、原因不明佔多數、最常見的先驅病灶為Meckel's diverticulum、好發於6個月到2歲大孩童、sausage mass、US：target sign/doughnut sign、pseudokidney sign",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 188-189"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "腸套疊(Intussusception)的治療為何?",
+    "answer": "Hydrostatic reduction、手術",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 189"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "先天性巨結腸症(Hirschsprung disease)的臨床特色為何?",
+    "answer": "成因：缺乏腸道神經叢 --> 遠端大腸與肛門內括約肌痙攣收縮 --> 遠端腸道緊縮、近端腸道擴張，危險因子：家族史、唐氏症，出生後未排出胎便、鋇劑灌腸攝影：遠端腸阻塞、肛門直腸壓力計：直腸擴張成球狀、內括約肌無法放鬆、直腸切片：gold standard --> 缺乏神經節、肥大神經幹、acetylcholinesterase(+)、Calretinin(+)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 191-192"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "先天性巨結腸症(Hirschsprung disease)的治療為何?",
+    "answer": "結腸造瘻(Diverting colostomy)：左下腹進入、找到過度區、將正常神經節分布的腸段作成造口；內視鏡直腸拉越術(Endo-rectal pull-through procedure)：Swenson procedure (切除內括約肌以上的神經節缺乏腸段 --> 結腸肛門吻合)、Duhamel procedure (將完整神經節腸段拉入左側直腸盲段 --> GIA stapler打通)、Soave technique (切除神經節缺乏的內層黏膜 --> 拉入有神經節的腸段 --> 結腸肛門吻合)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 192-193"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "肛門閉鎖(Imperforated anus)/肛門直腸發育不良(Anorectal malformation)的臨床特徵有哪些?",
+    "answer": "男嬰>女嬰、男嬰常見肛門閉鎖合併直腸尿道瘻管、女嬰常見肛門閉鎖合併陰部前庭瘻管、有表皮瘻管-->低位閉鎖、無表皮瘻管-->中高位閉鎖、常合併VACTERL syndrome、越高位越容易合併泌尿異常",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 198-200"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "肛門閉鎖(Imperforated anus)/肛門直腸發育不良(Anorectal malformation)的治療原則為何?",
+    "answer": "低位：直接重建修復；中高位：近端分流大腸造瘻分流手術 --> 重建修復：Pull-through operation (Pena operation) --> 大腸造瘻關閉復原手術 --> 肛門擴張",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 200"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "新生兒黃疸最常見的原因是?",
+    "answer": "Idiopathic neonatal hepatitis",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 204"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "膽道閉鎖(Biliary atresia)的臨床特徵有哪些?",
+    "answer": "原因不明、第二常見的新生兒膽汁鬱積、近端遠端膽道皆纖維化最常見、US：膽囊萎縮消失、肝外膽道系統消失、Liver biopsy：巨噬細胞浸潤、肝細胞壞死",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 205"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "膽道閉鎖(Biliary atresia)的治療原則為何?",
+    "answer": "2個月內手術治療 --> Kasai procedure (肝門小腸造瘻術 hepatoportoenterostomy) --> 30%預後佳、70%預後差、持續惡化-->肝臟移植",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 206"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "膽道囊腫(Choledochal cyst)的的治療原則為何?",
+    "answer": "手術切除：膽道囊腫完整切除 --> Roux-en-Y hepaticojejunostomy --> end-to-side jejunojejunostomy",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 209"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "臍膨出(Omphalocele)與腹裂畸形(Gastroschisis)兩者的比較?",
+    "answer": "臍膨出(Omphalocele)：有膜(羊膜+腹膜)、最常合併心臟異常(>50%)、染色體異常(30%)、Beckwith-Wiedemann syndrome (omphalocele + hyperinsulinemia + Macroglossia+Wilm's tumor)、預後較差；腹裂畸形(Gastroschisis)：無膜、大小<4cm、常沿著肚臍右側皮膚交界處膨出、少合併其他異常、15%合併小腸閉鎖、須緊急手術保護暴露的腸段、需要較多輸液",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 212"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "孩童的腹股溝疝氣(Inguinal hernia)，臨床特徵包含哪些?",
+    "answer": "好發於早產兒、男>女、右側>左側 (因為右側睪丸較晚下降、腹膜鞘狀突較晚消失)、大多為indirect type",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 213-214"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "腹股溝疝氣(Inguinal hernia)的處理原則為何?",
+    "answer": "孩童：縫合未閉鎖的腹膜鞘狀突 --> 高位結紮手術(High ligation)；成人；重建腹股溝底壁 --> 人工網膜修補術",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 214"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "陰囊水腫(Hydrocele)的分類有哪些?",
+    "answer": "交通性：積液來自腹腔；閉鎖性：精索變厚形成、較常見；急性：由其他睪丸疾病等原因引起",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 214"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "陰囊水腫(Hydrocele)的處理原則為何?",
+    "answer": "觀察至1歲，如果未消失：陰囊水腫切除術(Hydrocelectomy) --> 關閉未閉合的腹膜鞘狀突",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 215"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "隱睪症(Cryptorchidism, undescended testis, UDT)的臨床特徵有哪些?",
+    "answer": "最常見的性器分化異常、好發於早產兒、右側>左側、常合併腹股溝疝氣、矯齡3個月後大部分會降到陰囊內",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 220"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "隱睪症(Cryptorchidism, undescended testis, UDT)的治療原則為何?",
+    "answer": "6個月大：睪丸固定術(Orchidopexy)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 220"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "尿道下裂(Hypospadias)最常見的位置在哪裡?",
+    "answer": "遠端/前段 > 中端/中段 > 近端/後段",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 222"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "腎母細胞瘤(Nephroblastoma)的臨床特徵有哪些?",
+    "answer": "Wilm's tumor (WT1 gene, 11p)、孩童最常見的原發惡性腎臟腫瘤、好發於3-4歲、雙側同時發生占多數、可觸摸之腹部腫塊、肺臟轉移最常見",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 226-227"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "神經母細胞瘤(NBL, Neuroblastoma)的臨床特徵有哪些?",
+    "answer": "源自neural crest cell、沿著交感神經節或腎上腺髓質生長、孩童最常見的顱外實質腫瘤、最常見的腹部惡性腫瘤、常見腹部腫塊、眼周轉移：panda or raccoon eyes、皮膚轉移：blueberry muffin appearance、尿液HVA,VMA上升、可用MIBG scan偵測轉移病灶",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 222"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "畸胎瘤(Teratoma)的臨床特徵有哪些?",
+    "answer": "良性、好發於身體中軸線、Sacrococcygeal Teratoma最常見、Type III/IV或>2個月的惡性機率較高",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 233-234"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "Sacrococcygeal Teratoma的治療原則為何?",
+    "answer": "手術切除：從背側(Chevron incision)進入、將臀大肌切開、結紮Medial sacral vessels、完整切除腫瘤與尾骨(en bloc resection)、保留肛門直腸神經叢",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 234"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "Sacrococcygeal Teratoma的預後當中，最重要的是甚麼因素?",
+    "answer": "診斷年紀：<30周或生產後>2個月",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 234"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "顱縫早閉(Craniosynostosis)好發位置為何?對應的畸形為何?",
+    "answer": "矢狀縫(saggital suture)：50-60%、舟狀頭(Scaphocephaly)；冠狀縫(Coronal suture)：30-35%、短頭(Brachycephaly)；額縫(Metopic suture)：5%、三角頭(Trigonocephaly)",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 244"
+  },
+  {
+    "subject": "小兒外科",
+    "type": "國考",
+    "question": "顱縫早閉(Craniosynostosis)治療原則為何?",
+    "answer": "6個月大：顱縫廣泛性切開術(Wide suturectomy)、顱型矯正帽；<6個月：內視鏡單純顱縫切開術",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 244"
+  },
+  {
+    "subject": "口訣",
+    "type": "口訣",
+    "question": "VACTERL syndrome包含哪些先天異常?",
+    "answer": "Vertebral, Anorectal, Cardiac, Tracheal, Esophageal, Renal, Limb",
+    "reference": "First Choice 2025 醫學五 小兒外科 p. 200"
   }
 ]
