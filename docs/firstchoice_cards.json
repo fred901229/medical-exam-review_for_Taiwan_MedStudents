@@ -7924,6 +7924,321 @@
     "reference": "First Choice 2025 醫學五 胃外科 p. 59"
   },
   {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "導致腸阻塞(ileus)的常見原因有哪些?",
+    "answer": "腸沾黏(adhesion)：60%、最常見、腹部手術術後；腫瘤壓迫腸道：20%、腸外壓迫>腸內壓迫；疝氣(hernia)：10%；腸套疊(intussusception)；腸扭轉(volvulus)；膽石阻塞(gallstone ileus)；先天性閉鎖",
+    "reference": "First Choice 2025 醫學五 小腸外科 p. 68"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "腸阻塞(ileus)在影像上的特徵有哪些?",
+    "answer": "stack of coin sign、air-fluid levels、string of beads sign、pneumobilia (gallstone ileus)、bent-inner tube sign",
+    "reference": "First Choice 2025 醫學五 小腸外科 p. 70-71"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "梅克爾憩室(Meckel diverticulum)的臨床特徵有哪些?",
+    "answer": "最常見的先天性消化道結構異常、真性憩室(true diverticulum)、常發生在ileoceval valve的腸系膜對側、胃黏膜異位組織最常見(可用Technetium scan(Meckel's scans)顯影)、Rule of two (發生率2%、男女比2:1、2歲之前出現症狀、2%病人會有症狀、距離ileocecal valve 2英呎、長度約2英吋)",
+    "reference": "First Choice 2025 醫學五 小腸外科 p. 76-77"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "最常見的小腸良性腫瘤是哪一種?",
+    "answer": "小腸平滑肌瘤(intestinal leiomyoma)",
+    "reference": "First Choice 2025 醫學五 小腸外科 p. 80"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "小腸腺瘤中，何者癌化的可能性較高?",
+    "answer": "villous adenoma > tubular adenoma",
+    "reference": "First Choice 2025 醫學五 小腸外科 p. 80"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "最常見的小腸惡性腫瘤是哪一種?好發於哪裡?",
+    "answer": "腺癌(Adenoncarcinoma)，好發於十二指腸(50%)",
+    "reference": "First Choice 2025 醫學五 小腸外科 p. 80"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "小腸出血最常見的原因是甚麼?",
+    "answer": "血管畸形(angiodysplasias)",
+    "reference": "First Choice 2025 醫學五 小腸外科 p. 84"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "短腸症(Short bowel syndrome)的臨床特徵有哪些?",
+    "answer": "微量元素缺乏：Zn、Cu、Vitamins，危險因子：大量切除小腸(>70%)、未保留迴盲瓣(ileocecal valve)、迴腸切除、結腸切除、Crohn's disease",
+    "reference": "First Choice 2025 醫學五 小腸外科 p. 84-87"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "腸皮瘻管(enterocutaneous fistula)的臨床特徵有哪些?",
+    "answer": "術後5-7天發生、自發閉合時間為6-8周、常見原因為腹部手術併發症",
+    "reference": "First Choice 2025 醫學五 小腸外科 p. 84-86"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Cantlie's line的走向與那些解剖構造相同?",
+    "answer": "Gallbladder fossa、IVC、middle hepatic v.",
+    "reference": "First Choice 2025 醫學五 肝臟外科 p. 92"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Couinaud classificaiton用那些解剖構造區分肝臟的分葉?",
+    "answer": "left/middle/right hepatic v.分成left lateral section (S2, S3)、left medial section (S4)、right anterior section (S8, S5)、right posterior section (S7, S6)",
+    "reference": "First Choice 2025 醫學五 肝臟外科 p. 92-93"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "肝臟的血管供應由那些血管負責?",
+    "answer": "portal v.：75%血液、50%氧氣；hepatic a.：25%血液、50%氧氣",
+    "reference": "First Choice 2025 醫學五 肝臟外科 p. 93"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Child-Pugh score的評估項目有哪些?分數和對應的數值為多少?",
+    "answer": "ABCDE：Albumin (1分: > 3.5 g/dL, 2分: 3.5-3.0 g/dL, 3分: < 3.0 g/dL)、Bilirubin (1分: < 2mg/dL, 2分: 2-3 mg/dL, 3分: > 3 mg/dL)、Coagulation (INR) (1分: < 1.7, 2分: 1.7-2.3, 3分: > 2.3)、Deluge (Ascites) (1分: abscent, 2分: slight, 3分: moderate)、Encephalopathy (1分: abscent, 2分: minimal/grade I-II, 3分: advanced/grade III-IV) Class A：5-6分；Class B：7-9分；Class C：10-15分",
+    "reference": "First Choice 2025 醫學五 肝臟外科 p. 97-98"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Pringle maneuver是甚麼?",
+    "answer": "用於肝臟手術中控制、減少出血量，夾住肝十二指腸韌帶(Hepatoduodenal lig.，包含：common hepatic a.、portal v.、common bile duct)、阻斷15分鐘、恢復5分鐘",
+    "reference": "First Choice 2025 醫學五 肝臟外科 p. 98, 124"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "肝膿瘍(liver abscess)的特色有哪些?",
+    "answer": "化膿性>寄生蟲性/黴菌性、右肝>左肝、致病途徑：膽管(最常見)、肝門靜脈、肝動脈、肝臟外傷(膽汁滲漏)、醫源性",
+    "reference": "First Choice 2025 醫學五 肝臟外科 p. 102"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "細菌性肝膿瘍與阿米巴性肝膿瘍的比較?",
+    "answer": "細菌性：致病菌：K. pneumonia (最常見)、E. coli、S. aureus，>50歲、男生、50%單顆、右肝、DM、酒精、黃疸、alk-P上升；阿米巴性：致病菌：阿米巴原蟲、年輕人、男生、80%單顆、右肝、酒精、alk-P上升",
+    "reference": "First Choice 2025 醫學五 肝臟外科 p. 102-103"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "肝臟良性腫瘤的比較?",
+    "answer": "肝血管瘤(Hemangioma)：最常見的肝內良性腫瘤、好發中年女性、血管內皮缺陷性增生、不會癌化、因為有estrogen receptor，與青春期、懷孕、服用避孕藥有關；肝臟局部結節性增生(FNH, Focal Nodular Hyperplasia)：第二常見的肝內良性腫瘤、好發生育年齡女性、先天性血管異常增生、Technetium sulfur colloid染色可染出Kupffer cell；肝細胞腺瘤(Hepatocellular adenoma)：良性、好發女性、有自發性破裂出血與惡性轉變可能、危險因子：女性、服用避孕藥、懷孕、類固醇",
+    "reference": "First Choice 2025 醫學五 肝臟外科 p. 110-114"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "肝臟病灶在影像下的特徵有哪些?",
+    "answer": "肝膿瘍：US --> hypoechoic, gas bubble，CT --> peripherally enhancing, centrally hypoattenuating lesions；肝血管瘤(Hemangioma)： US --> well defined, lobulation, homogeneous, hyperechoic (hypoechoic: bleeding or fibrosis)， CT --> slow enhance (A phase: isodense, peripheral enhancement with centripetal progression), slow wash out (V phase: hyperdense)；肝臟局部結節性增生(FNH, Focal Nodular Hyperplasia)：CT --> spoke-wheel sign (A phase: hyperdense with hypodense central scar, V phase: isodense with hypodense central scar)；肝細胞腺瘤(Hepatocellular adenoma)：CT --> heterogeneous (hemorrhage, necrosis , fat tissue)；肝細胞癌(HCC, Hepatocellular carcinoma)：US --> hypoechoic or mixed choic, irregular margin，CT --> early enhance (A phase: hyperdense), early washout (V phase: hypodense)，MRI --> T1: hypo/iso/hyperintensity, T2: hyperintensity",
+    "reference": "First Choice 2025 醫學五 肝臟外科 p. 104, 110-114, 119-120"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "肝細胞癌(HCC, hepatocellular carcinoma)該如何診斷?",
+    "answer": "< 1cm：每3個月追蹤US；1-2cm：高危險族群/肝硬化 --> 2種影像檢查符合 --> HCC；> 2cm：高危險族群/肝硬化 --> 2種影像檢查符合或1種影像+AFP>200 --> HCC",
+    "reference": "First Choice 2025 醫學五 肝臟外科 p. 119"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "BCLC (Barcelona-Clinic-Liver-Cancer)將肝癌病人分為哪些?",
+    "answer": "Stage 0：performance status 0、Child-Pugh A、單顆、原位癌、<=2cm、手術切除；Stage A：performance status 0、單顆、<=3cm；Stage B：performance status 0、多顆、TACE；Stage C：performance 1-2、portal invasion、extrahepatic spreasd；Stage D：performance status 3-4、Child-Pugh C、症狀治療",
+    "reference": "First Choice 2025 醫學五 肝臟外科 p. 121-122"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "ICG (Indocyanine green)是用於評估何者?",
+    "answer": "Makuuchi's criteria：15分鐘滯留率 < 10% --> 大範圍肝葉切除、15分鐘滯留率 10%-19% --> 次全肝切除、15分鐘滯留率 > 30% --> 局部切除",
+    "reference": "First Choice 2025 醫學五 肝臟外科 p. 123"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Milan criteria中，適合接受肝臟移植的條件有哪些?",
+    "answer": "1. 單顆腫瘤<=5cm 2. 多顆腫瘤：<=3顆、最大不大於3cm 3. 無大血管侵犯或遠端轉移",
+    "reference": "First Choice 2025 醫學五 肝臟外科 p. 124"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Budd-Chiari syndrome指的是甚麼疾病?",
+    "answer": "HVOO (Hepatic vein outflow obstruction)，肝靜脈阻塞",
+    "reference": "First Choice 2025 醫學五 肝臟外科 p. 138"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Mirizzi syndrome指的是甚麼疾病?",
+    "answer": "結石卡在cystic duct或膽囊頸部，從外側壓迫總肝管或總膽管，導致阻塞",
+    "reference": "First Choice 2025 醫學五 膽道外科 p. 152"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "膽管炎的典型症狀包含哪些?",
+    "answer": "Charcot's triad：發燒、右上腹痛、黃疸；Reynolds's pentad：Charcot's triad + shock + consciousness change",
+    "reference": "First Choice 2025 醫學五 膽道外科 p. 158"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "膽結石腸阻塞(Gallstone ileus)的X光檢查會出現甚麼表現?",
+    "answer": "Rigler's triad：pneumobilia, bowel obstruction, ectopic gallstone",
+    "reference": "First Choice 2025 醫學五 膽道外科 p. 159"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "膽道囊腫(Choledochal cyst)的臨床特徵包含哪些?",
+    "answer": "先天性肝內或肝外膽道異常、囊狀擴張(cystic dilation)、好發於女性、亞洲人、症狀：10歲前診斷、嬰兒黃疸、間歇性腹痛、嘔吐、右上腹腫塊，為pre-malignancy change",
+    "reference": "First Choice 2025 醫學五 膽道外科 p. 174-175"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Todani classification將膽道囊腫(choleodchal cyst)分為哪些類型?",
+    "answer": "Type I：最常見(60-70%)、局部/全部總膽管擴張；Type II：總膽管憩室；Type III：choledochocele、十二指腸後/胰管交接處的總膽管擴張；Type IV：肝內肝外膽管多處擴張；Type V：肝內膽管擴張",
+    "reference": "First Choice 2025 醫學五 膽道外科 p. 174"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "依照腫瘤的位置，膽管癌可以分為哪些類型?",
+    "answer": "肝內膽管癌：20%；肝外膽管癌：80%，可分為：近肝門部膽管癌(Perihilar CCA, Klaskin Tumor) --> 40%、最常見的膽管癌；遠端膽管癌(distal CCA)",
+    "reference": "First Choice 2025 醫學五 膽道外科 p. 178"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Bismuth classificaiton可以將近肝門部膽管癌(Perihilar CCA, Klaskin Tumor)分為哪些類型?",
+    "answer": "Type I：左右肝管交界以下；Type II：左右肝管交界處；Type III：左肝管或右肝管；Type IV：左右肝管皆有",
+    "reference": "First Choice 2025 醫學五 膽道外科 p. 179"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "急性胰臟炎(Acute Pancreatitis)的常見原因?",
+    "answer": "I HATED, I GATED (Idiopathic, High TG, Anatomic, Trauma, ERCP, Drugs, Infection, Gallstones (Most common), Autoimmune, Tumor, Ethanol, Defect)",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 190"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "急性胰臟炎，amylase和lipase會有什麼變化?",
+    "answer": "上升至三倍以上正常值，Amylase在三到四天後恢復正常值；Lipase由於半衰期較長，會長達一個星期以上。兩者數值高低與疾病嚴重程度無關",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 191"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "急性胰臟炎(Acute pancreatitis)的臨床表現有哪些?",
+    "answer": "持續性肚臍周圍腹痛、knee-chest position改善、Cullen's sign、Grey Turner's sign、80%病程緩和、20%病程嚴重、併發症：急性液體積聚(APFC)、假性囊腫(pseudocyst)、壞死性胰臟炎(necrotizing pancreatitis)、假性動脈瘤(pseudoaneurysm，最少見)、低血鈣(因為脂肪分解後與Ca2+結合)",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 190-191, 203"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "用於評估急性胰臟炎預後的Ranson's criteria，包含哪些項目?",
+    "answer": "Glucose, Age, LDH, AST, WBC, BUN, Base deficit, Ca, PaO2, Hct, Fluid sequestration",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 192"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "慢性胰臟炎的影像特徵是甚麼?",
+    "answer": "胰臟鈣化",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 197"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "慢性胰臟炎的手術方式有哪些?各自的特色為何?",
+    "answer": "Peustow procedure：pancreatic tail resection + drainage procedure，用於胰管>7mm；Partington-Rochelle's modification of Puestow procedure：only drainage procedure，用於胰管>7mm；Berger procedure：DPPHR (duodenum-preserving pnacreatic head resection)；Frey procedure：pancreatic head resection，慢性胰臟炎主要介入方式；Whipple procedure：PD (pancreaticoduodenectomy)；PPPD (pylorus-preserving pancreaticoduodenectomy)",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 199-202"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Whipple procedure：PD (pancreaticoduodenectomy)，會切除那些構造?",
+    "answer": "膽囊、總膽管、十二指腸、胰臟頭部、遠端胃部、淋巴結廓清",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 201"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Whipple procedure：PD (pancreaticoduodenectomy)和PPPD (pylorus-preserving pancreaticoduodenectomy)的比較?",
+    "answer": "預後無差異，PPPD：縮短手術時間、較不會出現Dumping syndrome、營養狀況較好，但胃排空遲緩與邊緣性潰瘍機會增加",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 202"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "Whipple procedure：PD (pancreaticoduodenectomy最常術後滲漏的吻合處為何?",
+    "answer": "胰體空腸吻合",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 219"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "良性胰臟腫瘤之間的比較?差異?",
+    "answer": "SPN (Solid pseudopapillary neoplasm)：20-30歲、女>男、無好發位置、無症狀、中高度惡性機率、治療：密切觀察、有癌化可能則切除、影像：solid and cystic mass；MCN (Mucinous Cystic neoplasm)：40-50歲、女>男、好發胰體或胰尾、無症狀、中度惡性機率、CEA > 200、治療：切除、影像：unilocular or septated cyst；SCN (Serous cystic neoplasm)：40-60歲、女>男、好發胰頭、無症狀、無惡性機率、CEA 5-20、無症狀不需治療、影像：microcystic or honeycomb；MD-IPMN (Main duct type intraductal papillary mucinous neoplasm)：60-80歲、男=女、好發胰頭、無症狀/胰臟炎、高度惡性機率(50%)、CEA > 200、治療：切除、影像：Dilated main duct；SD-IPMN (side branch type intraductal papillary mucinous neoplasm)：60-80歲、男=女、好發胰頭、無症狀/胰臟炎、低中度惡性機率、CEA > 200、治療：有症狀或>3cm則切除、影像：Dilated side branch",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 208"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胰臟癌主要發生於胰臟的哪個位置?",
+    "answer": "胰頭(60-70%)、胰體(25%)、胰尾(1-%)、多發性(5-10%)",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 212"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胰壺腹周圍癌(periampullary cancer)主要發生於那些位置?",
+    "answer": "胰頭癌：最常見(70%)、預後最差、常無法切除；CBD膽道癌、十二指腸癌、壺腹癌：最少見、預後最佳",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 212"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胰臟移植的適應症為何?",
+    "answer": "Type I DM + ESRD",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 227"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "最常見的胰臟移植類型為何?",
+    "answer": "SPK (Simultaneous Pancrease and Kidney Transplant)：占比最高、預後最佳",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 227"
+  },
+  {
+    "subject": "一般消化外科",
+    "type": "國考",
+    "question": "胰臟移植後，病人主要死亡原因為何?",
+    "answer": "心血管疾病",
+    "reference": "First Choice 2025 醫學五 胰臟外科 p. 226-227"
+  },
+  {
     "subject": "口訣",
     "type": "口訣",
     "question": "肌肉腔室症候群/急性動脈阻塞的症狀有哪些?",
