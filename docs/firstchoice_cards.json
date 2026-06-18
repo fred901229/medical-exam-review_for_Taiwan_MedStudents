@@ -8692,5 +8692,432 @@
     "question": "VACTERL syndrome包含哪些先天異常?",
     "answer": "Vertebral, Anorectal, Cardiac, Tracheal, Esophageal, Renal, Limb",
     "reference": "First Choice 2025 醫學五 小兒外科 p. 200"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "漏斗胸(Pectus excavatum, funnel chest, Sunken chest)的臨床特徵有哪些?",
+    "answer": "第一常見的胸部畸形、好發男生、1歲內診斷、右側下陷較多導致胸骨柄翻轉、CT的Haller index > 3 (左右最寬距離/前後最短距離)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 4"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "漏斗胸(Pectus excavatum, funnel chest, Sunken chest)的治療原則為何?",
+    "answer": "進入青少年中期(middle teenage)時進行手術 --> Nuss procedure (internal posterior sternal support)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 5-6"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "肋膜積液當中，漏出液(transudate)和滲出液(exudate)的比較為何?",
+    "answer": "漏出液(transudate)：液體進出肋膜腔的恆定改變、常見原因：heart failure、cirrhosis、nephrotic syndrome、hypoalbuminemia、fluid retention/overload、pulmonary embolism；滲出液(exudate)：肋膜或淋巴完整性被破壞或阻斷、符合light's criteria、常見原因：malignant、infection、collagen-vascular disease、GI disease、Chylothorax、Uremia、Sarcoidosis、Pulmonary embolism with infarction、Asbestosis",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 12-13"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "Light's criteria包含哪些診斷標準?",
+    "answer": "pleural protein/serum protein > 0.5、pleural LDH/serum LDH > 0.6、pleural LDH > 2/3 upper limits of serum normal value",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 12"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "滲出液(exudate)的常見原因有哪些?",
+    "answer": "膿胸(Empyema，第一常見)、惡性肋膜積液(MPE, Malignant pleural effusion，第二常見)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 13, 16"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "惡性肋膜積液常見的原因包含哪些?",
+    "answer": "肺癌(最常見)、乳癌(女性最常見)、淋巴癌、間皮細胞癌",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 14-15"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "乳糜胸(Chylothorax)的臨床特徵有哪些?",
+    "answer": "常見於醫源性手術創傷(非創傷性原因以惡性腫瘤最常見)、單側(右側)最常見、內含高濃度乳化脂肪(三酸甘油脂、乳糜微粒)與淋巴球、TG > 110mg/dL",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 17"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "乳糜胸(Chylothorax)的治療原則為何?",
+    "answer": "保守治療：1-2週、中練三酸甘油脂飲食、TPN；手術治療：保守治療未改善、從右側胸腔進入、胸管結紮術",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 18"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "自發性氣胸(Spontaneous pneumothorax)的臨床特徵有哪些?",
+    "answer": "成因未明、好發20-40歲高瘦男生、最常見尖銳肋膜性胸痛(sharp, pleuritic chest pain)、第二常見呼吸困難(dyspnea)、PE：胸部起伏變小、扣診共振回音增加、呼吸音減少或消失、CXR：高透光(Hyperlucent)、肺紋消失。治療：<20%範圍氣胸、輕微症狀、生命徵象穩定-->追蹤CXR；其他較嚴重狀況-->細針抽吸、胸管、針導管或胸閥引流系統置放",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 21"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "惡性間皮瘤(Mesothelioma)的臨床特徵有哪些?",
+    "answer": "石綿(Asbestos)長期接觸暴露、常見呼吸困難、胸痛、分型：上皮細胞型(epithelial)(預後最好)、類肉瘤型(sarcomatous)、混合型(Mixed)、存活率；支持療法約4-12個月、手術+放療的五年存活率約46%",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 24"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "肺葉的分葉為何?",
+    "answer": "左2(左上葉：5小葉；左下葉：5小葉)；右3(右上葉：3小葉；右中葉：2小葉；右下葉：5小葉)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 29"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "切除哪一個肺葉對肺功能影響最小?",
+    "answer": "右中葉",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 29"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "第一型/第二型肺泡細胞的比較與差異為何?",
+    "answer": "Type I pneumocytes：佔40%細胞、95%表面積、無再生能力、功能：氣體交換；Type II pneumocytes：佔60%細胞、3%表面積、有再生能力、功能：製造表面張力素",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 30"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "胸腔手術前，最常用來評估預測術後保留肺功能的指標是哪一個?",
+    "answer": "FEV1 (Forced expiratory volume in one second)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 31"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "胸腔手術前，肺功能該如何評估?",
+    "answer": "FEV1 > 60%：可以手術；FEV1 < 60% --> ppo-FEV1 --> ppo-FEV1：35-40%：可以手術、ppo-FEV1 <30%：高風險、仰賴氧氣或呼吸器。DLCO < 40-50%：增加手術風險。ppo-FEV1 < 50%、DLCO <50%、無法做Lung function test --> CPET (Cardiopulmonary exercise testing)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 31-32"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "關於肺癌分型的比較與差異?",
+    "answer": "肺腺癌(LUAD, Lung adenocarcinoma)：NSCLC、45%肺腫瘤、75%週邊、由mucinous-producing cell分化、常轉移到CNS、組織：lepidic (in situ)、acinar、papillary、micropapillayr、solid；肺鱗狀細胞癌(SqCC, Squamous cell carcinoma)：NSCLC、30%肺腫瘤、66%中央、常合併高血鈣、90%為吸菸者、組織：keratinization、stratification、intercellular bridge formation；肺大細胞癌(large cell carcinoma)：NSCLC、10%肺腫瘤、週邊、早期轉移、組織：未分化多型性細胞( anaplastic pleomorphic cells) --> 多囊泡、深染核、多細胞質；肺小細胞癌(SCLC, small cell lung cancer)：20%肺腫瘤、80%中央、高度轉移、組織：oat cell --> 深染核、少細胞質、神經分泌小泡",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 34-35"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "根據AJCC 8th，關於肺癌的TNM stage細節為何?",
+    "answer": "T1：<=3cm (T1a: <= 1cm, T1b: 1-2cm, T1c: 2-3cm)、T2：<=5cm (T2a: 3-4cm, T2b: 4-5cm)、T3：5-7cm、T4：>7cm or diapharm invasion。N1：同側肺淋巴結、N2：同側縱膈腔淋巴結、N3：對側淋巴結。M1：有轉移 (M1a: pleura, pericardium、對側腫瘤；M1b: 遠端轉移)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 38"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "關於肺癌的治療原則為何?",
+    "answer": "SCLC：化療。Early stage NSCLC：手術(IA)、手術+術後化療(IB-IIB, Early IIIA)；Late stage NSCLC：術前化療+手術",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 40"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "Pancoast syndrome的臨床特徵有哪些?",
+    "answer": "肺尖腫瘤、Horner's syndrome (miosis, potsisi, anhidrosis, enophthalmos, unlar n. palsy)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 40"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "關於轉移性肺腫瘤的臨床特徵有哪些?",
+    "answer": "CT：多發性、平滑圓形邊界",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 42"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "肺過誤瘤(Hamartoma)的臨床特徵有哪些?",
+    "answer": "最常見的良性肺部腫瘤、起源中胚層、好發於40-60歲中老年人、男>女、過度增生的軟骨組織、生長緩慢、爆米花樣(popcorn)鈣化",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 44"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "關於胸部電腦斷層下，良性結節與惡性結節的特徵分別有哪些?",
+    "answer": "良性結節：<3cm、穩定不變、popcorn calcification (harmartoma)、diffuse/solid/central calcification (granulomatous infection)；惡性結節：> 3cm、隨時間增加、密度增加、邊緣不規則、分葉、針芒狀、corona radiatat sign、stippled/amorphous/ecentric calcification",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 46"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "最常發生縱膈腔腫瘤的位置是?",
+    "answer": "前上縱膈(54%)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 72"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "最少發生縱膈腔腫瘤的位置是?",
+    "answer": "中縱膈(20%)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 72"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "前上縱膈好發的縱膈腔腫瘤有哪些?",
+    "answer": "3T1L：Thymoma、Teratoma、Thyroid goiter、Lymphoma",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 72"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "中縱膈好發的縱膈腔腫瘤有哪些?",
+    "answer": "先天性前腸膿腫(最常見)、氣管囊腫、心包膜囊腫",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 72"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "後縱膈好發的縱膈腔腫瘤有哪些?",
+    "answer": "神經性腫瘤",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 72"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "成人/孩童縱膈腔腫瘤各自的臨床特徵與比較有哪些?",
+    "answer": "成人：惡性、常見類型：Lymphoma、Thymoma、Germ cell tumor、primary tumor、neurogenic tumor、好發於前縱膈、20-40歲；孩童：良性、常見類型：neurogenic tumor、primary cyst、germ cell tumor、lymphoma",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 72"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "縱膈腔囊腫(Mediastinal Cyst)有哪些?各自的特色?",
+    "answer": "支氣管囊腫(Bronchogenic cyst)：最常見、好發於氣管/支氣管近端、支氣管分岔後方；心包膜囊腫(Pericardial cyst)：第二常見、好發於右側心膈角；腸囊腫/重複囊腫(Enteric cyst/duplication cyst)：好發於食道",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 74"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "成人最常見的縱膈腔腫瘤是哪一種?",
+    "answer": "神經性腫瘤(neurogenic tumor)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 75"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "生殖細胞瘤的對應腫瘤指數為何?",
+    "answer": "Seminoma: LDH；Yolk sac tumor: AFP；Choriocarcinoma: beta-hCG；Embryonal carcinoma: LDH；teratoma: all negative",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 77"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "最常見的前上縱膈腔腫瘤為何?",
+    "answer": "胸腺瘤(Thymoma)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 79"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "第二常見的縱膈腔腫瘤為何?",
+    "answer": "胸腺瘤(Thymoma)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 79"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "胸腺瘤(Thymoma)的臨床特徵有哪些?",
+    "answer": "最常見的前上縱膈腔腫瘤、第二常見的縱膈腔腫瘤、好發40-60歲、常合併重症肌無力(MG) (但反過來則不是)、對Cisplatin-based chemotherapy反應好",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 79-80"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "胸腺瘤(Thymoma)的Masoaka staging system分別為何?",
+    "answer": "Stage I: encapsulated；Stage IIa: microscopic capsular invasion；Stage IIb: Macroscopic fat invasion；Stage III: adjecent tissues；Stage IVa: intrathoracic metastasis；Stage IVb: extrathoracic metastasis",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 80"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "胸腺瘤(Thymoma)的治療原則為何?",
+    "answer": "Stage I: 手術切除；Stage II, III；手術切除+放療；其他：術前化療+手術切除+放療",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 80"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "食道的三處狹窄分別為何?",
+    "answer": "環咽肌狹窄(cricopharyngeus muscle constriction) (最狹窄)、左主之氣管主動脈狹窄(bronchoaortic constriction)、橫膈狹窄(diaphragmatic)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 86"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "供應食道的血管有哪些?",
+    "answer": "頸部血管網：下甲狀腺動脈(inf. Thyroid a.)；胸部血管網：descending br. of inf. Thyroid a.、intercostal a.、ascending br. of inf. Phrenic a.；腹部血管網：left gastric a.、inf. Phrenic a.",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 86"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "吞嚥機制包含哪些動作?",
+    "answer": "舌頭提升、舌頭後移、軟顎上升、舌骨上升",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 87"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "關於食道憩室(Esophageal diverticulum)的比較為何?",
+    "answer": "贊克氏憩室(Zenker diverticulum)：咽部食道、假憩室、最常見的食道憩室、好發60-70歲、常在Killian's triangle脫疝；氣管旁/中段食道憩室：真憩室、常因結核病感染引起、好發於右側；橫膈上憩室：假憩室",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 90-92"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "診斷食道憩室最好的檢查工具為何?",
+    "answer": "食道鋇劑攝影(Barium esophagram)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 90-92"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "食道遲緩不能(Achalasia)的臨床特徵有哪些?",
+    "answer": "最常見的食道運動疾病、好發年輕女性與中年男女、好發因子：情緒壓力、創傷、過度減重、Chaga's disease (Trypanosoma cruzi)、病因：食道括約肌在放鬆期仍維持收縮 --> 高壓擠壓食道 --> 食道擴張、中止蠕動，為食道癌前病變，以SqCC最常見",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 95-97"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "診斷食道遲緩不能(Achalasia)最好的檢查工具為何?",
+    "answer": "食道壓力測量(Manometry)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 95-97"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "裂孔疝氣(Hiatal hernia)分為哪些類型?各自的特點是甚麼?",
+    "answer": "Type I：sliding hernia、最常見、Cardia(GEJ)往上往後縱膈移動、大多無症狀、不需要治療。Type II：rolling hernia (PEH, paraesophageal hernia)、Fundus往上移動進入後縱膈、GEJ無位移、常見食道阻塞症狀、須手術治療；Type III：combined sliding-rolling hernia or mixed hernia (type I + type II)、cardia(GEJ) + fundus皆往上往後縱膈移動、常見食道阻塞症狀、須手術治療；Type IV：herniation of orgnas other than stomach into the chest、其他腹腔內器官一起進入胸腔、常見食道阻塞症狀、須手術治療",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 98-99"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "抗逆流胃底摺疊術(fundoplication)包含哪些術式?差異為何?",
+    "answer": "Nissen fundoplication：total 360 degree；Toupetfundoplication：posterior partial 270 degree；Dor fundoplication：anterior partial 180 degree",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 99"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "食道損傷分級Savary-Miller interpretation分為哪些類型?",
+    "answer": "Grade I：發紅(Erythema)；Grade II：線狀潰瘍(Linear ulceration)、Grade III：融合潰瘍(Confluent ulceration)；Grade IV：攣縮狹窄(Stricture)；Grade V：Barrett's esophagus",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 102"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "診斷GERD的golden standard為何種檢查?",
+    "answer": "pH monitoring",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 102"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "巴瑞特氏食道(Barrett's esophagus)的臨床特徵有哪些?",
+    "answer": "成因：慢性胃食道逆流、H. pylori感染等等原因 --> 長期受胃酸刺激-->Metaplasia (straited squamous cells --> columnar cells)、容易癌化成adenocarcinoma (每年有1%癌化機率、形成癌症的機率為一般人40倍)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 103"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "食道惡性腫瘤以哪一種癌症最常見?",
+    "answer": "鱗狀上皮細胞癌(SqCC, Squamous Cell Carcinoma)，西方則是腺癌(adenocarcinoma)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 106"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "食道癌症常見的類型包含哪些?各自的臨床特徵有哪些?",
+    "answer": "鱗狀上皮細胞癌(SqCC, Squamous Cell Carcinoma)：危險因子：吸菸、喝酒、硝酸銨類食物、醃漬食物、高溫熱飲、維他命A缺乏、Mn缺乏、Zn缺乏，男>女，好發中上段食道；腺癌(adenocarcinoma)：危險因子：GERD、西方飲食、使用制酸劑，男>女，好發白人、最常見吞嚥困難與體重減輕",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 106"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "食道腫瘤最重要的分期檢查是哪一種檢查?",
+    "answer": "超音波內視鏡(EUS, endoscopic ultrasound)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 107"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "食道腫瘤的TNM staging各項的細節為何?",
+    "answer": "Tis：high-grade hyperplasia，T1：lamina propria(T1a)、muscularis mucosa(T1a)、submucosa (T1b)，T2：muscularis propira，T3：adventitia，T4：adjacent structures (T4a: pleura, pericardium, azygos v., diaphragm, peritoneum; T4b: aorta, vertebral body, trachea)。N1：1-2 regional LNs，N2：3-6 regional LNs，N3：>7 regional LNs。M1：distant metastasis",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 107-108"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "食道腫瘤的治療原則為何?",
+    "answer": "頸段：SqCC --> 切除頸段食道+術後化療；上段+中段：SqCC --> 近全切食道；下段+賁門：Adenocarcinoma --> non-Barrett's esophagus：遠端食道切除；Barrett's esophagus：胃全切",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 110"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "常見的氣管腫瘤有哪些?各自的臨床特徵有哪些?",
+    "answer": "鱗狀上皮細胞癌(SqCC)：最常見、好發於60-70歲、吸菸者、常淋巴轉移；類腺囊狀癌(ACCs, adenoid cystic carcinomas)：第二常見、舊稱柱狀瘤(Cylindroma)、分化良好、生長緩慢、良性但會侵犯淋巴結、肺臟、骨頭，好發於40-50歲、非吸菸者",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 121"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "緊急開胸手術(Thracotomy)的適應症有哪些?",
+    "answer": "心跳停止(Cardiac arrest)；大量血胸(Massive Hemothorax)：引流量>1500mL或150-200mL/hr連續2-4小時、輸血後血液動力學仍不穩定；前胸壁穿刺傷合併心包膜填塞(Penetrating injuries of the anterior aspect of the chest with cardiac temponade)；大面積開放性胸壁傷口(Large open wounds of the thoracic cage)；胸腔血管重大損傷合併血液動力學不穩定(Major thoracic vascular injuries in the presence of hemohynamic instability)；氣管支氣管重大損傷(Major tracheobronchial injuries)；食道穿孔(Evidence of esophageal perforation)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 129"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "張力性氣胸(Tension pneumothorax)與心包膜填塞(Caridiac temponade)該如何鑑別診斷?",
+    "answer": "聽呼吸音；兩側不一樣 --> 張力性氣胸；聽心音：distal heart sound --> 心包膜填塞",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 133, 135-137"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "張力性氣胸(tension pneumothorax)的臨床特徵有哪些?",
+    "answer": "成因：單側肺全塌陷、氣管偏移、縱膈偏移 --> 回心血減少、低血壓、呼吸困難。好發於使用正壓呼吸的患者。治療：針頭插入第五肋間腋前線 --> 胸廓造口術(tube thoracostomy)",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 137"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "開放性氣胸(open pneumothorax)的臨床特徵有哪些?",
+    "answer": "成因；胸壁缺口 --> 氣體由外而內進入肋膜腔 --> 肺塌陷。治療：不透氣敷料覆蓋傷口 --> 置入胸管 --> 關閉傷口",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 138"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "頸部創傷(Neck traumatic injury)依照解剖構造，可以區分為那些區域?",
+    "answer": "Zone I：鎖骨與環狀軟骨之間；Zone II：環狀軟骨與下頷角之間 (最容易檢查與手術治療的區域、最大且最常受傷的區域)；Zone III：下頷角與顱骨底之間",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 140-141"
+  },
+  {
+    "subject": "胸腔外科",
+    "type": "國考",
+    "question": "氣胸(pneumothorax)的手術適應症有哪些?",
+    "answer": "所有氣胸：胸管放置超過72小時仍持續漏氣、肺擴張不全；自發性氣胸：對側氣胸、復發性氣胸；第一次氣胸：自發性氣胸合併膿胸/血胸/慢性氣胸、完全氣胸、雙側自發性氣胸、張力性氣胸、合併心肺受限氣胸、患者從事高危險活動或處於氣壓變化環境",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 22"
+  },
+  {
+    "subject": "口訣",
+    "type": "口訣",
+    "question": "前上縱膈好發的縱膈腔腫瘤有哪些?",
+    "answer": "3T1L：Thymoma、Teratoma、Thyroid goiter、Lymphoma",
+    "reference": "First Choice 2025 醫學五 胸腔外科 p. 72"
   }
 ]
