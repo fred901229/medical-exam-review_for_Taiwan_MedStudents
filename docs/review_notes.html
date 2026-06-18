@@ -1992,6 +1992,74 @@
 <tr><td>Dor</td><td>Anterior partial 180°</td></tr>
 </table></div>
 
+<div style="margin:12px 0;text-align:center">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510 215" style="max-width:640px;width:100%;display:block;margin:0 auto;font-family:sans-serif">
+  <rect width="510" height="215" fill="#fff" rx="6" stroke="#ddd" stroke-width="1"/>
+  <text x="255" y="16" text-anchor="middle" font-size="12" font-weight="bold" fill="#2c3e50">Fundoplication 術式比較（橫切面示意）</text>
+
+  <!-- ══ Panel 1: Nissen 360° ══ -->
+  <g transform="translate(5,24)">
+    <rect width="160" height="191" fill="#f8f9fa" rx="4" stroke="#dee2e6" stroke-width="1"/>
+    <text x="80" y="16" text-anchor="middle" font-size="7" fill="#999">Anterior（前）</text>
+    <text x="80" y="160" text-anchor="middle" font-size="7" fill="#999">Posterior（後）</text>
+    <!-- Full 360° wrap -->
+    <circle cx="80" cy="83" r="32" fill="none" stroke="#f0a050" stroke-width="16" opacity="0.85"/>
+    <!-- Esophagus -->
+    <circle cx="80" cy="83" r="16" fill="#c8a8d8" stroke="#8e6aaa" stroke-width="2"/>
+    <circle cx="80" cy="83" r="9" fill="#e8d8f0"/>
+    <!-- Angle -->
+    <text x="80" y="142" text-anchor="middle" font-size="12" font-weight="bold" fill="#e67e22">360°</text>
+    <!-- Label bar -->
+    <rect x="0" y="178" width="160" height="13" fill="#c0392b" rx="2"/>
+    <text x="80" y="188" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#fff">Nissen — Total (360°)</text>
+  </g>
+
+  <!-- ══ Panel 2: Toupet 270° posterior ══ -->
+  <g transform="translate(175,24)">
+    <rect width="160" height="191" fill="#f8f9fa" rx="4" stroke="#dee2e6" stroke-width="1"/>
+    <text x="80" y="16" text-anchor="middle" font-size="7" fill="#999">Anterior（前）</text>
+    <text x="80" y="160" text-anchor="middle" font-size="7" fill="#999">Posterior（後）</text>
+    <!-- 270° posterior wrap: gap at top (anterior); arc from 315° CW to 225° -->
+    <!-- 315°: (80+32*0.707, 83-32*0.707)=(102.6,60.4) -->
+    <!-- 225°: (80-32*0.707, 83-32*0.707)=(57.4,60.4) -->
+    <!-- large-arc=1, sweep=1 (clockwise) -->
+    <path d="M 102.6,60.4 A 32,32 0 1 1 57.4,60.4" fill="none" stroke="#f0a050" stroke-width="16" stroke-linecap="round" opacity="0.85"/>
+    <!-- Esophagus -->
+    <circle cx="80" cy="83" r="16" fill="#c8a8d8" stroke="#8e6aaa" stroke-width="2"/>
+    <circle cx="80" cy="83" r="9" fill="#e8d8f0"/>
+    <text x="80" y="142" text-anchor="middle" font-size="12" font-weight="bold" fill="#e67e22">270°</text>
+    <rect x="0" y="178" width="160" height="13" fill="#c0392b" rx="2"/>
+    <text x="80" y="188" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#fff">Toupet — Posterior (270°)</text>
+  </g>
+
+  <!-- ══ Panel 3: Dor 180° anterior ══ -->
+  <g transform="translate(345,24)">
+    <rect width="160" height="191" fill="#f8f9fa" rx="4" stroke="#dee2e6" stroke-width="1"/>
+    <text x="80" y="16" text-anchor="middle" font-size="7" fill="#999">Anterior（前）</text>
+    <text x="80" y="160" text-anchor="middle" font-size="7" fill="#999">Posterior（後）</text>
+    <!-- 180° anterior wrap: upper half only; arc from 0° CCW to 180° through top -->
+    <!-- Start: (80+32,83)=(112,83) End: (80-32,83)=(48,83) sweep=0 (CCW) -->
+    <path d="M 112,83 A 32,32 0 0 0 48,83" fill="none" stroke="#f0a050" stroke-width="16" stroke-linecap="round" opacity="0.85"/>
+    <!-- Esophagus -->
+    <circle cx="80" cy="83" r="16" fill="#c8a8d8" stroke="#8e6aaa" stroke-width="2"/>
+    <circle cx="80" cy="83" r="9" fill="#e8d8f0"/>
+    <text x="80" y="142" text-anchor="middle" font-size="12" font-weight="bold" fill="#e67e22">180°</text>
+    <rect x="0" y="178" width="160" height="13" fill="#c0392b" rx="2"/>
+    <text x="80" y="188" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#fff">Dor — Anterior (180°)</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(10,202)">
+    <circle cx="6" cy="4" r="5" fill="#c8a8d8" stroke="#8e6aaa" stroke-width="1"/>
+    <text x="14" y="8" font-size="7.5" fill="#555">食道（紫）</text>
+    <rect x="72" y="-1" width="10" height="10" fill="#f0a050" rx="1" opacity="0.85"/>
+    <text x="85" y="8" font-size="7.5" fill="#555">胃底 wrap（橘）</text>
+    <text x="185" y="8" font-size="7.5" fill="#777">· 缺口方向＝未包覆側</text>
+  </g>
+</svg>
+<div style="font-size:0.72rem;color:var(--text2);margin-top:2px">Fundoplication 術式橫切面示意圖（自製，僅供學習參考）</div>
+</div>
+
 <div class="tbl-wrap"><table class="tbl">
 <tr><th colspan="2">Savary-Miller 食道損傷分級</th></tr>
 <tr><th>Grade</th><th>描述</th></tr>
