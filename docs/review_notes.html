@@ -1472,6 +1472,83 @@
 <tr><td>IV</td><td>EG junction</td><td>否</td><td>&lt;10%</td></tr>
 <tr><td>V</td><td>任何位置（NSAIDs 相關）</td><td>否</td><td>5%</td></tr>
 </table></div>
+
+<div style="margin:12px 0;text-align:center">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 530 268" style="max-width:640px;width:100%;display:block;margin:0 auto;font-family:sans-serif">
+  <rect width="530" height="268" fill="#fff" rx="6" stroke="#ddd" stroke-width="1"/>
+  <text x="265" y="16" text-anchor="middle" font-size="12" font-weight="bold" fill="#2c3e50">Modified Johnson Classification — 胃潰瘍位置分型</text>
+
+  <!-- Esophagus -->
+  <rect x="172" y="22" width="16" height="42" rx="3" fill="#fde8d8" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="184" y="19" font-size="7" fill="#c0392b" text-anchor="middle" font-family="sans-serif">食道</text>
+
+  <!-- Stomach outline -->
+  <path d="M 180,64 C 280,58 400,92 442,140 C 452,158 447,192 418,208 C 385,222 320,228 248,226 C 180,224 120,212 90,190 C 65,170 66,140 80,116 C 94,92 155,62 180,64 Z"
+        fill="#fff8f0" stroke="#e67e22" stroke-width="2"/>
+
+  <!-- Pyloric channel -->
+  <path d="M 442,140 C 455,134 466,140 466,153 C 466,166 455,172 442,167"
+        fill="#fde8d8" stroke="#e67e22" stroke-width="1.5"/>
+
+  <!-- Duodenum (C-loop) -->
+  <path d="M 466,147 C 488,134 500,150 495,166 C 490,180 476,186 466,176"
+        fill="none" stroke="#c4934e" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Anatomy labels (faint) -->
+  <text x="102" y="80" font-size="7" fill="#ccc" text-anchor="middle" font-style="italic" font-family="sans-serif">Fundus</text>
+  <text x="263" y="68" font-size="6.5" fill="#ccc" text-anchor="middle" font-style="italic" font-family="sans-serif">Lesser curvature（小彎）</text>
+  <text x="195" y="222" font-size="6.5" fill="#ccc" text-anchor="middle" font-style="italic" font-family="sans-serif">Greater curvature（大彎）</text>
+  <text x="363" y="210" font-size="6.5" fill="#ccc" text-anchor="middle" font-style="italic" font-family="sans-serif">Antrum</text>
+  <text x="458" y="130" font-size="6.5" fill="#e67e22" text-anchor="middle" font-family="sans-serif">Pylorus</text>
+  <text x="502" y="190" font-size="6.5" fill="#c4934e" text-anchor="start" font-family="sans-serif">Duod.</text>
+
+  <!-- Body / Antrum divider -->
+  <line x1="368" y1="82" x2="395" y2="216" stroke="#e8e8e8" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ══ Type Markers ══ -->
+  <!-- Type IV: EG junction -->
+  <circle cx="181" cy="70" r="11" fill="#9b59b6" stroke="#6c3483" stroke-width="1.5" opacity="0.92"/>
+  <text x="181" y="74" font-size="9" font-weight="bold" fill="#fff" text-anchor="middle" font-family="sans-serif">IV</text>
+
+  <!-- Type I: lesser curvature, body -->
+  <circle cx="278" cy="73" r="11" fill="#e74c3c" stroke="#c0392b" stroke-width="1.5" opacity="0.92"/>
+  <text x="278" y="77" font-size="9" font-weight="bold" fill="#fff" text-anchor="middle" font-family="sans-serif">I</text>
+
+  <!-- Type II: gastric body + duodenal component -->
+  <circle cx="215" cy="150" r="11" fill="#e67e22" stroke="#ca6f1e" stroke-width="1.5" opacity="0.92"/>
+  <text x="215" y="154" font-size="9" font-weight="bold" fill="#fff" text-anchor="middle" font-family="sans-serif">II</text>
+  <circle cx="481" cy="158" r="8" fill="#e67e22" stroke="#ca6f1e" stroke-width="1.2" opacity="0.92"/>
+  <text x="481" y="162" font-size="7" font-weight="bold" fill="#fff" text-anchor="middle" font-family="sans-serif">II</text>
+  <line x1="226" y1="150" x2="472" y2="158" stroke="#e67e22" stroke-width="1" stroke-dasharray="5,3" opacity="0.6"/>
+
+  <!-- Type III: prepyloric -->
+  <circle cx="408" cy="158" r="11" fill="#f39c12" stroke="#d68910" stroke-width="1.5" opacity="0.92"/>
+  <text x="408" y="162" font-size="9" font-weight="bold" fill="#fff" text-anchor="middle" font-family="sans-serif">III</text>
+
+  <!-- Type V: NSAIDs — scattered -->
+  <circle cx="152" cy="132" r="7" fill="#3498db" stroke="#2471a3" stroke-width="1.2" opacity="0.85"/>
+  <text x="152" y="136" font-size="6.5" font-weight="bold" fill="#fff" text-anchor="middle" font-family="sans-serif">V</text>
+  <circle cx="292" cy="172" r="7" fill="#3498db" stroke="#2471a3" stroke-width="1.2" opacity="0.85"/>
+  <text x="292" y="176" font-size="6.5" font-weight="bold" fill="#fff" text-anchor="middle" font-family="sans-serif">V</text>
+  <circle cx="332" cy="90" r="7" fill="#3498db" stroke="#2471a3" stroke-width="1.2" opacity="0.85"/>
+  <text x="332" y="94" font-size="6.5" font-weight="bold" fill="#fff" text-anchor="middle" font-family="sans-serif">V</text>
+
+  <!-- Legend (2 rows) -->
+  <g transform="translate(10,244)" font-family="sans-serif">
+    <circle cx="6" cy="4" r="6" fill="#9b59b6"/>
+    <text x="15" y="8" font-size="7" fill="#555">IV — EG junction（&lt;10%）</text>
+    <circle cx="182" cy="4" r="6" fill="#e74c3c"/>
+    <text x="191" y="8" font-size="7" fill="#555">I — Lesser curvature body（60%）</text>
+    <circle cx="375" cy="4" r="6" fill="#e67e22"/>
+    <text x="384" y="8" font-size="7" fill="#555">II — Body＋十二指腸（15%）</text>
+    <circle cx="6" cy="18" r="6" fill="#f39c12"/>
+    <text x="15" y="22" font-size="7" fill="#555">III — Prepyloric / 幽門前（20%）</text>
+    <circle cx="182" cy="18" r="6" fill="#3498db"/>
+    <text x="191" y="22" font-size="7" fill="#555">V — NSAIDs 相關（任意位置，5%）</text>
+  </g>
+</svg>
+<div style="font-size:0.72rem;color:var(--text2);margin-top:2px">Modified Johnson Classification 示意圖（自製，僅供學習參考）</div>
+</div>
 <ul class="bl">
 <li><strong>Gold standard 診斷</strong>：上消化道內視鏡</li>
 <li><strong>十二指腸潰瘍出血治療</strong>：Duodenostomy ＋ Three-point ligation（近端＋遠端 GDA ＋ 橫胰動脈）＋ H. pylori treatment</li>
